@@ -306,7 +306,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 async def run():
     target_url = os.environ.get("APPLY_JOB_URL", "").strip()
     dry_run = os.environ.get("DRY_RUN", "false").lower() == "true"
-    max_applies = int(os.environ.get("MAX_APPLIES", "3"))
+    max_applies = int(os.environ.get("MAX_APPLIES", "100"))
 
     applied_set, applied_dict = load_applied_history()
     log(f"📚 Sổ cái các việc làm đã ứng tuyển: {len(applied_set)} việc làm.")
@@ -376,13 +376,15 @@ async def run():
 
         await inject_cookies(context)
 
-        for job_url in jobs_to_apply:
+        for idx, job_url in enumerate(jobs_to_apply, 1):
+            log(f"\n==================================================")
+            log(f"📌 [{idx}/{len(jobs_to_apply)}] TIẾN TRÌNH: {job_url}")
             res = await apply_to_single_job(page, job_url, dry_run=dry_run)
             if res["status"] in ["SUCCESS", "SUBMITTED"]:
                 save_applied_record(applied_dict, job_url, res["title"], res["company"], res["letter"], res["proof"])
             elif res["status"] == "ALREADY_APPLIED":
                 save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
-            await asyncio.sleep(random.uniform(3.0, 6.0))
+            await asyncio.sleep(random.uniform(4.0, 7.0))
 
         await browser.close()
 

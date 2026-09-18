@@ -6,36 +6,11 @@ on:
     # Tương ứng UTC: 01:25, 04:25, 07:25, 10:25, 13:25
     - cron: '25 1,4,7,10,13 * * *'
   workflow_dispatch:
-    inputs:
-      action_mode:
-        description: 'Chế độ chạy (all = Quét & Ứng tuyển, crawl_only = Chỉ quét danh sách, apply_only = Chỉ ứng tuyển)'
-        required: true
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - crawl_only
-          - apply_only
-      test_apply_url:
-        description: 'URL việc làm cụ thể muốn test nộp (để trống sẽ tự động lấy từ danh sách vừa quét)'
-        required: false
-        default: ''
-        type: string
-      dry_run:
-        description: 'Chế độ thử nghiệm Dry-Run (true = Không bấm nộp thật, chỉ chụp ảnh form sẵn sàng; false = Nộp thật)'
-        required: true
-        default: 'false'
-        type: boolean
-      max_applies:
-        description: 'Số lượng việc làm tối đa nộp trong ca này'
-        required: true
-        default: '3'
-        type: string
 
 jobs:
   topcv-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     permissions:
       contents: write
@@ -64,7 +39,6 @@ jobs:
 
       # BƯỚC 1: Quét và trích xuất danh sách việc làm mới
       - name: Crawl fresh jobs from TopCV
-        if: ${{ github.event.inputs.action_mode != 'apply_only' }}
         env:
           COOKIES: ${{ secrets.COOKIES }}
           ENV_TXT: ${{ secrets.ENV_TXT }}
@@ -73,16 +47,14 @@ jobs:
         run: |
           python topcv_cron_runner.py
 
-      # BƯỚC 2: Tự động điền form, sinh thư giới thiệu AI và Ứng tuyển
-      - name: Auto-apply to jobs
-        if: ${{ github.event.inputs.action_mode != 'crawl_only' }}
+      # BƯỚC 2: Tự động nộp hồ sơ vào các việc làm chưa ứng tuyển (100 việc/ca)
+      - name: Auto-apply to unapplied jobs (100 jobs per batch)
         env:
           COOKIES: ${{ secrets.COOKIES }}
           ENV_TXT: ${{ secrets.ENV_TXT }}
           PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
-          APPLY_JOB_URL: ${{ github.event.inputs.test_apply_url || '' }}
-          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
-          MAX_APPLIES: ${{ github.event.inputs.max_applies || '3' }}
+          DRY_RUN: 'false'
+          MAX_APPLIES: '100'
         run: |
           python topcv_applier.py
 
