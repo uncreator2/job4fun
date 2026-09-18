@@ -7,6 +7,7 @@ import re
 import sys
 import unicodedata
 from playwright.async_api import async_playwright
+from playwright_stealth import Stealth
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COOKIES_FILE = os.path.join(BASE_DIR, "topcv_cookies.json")
@@ -346,6 +347,12 @@ async def run():
             timezone_id="Asia/Ho_Chi_Minh"
         )
         page = await context.new_page()
+        try:
+            stealth = Stealth()
+            await stealth.apply_stealth_async(page)
+            log("[*] Đã kích hoạt chế độ chống nhận diện Bot (Playwright Stealth).")
+        except Exception as e:
+            log(f"[!] Warning stealth: {e}")
 
         await inject_cookies(context)
 
