@@ -1,7 +1,10 @@
 env.txt
 topcv_cookies.json
+proxy.txt
+proxy*
 session_extracted_jobs.txt
 session_extracted_jobs.json
 *.png
 __pycache__/
 .DS_Store
+
