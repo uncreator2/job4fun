@@ -68,6 +68,7 @@ jobs:
         env:
           COOKIES: ${{ secrets.COOKIES }}
           ENV_TXT: ${{ secrets.ENV_TXT }}
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           MAX_PAGES_PER_QUERY: '10'
         run: |
           python topcv_cron_runner.py
@@ -78,6 +79,7 @@ jobs:
         env:
           COOKIES: ${{ secrets.COOKIES }}
           ENV_TXT: ${{ secrets.ENV_TXT }}
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
           APPLY_JOB_URL: ${{ github.event.inputs.test_apply_url || '' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           MAX_APPLIES: ${{ github.event.inputs.max_applies || '3' }}

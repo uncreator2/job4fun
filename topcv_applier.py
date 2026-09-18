@@ -8,6 +8,7 @@ import sys
 import unicodedata
 from playwright.async_api import async_playwright
 from playwright_stealth import Stealth
+from proxy_utils import get_proxy_config
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COOKIES_FILE = os.path.join(BASE_DIR, "topcv_cookies.json")
@@ -340,12 +341,20 @@ async def run():
                 "--disable-dev-shm-usage"
             ]
         )
-        context = await browser.new_context(
-            viewport={"width": 1440, "height": 900},
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
-            locale="vi-VN",
-            timezone_id="Asia/Ho_Chi_Minh"
-        )
+        proxy_config = get_proxy_config()
+        if proxy_config:
+            log(f"🌐 Đã cấu hình Residential/4G Proxy: {proxy_config.get('server')}")
+
+        context_kwargs = {
+            "viewport": {"width": 1440, "height": 900},
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+            "locale": "vi-VN",
+            "timezone_id": "Asia/Ho_Chi_Minh"
+        }
+        if proxy_config:
+            context_kwargs["proxy"] = proxy_config
+
+        context = await browser.new_context(**context_kwargs)
         page = await context.new_page()
         try:
             stealth = Stealth()
