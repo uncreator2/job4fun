@@ -1,4 +1,4 @@
-name: TopCV Automated Job Crawler Cron
+name: TopCV Automated Job Crawler & Auto-Apply Cron
 
 on:
   schedule:
@@ -7,19 +7,33 @@ on:
     - cron: '25 1,4,7,10,13 * * *'
   workflow_dispatch:
     inputs:
-      max_pages:
-        description: 'Số trang tối đa quét cho mỗi URL tìm kiếm'
-        required: false
-        default: '10'
-        type: string
-      search_url:
-        description: 'URL tìm kiếm tùy chọn (nếu để trống sẽ chạy toàn bộ search_urls.txt)'
+      action_mode:
+        description: 'Chế độ chạy (all = Quét & Ứng tuyển, crawl_only = Chỉ quét danh sách, apply_only = Chỉ ứng tuyển)'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - crawl_only
+          - apply_only
+      test_apply_url:
+        description: 'URL việc làm cụ thể muốn test nộp (để trống sẽ tự động lấy từ danh sách vừa quét)'
         required: false
         default: ''
         type: string
+      dry_run:
+        description: 'Chế độ thử nghiệm Dry-Run (true = Không bấm nộp thật, chỉ chụp ảnh form sẵn sàng; false = Nộp thật)'
+        required: true
+        default: 'false'
+        type: boolean
+      max_applies:
+        description: 'Số lượng việc làm tối đa nộp trong ca này'
+        required: true
+        default: '3'
+        type: string
 
 jobs:
-  crawl-topcv:
+  topcv-pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
@@ -48,31 +62,46 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run TopCV Crawler
+      # BƯỚC 1: Quét và trích xuất danh sách việc làm mới
+      - name: Crawl fresh jobs from TopCV
+        if: ${{ github.event.inputs.action_mode != 'apply_only' }}
         env:
           COOKIES: ${{ secrets.COOKIES }}
           ENV_TXT: ${{ secrets.ENV_TXT }}
-          MAX_PAGES_PER_QUERY: ${{ github.event.inputs.max_pages || '10' }}
-          SEARCH_URL: ${{ github.event.inputs.search_url || '' }}
+          MAX_PAGES_PER_QUERY: '10'
         run: |
           python topcv_cron_runner.py
 
-      - name: Upload newly extracted jobs artifact
+      # BƯỚC 2: Tự động điền form, sinh thư giới thiệu AI và Ứng tuyển
+      - name: Auto-apply to jobs
+        if: ${{ github.event.inputs.action_mode != 'crawl_only' }}
+        env:
+          COOKIES: ${{ secrets.COOKIES }}
+          ENV_TXT: ${{ secrets.ENV_TXT }}
+          APPLY_JOB_URL: ${{ github.event.inputs.test_apply_url || '' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          MAX_APPLIES: ${{ github.event.inputs.max_applies || '3' }}
+        run: |
+          python topcv_applier.py
+
+      # BƯỚC 3: Lưu lại ảnh chụp màn hình chứng minh kết quả
+      - name: Upload proof screenshots & session results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: new-jobs-session
+          name: topcv-run-proofs
           path: |
             session_extracted_jobs.txt
             session_extracted_jobs.json
-            topcv_status.png
+            *.png
           if-no-files-found: ignore
 
-      - name: Save and commit history ledger
+      # BƯỚC 4: Tự động lưu sổ cái lịch sử việc làm & lịch sử ứng tuyển
+      - name: Commit and update history ledgers
         if: always()
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add extracted_jobs_history.txt extracted_jobs_history.json || true
-          git commit -m "chore: update extracted jobs history ledger [skip ci]" || echo "No changes to commit"
+          git add extracted_jobs_history.txt extracted_jobs_history.json applied_jobs_history.txt applied_jobs_history.json || true
+          git commit -m "chore: update job extraction and application history ledgers [skip ci]" || echo "No changes to commit"
           git push || echo "Push failed or no changes"
