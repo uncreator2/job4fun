@@ -4870,5 +4870,29 @@
     "exp": "1 năm",
     "first_extracted_at": "2026-09-18 10:21:33",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2203914.html": {
+    "job_id": "2203914",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2203914.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789742012",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2203914.html",
+    "company": "CÔNG TY TNHH NÔNG NGHIỆP MEGATECH VIỆT NAM",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-09-18 14:33:56",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-du-an-moi-truong/887929.html": {
+    "job_id": "887929",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-du-an-moi-truong/887929.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789742211",
+    "clean_url": "https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-du-an-moi-truong/887929.html",
+    "company": "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG VÀ CÔNG NGHỆ MÔI TRƯỜNG DƯƠNG NHẬT",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-18 14:37:16",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
