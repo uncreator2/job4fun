@@ -1,0 +1,78 @@
+name: TopCV Automated Job Crawler Cron
+
+on:
+  schedule:
+    # Chạy 5 ca mỗi ngày vào các khung giờ vàng tuyển dụng (Giờ VN: 8h, 11h, 14h, 17h, 20h)
+    # Tương ứng UTC: 01:25, 04:25, 07:25, 10:25, 13:25
+    - cron: '25 1,4,7,10,13 * * *'
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: 'Số trang tối đa quét cho mỗi URL tìm kiếm'
+        required: false
+        default: '10'
+        type: string
+      search_url:
+        description: 'URL tìm kiếm tùy chọn (nếu để trống sẽ chạy toàn bộ search_urls.txt)'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  crawl-topcv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Cache Playwright Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-chromium
+
+      - name: Install dependencies & Playwright Chromium
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run TopCV Crawler
+        env:
+          COOKIES: ${{ secrets.COOKIES }}
+          ENV_TXT: ${{ secrets.ENV_TXT }}
+          MAX_PAGES_PER_QUERY: ${{ github.event.inputs.max_pages || '10' }}
+          SEARCH_URL: ${{ github.event.inputs.search_url || '' }}
+        run: |
+          python topcv_cron_runner.py
+
+      - name: Upload newly extracted jobs artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-jobs-session
+          path: |
+            session_extracted_jobs.txt
+            session_extracted_jobs.json
+            topcv_status.png
+          if-no-files-found: ignore
+
+      - name: Save and commit history ledger
+        if: always()
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add extracted_jobs_history.txt extracted_jobs_history.json || true
+          git commit -m "chore: update extracted jobs history ledger [skip ci]" || echo "No changes to commit"
+          git push || echo "Push failed or no changes"
