@@ -142,13 +142,23 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         log(f"[!] Lỗi tải trang việc làm: {e}")
         return {"status": "ERROR", "reason": f"Page load error: {e}"}
 
-    # 1. Trích xuất thông tin việc làm từ trang
+    # 1. Kiểm tra xem có bị Cloudflare chặn hoặc challenge không
+    for _ in range(3):
+        is_cf = await page.evaluate("document.body.innerText.includes('Sorry, you have been blocked') || document.body.innerText.includes('Just a moment...')")
+        if not is_cf:
+            break
+        log("⏳ Phát hiện trang chờ Cloudflare, đang chờ giải mã (3s)...")
+        await asyncio.sleep(3.0)
+
+    # Trích xuất thông tin việc làm từ trang
     job_info = await page.evaluate("""() => {
         const titleEl = document.querySelector('h1.job-detail__info--title, .job-detail-info h1, h1');
         const compEl = document.querySelector('.company-name, .company-title, a.company');
         const descEl = document.querySelector('.job-description, #job-description, .job-data');
         const applyBtn = document.querySelector('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply');
         const alreadyApplied = document.body.innerText.includes('Đã ứng tuyển') || (applyBtn && applyBtn.innerText.includes('Đã ứng tuyển'));
+        const bodyText = document.body.innerText;
+        const isBlocked = bodyText.includes('Sorry, you have been blocked') || bodyText.includes('Just a moment...');
 
         return {
             title: titleEl ? titleEl.innerText.trim() : document.title,
@@ -156,9 +166,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
             description: descEl ? descEl.innerText.slice(0, 800) : '',
             hasApplyBtn: !!applyBtn,
             applyBtnText: applyBtn ? applyBtn.innerText.trim() : '',
-            alreadyApplied: !!alreadyApplied
+            alreadyApplied: !!alreadyApplied,
+            isBlocked: isBlocked
         };
     }""")
+
+    if job_info.get("isBlocked"):
+        log("❌ Cloudflare chặn truy cập vào URL này trên IP runner.")
+        return {"status": "CF_BLOCKED", "title": job_info["title"]}
 
     log(f"📋 Vị trí: {job_info['title']}")
     log(f"🏢 Công ty: {job_info['company']}")
