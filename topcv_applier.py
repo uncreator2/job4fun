@@ -13,6 +13,7 @@ from proxy_utils import get_proxy_config
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COOKIES_FILE = os.path.join(BASE_DIR, "topcv_cookies.json")
 SESSION_JOBS_FILE = os.path.join(BASE_DIR, "session_extracted_jobs.txt")
+HISTORY_TXT = os.path.join(BASE_DIR, "extracted_jobs_history.txt")
 APPLIED_HISTORY_TXT = os.path.join(BASE_DIR, "applied_jobs_history.txt")
 APPLIED_HISTORY_JSON = os.path.join(BASE_DIR, "applied_jobs_history.json")
 
@@ -314,20 +315,30 @@ async def run():
     jobs_to_apply = []
     if target_url:
         jobs_to_apply = [target_url]
-    elif os.path.exists(SESSION_JOBS_FILE):
-        with open(SESSION_JOBS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                u = line.strip()
-                if u and u not in applied_set and u not in jobs_to_apply:
-                    jobs_to_apply.append(u)
-                    if len(jobs_to_apply) >= max_applies:
-                        break
+    else:
+        # 1. Ưu tiên các việc làm mới vừa quét trong phiên này
+        if os.path.exists(SESSION_JOBS_FILE):
+            with open(SESSION_JOBS_FILE, "r", encoding="utf-8") as f:
+                for line in f:
+                    u = line.strip()
+                    if u and u not in applied_set and u not in jobs_to_apply:
+                        jobs_to_apply.append(u)
+                        if len(jobs_to_apply) >= max_applies:
+                            break
+
+        # 2. Nếu chưa đủ số lượng ca này, lấy thêm các việc làm chưa ứng tuyển từ kho lịch sử
+        if len(jobs_to_apply) < max_applies and os.path.exists(HISTORY_TXT):
+            with open(HISTORY_TXT, "r", encoding="utf-8") as f:
+                for line in f:
+                    u = line.strip()
+                    if u and u not in applied_set and u not in jobs_to_apply:
+                        jobs_to_apply.append(u)
+                        if len(jobs_to_apply) >= max_applies:
+                            break
 
     if not jobs_to_apply:
-        # Fallback to test URL from user request
-        jobs_to_apply = [
-            "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing-san-thuong-mai-dien-tu-luong-thu-nhap-tu-25-40tr/2296687.html"
-        ]
+        log("🎉 Tất cả việc làm trong kho lưu trữ đều đã được ứng tuyển hoặc chưa có việc làm mới nào cần nộp!")
+        return
 
     log(f"🎯 Số việc làm sẽ thực hiện trong ca này: {len(jobs_to_apply)}")
 
@@ -369,6 +380,8 @@ async def run():
             res = await apply_to_single_job(page, job_url, dry_run=dry_run)
             if res["status"] in ["SUCCESS", "SUBMITTED"]:
                 save_applied_record(applied_dict, job_url, res["title"], res["company"], res["letter"], res["proof"])
+            elif res["status"] == "ALREADY_APPLIED":
+                save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
             await asyncio.sleep(random.uniform(3.0, 6.0))
 
         await browser.close()
