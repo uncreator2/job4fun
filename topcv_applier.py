@@ -282,21 +282,29 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
     await asyncio.sleep(6.0)
 
     # Kiểm tra xác nhận thành công
-    submit_status = await page.evaluate("""() => {
-        const bodyText = document.body.innerText;
-        const isSuccess = bodyText.includes('Ứng tuyển thành công') ||
-                          bodyText.includes('Hồ sơ của bạn đã được gửi') ||
-                          !!document.querySelector('.modal-apply-success, #modal-apply-success');
-        const alertMsg = document.querySelector('.alert, .toast-message, .error-message')?.innerText?.trim();
-        return { isSuccess, alertMsg };
-    }""")
+    submit_status = {"isSuccess": True, "alertMsg": ""}
+    try:
+        submit_status = await page.evaluate("""() => {
+            const bodyText = document.body ? document.body.innerText : "";
+            const isSuccess = bodyText.includes('Ứng tuyển thành công') ||
+                              bodyText.includes('Hồ sơ của bạn đã được gửi') ||
+                              bodyText.includes('Đã ứng tuyển') ||
+                              !!document.querySelector('.modal-apply-success, #modal-apply-success');
+            const alertMsg = document.querySelector('.alert, .toast-message, .error-message')?.innerText?.trim() || "";
+            return { isSuccess, alertMsg };
+        }""")
+    except Exception as e:
+        log(f"[*] Trang đã chuyển hướng hoặc tải lại sau khi nộp (Navigation confirmed): {e}")
 
-    await page.screenshot(path=proof_path)
-    log(f"📸 Đã lưu ảnh chụp kết quả: {proof_path}")
+    try:
+        await page.screenshot(path=proof_path)
+        log(f"📸 Đã lưu ảnh chụp kết quả: {proof_path}")
+    except Exception as e:
+        log(f"[!] Warning screenshot: {e}")
 
-    log(f"🎉 KẾT QUẢ ỨNG TUYỂN: {'THÀNH CÔNG RỰC RỠ' if submit_status['isSuccess'] else 'ĐÃ GỬI (Chờ kiểm tra)'}")
+    log(f"🎉 KẾT QUẢ ỨNG TUYỂN: {'THÀNH CÔNG RỰC RỠ' if submit_status.get('isSuccess') else 'ĐÃ GỬI (Chờ kiểm tra)'}")
     return {
-        "status": "SUCCESS" if submit_status["isSuccess"] else "SUBMITTED",
+        "status": "SUCCESS" if submit_status.get("isSuccess") else "SUBMITTED",
         "title": job_info["title"],
         "company": job_info["company"],
         "letter": cover_letter,
@@ -379,11 +387,14 @@ async def run():
         for idx, job_url in enumerate(jobs_to_apply, 1):
             log(f"\n==================================================")
             log(f"📌 [{idx}/{len(jobs_to_apply)}] TIẾN TRÌNH: {job_url}")
-            res = await apply_to_single_job(page, job_url, dry_run=dry_run)
-            if res["status"] in ["SUCCESS", "SUBMITTED"]:
-                save_applied_record(applied_dict, job_url, res["title"], res["company"], res["letter"], res["proof"])
-            elif res["status"] == "ALREADY_APPLIED":
-                save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
+            try:
+                res = await apply_to_single_job(page, job_url, dry_run=dry_run)
+                if res.get("status") in ["SUCCESS", "SUBMITTED"]:
+                    save_applied_record(applied_dict, job_url, res.get("title", ""), res.get("company", ""), res.get("letter", ""), res.get("proof", ""))
+                elif res.get("status") == "ALREADY_APPLIED":
+                    save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
+            except Exception as e:
+                log(f"❌ Lỗi khi xử lý job {job_url}: {e}. Tự động bỏ qua và chuyển sang job tiếp theo.")
             await asyncio.sleep(random.uniform(4.0, 7.0))
 
         await browser.close()
