@@ -235,6 +235,32 @@ async def verify_and_ensure_login(page, context, force_relogin=False):
         log(f"❌ Lỗi tự động đăng nhập lại: {e}")
         return False
 
+async def sync_topcv_applied_history(page, applied_set, applied_dict):
+    log("\n==================================================")
+    log("🔄 ĐỒNG BỘ LỊCH SỬ ỨNG TUYỂN TỪ TOPCV")
+    log("==================================================")
+    try:
+        await page.goto("https://www.topcv.vn/lich-su-ung-tuyen", wait_until="domcontentloaded", timeout=30000)
+        await asyncio.sleep(2.5)
+
+        applied_urls = await page.evaluate("""() => {
+            const links = Array.from(document.querySelectorAll("a[href*='/viec-lam/'], a[href*='/brand/']")).map(a => a.href);
+            return Array.from(new Set(links.map(l => l.split('?')[0].split('#')[0])));
+        }""")
+
+        new_synced = 0
+        for u in applied_urls:
+            clean_u = u.strip()
+            if clean_u and clean_u not in applied_set:
+                applied_set.add(clean_u)
+                save_applied_record(applied_dict, clean_u, "Đã ứng tuyển trước đó", "", "Đồng bộ từ TopCV Lịch sử ứng tuyển", "")
+                new_synced += 1
+
+        log(f"✅ Đã đồng bộ thêm {new_synced} việc làm đã nộp từ trước trên TopCV vào sổ cái.")
+        log(f"📚 Tổng số việc làm đã ứng tuyển ghi nhận hiện tại: {len(applied_set)}")
+    except Exception as e:
+        log(f"[!] Warning sync applied history: {e}")
+
 async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict:
     log(f"\n==================================================")
     log(f"🎯 BẮT ĐẦU XỬ LÝ ỨNG TUYỂN: {job_url}")
@@ -440,38 +466,7 @@ async def run():
     max_applies = int(os.environ.get("MAX_APPLIES", "100"))
 
     applied_set, applied_dict = load_applied_history()
-    log(f"📚 Sổ cái các việc làm đã ứng tuyển: {len(applied_set)} việc làm.")
-
-    # Danh sách URL cần ứng tuyển
-    jobs_to_apply = []
-    if target_url:
-        jobs_to_apply = [target_url]
-    else:
-        # 1. Ưu tiên các việc làm mới vừa quét trong phiên này
-        if os.path.exists(SESSION_JOBS_FILE):
-            with open(SESSION_JOBS_FILE, "r", encoding="utf-8") as f:
-                for line in f:
-                    u = line.strip()
-                    if u and u not in applied_set and u not in jobs_to_apply:
-                        jobs_to_apply.append(u)
-                        if len(jobs_to_apply) >= max_applies:
-                            break
-
-        # 2. Nếu chưa đủ số lượng ca này, lấy thêm các việc làm chưa ứng tuyển từ kho lịch sử
-        if len(jobs_to_apply) < max_applies and os.path.exists(HISTORY_TXT):
-            with open(HISTORY_TXT, "r", encoding="utf-8") as f:
-                for line in f:
-                    u = line.strip()
-                    if u and u not in applied_set and u not in jobs_to_apply:
-                        jobs_to_apply.append(u)
-                        if len(jobs_to_apply) >= max_applies:
-                            break
-
-    if not jobs_to_apply:
-        log("🎉 Tất cả việc làm trong kho lưu trữ đều đã được ứng tuyển hoặc chưa có việc làm mới nào cần nộp!")
-        return
-
-    log(f"🎯 Số việc làm sẽ thực hiện trong ca này: {len(jobs_to_apply)}")
+    log(f"📚 Sổ cái các việc làm đã ứng tuyển ban đầu: {len(applied_set)} việc làm.")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -505,8 +500,44 @@ async def run():
         except Exception as e:
             log(f"[!] Warning stealth: {e}")
 
+        # 1. Nạp Cookies & Xác nhận trạng thái đăng nhập
         await inject_cookies(context)
         await verify_and_ensure_login(page, context)
+
+        # 2. Đồng bộ toàn bộ lịch sử các việc đã từng nộp trên TopCV vào Sổ cái
+        await sync_topcv_applied_history(page, applied_set, applied_dict)
+
+        # 3. Lọc danh sách To-Do List: CHỈ LẤY CÁC VIỆC THỰC SỰ CHƯA TỪNG ỨNG TUYỂN
+        jobs_to_apply = []
+        if target_url:
+            jobs_to_apply = [target_url]
+        else:
+            # Ưu tiên các việc làm mới vừa quét trong phiên này
+            if os.path.exists(SESSION_JOBS_FILE):
+                with open(SESSION_JOBS_FILE, "r", encoding="utf-8") as f:
+                    for line in f:
+                        u = line.strip().split('?')[0].split('#')[0]
+                        if u and u not in applied_set and u not in jobs_to_apply:
+                            jobs_to_apply.append(u)
+                            if len(jobs_to_apply) >= max_applies:
+                                break
+
+            # Nếu chưa đủ số lượng ca này, lấy thêm từ kho lịch sử toàn bộ các việc đã quét
+            if len(jobs_to_apply) < max_applies and os.path.exists(HISTORY_TXT):
+                with open(HISTORY_TXT, "r", encoding="utf-8") as f:
+                    for line in f:
+                        u = line.strip().split('?')[0].split('#')[0]
+                        if u and u not in applied_set and u not in jobs_to_apply:
+                            jobs_to_apply.append(u)
+                            if len(jobs_to_apply) >= max_applies:
+                                break
+
+        if not jobs_to_apply:
+            log("🎉 Tất cả việc làm trong kho lưu trữ đều đã được ứng tuyển hoặc chưa có việc làm mới nào cần nộp!")
+            await browser.close()
+            return
+
+        log(f"\n🎯 Danh sách To-Do List sạch sẽ: Sẽ thực hiện ứng tuyển {len(jobs_to_apply)} việc làm CHƯA TỪNG NỘP.")
 
         for idx, job_url in enumerate(jobs_to_apply, 1):
             log(f"\n==================================================")
