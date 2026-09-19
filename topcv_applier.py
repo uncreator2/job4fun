@@ -16,6 +16,7 @@ SESSION_JOBS_FILE = os.path.join(BASE_DIR, "session_extracted_jobs.txt")
 HISTORY_TXT = os.path.join(BASE_DIR, "extracted_jobs_history.txt")
 APPLIED_HISTORY_TXT = os.path.join(BASE_DIR, "applied_jobs_history.txt")
 APPLIED_HISTORY_JSON = os.path.join(BASE_DIR, "applied_jobs_history.json")
+ERRORS_DIR = os.path.join(BASE_DIR, "errors")
 
 # Candidate Profile (from N.P.H.H - QUANTUM OPERATIONS DOSSIER_VIE.pdf)
 CANDIDATE = {
@@ -105,6 +106,40 @@ def save_applied_record(applied_dict, job_url, title, company, letter, proof_pat
     with open(APPLIED_HISTORY_TXT, "a", encoding="utf-8") as f:
         f.write(job_url + "\n")
 
+async def save_error(page, job_url: str, error_type: str, details: str = ""):
+    try:
+        os.makedirs(ERRORS_DIR, exist_ok=True)
+        clean_id = re.search(r"/(\d+)\.html", job_url)
+        id_str = clean_id.group(1) if clean_id else str(random.randint(1000, 9999))
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        prefix = f"error_{id_str}_{timestamp}"
+
+        screenshot_rel = ""
+        screenshot_path = os.path.join(ERRORS_DIR, f"{prefix}.png")
+        if page:
+            try:
+                await page.screenshot(path=screenshot_path)
+                screenshot_rel = f"{prefix}.png"
+            except Exception:
+                screenshot_rel = ""
+
+        json_path = os.path.join(ERRORS_DIR, f"{prefix}.json")
+        data = {
+            "job_url": job_url,
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "error_type": error_type,
+            "details": str(details),
+            "screenshot": screenshot_rel
+        }
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        log(f"📁 [ERRORS FOLDER] Đã ghi lại nhật ký lỗi tại: {json_path}")
+        return json_path
+    except Exception as err:
+        log(f"[!] Warning save_error: {err}")
+        return None
+
 async def inject_cookies(context):
     raw_cookies_env = os.environ.get("COOKIES", "").strip()
     if raw_cookies_env and not os.path.exists(COOKIES_FILE):
@@ -143,6 +178,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         await asyncio.sleep(2.5)
     except Exception as e:
         log(f"[!] Lỗi tải trang việc làm: {e}")
+        await save_error(page, job_url, "PAGE_LOAD_ERROR", str(e))
         return {"status": "ERROR", "reason": f"Page load error: {e}"}
 
     # 1. Kiểm tra xem có bị Cloudflare chặn hoặc challenge không
@@ -176,6 +212,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     if job_info.get("isBlocked"):
         log("❌ Cloudflare chặn truy cập vào URL này trên IP runner.")
+        await save_error(page, job_url, "CF_BLOCKED", "Bị chặn bởi Cloudflare WAF")
         return {"status": "CF_BLOCKED", "title": job_info["title"]}
 
     log(f"📋 Vị trí: {job_info['title']}")
@@ -187,6 +224,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     if not job_info["hasApplyBtn"]:
         log("⚠️ Không tìm thấy nút ứng tuyển (có thể việc làm đã đóng hoặc hết hạn).")
+        await save_error(page, job_url, "NO_APPLY_BTN", "Không tìm thấy nút ứng tuyển hoặc việc làm đã hết hạn/đóng")
         return {"status": "NO_APPLY_BTN", "title": job_info["title"]}
 
     # 2. Bấm nút Ứng tuyển ngay để mở Modal
@@ -206,6 +244,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     if not modal_opened:
         log("❌ Modal ứng tuyển không mở được.")
+        await save_error(page, job_url, "MODAL_NOT_OPENED", "Modal ứng tuyển không mở được sau khi click nút Ứng tuyển")
         return {"status": "MODAL_NOT_OPENED", "title": job_info["title"]}
 
     log("✅ Modal ứng tuyển đã mở thành công.")
@@ -395,6 +434,7 @@ async def run():
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
             except Exception as e:
                 log(f"❌ Lỗi khi xử lý job {job_url}: {e}. Tự động bỏ qua và chuyển sang job tiếp theo.")
+                await save_error(page, job_url, "UNEXPECTED_LOOP_EXCEPTION", str(e))
             await asyncio.sleep(random.uniform(4.0, 7.0))
 
         await browser.close()

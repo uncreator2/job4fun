@@ -58,7 +58,7 @@ jobs:
         run: |
           python topcv_applier.py
 
-      # BƯỚC 3: Lưu lại ảnh chụp màn hình chứng minh kết quả
+      # BƯỚC 3: Lưu lại ảnh chụp màn hình chứng minh kết quả & thư mục lỗi
       - name: Upload proof screenshots & session results
         if: always()
         uses: actions/upload-artifact@v4
@@ -67,18 +67,21 @@ jobs:
           path: |
             session_extracted_jobs.txt
             session_extracted_jobs.json
+            applied_jobs_history.txt
+            applied_jobs_history.json
             *.png
+            errors/
           if-no-files-found: ignore
 
-      # BƯỚC 4: Tự động lưu sổ cái lịch sử việc làm & lịch sử ứng tuyển
+      # BƯỚC 4: Tự động lưu sổ cái lịch sử việc làm, lịch sử ứng tuyển & nhật ký lỗi
       - name: Commit and update history ledgers
         if: always()
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add extracted_jobs_history.txt extracted_jobs_history.json applied_jobs_history.txt applied_jobs_history.json 2>/dev/null || true
+          git add extracted_jobs_history.txt extracted_jobs_history.json applied_jobs_history.txt applied_jobs_history.json errors/ 2>/dev/null || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update job extraction and application history ledgers [skip ci]"
+            git commit -m "chore: update job extraction, application history ledgers, and error logs [skip ci]"
             git pull --rebase origin main || true
             git push origin main || echo "Push failed or no changes"
           else

@@ -5,6 +5,8 @@ proxy*
 session_extracted_jobs.txt
 session_extracted_jobs.json
 *.png
+!errors/*.png
+!errors/*.json
 __pycache__/
 .DS_Store
 
