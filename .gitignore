@@ -1,12 +1,26 @@
+# Credentials & Sensitive Files
 env.txt
-topcv_cookies.json
+*env*.txt
 proxy.txt
-proxy*
+proxy_server*.txt
+*cookie*.json
+*cookies*.json
+*www.*.json
+*.session
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS & Logs
+.DS_Store
+*.log
 session_extracted_jobs.txt
 session_extracted_jobs.json
-*.png
-!errors/*.png
-!errors/*.json
-__pycache__/
-.DS_Store
 
+# Screenshots & Proofs (preserve errors)
+*.png
+!topcv/errors/*.png
+!vietnamworks/errors/*.png
+!careerviet/errors/*.png

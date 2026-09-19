@@ -1,39 +1,60 @@
-# TopCV Automated Cron Job & Session Manager
+# 🚀 Job4Fun: Multi-Platform Automated Job Application Pipeline
 
-Dự án tự động hóa TopCV bằng Playwright, chạy trên GitHub Actions (miễn phí, không giới hạn trên repo Public) hoặc máy cá nhân.
-
----
-
-## 📁 Cấu trúc thư mục
-
-- `login_and_save_cookies.py`: Tool đăng nhập tự động trên máy và trích xuất session cookies mới khi cần.
-- `topcv_cron_runner.py`: Script worker chạy định kỳ trên GitHub Actions (hoặc local).
-- `env.txt`: File chứa email (dòng 1) và mật khẩu (dòng 2) — **được gitignore hoàn toàn, không bao giờ lộ**.
-- `topcv_cookies.json`: File chứa session cookies sau khi đăng nhập — **được gitignore**.
-- `.github/workflows/topcv_cron.yml`: Cấu hình GitHub Actions chạy tự động theo lịch cron.
+Hệ thống tự động hóa quét việc làm và nộp đơn hàng loạt (Auto-apply) đa nền tảng tuyển dụng hàng đầu Việt Nam qua **GitHub Actions CI/CD** và **Playwright Headless Browser**, vận hành mượt mà qua proxy dân cư VNPT và cơ chế bypass Cloudflare / Nginx WAF.
 
 ---
 
-## 🚀 Cách sử dụng
+## 🏛️ Cấu Trúc Monorepo Đa Nền Tảng
 
-### 1. Đăng nhập lại khi cookie hết hạn (Chạy trên máy)
-Chỉ cần chạy lệnh sau:
-```bash
-python3 login_and_save_cookies.py
-```
-- Script sẽ tự động lấy tài khoản từ `env.txt`, đăng nhập, lưu file `topcv_cookies.json`.
-- Tự động copy nội dung cookie mới vào Clipboard của bạn (`Cmd + V`).
-- Nếu cần hiện giao diện để giải captcha thủ công:
-```bash
-python3 login_and_save_cookies.py --visible
+```text
+jobs/
+│
+├── run_pipeline.py                 # Bộ điều phối trung tâm (Master Orchestrator)
+├── shared/                         # Thư viện dùng chung
+│   └── proxy_utils.py              # Bộ phân giải proxy dân cư
+│
+├── topcv/                          # Phân hệ TopCV
+│   ├── topcv_cron_runner.py        # Crawler quét việc làm TopCV
+│   ├── topcv_applier.py            # Applier nộp đơn tự động TopCV
+│   ├── search_urls.txt             # Danh sách URL tìm kiếm mục tiêu
+│   ├── extracted_jobs_history.json # Sổ cái việc làm đã quét
+│   ├── applied_jobs_history.json   # Sổ cái việc làm đã nộp thành công
+│   └── errors/                     # Thư mục lưu lỗi & ảnh chụp sự cố
+│
+├── vietnamworks/                   # Phân hệ VietnamWorks
+│   ├── vnw_crawler.py              # Crawler quét việc làm VietnamWorks
+│   ├── vnw_applier.py              # Applier nộp đơn tự động VietnamWorks
+│   ├── search_urls.txt             # Danh sách URL tìm kiếm mục tiêu
+│   ├── extracted_jobs_history.json # Sổ cái việc làm đã quét (100 jobs)
+│   ├── applied_jobs_history.json   # Sổ cái việc làm đã nộp thành công
+│   └── errors/                     # Thư mục lưu lỗi & ảnh chụp sự cố
+│
+├── careerviet/                     # Phân hệ CareerViet (Đang phát triển)
+├── vieclam24h/                     # Phân hệ Việc Làm 24h (Đang phát triển)
+│
+└── .github/workflows/
+    └── multi_platform_pipeline.yml# Workflow GitHub Actions điều khiển toàn bộ
 ```
 
-### 2. Cấu hình GitHub Secrets (Trên Repo Public)
-Vào **Settings -> Secrets and variables -> Actions**, thêm 2 secrets:
-1. `COOKIES`: Dán toàn bộ nội dung của `topcv_cookies.json` (hoặc `Cmd + V` sau khi chạy script 1).
-2. `ENV_TXT`: Dán 2 dòng email và password để làm fallback tự động khi cần.
+---
 
-### 3. Chạy thử kiểm tra phiên trên máy
-```bash
-python3 topcv_cron_runner.py
-```
+## ⚙️ Thiết Lập GitHub Actions Secrets
+
+| Tên Secret | Mô Tả |
+| :--- | :--- |
+| `PROXY_SERVER` | Chuỗi proxy dân cư VNPT (`host:port:user:pass`) dùng chung cho mọi sàn |
+| `COOKIES` | Session cookie JSON đã đăng nhập của TopCV |
+| `ENV_TXT` | Email & Mật khẩu tài khoản TopCV (dùng khi cần relogin) |
+| `VNW_COOKIES` | Session cookie JSON đã đăng nhập của VietnamWorks |
+| `VNW_ENV` | Email & Mật khẩu tài khoản VietnamWorks |
+
+---
+
+## 🔄 Lịch Trình Tự Động (Automation Schedule)
+
+* **Tần suất:** Chạy 3 lần mỗi ngày vào các khung giờ vàng tuyển dụng:
+  - **08:30 AM VN** (`30 1 * * 1-5` UTC)
+  - **01:30 PM VN** (`30 6 * * 1-5` UTC)
+  - **04:30 PM VN** (`30 9 * * 1-5` UTC)
+* **Luồng chạy:** Tuần tự `TopCV -> VietnamWorks -> ...`
+  - Hoàn toàn độc lập, không xung đột git push, không chồng chéo runner.

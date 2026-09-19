@@ -1,0 +1,111 @@
+name: Multi-Platform Automated Job Application Pipeline
+
+on:
+  schedule:
+    # 08:30, 13:30, 16:30 (VN Time UTC+7) Mon-Fri
+    - cron: '30 1,6,9 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Nền tảng muốn chạy (all = Toàn bộ tuần tự, topcv, vietnamworks)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - topcv
+          - vietnamworks
+      max_applies:
+        description: 'Số lượng việc làm tối đa nộp mỗi sàn trong ca'
+        required: false
+        default: '100'
+        type: string
+      dry_run:
+        description: 'Chế độ thử nghiệm Dry-Run (true = Không bấm nộp thật, chỉ chụp ảnh; false = Nộp thật)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  multi-platform-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Cache Playwright Chromium
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install dependencies & Playwright Chromium
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != 'true' ]; then
+            playwright install --with-deps chromium
+          else
+            playwright install-deps chromium
+          fi
+
+      - name: Run Multi-Platform Pipeline
+        env:
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          COOKIES: ${{ secrets.COOKIES }}
+          ENV_TXT: ${{ secrets.ENV_TXT }}
+          VNW_COOKIES: ${{ secrets.VNW_COOKIES }}
+          VNW_ENV: ${{ secrets.VNW_ENV }}
+        run: |
+          PLATFORM="${{ github.event.inputs.platform || 'all' }}"
+          MAX="${{ github.event.inputs.max_applies || '100' }}"
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+
+          CMD="python run_pipeline.py --platform $PLATFORM --max $MAX"
+          if [ "$DRY_RUN" = "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+
+          echo "🚀 Thực thi: $CMD"
+          eval $CMD
+
+      - name: Upload proof screenshots & session results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: application-results-${{ github.run_id }}
+          path: |
+            topcv/apply_proof_*.png
+            topcv/errors/
+            vietnamworks/apply_proof_*.png
+            vietnamworks/errors/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Commit and update history ledgers
+        if: always()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add topcv/extracted_jobs_history.* topcv/applied_jobs_history.* vietnamworks/extracted_jobs_history.* vietnamworks/applied_jobs_history.* || true
+          if git status --porcelain | grep -E "(extracted_jobs_history|applied_jobs_history)"; then
+            git commit -m "Auto-update cross-platform application ledgers [skip ci]"
+            git push origin main
+          else
+            echo "ℹ️ Không có thay đổi nào trong ledger cần commit."
+          fi
