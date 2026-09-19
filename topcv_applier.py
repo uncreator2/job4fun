@@ -168,6 +168,73 @@ async def inject_cookies(context):
             log(f"[!] Lỗi nạp cookies: {e}")
     return False
 
+async def verify_and_ensure_login(page, context, force_relogin=False):
+    log("\n==================================================")
+    log("🔍 KIỂM TRA & XÁC THỰC TRẠNG THÁI ĐĂNG NHẬP")
+    log("==================================================")
+
+    if not force_relogin:
+        try:
+            await page.goto("https://www.topcv.vn", wait_until="domcontentloaded", timeout=30000)
+            await asyncio.sleep(2.0)
+            is_logged_in = await page.evaluate("""() => {
+                const hasLoginBtn = !!document.querySelector('a[href*="/login"]');
+                const hasUserMenu = !!document.querySelector('.dropdown-user, .user-avatar, [href*="/logout"], .navbar-user, .header-user');
+                const hasUserName = document.body.innerText.includes('Hoàng Hà');
+                return hasUserMenu || hasUserName || !hasLoginBtn;
+            }""")
+            if is_logged_in:
+                log("✅ XÁC NHẬN ĐĂNG NHẬP: Ứng viên Nguyễn Phú Hoàng Hà đã đăng nhập hợp lệ (Session active).")
+                return True
+        except Exception as e:
+            log(f"[!] Warning probe login: {e}")
+
+    log("⚠️ Phát hiện chưa đăng nhập hoặc phiên đã hết hạn. Đang tiến hành tự động đăng nhập lại...")
+    email = os.environ.get("TOPCV_EMAIL", "").strip()
+    password = os.environ.get("TOPCV_PASSWORD", "").strip()
+    raw_env_txt = os.environ.get("ENV_TXT", "").strip()
+    if raw_env_txt and (not email or not password):
+        lines = [l.strip() for l in raw_env_txt.splitlines() if l.strip()]
+        if len(lines) >= 2:
+            email = email or lines[0]
+            password = password or lines[1]
+
+    if not email or not password:
+        env_path = os.path.join(BASE_DIR, "env.txt")
+        if os.path.exists(env_path):
+            try:
+                with open(env_path, "r", encoding="utf-8") as f:
+                    lines = [l.strip() for l in f if l.strip()]
+                    if len(lines) >= 2:
+                        email = email or lines[0]
+                        password = password or lines[1]
+            except Exception:
+                pass
+
+    if not email or not password:
+        log("❌ Không tìm thấy thông tin tài khoản trong ENV_TXT để tự động đăng nhập!")
+        return False
+
+    log(f"🔑 Tự động đăng nhập vào TopCV bằng tài khoản: {email}...")
+    try:
+        await page.goto("https://www.topcv.vn/login", wait_until="domcontentloaded", timeout=35000)
+        await asyncio.sleep(2.0)
+        await page.fill("input[name=email]", email)
+        await page.fill("input[name=password]", password)
+        await asyncio.sleep(1.0)
+        await page.click("button.btn-sign, button.g-recaptcha")
+        await asyncio.sleep(5.0)
+
+        # Trích xuất và lưu session cookies mới
+        new_cookies = await context.cookies()
+        with open(COOKIES_FILE, "w", encoding="utf-8") as f:
+            json.dump(new_cookies, f, indent=2, ensure_ascii=False)
+        log("🎉 Tự động đăng nhập lại thành công! Đã làm mới session cookies.")
+        return True
+    except Exception as e:
+        log(f"❌ Lỗi tự động đăng nhập lại: {e}")
+        return False
+
 async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict:
     log(f"\n==================================================")
     log(f"🎯 BẮT ĐẦU XỬ LÝ ỨNG TUYỂN: {job_url}")
@@ -181,7 +248,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         await save_error(page, job_url, "PAGE_LOAD_ERROR", str(e))
         return {"status": "ERROR", "reason": f"Page load error: {e}"}
 
-    # 1. Kiểm tra xem có bị Cloudflare chặn hoặc challenge không
+    # 1. Kiểm tra nếu URL bị chuyển hướng về trang chủ (dấu hiệu tin hết hạn/bị gỡ)
+    current_url = page.url
+    if current_url.rstrip("/") == "https://www.topcv.vn" or ("/viec-lam/" not in current_url and "/tuyen-dung/" not in current_url):
+        log("ℹ️ Tin tuyển dụng này đã hết hạn hoặc bị gỡ (TopCV tự động chuyển hướng về trang chủ).")
+        await save_error(page, job_url, "EXPIRED_REDIRECT_HOMEPAGE", "Tin đã hết hạn hoặc bị xóa, TopCV tự động redirect về trang chủ")
+        return {"status": "EXPIRED", "title": "Tin hết hạn / Chuyển hướng trang chủ"}
+
+    # 2. Kiểm tra xem có bị Cloudflare chặn hoặc challenge không
     for _ in range(3):
         is_cf = await page.evaluate("document.body.innerText.includes('Sorry, you have been blocked') || document.body.innerText.includes('Just a moment...')")
         if not is_cf:
@@ -189,13 +263,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         log("⏳ Phát hiện trang chờ Cloudflare, đang chờ giải mã (3s)...")
         await asyncio.sleep(3.0)
 
-    # Trích xuất thông tin việc làm từ trang
+    # 3. Trích xuất thông tin việc làm từ trang
     job_info = await page.evaluate("""() => {
         const titleEl = document.querySelector('h1.job-detail__info--title, .job-detail-info h1, h1');
         const compEl = document.querySelector('.company-name, .company-title, a.company');
         const descEl = document.querySelector('.job-description, #job-description, .job-data');
-        const applyBtn = document.querySelector('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply');
+        const applyBtn = document.querySelector('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply, .box-apply .btn, a[href*="#modal-apply"]');
         const alreadyApplied = document.body.innerText.includes('Đã ứng tuyển') || (applyBtn && applyBtn.innerText.includes('Đã ứng tuyển'));
+        const isLoggedOut = document.body.innerText.includes('Đăng nhập để ứng tuyển') || (applyBtn && applyBtn.innerText.includes('Đăng nhập'));
         const bodyText = document.body.innerText;
         const isBlocked = bodyText.includes('Sorry, you have been blocked') || bodyText.includes('Just a moment...');
 
@@ -206,6 +281,7 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
             hasApplyBtn: !!applyBtn,
             applyBtnText: applyBtn ? applyBtn.innerText.trim() : '',
             alreadyApplied: !!alreadyApplied,
+            isLoggedOut: !!isLoggedOut,
             isBlocked: isBlocked
         };
     }""")
@@ -217,6 +293,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     log(f"📋 Vị trí: {job_info['title']}")
     log(f"🏢 Công ty: {job_info['company']}")
+
+    if job_info.get("isLoggedOut"):
+        log("⚠️ Phát hiện trạng thái chưa đăng nhập trên trang này ('Đăng nhập để ứng tuyển')! Đang tự động đăng nhập lại...")
+        relogin_ok = await verify_and_ensure_login(page, page.context, force_relogin=True)
+        if relogin_ok:
+            log(f"🔄 Đang tải lại tin tuyển dụng sau khi đăng nhập: {job_url}")
+            await page.goto(job_url, wait_until="domcontentloaded", timeout=35000)
+            await asyncio.sleep(2.5)
 
     if job_info["alreadyApplied"]:
         log("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó. Bỏ qua.")
@@ -422,6 +506,7 @@ async def run():
             log(f"[!] Warning stealth: {e}")
 
         await inject_cookies(context)
+        await verify_and_ensure_login(page, context)
 
         for idx, job_url in enumerate(jobs_to_apply, 1):
             log(f"\n==================================================")
