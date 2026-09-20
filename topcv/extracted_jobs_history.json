@@ -4930,5 +4930,53 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-09-19 03:48:47",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2306485.html": {
+    "job_id": "2306485",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2306485.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789902077",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2306485.html",
+    "company": "CÔNG TY TNHH ANIE BEAUTY GLOBAL",
+    "salary": "25 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-09-20 11:01:39",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-gia-cong-co-khi/1593564.html": {
+    "job_id": "1593564",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-gia-cong-co-khi/1593564.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789902077",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-gia-cong-co-khi/1593564.html",
+    "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN KỸ THUẬT VÀ CÔNG NGHIỆP VIỆT NAM",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-20 11:01:39",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-khu-vuc-rsm/2305763.html": {
+    "job_id": "2305763",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-khu-vuc-rsm/2305763.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789902077",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-khu-vuc-rsm/2305763.html",
+    "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ BẾP TOÀN CẦU",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-09-20 11:01:39",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ota-e-commerce-du-thuyen/2180810.html": {
+    "job_id": "2180810",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ota-e-commerce-du-thuyen/2180810.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789902201",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ota-e-commerce-du-thuyen/2180810.html",
+    "company": "CÔNG TY TNHH VẬN TẢI VIỆT THUẬN",
+    "salary": "1,500 - 2,000 USD",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-20 11:03:35",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
