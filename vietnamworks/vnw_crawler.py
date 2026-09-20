@@ -214,7 +214,7 @@ def crawl_vietnamworks():
 
                 try:
                     resp = page.goto(paged_url, wait_until="domcontentloaded", timeout=30000)
-                    page.wait_for_timeout(2500)
+                    page.wait_for_timeout(2000)
                     handle_experience_modal(page)
 
                     if resp and resp.status == 403:
@@ -223,6 +223,12 @@ def crawl_vietnamworks():
                         page.wait_for_timeout(1000)
                         resp = page.goto(paged_url, wait_until="domcontentloaded", timeout=30000)
                         page.wait_for_timeout(2000)
+
+                    # Wait up to 10s for job cards to hydrate
+                    try:
+                        page.wait_for_selector('a[href*="-jv"]', timeout=10000)
+                    except Exception:
+                        pass
 
                     jobs = extract_jobs_from_page(page, search_url)
                     print(f"      -> Tìm thấy {len(jobs)} việc làm trên trang.")

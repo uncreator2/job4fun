@@ -193,6 +193,66 @@ def sync_vnw_applied_history(page, applied_dict):
     except Exception as e:
         print(f"⚠️ Đồng bộ lịch sử tuyển dụng gặp lỗi: {e}")
 
+def check_daily_limit(page):
+    """
+    Kiểm tra xem VietnamWorks có thông báo đạt giới hạn nộp hồ sơ / số lượt nộp trong ngày hay không.
+    Trả về (True, message) nếu đạt giới hạn, ngược lại (False, None).
+    """
+    keywords = [
+        "đạt giới hạn", "hết lượt", "vượt quá số lần", "vượt quá số lượt",
+        "giới hạn nộp", "giới hạn ứng tuyển", "ứng tuyển trong ngày",
+        "tối đa trong ngày", "lượt nộp đơn trong ngày",
+        "application limit", "daily limit", "reached limit", "limit exceeded"
+    ]
+    try:
+        # 1. Kiểm tra toast / notification / alert
+        elements = page.locator('[role="alert"], [class*="toast"], [class*="Toast"], [class*="notification"], .ant-message, .ant-notification, .alert')
+        count = elements.count()
+        for i in range(count):
+            try:
+                el = elements.nth(i)
+                if el.is_visible():
+                    text = el.inner_text().strip()
+                    text_lower = text.lower()
+                    for kw in keywords:
+                        if kw in text_lower:
+                            return True, text
+            except Exception:
+                continue
+
+        # 2. Kiểm tra modal hoặc dialog cảnh báo giới hạn
+        dialogs = page.locator('[role="dialog"], .modal, [class*="Modal"]')
+        if dialogs.count() > 0:
+            for i in range(dialogs.count()):
+                try:
+                    d = dialogs.nth(i)
+                    if d.is_visible():
+                        text = d.inner_text().strip()
+                        text_lower = text.lower()
+                        for kw in keywords:
+                            if kw in text_lower:
+                                return True, text
+                except Exception:
+                    continue
+
+        # 3. Kiểm tra thông báo đỏ / error / warning text trên trang
+        err_elements = page.locator('[class*="error"], [class*="danger"], [class*="warning"]')
+        for i in range(min(err_elements.count(), 10)):
+            try:
+                e = err_elements.nth(i)
+                if e.is_visible():
+                    t = e.inner_text().strip()
+                    for kw in keywords:
+                        if kw in t.lower():
+                            return True, t
+            except Exception:
+                continue
+
+    except Exception:
+        pass
+
+    return False, None
+
 def apply_job(page, job, dry_run=False):
     url = job.get("url")
     title = job.get("title", "")
@@ -215,8 +275,8 @@ def apply_job(page, job, dry_run=False):
         apply_btn = page.locator('button:has-text("Nộp đơn")')
         if apply_btn.count() == 0:
             # Check if already applied
-            applied_badge = page.locator('button:has-text("Đã nộp đơn"), button[disabled]:has-text("Nộp đơn"), text="Đã ứng tuyển"')
-            if applied_badge.count() > 0:
+            applied_badge = page.locator('button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển"), button[disabled]:has-text("Nộp đơn")')
+            if applied_badge.count() > 0 or page.locator(':text-matches("Đã ứng tuyển|Đã nộp đơn")').count() > 0:
                 print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó.")
                 return {"status": "ALREADY_APPLIED", "submitted": True}
 
@@ -227,14 +287,25 @@ def apply_job(page, job, dry_run=False):
             return {"status": "NO_BUTTON", "submitted": False, "screenshot": err_shot}
 
         print("🚀 Nhấn nút 'Nộp đơn'...")
-        apply_btn.first.click()
+        apply_btn.first.click(timeout=8000)
         page.wait_for_timeout(2000)
+
+        # Check if daily limit was triggered right after clicking apply
+        is_limit, limit_msg = check_daily_limit(page)
+        if is_limit:
+            print(f"🛑 PHÁT HIỆN ĐẠT GIỚI HẠN NỘP HỒ SƠ TRONG NGÀY: {limit_msg}")
+            limit_shot = os.path.join(ERRORS_DIR, f"daily_limit_{job_id}.png")
+            try:
+                page.screenshot(path=limit_shot)
+            except Exception:
+                pass
+            return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
 
         # Check AI Upsell Modal: "Bạn có muốn tối ưu lợi thế cạnh tranh trước khi ứng tuyển?"
         ai_btn = page.locator('button:has-text("Tiếp tục ứng tuyển")')
         if ai_btn.count() > 0 and ai_btn.first.is_visible():
             print("✨ Vượt qua Popup AI: Nhấn 'Tiếp tục ứng tuyển'...")
-            ai_btn.first.click()
+            ai_btn.first.click(timeout=5000)
             page.wait_for_timeout(2500)
 
         # Wait for actual modal: "Ứng tuyển công việc"
@@ -270,8 +341,19 @@ def apply_job(page, job, dry_run=False):
         submit_btn = page.locator('[role="dialog"] button:has-text("Ứng tuyển"), .modal button:has-text("Ứng tuyển"), button.btn-primary:has-text("Ứng tuyển")')
         if submit_btn.count() > 0 and submit_btn.first.is_visible():
             print("📤 Bấm nút 'Ứng tuyển' (Nộp đơn thật)...")
-            submit_btn.first.click()
+            submit_btn.first.click(timeout=8000)
             page.wait_for_timeout(4000)
+
+            # Check if daily limit was triggered upon submission
+            is_limit, limit_msg = check_daily_limit(page)
+            if is_limit:
+                print(f"🛑 PHÁT HIỆN ĐẠT GIỚI HẠN NỘP HỒ SƠ TRONG NGÀY (SAU KHI BẤM NỘP): {limit_msg}")
+                limit_shot = os.path.join(ERRORS_DIR, f"daily_limit_{job_id}.png")
+                try:
+                    page.screenshot(path=limit_shot)
+                except Exception:
+                    pass
+                return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
 
             page.screenshot(path=proof_path)
             print(f"📸 Đã lưu ảnh kết quả nộp: {proof_path}")
@@ -377,6 +459,15 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
                         json.dump(err_info, f, ensure_ascii=False, indent=2)
                 except Exception:
                     pass
+
+                # If VietnamWorks reached daily application limit, skip the rest of the day
+                if status == "DAILY_LIMIT_REACHED":
+                    print("\n" + "🛑" * 38)
+                    print("🛑 VIETNAMWORKS: ĐÃ ĐẠT GIỚI HẠN NỘP HỒ SƠ TRONG NGÀY (DAILY LIMIT)!")
+                    print(f"🛑 Chi tiết thông báo: {res.get('reason')}")
+                    print("🛑 Tự động dừng ca nộp hôm nay và bỏ qua các công việc còn lại.")
+                    print("🛑" * 38 + "\n")
+                    break
 
             time.sleep(2)
 
