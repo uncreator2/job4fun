@@ -6,6 +6,7 @@ proxy_server*.txt
 *cookie*.json
 *cookies*.json
 *www.*.json
+*vieclam24h*.json
 *.session
 
 # Python
@@ -24,3 +25,4 @@ session_extracted_jobs.json
 !topcv/errors/*.png
 !vietnamworks/errors/*.png
 !careerviet/errors/*.png
+!vieclam24h/errors/*.png

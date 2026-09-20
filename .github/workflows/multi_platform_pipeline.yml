@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       platform:
-        description: 'Nền tảng muốn chạy (all = Toàn bộ tuần tự, topcv, vietnamworks)'
+        description: 'Nền tảng muốn chạy (all = Toàn bộ tuần tự, topcv, vietnamworks, vieclam24h)'
         required: false
         default: 'all'
         type: choice
@@ -15,6 +15,7 @@ on:
           - all
           - topcv
           - vietnamworks
+          - vieclam24h
       max_applies:
         description: 'Số lượng việc làm tối đa nộp mỗi sàn trong ca'
         required: false
@@ -72,6 +73,8 @@ jobs:
           ENV_TXT: ${{ secrets.ENV_TXT }}
           VNW_COOKIES: ${{ secrets.VNW_COOKIES }}
           VNW_ENV: ${{ secrets.VNW_ENV }}
+          V24H_COOKIES: ${{ secrets.V24H_COOKIES }}
+          V24H_ENV: ${{ secrets.V24H_ENV }}
         run: |
           PLATFORM="${{ github.event.inputs.platform || 'all' }}"
           MAX="${{ github.event.inputs.max_applies || '100' }}"
@@ -95,6 +98,9 @@ jobs:
             topcv/errors/
             vietnamworks/apply_proof_*.png
             vietnamworks/errors/
+            vieclam24h/proofs/
+            vieclam24h/errors/
+            vieclam24h/apply_proof_*.png
           if-no-files-found: ignore
           retention-days: 14
 
@@ -104,7 +110,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add topcv/extracted_jobs_history.* topcv/applied_jobs_history.* vietnamworks/extracted_jobs_history.* vietnamworks/applied_jobs_history.* || true
+          git add topcv/extracted_jobs_history.* topcv/applied_jobs_history.* vietnamworks/extracted_jobs_history.* vietnamworks/applied_jobs_history.* vieclam24h/extracted_jobs_history.* vieclam24h/applied_jobs_history.* || true
           if git status --porcelain | grep -E "(extracted_jobs_history|applied_jobs_history)"; then
             git commit -m "Auto-update cross-platform application ledgers [skip ci]"
             git push origin main
