@@ -226,7 +226,11 @@ def sync_portal_applied_history(page, applied_dict):
     synced_count = 0
     try:
         page.goto(APPLIED_PORTAL_URL, wait_until="domcontentloaded", timeout=40000)
-        page.wait_for_timeout(3000)
+        try:
+            page.wait_for_selector('a[href*="id"]', timeout=8000)
+        except Exception:
+            pass
+        page.wait_for_timeout(2000)
 
         portal_jobs = page.evaluate("""() => {
             const anchors = Array.from(document.querySelectorAll('a')).filter(a => /id\\d+\\.html/.test(a.href));
@@ -324,6 +328,9 @@ def apply_single_job(page, job, dry_run=False):
             print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó trên trang.")
             return {"status": "ALREADY_APPLIED", "submitted": True}
 
+        # Ensure page is interactive
+        page.wait_for_timeout(3000)
+
         # Look for Apply Button
         apply_btn = page.locator('button:has-text("Ứng tuyển ngay"), button:has-text("Nộp hồ sơ ngay")').first
         if apply_btn.count() == 0 or not apply_btn.is_visible():
@@ -335,33 +342,65 @@ def apply_single_job(page, job, dry_run=False):
                 pass
             return {"status": "NO_BUTTON", "submitted": False, "proof": err_shot}
 
-        print("👉 Bấm nút 'Ứng tuyển ngay'...")
-        apply_btn.click(timeout=8000)
-        page.wait_for_timeout(2000)
+        # Click apply button with retry loop to guarantee React hydration has completed
+        modal_opened = False
+        for attempt in range(1, 4):
+            print(f"👉 Bấm nút 'Ứng tuyển ngay' (lần {attempt})...")
+            try:
+                apply_btn.scroll_into_view_if_needed()
+                apply_btn.click(timeout=5000)
+            except Exception as e:
+                print(f"⚠️ Lỗi click nút: {e}")
 
-        # Check immediate daily limit
-        is_limit, limit_msg = check_daily_limit(page)
-        if is_limit:
-            print(f"🛑 [DAILY_LIMIT_REACHED] ĐẠT GIỚI HẠN ỨNG TUYỂN TRONG NGÀY: {limit_msg}")
-            limit_shot = os.path.join(ERRORS_DIR, f"v24h_daily_limit_{job_id}.png")
-            page.screenshot(path=limit_shot)
-            return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
+            # Check immediate daily limit
+            is_limit, limit_msg = check_daily_limit(page)
+            if is_limit:
+                print(f"🛑 [DAILY_LIMIT_REACHED] ĐẠT GIỚI HẠN ỨNG TUYỂN TRONG NGÀY: {limit_msg}")
+                limit_shot = os.path.join(ERRORS_DIR, f"v24h_daily_limit_{job_id}.png")
+                page.screenshot(path=limit_shot)
+                return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
 
-        # Modal interaction
+            # Wait for modal dialog or submit button
+            try:
+                page.wait_for_selector('div:has-text("Hồ sơ ứng tuyển"), [role="dialog"], button:has-text("Nộp hồ sơ ngay")', timeout=5000)
+                modal_opened = True
+                break
+            except Exception:
+                print("⏳ Modal chưa mở, đợi thêm 2s để hydration hoàn tất rồi thử lại...")
+                page.wait_for_timeout(2000)
+
+        if not modal_opened:
+            print("❌ Không mở được modal ứng tuyển sau 3 lần thử!")
+            err_shot = os.path.join(ERRORS_DIR, f"v24h_modal_failed_{job_id}.png")
+            try:
+                page.screenshot(path=err_shot)
+            except Exception:
+                pass
+            return {"status": "MODAL_FAILED", "submitted": False, "proof": err_shot}
+
+        page.wait_for_timeout(1000)
+
+        # Check if intermediate confirmation popup appears: "Việc làm này đang chờ kiểm duyệt"
+        confirm_btn = page.locator('button:has-text("Tiếp tục nộp")')
+        if confirm_btn.count() > 0 and confirm_btn.first.is_visible():
+            print("⚠️ Phát hiện popup cảnh báo 'Việc làm đang chờ kiểm duyệt': Bấm 'Tiếp tục nộp'...")
+            confirm_btn.first.click(timeout=5000)
+            page.wait_for_timeout(2500)
+
+        # Modal interaction: Verify CV option card is active
         modal_submit = page.locator('button:has-text("Nộp hồ sơ ngay")').last
         if modal_submit.count() == 0 or not modal_submit.is_visible():
-            # Sometimes CV option card needs clicking
             cv_option = page.locator('[data-test-id="apply-method-selector__option-cv"], div:has-text("Ứng tuyển với CV")').first
             if cv_option.count() > 0 and cv_option.is_visible():
                 cv_option.click()
                 page.wait_for_timeout(1000)
 
-        # Verify CV presence
-        cv_item = page.locator(f'text={DEFAULT_CV_NAME}')
+        # Verify CV presence: The file name in DOM is split across spans, so check container with :has-text
+        cv_item = page.locator('[data-test-id="unified-apply__cv-item"]:has-text("Quantum_Operations"), [data-test-id="unified-apply__cv-item"]:has-text("Dossier_VI"), :text("Quantum_Operations")')
         if cv_item.count() > 0:
-            print(f"📄 Hồ sơ mặc định đã sẵn sàng: {DEFAULT_CV_NAME}")
+            print(f"📄 Hồ sơ ứng tuyển mặc định đã sẵn sàng: {DEFAULT_CV_NAME}")
         else:
-            print(f"ℹ️ Lưu ý: Không thấy nhãn file {DEFAULT_CV_NAME}, tiếp tục với CV mặc định của hệ thống.")
+            print(f"ℹ️ Không thấy nhãn file {DEFAULT_CV_NAME}, tiếp tục với CV mặc định của hệ thống.")
 
         # Toggle off "Nhận thông báo việc làm tương tự" if present
         try:
@@ -373,6 +412,17 @@ def apply_single_job(page, job, dry_run=False):
                     page.wait_for_timeout(500)
         except Exception:
             pass
+
+        # Verify submit button is ready
+        modal_submit = page.locator('button:has-text("Nộp hồ sơ ngay")').last
+        if modal_submit.count() == 0 or not modal_submit.is_visible():
+            print("❌ Không tìm thấy nút 'Nộp hồ sơ ngay' trong modal!")
+            err_shot = os.path.join(ERRORS_DIR, f"v24h_no_submit_btn_{job_id}.png")
+            try:
+                page.screenshot(path=err_shot)
+            except Exception:
+                pass
+            return {"status": "NO_SUBMIT_BTN", "submitted": False, "proof": err_shot}
 
         if dry_run:
             dryrun_shot = os.path.join(PROOFS_DIR, f"dryrun_proof_v24h_{job_id}.png")
