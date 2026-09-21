@@ -38,6 +38,21 @@ os.makedirs(ERRORS_DIR, exist_ok=True)
 MAX_APPLIES_DEFAULT = 100
 DRY_RUN_DEFAULT = False
 
+def safe_goto(page, url, wait_until="domcontentloaded", timeout=40000, max_retries=3):
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            return page.goto(url, wait_until=wait_until, timeout=timeout)
+        except Exception as e:
+            last_err = e
+            err_str = str(e)
+            if any(k in err_str for k in ["ERR_CONNECTION_RESET", "ERR_TIMED_OUT", "ERR_NETWORK_CHANGED", "Timeout", "net::"]):
+                print(f"⚠️ Gián đoạn mạng ({attempt}/{max_retries}) khi tải {url}: {e}")
+                time.sleep(2 * attempt)
+            else:
+                raise e
+    raise last_err
+
 def load_cookies():
     env_cookies = os.environ.get("VNW_COOKIES", "") or os.environ.get("COOKIES", "")
     if env_cookies:
@@ -123,7 +138,7 @@ def handle_experience_modal(page):
 def verify_and_ensure_login(page):
     print("🔍 Đang kiểm tra trạng thái đăng nhập VietnamWorks...")
     try:
-        page.goto("https://www.vietnamworks.com/", wait_until="domcontentloaded", timeout=30000)
+        safe_goto(page, "https://www.vietnamworks.com/", wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(2000)
         handle_experience_modal(page)
 
@@ -143,7 +158,7 @@ def verify_and_ensure_login(page):
             if len(lines) >= 2:
                 user, pwd = lines[0], lines[1]
                 print("🔐 Thử đăng nhập tự động bằng tài khoản env.txt...")
-                page.goto("https://www.vietnamworks.com/login", wait_until="domcontentloaded", timeout=30000)
+                safe_goto(page, "https://www.vietnamworks.com/login", wait_until="domcontentloaded", timeout=35000)
                 page.wait_for_timeout(2000)
                 handle_experience_modal(page)
 
@@ -169,7 +184,7 @@ def sync_vnw_applied_history(page, applied_dict):
     print("🔄 Đang đồng bộ lịch sử ứng tuyển từ VietnamWorks...")
     try:
         history_url = "https://www.vietnamworks.com/quan-ly-nghe-nghiep/viec-lam-cua-toi"
-        page.goto(history_url, wait_until="domcontentloaded", timeout=30000)
+        safe_goto(page, history_url, wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(3000)
         handle_experience_modal(page)
 
@@ -262,7 +277,7 @@ def apply_job(page, job, dry_run=False):
     print(f"   URL: {url}")
 
     try:
-        resp = page.goto(url, wait_until="domcontentloaded", timeout=35000)
+        resp = safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(2500)
         handle_experience_modal(page)
 
@@ -271,23 +286,61 @@ def apply_job(page, job, dry_run=False):
             print(f"⚠️ Việc làm đã bị chuyển hướng hoặc đóng: {current_url}")
             return {"status": "EXPIRED", "submitted": False, "reason": "Redirected"}
 
-        # Look for Apply Button
-        apply_btn = page.locator('button:has-text("Nộp đơn")')
-        if apply_btn.count() == 0:
-            # Check if already applied
-            applied_badge = page.locator('button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển"), button[disabled]:has-text("Nộp đơn")')
-            if applied_badge.count() > 0 or page.locator(':text-matches("Đã ứng tuyển|Đã nộp đơn")').count() > 0:
-                print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó.")
-                return {"status": "ALREADY_APPLIED", "submitted": True}
+        # Wait up to 10s for React SPA hydration of apply button or already-applied state
+        try:
+            page.wait_for_selector(
+                'button:has-text("Nộp đơn"), button.apply-btn, [aria-label*="Nộp đơn"], button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển")',
+                timeout=10000,
+                state="attached"
+            )
+        except Exception:
+            pass
 
-            print("⚠️ Không tìm thấy nút 'Nộp đơn' (có thể việc làm đã hết hạn).")
-            # Save error snapshot
+        # Check if already applied
+        applied_badge = page.locator('button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển"), :text-matches("Đã ứng tuyển|Đã nộp đơn")')
+        if applied_badge.count() > 0 and any(applied_badge.nth(i).is_visible() for i in range(applied_badge.count())):
+            print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó.")
+            return {"status": "ALREADY_APPLIED", "submitted": True}
+
+        # Look for Apply Button
+        apply_btn = page.locator('button:has-text("Nộp đơn"), button.apply-btn, [aria-label*="Nộp đơn"]')
+        
+        target_btn = None
+        for i in range(apply_btn.count()):
+            candidate = apply_btn.nth(i)
+            if candidate.is_visible():
+                target_btn = candidate
+                break
+
+        # Fallback scroll to trigger lazy hydration if button isn't visible yet
+        if target_btn is None:
+            try:
+                page.evaluate("window.scrollBy(0, 300); window.scrollBy(0, -300);")
+                page.wait_for_timeout(2000)
+            except Exception:
+                pass
+            for i in range(apply_btn.count()):
+                candidate = apply_btn.nth(i)
+                if candidate.is_visible():
+                    target_btn = candidate
+                    break
+
+        if target_btn is None:
+            print("⚠️ Không tìm thấy nút 'Nộp đơn' (có thể việc làm đã hết hạn hoặc đóng).")
             err_shot = os.path.join(ERRORS_DIR, f"error_no_btn_{job_id}.png")
-            page.screenshot(path=err_shot)
+            try:
+                page.screenshot(path=err_shot)
+            except Exception:
+                pass
             return {"status": "NO_BUTTON", "submitted": False, "screenshot": err_shot}
 
+        # Check if button is disabled by employer (applications closed)
+        if target_btn.is_disabled():
+            print("ℹ️ Nút 'Nộp đơn' bị vô hiệu hóa (Nhà tuyển dụng đã dừng nhận hồ sơ hoặc việc làm đã đóng).")
+            return {"status": "APPLICATION_CLOSED", "submitted": False, "reason": "Apply button disabled by employer"}
+
         print("🚀 Nhấn nút 'Nộp đơn'...")
-        apply_btn.first.click(timeout=8000)
+        target_btn.click(timeout=8000)
         page.wait_for_timeout(2000)
 
         # Check if daily limit was triggered right after clicking apply

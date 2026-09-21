@@ -38,6 +38,21 @@ os.makedirs(ERRORS_DIR, exist_ok=True)
 APPLIED_PORTAL_URL = "https://vieclam24h.vn/ntv-trang-quan-tri-viec-lam-da-ung-tuyen.html"
 DEFAULT_CV_NAME = "N_P_H_H_Quantum_Operations_Dossier_VI.pdf"
 
+def safe_goto(page, url, wait_until="domcontentloaded", timeout=40000, max_retries=3):
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            return page.goto(url, wait_until=wait_until, timeout=timeout)
+        except Exception as e:
+            last_err = e
+            err_str = str(e)
+            if any(k in err_str for k in ["ERR_CONNECTION_RESET", "ERR_TIMED_OUT", "ERR_NETWORK_CHANGED", "Timeout", "net::"]):
+                print(f"⚠️ Gián đoạn mạng ({attempt}/{max_retries}) khi tải {url}: {e}")
+                time.sleep(2 * attempt)
+            else:
+                raise e
+    raise last_err
+
 def load_cookies():
     env_cookies = os.environ.get("V24H_COOKIES", "").strip()
     if env_cookies:
@@ -65,16 +80,31 @@ def load_cookies():
 
 def format_cookies(raw_cookies):
     cookies = []
+    if isinstance(raw_cookies, dict):
+        if "cookies" in raw_cookies and isinstance(raw_cookies["cookies"], list):
+            raw_cookies = raw_cookies["cookies"]
+        else:
+            raw_cookies = [raw_cookies]
+    elif not isinstance(raw_cookies, list):
+        return []
+
     for c in raw_cookies:
+        if not isinstance(c, dict):
+            continue
+        name = c.get("name")
+        value = c.get("value")
+        if not name or value is None:
+            continue
+        domain = c.get("domain", ".vieclam24h.vn")
         cookie = {
-            "name": c["name"],
-            "value": c["value"],
-            "domain": c.get("domain", ".vieclam24h.vn"),
+            "name": str(name),
+            "value": str(value),
+            "domain": domain,
             "path": c.get("path", "/"),
         }
-        if "secure" in c:
+        if "secure" in c and isinstance(c["secure"], bool):
             cookie["secure"] = c["secure"]
-        if "httpOnly" in c:
+        if "httpOnly" in c and isinstance(c["httpOnly"], bool):
             cookie["httpOnly"] = c["httpOnly"]
         cookies.append(cookie)
     return cookies
@@ -158,7 +188,7 @@ def perform_form_login(page, context):
 
     print(f"🔐 ĐANG ĐĂNG NHẬP LẠI VIECLAM24H (Email: {email})...")
     try:
-        page.goto("https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=35000)
+        safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(2500)
 
         # Click Login button
@@ -167,7 +197,7 @@ def perform_form_login(page, context):
             login_btn.click()
             page.wait_for_timeout(2000)
         else:
-            page.goto("https://vieclam24h.vn/dang-nhap", wait_until="domcontentloaded")
+            safe_goto(page, "https://vieclam24h.vn/dang-nhap", wait_until="domcontentloaded", timeout=35000)
             page.wait_for_timeout(2000)
 
         # Choose "Đăng nhập bằng Email" if available
@@ -225,7 +255,7 @@ def sync_portal_applied_history(page, applied_dict):
     print(f"\n🔄 ĐANG ĐỒNG BỘ LỊCH SỬ ỨNG TUYỂN TỪ CỔNG VIECLAM24H...")
     synced_count = 0
     try:
-        page.goto(APPLIED_PORTAL_URL, wait_until="domcontentloaded", timeout=40000)
+        safe_goto(page, APPLIED_PORTAL_URL, wait_until="domcontentloaded", timeout=40000)
         try:
             page.wait_for_selector('a[href*="id"]', timeout=8000)
         except Exception:
@@ -319,7 +349,7 @@ def apply_single_job(page, job, dry_run=False):
     print(f"   URL: {url}")
 
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=35000)
+        safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(2500)
 
         # Check if already applied
@@ -502,86 +532,104 @@ def run_applier(max_applies=20, dry_run=False):
     applied_count = 0
     daily_limit_hit = False
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, proxy=proxy_cfg)
-        context = browser.new_context(
-            viewport={"width": 1440, "height": 900},
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-            locale="vi-VN"
-        )
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True, proxy=proxy_cfg)
+            context = browser.new_context(
+                viewport={"width": 1440, "height": 900},
+                user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                locale="vi-VN"
+            )
 
-        if raw_cookies:
-            context.add_cookies(format_cookies(raw_cookies))
+            if raw_cookies:
+                try:
+                    formatted = format_cookies(raw_cookies)
+                    if formatted:
+                        context.add_cookies(formatted)
+                except Exception as e:
+                    print(f"⚠️ Không thể nạp cookies vào context: {e}")
 
-        page = context.new_page()
-        if Stealth:
+            page = context.new_page()
+            if Stealth:
+                try:
+                    Stealth().apply_stealth_sync(page)
+                except Exception:
+                    pass
+
+            # Verify login
+            print("🌐 Kiểm tra trạng thái đăng nhập trên Vieclam24h...")
+            is_logged_in = False
             try:
-                Stealth().apply_stealth_sync(page)
-            except Exception:
-                pass
+                safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=40000)
+                page.wait_for_timeout(2500)
+                is_logged_in = check_login_status(page)
+            except Exception as e:
+                print(f"⚠️ Kiểm tra đăng nhập bằng cookie gặp lỗi kết nối: {e}")
 
-        # Verify login
-        print("🌐 Kiểm tra trạng thái đăng nhập trên Vieclam24h...")
-        page.goto("https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=40000)
-        page.wait_for_timeout(2500)
+            if not is_logged_in:
+                print("⚠️ Chưa đăng nhập hoặc cookie hết hạn. Tiến hành fallback đăng nhập biểu mẫu...")
+                try:
+                    is_logged_in = perform_form_login(page, context)
+                except Exception as e:
+                    print(f"⚠️ Đăng nhập biểu mẫu gặp lỗi: {e}")
 
-        is_logged_in = check_login_status(page)
-        if not is_logged_in:
-            print("⚠️ Chưa đăng nhập hoặc cookie hết hạn. Tiến hành fallback đăng nhập biểu mẫu...")
-            is_logged_in = perform_form_login(page, context)
+            if not is_logged_in:
+                print("❌ Không thể xác thực tài khoản Vieclam24h. Dừng applier.")
+                browser.close()
+                return 0
 
-        if not is_logged_in:
-            print("❌ Không thể xác thực tài khoản Vieclam24h. Dừng applier.")
+            print("✅ Xác thực tài khoản Vieclam24h thành công!")
+
+            # Sync portal history
+            sync_portal_applied_history(page, applied_dict)
+
+            # Refresh candidate list after sync
+            candidate_jobs = [j for j in candidate_jobs if j.get("url") not in applied_dict]
+            print(f"📋 Danh sách việc làm cần nộp sau khi đồng bộ: {len(candidate_jobs)}")
+
+            for idx, job in enumerate(candidate_jobs, 1):
+                if applied_count >= max_applies:
+                    print(f"\n🛑 Đã đạt số lượng nộp tối đa theo phiên: {max_applies} việc làm.")
+                    break
+
+                print(f"\n[{idx}/{min(len(candidate_jobs), max_applies)}] Đang tiến hành:")
+                result = apply_single_job(page, job, dry_run=dry_run)
+
+                status = result.get("status")
+                u = job.get("url")
+
+                if status == "DAILY_LIMIT_REACHED":
+                    print(f"\n🛑 PHÁT HIỆN HẾT HẠN MỨC ỨNG TUYỂN HÔM NAY (DAILY_LIMIT_REACHED).")
+                    print(f"Lý do: {result.get('reason')}")
+                    daily_limit_hit = True
+                    break
+
+                if result.get("submitted"):
+                    applied_count += 1
+                    if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED", "DRY_RUN_SUCCESS"]:
+                        applied_dict[u] = {
+                            "url": u,
+                            "id": job.get("id"),
+                            "title": job.get("title"),
+                            "company": job.get("company"),
+                            "salary": job.get("salary"),
+                            "location": job.get("location"),
+                            "status": status,
+                            "applied_at": datetime.now().isoformat(),
+                            "proof": result.get("proof")
+                        }
+                        save_applied_history(applied_dict)
+
+                # Sleep between applications to avoid anti-spam
+                sleep_sec = 4 if not dry_run else 1
+                time.sleep(sleep_sec)
+
             browser.close()
-            return 0
 
-        print("✅ Xác thực tài khoản Vieclam24h thành công!")
-
-        # Sync portal history
-        sync_portal_applied_history(page, applied_dict)
-
-        # Refresh candidate list after sync
-        candidate_jobs = [j for j in candidate_jobs if j.get("url") not in applied_dict]
-        print(f"📋 Danh sách việc làm cần nộp sau khi đồng bộ: {len(candidate_jobs)}")
-
-        for idx, job in enumerate(candidate_jobs, 1):
-            if applied_count >= max_applies:
-                print(f"\n🛑 Đã đạt số lượng nộp tối đa theo phiên: {max_applies} việc làm.")
-                break
-
-            print(f"\n[{idx}/{min(len(candidate_jobs), max_applies)}] Đang tiến hành:")
-            result = apply_single_job(page, job, dry_run=dry_run)
-
-            status = result.get("status")
-            u = job.get("url")
-
-            if status == "DAILY_LIMIT_REACHED":
-                print(f"\n🛑 PHÁT HIỆN HẾT HẠN MỨC ỨNG TUYỂN HÔM NAY (DAILY_LIMIT_REACHED).")
-                print(f"Lý do: {result.get('reason')}")
-                daily_limit_hit = True
-                break
-
-            if result.get("submitted"):
-                applied_count += 1
-                if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED", "DRY_RUN_SUCCESS"]:
-                    applied_dict[u] = {
-                        "url": u,
-                        "id": job.get("id"),
-                        "title": job.get("title"),
-                        "company": job.get("company"),
-                        "salary": job.get("salary"),
-                        "location": job.get("location"),
-                        "status": status,
-                        "applied_at": datetime.now().isoformat(),
-                        "proof": result.get("proof")
-                    }
-                    save_applied_history(applied_dict)
-
-            # Sleep between applications to avoid anti-spam
-            sleep_sec = 4 if not dry_run else 1
-            time.sleep(sleep_sec)
-
-        browser.close()
+    except Exception as e:
+        import traceback
+        print(f"❌ LỖI KHÔNG MONG MUỐN TRONG VIECLAM24H APPLIER: {e}")
+        traceback.print_exc()
 
     save_applied_history(applied_dict)
 

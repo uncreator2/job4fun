@@ -1,16 +1,20 @@
 # Plan Verification Gate
 
-- **Task**: Integration of Residential Proxy Configuration into TopCV Pipeline
-- **Certainty Tier**: `T2-WEB-GROUNDED` (External Proxy Network + Cloudflare WAF bypass)
-- **Spike Status**: `PROVEN` (`.planning/spikes/spike_proxy_parser.py` successfully verifies 5 canonical formats: URI, Auth URI, Socks5, Quad host:port:user:pass, host:port)
+- **Task**: Fix VietnamWorks button detection race condition & Vieclam24h proxy ERR_CONNECTION_RESET
+- **Certainty Tier**: `T2-WEB-GROUNDED` (Playwright SPA hydration + Proxy resilience)
+- **Spike / Evidence Status**: `PROVEN`
+  - VNW Job 2104605: Verified 2 active apply buttons; failure caused by Next.js hydration race condition before `apply_btn.count()`
+  - VNW Job 2084750: Verified apply button is `disabled=""` (employer closed intake); required `is_disabled()` handling
+  - V24H Run #6 log line 1305: Verified `net::ERR_CONNECTION_RESET at https://vieclam24h.vn/` during initial `goto`
 - **Host Profile Status**: `PROVEN` (`.planning/HOST_PROFILE.md`)
-- **Ledger Status**: `ATTEMPTS.md` initialized.
+- **Ledger Status**: `ATTEMPTS.md` updated.
 
 ## Evaluation Criteria
-1. Architecture Design: Proxy parser module shared by `topcv_cron_runner.py` and `topcv_applier.py`.
-2. Safe Fallback: If `PROXY_SERVER` secret/env is omitted or empty, fallback cleanly to direct connection without crashing.
-3. Secret Security: Injected via GitHub Actions Secret `PROXY_SERVER`, never hardcoded into repository.
-4. Workflow Update: `.github/workflows/topcv_cron.yml` updated with `PROXY_SERVER: ${{ secrets.PROXY_SERVER }}`.
+1. VietnamWorks: Implement `page.wait_for_selector(..., timeout=10000)` and `is_disabled()` check.
+2. Vieclam24h: Implement `safe_goto(..., max_retries=3)` with backoff to withstand proxy connection resets.
+3. GitHub Actions: Stage and commit ledger before `git pull --rebase origin main` to prevent rebase failure.
+4. Local Verification: Dry-run passes on both platforms.
 
 ## Decision
 **Decision: GO**
+
