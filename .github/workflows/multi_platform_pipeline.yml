@@ -19,7 +19,7 @@ on:
       max_applies:
         description: 'Số lượng việc làm tối đa nộp mỗi sàn trong ca'
         required: false
-        default: '100'
+        default: '35'
         type: string
       dry_run:
         description: 'Chế độ thử nghiệm Dry-Run (true = Không bấm nộp thật, chỉ chụp ảnh; false = Nộp thật)'
@@ -77,7 +77,7 @@ jobs:
           V24H_ENV: ${{ secrets.V24H_ENV }}
         run: |
           PLATFORM="${{ github.event.inputs.platform || 'all' }}"
-          MAX="${{ github.event.inputs.max_applies || '100' }}"
+          MAX="${{ github.event.inputs.max_applies || '35' }}"
           DRY_RUN="${{ github.event.inputs.dry_run }}"
 
           CMD="python run_pipeline.py --platform $PLATFORM --max $MAX"
