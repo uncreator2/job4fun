@@ -426,7 +426,31 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     # 7. BẤM NỘP HỒ SƠ ỨNG TUYỂN
     log("🚀 Nhấn nút 'Nộp hồ sơ ứng tuyển'...")
-    await page.click("#modal-apply-cv #btn-apply, #btn-apply")
+    try:
+        clicked = await page.evaluate("""() => {
+            const modal = document.querySelector('#modal-apply-cv, #modal-apply');
+            if (!modal) return false;
+            const submitBtn = modal.querySelector('#btn-apply, button[type=submit].btn-theme, button[type=submit], .btn-apply-job');
+            if (submitBtn) {
+                submitBtn.scrollIntoView({ behavior: 'instant', block: 'center' });
+                submitBtn.click();
+                return true;
+            }
+            return false;
+        }""")
+        if not clicked:
+            submit_loc = page.locator("#modal-apply-cv #btn-apply, #modal-apply #btn-apply, #modal-apply-cv button[type=submit]").first
+            await submit_loc.scroll_into_view_if_needed()
+            await submit_loc.click(force=True)
+    except Exception as click_err:
+        log(f"[!] Warning click submit button: {click_err}")
+        try:
+            await page.evaluate("""() => {
+                const btn = document.querySelector('#modal-apply-cv button[type=submit], #modal-apply-cv #btn-apply');
+                if (btn) btn.click();
+            }""")
+        except Exception:
+            pass
     log("⏳ Đang chờ xác nhận từ hệ thống TopCV...")
     await asyncio.sleep(6.0)
 
