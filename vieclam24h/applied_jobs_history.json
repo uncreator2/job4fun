@@ -547,5 +547,40 @@
     "title": "Nhân Viên Kinh Doanh Toàn Quốc",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/giam-sat-kinh-doanh-tai-hoang-mai-luong-upto-18-trieu-c5p73id200931170.html",
+    "id": "200931170",
+    "title": "Giám Sát Kinh Doanh Tại Hoàng Mai - Lương Upto 18 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-tuyen-sinh-mam-non-long-bien-ha-noi-c13p73id200922689.html",
+    "id": "200922689",
+    "title": "Trưởng Nhóm Kinh Doanh - Tuyển Sinh Mầm Non (Long Biên, Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/truong-dia-diem-kinh-doanh-c5p73id200928417.html",
+    "id": "200928417",
+    "title": "Trưởng Địa Điểm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-mang-nong-san-hcm-c13p73id200931900.html",
+    "id": "200931900",
+    "title": "Trưởng Nhóm Kinh Doanh Mảng Nông Sản - HCM",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-telesales-mang-giao-duc-c13p73id200938809.html",
+    "id": "200938809",
+    "title": "Trưởng Phòng Telesales - Mảng Giáo Dục",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]

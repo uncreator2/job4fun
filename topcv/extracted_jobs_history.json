@@ -4978,5 +4978,41 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-09-20 11:03:35",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2306081.html": {
+    "job_id": "2306081",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2306081.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789965237",
+    "clean_url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2306081.html",
+    "company": "CÔNG TY TNHH QUỐC TẾ YETOM (VN)",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-09-21 04:34:17",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-chuyen-trach-phat-trien-dai-ly-cong-tac-vien-luong-cung-12-trieu-hoa-hong-thu-nhap-upto-40-trieu/2307131.html": {
+    "job_id": "2307131",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-chuyen-trach-phat-trien-dai-ly-cong-tac-vien-luong-cung-12-trieu-hoa-hong-thu-nhap-upto-40-trieu/2307131.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789965366",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-chuyen-trach-phat-trien-dai-ly-cong-tac-vien-luong-cung-12-trieu-hoa-hong-thu-nhap-upto-40-trieu/2307131.html",
+    "company": "CÔNG TY TNHH THỰC PHẨM TRƯỜNG SINH VIỆT NAM",
+    "salary": "15 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-09-21 04:36:22",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-kenh-etc-ha-noi/2306137.html": {
+    "job_id": "2306137",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-kenh-etc-ha-noi/2306137.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1789965366",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-kenh-etc-ha-noi/2306137.html",
+    "company": "CÔNG TY CỔ PHẦN DƯỢC PHẨM MEDBOLIDE",
+    "salary": "50 - 100 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-21 04:36:22",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
