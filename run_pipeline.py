@@ -43,22 +43,34 @@ def main():
         print("🏢 [BƯỚC 1/3] XỬ LÝ PHÂN HỆ TOPCV")
         print("#" * 60)
 
-        # Crawl
-        c_ok = run_step(
-            [sys.executable, "topcv_cron_runner.py", "--mode", "crawl_only"],
-            cwd=TOPCV_DIR,
-            description="TopCV: Quét việc làm mới"
-        )
-        # Apply
-        apply_cmd = [sys.executable, "topcv_applier.py", "--max", str(args.max)]
-        if args.dry_run:
-            apply_cmd.append("--dry-run")
-        a_ok = run_step(
-            apply_cmd,
-            cwd=TOPCV_DIR,
-            description="TopCV: Nộp đơn việc làm chưa nộp"
-        )
-        summary["TopCV"] = {"crawled": c_ok, "applied": a_ok}
+        # Kiểm tra cờ giới hạn ngày TopCV (UTC+7)
+        from datetime import timezone, timedelta
+        vn_tz = timezone(timedelta(hours=7))
+        today_str = datetime.now(vn_tz).strftime("%Y-%m-%d")
+        limit_flag = os.path.join(TOPCV_DIR, f"topcv_daily_limit_{today_str}.flag")
+
+        if os.path.exists(limit_flag):
+            print(f"🛑 [BỎ QUA TOPCV] Phát hiện cờ giới hạn tài khoản TopCV ngày {today_str}.")
+            print("   Lý do: 'Tài khoản của bạn có dấu hiệu bất thường, vui lòng quay lại ứng tuyển vào ngày mai'.")
+            print("   ⏩ Tự động bỏ qua TopCV ca này và chuyển sang các sàn tiếp theo!\n")
+            summary["TopCV"] = {"crawled": True, "applied": True, "skipped_limit": True}
+        else:
+            # Crawl
+            c_ok = run_step(
+                [sys.executable, "topcv_cron_runner.py", "--mode", "crawl_only"],
+                cwd=TOPCV_DIR,
+                description="TopCV: Quét việc làm mới"
+            )
+            # Apply
+            apply_cmd = [sys.executable, "topcv_applier.py", "--max", str(args.max)]
+            if args.dry_run:
+                apply_cmd.append("--dry-run")
+            a_ok = run_step(
+                apply_cmd,
+                cwd=TOPCV_DIR,
+                description="TopCV: Nộp đơn việc làm chưa nộp"
+            )
+            summary["TopCV"] = {"crawled": c_ok, "applied": a_ok}
 
     # 2. VIETNAMWORKS
     if args.platform in ["all", "vietnamworks"]:
@@ -110,8 +122,12 @@ def main():
     print("📊 BÁO CÁO TỔNG KẾT PIPELINE HOÀN TẤT")
     print("=" * 60)
     for platform, status in summary.items():
-        c_str = "Thành công ✅" if status["crawled"] else "Lỗi ❌"
-        a_str = "Thành công ✅" if status["applied"] else "Lỗi ❌"
+        if status.get("skipped_limit"):
+            c_str = "Bỏ qua ⏩"
+            a_str = "Bỏ qua (Giới hạn ngày) 🛑"
+        else:
+            c_str = "Thành công ✅" if status["crawled"] else "Lỗi ❌"
+            a_str = "Thành công ✅" if status["applied"] else "Lỗi ❌"
         print(f"🏢 {platform:<15} | Quét mới: {c_str:<12} | Nộp đơn: {a_str}")
     print("=" * 60 + "\n")
 

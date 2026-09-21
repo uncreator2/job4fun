@@ -1,5 +1,5 @@
 import asyncio
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import json
 import os
 import random
@@ -17,6 +17,42 @@ HISTORY_TXT = os.path.join(BASE_DIR, "extracted_jobs_history.txt")
 APPLIED_HISTORY_TXT = os.path.join(BASE_DIR, "applied_jobs_history.txt")
 APPLIED_HISTORY_JSON = os.path.join(BASE_DIR, "applied_jobs_history.json")
 ERRORS_DIR = os.path.join(BASE_DIR, "errors")
+
+def get_vn_today_str() -> str:
+    vn_tz = timezone(timedelta(hours=7))
+    return datetime.now(vn_tz).strftime("%Y-%m-%d")
+
+def get_limit_flag_path(date_str: str = None) -> str:
+    if not date_str:
+        date_str = get_vn_today_str()
+    return os.path.join(BASE_DIR, f"topcv_daily_limit_{date_str}.flag")
+
+def is_topcv_daily_limited():
+    flag_file = get_limit_flag_path()
+    if os.path.exists(flag_file):
+        try:
+            with open(flag_file, "r", encoding="utf-8") as f:
+                content = json.load(f)
+            return True, content.get("reason", "Tài khoản có dấu hiệu bất thường, giới hạn nộp trong ngày.")
+        except Exception:
+            return True, "Cờ giới hạn ngày TopCV đang kích hoạt."
+    return False, None
+
+def mark_topcv_daily_limited(reason: str = "Tài khoản của bạn có dấu hiệu bất thường, vui lòng quay lại ứng tuyển vào ngày mai"):
+    today = get_vn_today_str()
+    flag_file = get_limit_flag_path(today)
+    data = {
+        "platform": "topcv",
+        "date": today,
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "reason": reason
+    }
+    try:
+        with open(flag_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log(f"🛑 [TOPCV LIMIT] Đã ghi nhận cờ khoá giới hạn TopCV ngày {today}: {flag_file}")
+    except Exception as e:
+        log(f"[!] Warning khi ghi cờ giới hạn TopCV: {e}")
 
 # Candidate Profile (from N.P.H.H - QUANTUM OPERATIONS DOSSIER_VIE.pdf)
 CANDIDATE = {
@@ -359,6 +395,48 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     log("✅ Modal ứng tuyển đã mở thành công.")
 
+    # 3.1. Kiểm tra ngay nếu Modal mở ra chứa cảnh báo giới hạn / bất thường
+    early_limit = await page.evaluate("""() => {
+        const modal = document.querySelector('#modal-apply-cv, #modal-apply, .modal.in, .modal.show, [role="dialog"]');
+        if (!modal) return { isLimited: false, msg: "" };
+        const text = (modal.innerText || "").toLowerCase();
+        const limitKeywords = [
+            "dấu hiệu bất thường",
+            "quay lại ứng tuyển vào ngày mai",
+            "giới hạn ứng tuyển",
+            "đạt giới hạn",
+            "vượt quá số lần",
+            "vượt quá số lượt",
+            "quá giới hạn"
+        ];
+        for (const kw of limitKeywords) {
+            if (text.includes(kw)) {
+                return { isLimited: true, msg: modal.innerText.trim().substring(0, 300) };
+            }
+        }
+        return { isLimited: false, msg: "" };
+    }""")
+
+    if early_limit.get("isLimited"):
+        alert_msg = early_limit.get("msg") or "Tài khoản của bạn có dấu hiệu bất thường, vui lòng quay lại ứng tuyển vào ngày mai"
+        log(f"\n🛑 [PHÁT HIỆN GIỚI HẠN TOPCV KHI MỞ MODAL]: {alert_msg}")
+        mark_topcv_daily_limited(alert_msg)
+        clean_id_match = re.search(r"/(\d+)\.html", job_url)
+        c_id = clean_id_match.group(1) if clean_id_match else "unknown"
+        limit_shot = os.path.join(BASE_DIR, f"apply_limit_{c_id}.png")
+        try:
+            await page.screenshot(path=limit_shot)
+            log(f"📸 Đã lưu ảnh minh chứng giới hạn: {limit_shot}")
+        except Exception:
+            pass
+        return {
+            "status": "DAILY_LIMIT_REACHED",
+            "title": job_info["title"],
+            "company": job_info["company"],
+            "reason": alert_msg,
+            "proof": limit_shot
+        }
+
     # 4. Tạo thư giới thiệu phù hợp
     cover_letter = generate_tailored_cover_letter(job_info["title"], job_info["company"], job_info["description"])
     log("✍️  Thư giới thiệu sinh ra:\n" + "-"*40 + "\n" + cover_letter + "\n" + "-"*40)
@@ -454,20 +532,61 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
     log("⏳ Đang chờ xác nhận từ hệ thống TopCV...")
     await asyncio.sleep(6.0)
 
-    # Kiểm tra xác nhận thành công
-    submit_status = {"isSuccess": True, "alertMsg": ""}
+    # Kiểm tra xác nhận thành công hoặc cảnh báo giới hạn / bất thường
+    submit_status = {"isSuccess": False, "isLimited": False, "alertMsg": ""}
     try:
         submit_status = await page.evaluate("""() => {
             const bodyText = document.body ? document.body.innerText : "";
+            const modals = Array.from(document.querySelectorAll('.modal-body, .modal, .alert, [role="dialog"], .toast-message, #modal-apply-cv, #modal-apply'));
+            const modalText = modals.map(m => m.innerText || "").join(" ");
+            const fullText = (bodyText + " " + modalText).toLowerCase();
+
+            // Kiểm tra thông báo giới hạn / bất thường
+            const limitKeywords = [
+                "dấu hiệu bất thường",
+                "quay lại ứng tuyển vào ngày mai",
+                "giới hạn ứng tuyển",
+                "đạt giới hạn",
+                "vượt quá số lần",
+                "vượt quá số lượt",
+                "quá giới hạn"
+            ];
+            for (const kw of limitKeywords) {
+                if (fullText.includes(kw)) {
+                    let matchedMsg = modalText.trim();
+                    if (!matchedMsg) matchedMsg = bodyText.trim();
+                    return { isSuccess: false, isLimited: true, alertMsg: matchedMsg.substring(0, 300) };
+                }
+            }
+
             const isSuccess = bodyText.includes('Ứng tuyển thành công') ||
                               bodyText.includes('Hồ sơ của bạn đã được gửi') ||
                               bodyText.includes('Đã ứng tuyển') ||
                               !!document.querySelector('.modal-apply-success, #modal-apply-success');
             const alertMsg = document.querySelector('.alert, .toast-message, .error-message')?.innerText?.trim() || "";
-            return { isSuccess, alertMsg };
+            return { isSuccess: isSuccess, isLimited: false, alertMsg: alertMsg };
         }""")
     except Exception as e:
         log(f"[*] Trang đã chuyển hướng hoặc tải lại sau khi nộp (Navigation confirmed): {e}")
+
+    # Xử lý nếu phát hiện giới hạn TopCV sau khi nộp
+    if submit_status.get("isLimited"):
+        raw_msg = submit_status.get("alertMsg") or "Tài khoản của bạn có dấu hiệu bất thường, vui lòng quay lại ứng tuyển vào ngày mai"
+        log(f"\n🛑 [PHÁT HIỆN GIỚI HẠN TOPCV]: {raw_msg}")
+        mark_topcv_daily_limited(raw_msg)
+        limit_shot = os.path.join(BASE_DIR, f"apply_limit_{job_id_str}.png")
+        try:
+            await page.screenshot(path=limit_shot)
+            log(f"📸 Đã lưu ảnh minh chứng giới hạn: {limit_shot}")
+        except Exception:
+            pass
+        return {
+            "status": "DAILY_LIMIT_REACHED",
+            "title": job_info["title"],
+            "company": job_info["company"],
+            "reason": raw_msg,
+            "proof": limit_shot
+        }
 
     try:
         await page.screenshot(path=proof_path)
@@ -485,6 +604,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
     }
 
 async def run(target_url=None, dry_run=None, max_applies=None):
+    # Kiểm tra cờ giới hạn ngày TopCV ngay từ đầu
+    is_limited, limit_reason = is_topcv_daily_limited()
+    if is_limited:
+        log(f"\n🛑 [BỎ QUA TOPCV] TopCV đã bị giới hạn trong ngày hôm nay ({get_vn_today_str()}):")
+        log(f"   Lý do: {limit_reason}")
+        log(f"⏩ Tự động BỎ QUA TopCV ca này theo cấu hình để bảo vệ tài khoản và tiết kiệm thời gian.\n")
+        return
+
     if target_url is None:
         target_url = os.environ.get("APPLY_JOB_URL", "").strip()
     if dry_run is None:
@@ -575,6 +702,10 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                     save_applied_record(applied_dict, job_url, res.get("title", ""), res.get("company", ""), res.get("letter", ""), res.get("proof", ""))
                 elif res.get("status") == "ALREADY_APPLIED":
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
+                elif res.get("status") == "DAILY_LIMIT_REACHED":
+                    log(f"\n🛑 [DỪNG TIẾN TRÌNH TOPCV] Chạm giới hạn tài khoản hôm nay: {res.get('reason')}")
+                    log("⏩ Đã khoá cờ giới hạn ngày hôm nay. Các ca tiếp theo trong ngày sẽ tự động bỏ qua TopCV.\n")
+                    break
             except Exception as e:
                 log(f"❌ Lỗi khi xử lý job {job_url}: {e}. Tự động bỏ qua và chuyển sang job tiếp theo.")
                 await save_error(page, job_url, "UNEXPECTED_LOOP_EXCEPTION", str(e))

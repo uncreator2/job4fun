@@ -109,9 +109,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add topcv/extracted_jobs_history.* topcv/applied_jobs_history.* vietnamworks/extracted_jobs_history.* vietnamworks/applied_jobs_history.* vieclam24h/extracted_jobs_history.* vieclam24h/applied_jobs_history.* || true
-          if git diff --cached --name-only | grep -E "(extracted_jobs_history|applied_jobs_history)"; then
-            git commit -m "Auto-update cross-platform application ledgers [skip ci]"
+          git add topcv/extracted_jobs_history.* topcv/applied_jobs_history.* topcv/topcv_daily_limit_*.flag vietnamworks/extracted_jobs_history.* vietnamworks/applied_jobs_history.* vieclam24h/extracted_jobs_history.* vieclam24h/applied_jobs_history.* || true
+          if git diff --cached --name-only | grep -E "(extracted_jobs_history|applied_jobs_history|topcv_daily_limit)"; then
+            git commit -m "Auto-update cross-platform application ledgers and daily rate limits [skip ci]"
             git pull --rebase origin main || true
             git push origin main
           else
