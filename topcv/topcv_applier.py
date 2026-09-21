@@ -460,10 +460,13 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         "proof": proof_path
     }
 
-async def run():
-    target_url = os.environ.get("APPLY_JOB_URL", "").strip()
-    dry_run = os.environ.get("DRY_RUN", "false").lower() == "true"
-    max_applies = int(os.environ.get("MAX_APPLIES", "100"))
+async def run(target_url=None, dry_run=None, max_applies=None):
+    if target_url is None:
+        target_url = os.environ.get("APPLY_JOB_URL", "").strip()
+    if dry_run is None:
+        dry_run = os.environ.get("DRY_RUN", "false").lower() == "true"
+    if max_applies is None:
+        max_applies = int(os.environ.get("MAX_APPLIES", "30"))
 
     applied_set, applied_dict = load_applied_history()
     log(f"📚 Sổ cái các việc làm đã ứng tuyển ban đầu: {len(applied_set)} việc làm.")
@@ -556,4 +559,12 @@ async def run():
         await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(run())
+    import argparse
+    parser = argparse.ArgumentParser(description="TopCV Automated Applier")
+    parser.add_argument("--max", type=int, default=int(os.environ.get("MAX_APPLIES", "30")), help="Số lượng việc làm tối đa nộp")
+    parser.add_argument("--dry-run", action="store_true", default=os.environ.get("DRY_RUN", "false").lower() == "true", help="Chế độ thử nghiệm không nộp thật")
+    parser.add_argument("--target-url", type=str, default=os.environ.get("APPLY_JOB_URL", "").strip(), help="URL việc làm cụ thể muốn nộp")
+    args = parser.parse_args()
+
+    asyncio.run(run(target_url=args.target_url, dry_run=args.dry_run, max_applies=args.max))
+
