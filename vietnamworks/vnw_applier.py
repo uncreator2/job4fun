@@ -289,7 +289,7 @@ def apply_job(page, job, dry_run=False):
         # Wait up to 10s for React SPA hydration of apply button or already-applied state
         try:
             page.wait_for_selector(
-                'button:has-text("Nộp đơn"), button.apply-btn, [aria-label*="Nộp đơn"], button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển")',
+                'button:has-text("Nộp đơn"), button:has-text("Ứng tuyển"), button.apply-btn, [aria-label*="Nộp đơn"], [aria-label*="Ứng tuyển"], button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển")',
                 timeout=10000,
                 state="attached"
             )
@@ -303,7 +303,10 @@ def apply_job(page, job, dry_run=False):
             return {"status": "ALREADY_APPLIED", "submitted": True}
 
         # Look for Apply Button
-        apply_btn = page.locator('button:has-text("Nộp đơn"), button.apply-btn, [aria-label*="Nộp đơn"]')
+        apply_btn = page.locator(
+            'button:has-text("Nộp đơn"), button:has-text("Ứng tuyển"), button:has-text("Nộp hồ sơ"), '
+            'a:has-text("Nộp đơn"), a:has-text("Ứng tuyển"), button.apply-btn, [aria-label*="Nộp đơn"], [aria-label*="Ứng tuyển"]'
+        )
         
         target_btn = None
         for i in range(apply_btn.count()):
