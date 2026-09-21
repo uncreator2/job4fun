@@ -505,5 +505,47 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-20T13:00:36.718786",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200930648.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-kinh-doanh-khu-vuc-thoi-trang-the-thao-c6p73id200919689.html",
+    "id": "200919689",
+    "title": "Giám Sát Kinh Doanh Khu Vực (Thời Trang Thể Thao)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-du-an-luong-upto-16-trieu-c13p73id200935508.html",
+    "id": "200935508",
+    "title": "Nhân Viên Kinh Doanh Dự Án - Lương Upto 16 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-khu-biet-thu-dabaco-bac-ninh-c13p90id200937131.html",
+    "id": "200937131",
+    "title": "Nhân Viên Kinh Doanh - Khu Biệt Thự Dabaco Bắc Ninh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-ban-le-c6p73id200942826.html",
+    "id": "200942826",
+    "title": "Giám Sát Bán Lẻ",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kinh-doanh-cap-cao-c13p73id200939219.html",
+    "id": "200939219",
+    "title": "Chuyên Viên Kinh Doanh Cấp Cao",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-toan-quoc-c13p122id200940415.html",
+    "id": "200940415",
+    "title": "Nhân Viên Kinh Doanh Toàn Quốc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]

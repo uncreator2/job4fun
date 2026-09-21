@@ -171,15 +171,20 @@ def save_applied_history(history_dict):
 
 def check_login_status(page):
     try:
-        # Check presence of user elements in header
-        user_el = page.locator('button:has-text("Ha"), div:has-text("Hoang Ha"), [data-component-name="UserHeaderDropdown"], .svicon-user')
-        if user_el.count() > 0:
-            for i in range(user_el.count()):
-                if user_el.nth(i).is_visible():
-                    return True
-        # Check body text
-        header_text = page.locator("header, nav").inner_text()
-        if "Ha" in header_text or "Đăng xuất" in header_text:
+        header = page.locator("header")
+        if header.count() == 0:
+            return False
+
+        # If header has login button visible, definitely not logged in
+        login_btn = header.locator(":text('Đăng ký/Đăng nhập'), :text('Đăng nhập')")
+        if login_btn.count() > 0:
+            for i in range(login_btn.count()):
+                if login_btn.nth(i).is_visible():
+                    return False
+
+        # Check presence of user identifier in header
+        header_text = header.inner_text()
+        if "\nHa\n" in header_text or "Hoang Ha" in header_text or "Đăng xuất" in header_text or header.locator('[data-component-name="UserHeaderDropdown"], .svicon-user').count() > 0:
             return True
     except Exception:
         pass
@@ -194,50 +199,47 @@ def perform_form_login(page, context):
     print(f"🔐 ĐANG ĐĂNG NHẬP LẠI VIECLAM24H (Email: {email})...")
     try:
         safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=35000)
-        page.wait_for_timeout(2500)
+        page.wait_for_timeout(2000)
 
-        # Click Login button
-        login_btn = page.locator('button:has-text("Đăng nhập"), a:has-text("Đăng nhập")').first
+        # 1. Click Login button in header
+        login_btn = page.locator("header").locator(":text('Đăng ký/Đăng nhập'), :text('Đăng nhập')").first
         if login_btn.count() > 0 and login_btn.is_visible():
             login_btn.click()
             page.wait_for_timeout(2000)
-        else:
-            safe_goto(page, "https://vieclam24h.vn/dang-nhap", wait_until="domcontentloaded", timeout=35000)
-            page.wait_for_timeout(2000)
 
-        # Choose "Đăng nhập bằng Email" if available
-        email_login_btn = page.locator('button:has-text("Đăng nhập bằng Email"), span:has-text("Đăng nhập bằng Email"), div:has-text("Đăng nhập bằng Email")').last
-        if email_login_btn.count() > 0 and email_login_btn.is_visible():
-            email_login_btn.click()
-            page.wait_for_timeout(2000)
+        # 2. Click "Đăng nhập bằng Email" tab in modal
+        email_tab = page.locator(":text('Đăng nhập bằng Email')").first
+        if email_tab.count() > 0 and email_tab.is_visible():
+            email_tab.click()
+            page.wait_for_timeout(1500)
 
-        # Fill email
-        email_input = page.locator('input[type="email"], input[name="identifier"], input[placeholder*="email" i], input[placeholder*="số điện thoại" i], input[placeholder*="nhập" i]').first
+        # 3. Fill email in modal (specifically seeker_email)
+        email_input = page.locator("[role=dialog] input[name='seeker_email'], input[name='seeker_email']").first
         if email_input.count() > 0 and email_input.is_visible():
             email_input.fill(email)
             page.wait_for_timeout(500)
 
-            next_btn = page.locator('button[type="submit"]:has-text("Tiếp tục"), button:has-text("Tiếp tục")').first
+            next_btn = page.locator("[role=dialog] button:has-text('Tiếp tục'), form button:has-text('Tiếp tục')").first
             if next_btn.count() > 0:
                 next_btn.click()
                 page.wait_for_timeout(2500)
 
-        # Check if password button appears on OTP screen
-        pwd_switch_btn = page.locator('button:has-text("Đăng nhập bằng mật khẩu"), span:has-text("Đăng nhập bằng mật khẩu")').first
-        if pwd_switch_btn.count() > 0 and pwd_switch_btn.is_visible():
-            pwd_switch_btn.click()
+        # 4. Click "Đăng nhập bằng mật khẩu" on OTP screen
+        pwd_switch = page.locator(":text('Đăng nhập bằng mật khẩu')").first
+        if pwd_switch.count() > 0 and pwd_switch.is_visible():
+            pwd_switch.click()
             page.wait_for_timeout(1500)
 
-        # Fill password
-        pwd_input = page.locator('input[type="password"], input[name="password"], input[placeholder="Nhập mật khẩu"]').first
+        # 5. Fill password in modal
+        pwd_input = page.locator("[role=dialog] input[type='password'], input[name='password']").first
         if pwd_input.count() > 0 and pwd_input.is_visible():
             pwd_input.fill(password)
             page.wait_for_timeout(500)
 
-            submit_btn = page.locator('button[type="submit"]:has-text("Tiếp tục"), button[type="submit"]:has-text("Đăng nhập"), button[type="submit"]').first
+            submit_btn = page.locator("[role=dialog] button:has-text('Tiếp tục'), [role=dialog] button[type='submit']").first
             if submit_btn.count() > 0:
                 submit_btn.click()
-                page.wait_for_timeout(5000)
+                page.wait_for_timeout(4000)
 
         if check_login_status(page):
             print("🎉 Đăng nhập biểu mẫu Vieclam24h THÀNH CÔNG!")
@@ -363,8 +365,15 @@ def apply_single_job(page, job, dry_run=False):
             print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó trên trang.")
             return {"status": "ALREADY_APPLIED", "submitted": True}
 
+        # Check login status before applying
+        if not check_login_status(page):
+            print("⚠️ Phát hiện tài khoản chưa đăng nhập hoặc phiên hết hạn. Đang đăng nhập lại...")
+            perform_form_login(page, page.context)
+            safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
+            page.wait_for_timeout(2500)
+
         # Ensure page is interactive
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(2000)
 
         # Look for Apply Button
         apply_btn = page.locator('button:has-text("Ứng tuyển ngay"), button:has-text("Nộp hồ sơ ngay")').first
@@ -384,6 +393,7 @@ def apply_single_job(page, job, dry_run=False):
             try:
                 apply_btn.scroll_into_view_if_needed()
                 apply_btn.click(timeout=5000)
+                page.wait_for_timeout(1200)
             except Exception as e:
                 print(f"⚠️ Lỗi click nút: {e}")
 
@@ -395,9 +405,30 @@ def apply_single_job(page, job, dry_run=False):
                 page.screenshot(path=limit_shot)
                 return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
 
-            # Wait for modal dialog or submit button
+            # Check if login modal opened instead of application modal
+            login_modal = page.locator('[role="dialog"]:has-text("Đăng nhập"), [role="dialog"]:has-text("Người tìm việc"), [role="dialog"]:has-text("Đăng ký")')
+            if login_modal.count() > 0 and login_modal.first.is_visible():
+                print("⚠️ Modal Đăng nhập xuất hiện khi bấm Ứng tuyển! Tiến hành đăng nhập lại...")
+                perform_form_login(page, page.context)
+                safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
+                page.wait_for_timeout(2500)
+                apply_btn = page.locator('button:has-text("Ứng tuyển ngay"), button:has-text("Nộp hồ sơ ngay")').first
+                if apply_btn.count() > 0 and apply_btn.is_visible():
+                    apply_btn.click(timeout=5000)
+                    page.wait_for_timeout(2000)
+
+            # Check if intermediate confirmation popup appears: "Việc làm này đang chờ kiểm duyệt"
+            confirm_btn = page.locator('button:has-text("Tiếp tục nộp")')
+            if confirm_btn.count() > 0 and confirm_btn.first.is_visible():
+                print("⚠️ Phát hiện popup cảnh báo 'Việc làm đang chờ kiểm duyệt': Bấm 'Tiếp tục nộp'...")
+                confirm_btn.first.click(timeout=5000)
+                page.wait_for_timeout(2500)
+                modal_opened = True
+                break
+
+            # Wait for application modal dialog or submit button
             try:
-                page.wait_for_selector('div:has-text("Hồ sơ ứng tuyển"), [role="dialog"], button:has-text("Nộp hồ sơ ngay")', timeout=5000)
+                page.wait_for_selector('div:has-text("Hồ sơ ứng tuyển"), button:has-text("Nộp hồ sơ ngay")', timeout=4000)
                 modal_opened = True
                 break
             except Exception:
@@ -415,7 +446,7 @@ def apply_single_job(page, job, dry_run=False):
 
         page.wait_for_timeout(1000)
 
-        # Check if intermediate confirmation popup appears: "Việc làm này đang chờ kiểm duyệt"
+        # Check again if intermediate confirmation popup appears: "Việc làm này đang chờ kiểm duyệt"
         confirm_btn = page.locator('button:has-text("Tiếp tục nộp")')
         if confirm_btn.count() > 0 and confirm_btn.first.is_visible():
             print("⚠️ Phát hiện popup cảnh báo 'Việc làm đang chờ kiểm duyệt': Bấm 'Tiếp tục nộp'...")
