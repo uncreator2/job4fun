@@ -47,14 +47,25 @@ jobs/
 | `ENV_TXT` | Email & Mật khẩu tài khoản TopCV (dùng khi cần relogin) |
 | `VNW_COOKIES` | Session cookie JSON đã đăng nhập của VietnamWorks |
 | `VNW_ENV` | Email & Mật khẩu tài khoản VietnamWorks |
+| `V24H_COOKIES` | Session cookie JSON đã đăng nhập của Vieclam24h |
+| `V24H_ENV` | Email & Mật khẩu tài khoản Vieclam24h |
 
 ---
 
 ## 🔄 Lịch Trình Tự Động (Automation Schedule)
 
-* **Tần suất:** Chạy 3 lần mỗi ngày vào các khung giờ vàng tuyển dụng:
-  - **08:30 AM VN** (`30 1 * * 1-5` UTC)
-  - **01:30 PM VN** (`30 6 * * 1-5` UTC)
-  - **04:30 PM VN** (`30 9 * * 1-5` UTC)
-* **Luồng chạy:** Tuần tự `TopCV -> VietnamWorks -> ...`
-  - Hoàn toàn độc lập, không xung đột git push, không chồng chéo runner.
+* **Tần suất:** Vận hành **4 ca cố định mỗi ngày** (Thứ 2 - Thứ 6) với hạn mức **30 việc làm / sàn / ca**:
+  - **Ca 1 (Đầu giờ sáng):** `08:30 AM VN` (`30 1 * * 1-5` UTC)
+  - **Ca 2 (Đầu giờ chiều):** `01:30 PM VN` (`30 6 * * 1-5` UTC)
+  - **Ca 3 (Cuối giờ chiều):** `04:30 PM VN` (`30 9 * * 1-5` UTC)
+  - **Ca 4 (Tối):** `08:30 PM VN` (`30 13 * * 1-5` UTC)
+* **Luồng chạy:** Tuần tự `TopCV -> VietnamWorks -> Vieclam24h`
+  * Hoàn toàn độc lập, cách ly lỗi, không xung đột runner, tự động commit sổ cái và upload ảnh bằng chứng sau mỗi ca.
+
+---
+
+## 🏛️ Tài Liệu Kiến Trúc Chi Tiết
+
+Xem sơ đồ thiết kế hệ thống, ma trận chịu lỗi, quy trình xử lý anti-bot và hướng dẫn tích hợp tại:
+👉 **[ARCHITECTURE.md](ARCHITECTURE.md)**
+
