@@ -582,5 +582,208 @@
     "title": "Trưởng Phòng Telesales - Mảng Giáo Dục",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-luong-tren-20-30-trieu-thang-di-lam-ngay-tphcm-ha-noi-c13p122id200940484.html",
+    "id": "200940484",
+    "title": "Nhân Viên Kinh Doanh / Sales - Lương Trên 20 - 30 Triệu / Tháng - Đi Làm Ngay - TPHCM, Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-nhan-vien-ban-hang-smartphone-oppo-khong-yeu-cau-kinh-nghiem-c6p73id200943272.html",
+    "id": "200943272",
+    "title": "[Hà Nội] Nhân Viên Bán Hàng Smartphone Oppo - Không Yêu Cầu Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-khong-can-kinh-nghiem-tai-ha-noi-c13p73id200942387.html",
+    "id": "200942387",
+    "title": "Nhân Viên Bán Hàng - Không Cần Kinh Nghiệm Tại Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-tai-ha-noi-thu-nhap-14-trieu-thuong-c13p73id200938489.html",
+    "id": "200938489",
+    "title": "Nhân Viên Kinh Doanh Tại Hà Nội (Thu Nhập 14 Triệu + Thưởng)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nagoya-ha-noi-nhan-vien-kinh-doanh-b2b-sales-executive-ba-dinh-ha-noi-c13p73id200940981.html",
+    "id": "200940981",
+    "title": "[Nagoya Hà Nội] Nhân Viên Kinh Doanh (B2B Sales Executive) - Ba Đình, Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/nhan-vien-kinh-doanh-18-30-trieu-lam-tu-t2-t6-c6p73id200934491.html",
+    "id": "200934491",
+    "title": "Nhân Viên Kinh Doanh - 18-30 Triệu (Làm Từ T2-T6)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-chi-nhanh-tren-toan-quoc-c13p73id200940596.html",
+    "id": "200940596",
+    "title": "Giám Đốc Chi Nhánh - Trên Toàn Quốc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-cham-soc-khach-hang-nganh-me-va-be-c13p73id200938378.html",
+    "id": "200938378",
+    "title": "Trưởng Nhóm Chăm Sóc Khách Hàng (Ngành Mẹ Và Bé)",
+    "company": "Công Ty Cổ Phần Cơ Điện Lạnh Taisei",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:21:22.627157",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200938378.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-ha-noi-c13p73id200941649.html",
+    "id": "200941649",
+    "title": "Giám Sát Kinh Doanh / Sales Supervisor- [Hà Nội]",
+    "company": "Công Ty Cổ Phần Cơ Điện Lạnh Taisei",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:21:47.667030",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200941649.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p73id200938996.html",
+    "id": "200938996",
+    "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
+    "company": "Công Ty TNHH Thương Mại Và Dịch Vụ Công Nghệ Số Tiên Phong",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:22:11.981772",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200938996.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/truong-phong-cham-soc-khach-hang-va-thuong-mai-dien-tu-c30p73id200920682.html",
+    "id": "200920682",
+    "title": "Trưởng Phòng Chăm Sóc Khách Hàng Và Thương Mại Điện Tử",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:23:03.671581",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200920682.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/dai-dien-kinh-doanh-du-an-project-sales-manager-c13p73id200929298.html",
+    "id": "200929298",
+    "title": "Đại Diện Kinh Doanh Dự Án - (Project Sales Manager)",
+    "company": "Công Ty Cổ Phần Thép Nam Kim",
+    "salary": "14 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:23:55.357638",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200929298.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/truong-nhom-seeding-c24p73id200941961.html",
+    "id": "200941961",
+    "title": "Trưởng Nhóm Seeding",
+    "company": "Công Ty TNHH Thông Minh Hoàng Hà",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:24:31.842688",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200941961.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/truong-phong-thau-c5p73id200922287.html",
+    "id": "200922287",
+    "title": "Trưởng Phòng Thầu",
+    "company": "Công Ty TNHH Thông Minh Hoàng Hà",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:25:12.866588",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200922287.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-cua-hang-tien-loi-247-cau-giay-c6p73id200930341.html",
+    "id": "200930341",
+    "title": "Cửa Hàng Trưởng Cửa Hàng Tiện Lợi 247 - Cầu Giấy",
+    "company": "Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp Wincommerce",
+    "salary": "11 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:25:36.794699",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200930341.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/quan-ly-dich-vu-hau-mai-aftersales-service-manager-c47p73id200923780.html",
+    "id": "200923780",
+    "title": "Quản Lý Dịch Vụ Hậu Mãi (Aftersales Service Manager)",
+    "company": "Công Ty TNHH Chuỗi Cung Ứng Sản Phẩm Gia Dụng Dhr",
+    "salary": "10 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:26:13.717484",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200923780.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-thi-truong-dau-nhot-thu-nhap-36-46tr-thang-thuong-khong-gioi-han-c13p73id200942809.html",
+    "id": "200942809",
+    "title": "Sales Thị Trường – Dầu Nhớt | Thu Nhập 36–46Tr / Tháng + Thưởng Không Giới Hạn",
+    "company": "Công Ty TNHH Chuỗi Cung Ứng Sản Phẩm Gia Dụng Dhr",
+    "salary": "10 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:26:37.735740",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200942809.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/pho-tong-giam-doc-tiep-thi-va-kinh-doanh-c5p73id200939749.html",
+    "id": "200939749",
+    "title": "Phó Tổng Giám Đốc Tiếp Thị Và Kinh Doanh",
+    "company": "Công Ty Cổ Phần Thép Nam Kim",
+    "salary": "14 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:27:19.669219",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200939749.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p73id200942959.html",
+    "id": "200942959",
+    "title": "Quản Lý Kinh Doanh - Hà Nội",
+    "company": "Công Ty TNHH Thương Mại Và Dịch Vụ Công Nghệ Số Tiên Phong",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:27:43.613411",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200942959.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-team-kinh-doanh-c13p73id200943332.html",
+    "id": "200943332",
+    "title": "Trưởng Team Kinh Doanh",
+    "company": "Công Ty TNHH Đầu Tư, Thương Mại Và Dịch Vụ Quinn Hà Nội.",
+    "salary": "10 - 25 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:28:07.511051",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200943332.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/van-hanh-bao-tri-bao-duong/giam-doc-van-hanh-toa-nha-cau-giay-ha-noi-c10p73id200934408.html",
+    "id": "200934408",
+    "title": "Giám Đốc Vận Hành Tòa Nhà [Cầu Giấy, Hà Nội]",
+    "company": "Công Ty Cổ Phần Đầu Tư Thương Mại Kỹ Thuật A&t Việt Nam",
+    "salary": "16 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-21T19:28:30.871233",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200934408.png"
   }
 ]
