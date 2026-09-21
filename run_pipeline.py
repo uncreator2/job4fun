@@ -28,7 +28,7 @@ def run_step(cmd, cwd, description):
 def main():
     parser = argparse.ArgumentParser(description="Multi-Platform Automated Job Pipeline Orchestrator")
     parser.add_argument("--platform", choices=["all", "topcv", "vietnamworks", "vieclam24h"], default="all", help="Nền tảng muốn chạy (mặc định: all)")
-    parser.add_argument("--max", type=int, default=35, help="Số lượng việc làm tối đa nộp mỗi sàn (mặc định: 35)")
+    parser.add_argument("--max", type=int, default=30, help="Số lượng việc làm tối đa nộp mỗi sàn (mặc định: 30)")
     parser.add_argument("--dry-run", action="store_true", default=False, help="Chế độ thử nghiệm không nộp thật")
     args = parser.parse_args()
 
