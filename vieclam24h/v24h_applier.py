@@ -26,6 +26,11 @@ try:
 except ImportError:
     Stealth = None
 
+try:
+    from v24h_filter import is_target_management_job
+except ImportError:
+    from vieclam24h.v24h_filter import is_target_management_job
+
 EXTRACTED_HISTORY_FILE = os.path.join(SCRIPT_DIR, "extracted_jobs_history.json")
 EXTRACTED_HISTORY_TXT = os.path.join(SCRIPT_DIR, "extracted_jobs_history.txt")
 APPLIED_HISTORY_FILE = os.path.join(SCRIPT_DIR, "applied_jobs_history.json")
@@ -417,13 +422,20 @@ def apply_single_job(page, job, dry_run=False):
             confirm_btn.first.click(timeout=5000)
             page.wait_for_timeout(2500)
 
-        # Modal interaction: Verify CV option card is active
-        modal_submit = page.locator('button:has-text("Nộp hồ sơ ngay")').last
-        if modal_submit.count() == 0 or not modal_submit.is_visible():
+        # Modal interaction: Wait for CV and submit button hydration
+        print("⏳ Đang chờ modal tải hoàn tất danh sách CV và nút nộp...")
+        try:
+            page.wait_for_selector('button:has-text("Nộp hồ sơ ngay")', timeout=10000, state="attached")
+        except Exception:
+            # Fallback: click CV tab if required
             cv_option = page.locator('[data-test-id="apply-method-selector__option-cv"], div:has-text("Ứng tuyển với CV")').first
             if cv_option.count() > 0 and cv_option.is_visible():
-                cv_option.click()
-                page.wait_for_timeout(1000)
+                try:
+                    cv_option.click()
+                    page.wait_for_timeout(1500)
+                    page.wait_for_selector('button:has-text("Nộp hồ sơ ngay")', timeout=6000, state="attached")
+                except Exception:
+                    pass
 
         # Verify CV presence: The file name in DOM is split across spans, so check container with :has-text
         cv_item = page.locator('[data-test-id="unified-apply__cv-item"]:has-text("Quantum_Operations"), [data-test-id="unified-apply__cv-item"]:has-text("Dossier_VI"), :text("Quantum_Operations")')
@@ -443,10 +455,17 @@ def apply_single_job(page, job, dry_run=False):
         except Exception:
             pass
 
-        # Verify submit button is ready
+        # Verify submit button is ready and scroll into view
         modal_submit = page.locator('button:has-text("Nộp hồ sơ ngay")').last
+        if modal_submit.count() > 0:
+            try:
+                modal_submit.scroll_into_view_if_needed()
+                page.wait_for_timeout(800)
+            except Exception:
+                pass
+
         if modal_submit.count() == 0 or not modal_submit.is_visible():
-            print("❌ Không tìm thấy nút 'Nộp hồ sơ ngay' trong modal!")
+            print("❌ Không tìm thấy nút 'Nộp hồ sơ ngay' trong modal sau khi chờ hydration!")
             err_shot = os.path.join(ERRORS_DIR, f"v24h_no_submit_btn_{job_id}.png")
             try:
                 page.screenshot(path=err_shot)
@@ -469,7 +488,16 @@ def apply_single_job(page, job, dry_run=False):
 
         # Real Application Submission
         print("🚀 ĐANG NỘP HỒ SƠ THỰC TẾ: Bấm 'Nộp hồ sơ ngay'...")
-        modal_submit.click(timeout=8000)
+        try:
+            modal_submit.scroll_into_view_if_needed()
+            modal_submit.click(timeout=8000)
+        except Exception as click_err:
+            print(f"⚠️ Standard click bị chặn, thử fallback evaluate click: {click_err}")
+            page.evaluate("""() => {
+                const btn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Nộp hồ sơ ngay'));
+                if (btn) btn.click();
+            }""")
+
         page.wait_for_timeout(3500)
 
         # Post-submission check for daily limit
@@ -479,6 +507,15 @@ def apply_single_job(page, job, dry_run=False):
             limit_shot = os.path.join(ERRORS_DIR, f"v24h_daily_limit_{job_id}.png")
             page.screenshot(path=limit_shot)
             return {"status": "DAILY_LIMIT_REACHED", "submitted": False, "reason": limit_msg, "proof": limit_shot}
+
+        # Dismiss success modal/toast if open so it does not interfere with future page state
+        try:
+            close_btn = page.locator('.svicon-close, [data-test-id*="close"], button:has-text("Đóng"), button:has-text("Hoàn tất")').first
+            if close_btn.count() > 0 and close_btn.is_visible():
+                close_btn.click()
+                page.wait_for_timeout(1000)
+        except Exception:
+            pass
 
         # Save success proof screenshot
         proof_shot = os.path.join(PROOFS_DIR, f"apply_proof_v24h_{job_id}.png")
@@ -512,15 +549,17 @@ def run_applier(max_applies=20, dry_run=False):
     with open(EXTRACTED_HISTORY_FILE, "r", encoding="utf-8") as f:
         all_crawled_jobs = json.load(f)
 
-    # Filter unapplied jobs
+    # Filter unapplied jobs and strictly enforce management roles
     candidate_jobs = []
     for j in all_crawled_jobs:
         u = j.get("url")
+        t = j.get("title", "")
         if u and u not in applied_dict:
-            candidate_jobs.append(j)
+            if is_target_management_job(t, u):
+                candidate_jobs.append(j)
 
     print(f"📊 Tổng số việc làm đã quét: {len(all_crawled_jobs)}")
-    print(f"🆕 Số việc làm CHƯA ỨNG TUYỂN chờ nộp: {len(candidate_jobs)}")
+    print(f"🆕 Số việc làm QUẢN LÝ CHƯA ỨNG TUYỂN chờ nộp: {len(candidate_jobs)}")
 
     if not candidate_jobs:
         print("✅ Tất cả việc làm đã được nộp hoặc không còn việc mới. Hoàn tất!")
@@ -583,16 +622,28 @@ def run_applier(max_applies=20, dry_run=False):
             # Sync portal history
             sync_portal_applied_history(page, applied_dict)
 
-            # Refresh candidate list after sync
-            candidate_jobs = [j for j in candidate_jobs if j.get("url") not in applied_dict]
-            print(f"📋 Danh sách việc làm cần nộp sau khi đồng bộ: {len(candidate_jobs)}")
+            # Refresh candidate list after sync and enforce management roles
+            candidate_jobs = [
+                j for j in candidate_jobs
+                if j.get("url") not in applied_dict and is_target_management_job(j.get("title", ""), j.get("url", ""))
+            ]
+            max_eval_attempts = min(len(candidate_jobs), max_applies * 2)
+            eval_candidates = candidate_jobs[:max_eval_attempts]
+            print(f"📋 Danh sách việc làm mục tiêu cần nộp: {len(candidate_jobs)} (Tối đa duyệt ca này: {len(eval_candidates)}, Chỉ tiêu nộp: {max_applies})")
 
-            for idx, job in enumerate(candidate_jobs, 1):
+            consecutive_errors = 0
+            MAX_CONSECUTIVE_ERRORS = 5
+
+            for idx, job in enumerate(eval_candidates, 1):
                 if applied_count >= max_applies:
                     print(f"\n🛑 Đã đạt số lượng nộp tối đa theo phiên: {max_applies} việc làm.")
                     break
 
-                print(f"\n[{idx}/{min(len(candidate_jobs), max_applies)}] Đang tiến hành:")
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    print(f"\n⚠️ NGẮT MẠCH BẢO VỆ: Đã gặp {consecutive_errors} lỗi liên tiếp (modal/submit). Tạm dừng ca nộp để bảo vệ tài nguyên.")
+                    break
+
+                print(f"\n[{idx}/{len(eval_candidates)}] (Đã nộp thành công: {applied_count}/{max_applies}) Đang tiến hành:")
                 result = apply_single_job(page, job, dry_run=dry_run)
 
                 status = result.get("status")
@@ -606,7 +657,8 @@ def run_applier(max_applies=20, dry_run=False):
 
                 if result.get("submitted"):
                     applied_count += 1
-                    if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED", "DRY_RUN_SUCCESS"]:
+                    consecutive_errors = 0  # Reset on any successful submission or dry-run
+                    if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED"]:
                         applied_dict[u] = {
                             "url": u,
                             "id": job.get("id"),
@@ -619,6 +671,9 @@ def run_applier(max_applies=20, dry_run=False):
                             "proof": result.get("proof")
                         }
                         save_applied_history(applied_dict)
+                else:
+                    if status in ["NO_SUBMIT_BTN", "MODAL_FAILED", "ERROR"]:
+                        consecutive_errors += 1
 
                 # Sleep between applications to avoid anti-spam
                 sleep_sec = 4 if not dry_run else 1

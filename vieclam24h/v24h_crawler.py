@@ -27,6 +27,11 @@ try:
 except ImportError:
     Stealth = None
 
+try:
+    from v24h_filter import is_target_management_job
+except ImportError:
+    from vieclam24h.v24h_filter import is_target_management_job
+
 EXTRACTED_HISTORY_FILE = os.path.join(SCRIPT_DIR, "extracted_jobs_history.json")
 EXTRACTED_HISTORY_TXT = os.path.join(SCRIPT_DIR, "extracted_jobs_history.txt")
 SESSION_EXTRACTED_TXT = os.path.join(SCRIPT_DIR, "session_extracted_jobs.txt")
@@ -167,7 +172,18 @@ def extract_jobs_from_page(page, search_url):
         }
         return list;
     }""")
-    return jobs
+
+    # Filter strictly for managerial / leadership roles
+    filtered_jobs = []
+    for j in jobs:
+        title = j.get("title", "")
+        url = j.get("url", "")
+        if is_target_management_job(title, url):
+            filtered_jobs.append(j)
+        else:
+            print(f"⏩ [BỎ QUA KHÔNG PHẢI QUẢN LÝ]: {title} ({url})")
+
+    return filtered_jobs
 
 def detect_max_pages(page):
     pager_info = page.evaluate("""() => {
