@@ -618,5 +618,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-09-21T04:44:31.000193"
+  },
+  {
+    "id": "200942959",
+    "title": "Quản Lý Kinh Doanh - Hà Nội",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p73id200942959.html",
+    "company": "Công Ty TNHH Thương Mại Và Dịch Vụ Công Nghệ Số Tiên Phong",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-21T13:21:16.115945"
+  },
+  {
+    "id": "200943332",
+    "title": "Trưởng Team Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-team-kinh-doanh-c13p73id200943332.html",
+    "company": "Công Ty TNHH Đầu Tư, Thương Mại Và Dịch Vụ Quinn Hà Nội.",
+    "salary": "10 - 25 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-21T13:22:21.948228"
   }
 ]
