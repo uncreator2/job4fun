@@ -831,5 +831,51 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-22T07:06:24.462019",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200939390.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-di-lam-ngay-c13p73id200944349.html",
+    "id": "200944349",
+    "title": "Nhân Viên Kinh Doanh - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-phat-trien-thi-truong-c13p73id200943485.html",
+    "id": "200943485",
+    "title": "Nhân Viên Kinh Doanh Phát Triển Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/ha-noi-nhan-vien-phat-trien-kinh-doanh-c13p73id200943983.html",
+    "id": "200943983",
+    "title": "[Hà Nội] Nhân Viên Phát Triển Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-ha-noi-va-da-nang-thu-nhap-20-30-trieu-c13p73id200944595.html",
+    "id": "200944595",
+    "title": "Nhân Viên Kinh Doanh -Hà Nội Và Đà Nẵng (Thu Nhập: 20-30 Triệu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-nhan-vien-kinh-doanh-online-c13p73id200944303.html",
+    "id": "200944303",
+    "title": "Nam Nhân Viên Kinh Doanh Online",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-di-lam-ngay-ha-noi-c13p73id200944613.html",
+    "id": "200944613",
+    "title": "Trưởng Phòng Kinh Doanh (Đi Làm Ngay) – Hà Nội",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-22T14:44:07.867662",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200944613.png"
   }
 ]
