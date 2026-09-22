@@ -785,5 +785,51 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-21T19:28:30.871233",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200934408.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-chi-nhanh-c13p73id200943874.html",
+    "id": "200943874",
+    "title": "Giám Đốc Chi Nhánh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-lam-tai-ha-noi-c13p73id200944349.html",
+    "id": "200944349",
+    "title": "Nhân Viên Kinh Doanh - Làm Tại Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ke-toan/truong-phong-van-hanh-c17p73id200938683.html",
+    "id": "200938683",
+    "title": "Trưởng Phòng Vận Hành",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p73id200944342.html",
+    "id": "200944342",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-khong-yeu-cau-kinh-nghiem-di-lam-ngay-c13p73id200942466.html",
+    "id": "200942466",
+    "title": "Nhân Viên Kinh Doanh Không Yêu Cầu Kinh Nghiệm - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ngan-hang/giam-doc-quan-ly-quan-he-khach-hang-c19p73id200939390.html",
+    "id": "200939390",
+    "title": "Giám Đốc Quản Lý Quan Hệ Khách Hàng",
+    "company": "Công Ty Cổ Phần Cơ Điện Lạnh Taisei",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-22T07:06:24.462019",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200939390.png"
   }
 ]

@@ -648,5 +648,15 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-09-21T19:18:47.580459"
+  },
+  {
+    "id": "200943874",
+    "title": "Giám Đốc Chi Nhánh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-chi-nhanh-c13p73id200943874.html",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-22T07:04:14.445060"
   }
 ]
