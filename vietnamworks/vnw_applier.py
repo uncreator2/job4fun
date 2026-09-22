@@ -296,13 +296,24 @@ def apply_job(page, job, dry_run=False):
         except Exception:
             pass
 
-        # Check if already applied
-        applied_badge = page.locator('button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển"), :text-matches("Đã ứng tuyển|Đã nộp đơn")')
-        if applied_badge.count() > 0 and any(applied_badge.nth(i).is_visible() for i in range(applied_badge.count())):
-            print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó.")
-            return {"status": "ALREADY_APPLIED", "submitted": True}
+        # 1. Check if already applied or Re-apply badge/button exists
+        reapply_badge = page.locator(
+            'button:has-text("Ứng tuyển lại"), button:has-text("Nộp đơn lại"), button:has-text("Nộp lại"), '
+            'a:has-text("Ứng tuyển lại"), a:has-text("Nộp đơn lại"), a:has-text("Nộp lại"), '
+            'button:has-text("Đã nộp đơn"), button:has-text("Đã ứng tuyển"), button:has-text("Đã gửi hồ sơ"), '
+            ':text-matches("Đã ứng tuyển|Đã nộp đơn|Ứng tuyển lại|Nộp đơn lại|Nộp lại hồ sơ|Re-apply|Reapply")'
+        )
+        if reapply_badge.count() > 0 and any(reapply_badge.nth(i).is_visible() for i in range(reapply_badge.count())):
+            matched_txt = ""
+            for i in range(reapply_badge.count()):
+                if reapply_badge.nth(i).is_visible():
+                    matched_txt = reapply_badge.nth(i).inner_text().strip()
+                    break
+            print(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Việc làm này ĐÃ TỪNG ỨNG TUYỂN trên VietnamWorks (Phát hiện: '{matched_txt}').")
+            print("🛡️  Tuyệt đối KHÔNG bấm nộp lại (Re-apply) để tránh bị sàn đánh dấu spam.")
+            return {"status": "ALREADY_APPLIED", "submitted": True, "reason": matched_txt}
 
-        # Look for Apply Button
+        # 2. Look for Apply Button (MUST strictly exclude "lại", "đã", "re-apply")
         apply_btn = page.locator(
             'button:has-text("Nộp đơn"), button:has-text("Ứng tuyển"), button:has-text("Nộp hồ sơ"), '
             'a:has-text("Nộp đơn"), a:has-text("Ứng tuyển"), button.apply-btn, [aria-label*="Nộp đơn"], [aria-label*="Ứng tuyển"]'
@@ -312,6 +323,10 @@ def apply_job(page, job, dry_run=False):
         for i in range(apply_btn.count()):
             candidate = apply_btn.nth(i)
             if candidate.is_visible():
+                c_text = candidate.inner_text().strip().lower()
+                if any(k in c_text for k in ["lại", "đã", "reapply", "re-apply", "cập nhật"]):
+                    print(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Nút hành động là '{candidate.inner_text().strip()}' (Re-apply). Bỏ qua ngay!")
+                    return {"status": "ALREADY_APPLIED", "submitted": True, "reason": candidate.inner_text().strip()}
                 target_btn = candidate
                 break
 
@@ -325,6 +340,10 @@ def apply_job(page, job, dry_run=False):
             for i in range(apply_btn.count()):
                 candidate = apply_btn.nth(i)
                 if candidate.is_visible():
+                    c_text = candidate.inner_text().strip().lower()
+                    if any(k in c_text for k in ["lại", "đã", "reapply", "re-apply", "cập nhật"]):
+                        print(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Nút hành động là '{candidate.inner_text().strip()}' (Re-apply). Bỏ qua ngay!")
+                        return {"status": "ALREADY_APPLIED", "submitted": True, "reason": candidate.inner_text().strip()}
                     target_btn = candidate
                     break
 

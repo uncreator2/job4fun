@@ -330,19 +330,81 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         const titleEl = document.querySelector('h1.job-detail__info--title, .job-detail-info h1, h1');
         const compEl = document.querySelector('.company-name, .company-title, a.company');
         const descEl = document.querySelector('.job-description, #job-description, .job-data');
-        const applyBtn = document.querySelector('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply, .box-apply .btn, a[href*="#modal-apply"]');
-        const alreadyApplied = document.body.innerText.includes('Đã ứng tuyển') || (applyBtn && applyBtn.innerText.includes('Đã ứng tuyển'));
-        const isLoggedOut = document.body.innerText.includes('Đăng nhập để ứng tuyển') || (applyBtn && applyBtn.innerText.includes('Đăng nhập'));
-        const bodyText = document.body.innerText;
+        const applyBtns = Array.from(document.querySelectorAll('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply, .box-apply .btn, a[href*="#modal-apply"]'));
+        
+        const bodyText = document.body ? document.body.innerText : "";
+        const bodyTextLower = bodyText.toLowerCase();
+
+        // Danh sách từ khóa thể hiện ĐÃ ỨNG TUYỂN hoặc ỨNG TUYỂN LẠI (Re-apply)
+        const reapplyKeywords = [
+            "ứng tuyển lại", "nộp lại", "nộp đơn lại", "nộp lại hồ sơ",
+            "re-apply", "reapply", "cập nhật hồ sơ", "gửi lại hồ sơ"
+        ];
+        const alreadyAppliedKeywords = [
+            "đã ứng tuyển", "đã nộp đơn", "đã nộp hồ sơ", "đã gửi hồ sơ",
+            "applied", "application submitted"
+        ];
+
+        let isReapply = false;
+        let isAlreadyApplied = false;
+        let matchedReason = "";
+
+        for (const kw of reapplyKeywords) {
+            if (bodyTextLower.includes(kw)) {
+                isReapply = true;
+                matchedReason = `Phát hiện cụm từ '${kw}' trong nội dung trang`;
+                break;
+            }
+        }
+        if (!isReapply) {
+            for (const kw of alreadyAppliedKeywords) {
+                if (bodyTextLower.includes(kw)) {
+                    isAlreadyApplied = true;
+                    matchedReason = `Phát hiện cụm từ '${kw}' trong nội dung trang`;
+                    break;
+                }
+            }
+        }
+
+        // Kiểm tra chi tiết trên từng nút nộp đơn
+        for (const b of applyBtns) {
+            const txt = (b.innerText || "").trim().toLowerCase();
+            for (const kw of reapplyKeywords) {
+                if (txt.includes(kw)) {
+                    isReapply = true;
+                    matchedReason = `Nút ứng tuyển có nhãn: '${b.innerText.trim()}'`;
+                    break;
+                }
+            }
+            for (const kw of alreadyAppliedKeywords) {
+                if (txt.includes(kw)) {
+                    isAlreadyApplied = true;
+                    matchedReason = `Nút ứng tuyển có nhãn: '${b.innerText.trim()}'`;
+                    break;
+                }
+            }
+        }
+
+        // Tìm nút Ứng tuyển nguyên bản (HỢP LỆ): Phải chứa "ứng tuyển" / "nộp" NHƯNG KHÔNG chứa "lại", "đã", "reapply"
+        const validApplyBtn = applyBtns.find(b => {
+            const txt = (b.innerText || "").trim().toLowerCase();
+            const hasAction = txt.includes('ứng tuyển') || txt.includes('nộp');
+            const hasForbidden = txt.includes('lại') || txt.includes('đã') || txt.includes('reapply') || txt.includes('re-apply') || txt.includes('cập nhật');
+            return hasAction && !hasForbidden && b.offsetWidth > 0 && b.offsetHeight > 0;
+        });
+
+        const isLoggedOut = bodyText.includes('Đăng nhập để ứng tuyển') || applyBtns.some(b => (b.innerText || '').includes('Đăng nhập'));
         const isBlocked = bodyText.includes('Sorry, you have been blocked') || bodyText.includes('Just a moment...');
 
         return {
             title: titleEl ? titleEl.innerText.trim() : document.title,
             company: compEl ? compEl.innerText.trim() : '',
             description: descEl ? descEl.innerText.slice(0, 800) : '',
-            hasApplyBtn: !!applyBtn,
-            applyBtnText: applyBtn ? applyBtn.innerText.trim() : '',
-            alreadyApplied: !!alreadyApplied,
+            hasApplyBtn: !!validApplyBtn,
+            applyBtnText: validApplyBtn ? validApplyBtn.innerText.trim() : '',
+            alreadyApplied: isAlreadyApplied || isReapply,
+            isReapply: isReapply,
+            matchedReason: matchedReason,
             isLoggedOut: !!isLoggedOut,
             isBlocked: isBlocked
         };
@@ -364,22 +426,40 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
             await page.goto(job_url, wait_until="domcontentloaded", timeout=35000)
             await asyncio.sleep(2.5)
 
-    if job_info["alreadyApplied"]:
-        log("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó. Bỏ qua.")
-        return {"status": "ALREADY_APPLIED", "title": job_info["title"]}
+    if job_info.get("alreadyApplied"):
+        reason = job_info.get("matchedReason") or "Đã ứng tuyển trước đó hoặc xuất hiện nút 'Ứng tuyển lại'"
+        log(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Việc làm này ĐÃ TỪNG ỨNG TUYỂN trên TopCV ({reason}).")
+        log("🛡️  Tuyệt đối KHÔNG click nút 'Ứng tuyển lại' (Re-apply) để tránh bị sàn phát hiện hành vi spam.")
+        save_applied_record(applied_dict, job_url, job_info.get("title", ""), job_info.get("company", ""), f"Đã ứng tuyển ({reason})", "")
+        return {"status": "ALREADY_APPLIED", "title": job_info["title"], "reason": reason}
 
-    if not job_info["hasApplyBtn"]:
-        log("⚠️ Không tìm thấy nút ứng tuyển (có thể việc làm đã đóng hoặc hết hạn).")
-        await save_error(page, job_url, "NO_APPLY_BTN", "Không tìm thấy nút ứng tuyển hoặc việc làm đã hết hạn/đóng")
+    if not job_info.get("hasApplyBtn"):
+        log("⚠️ Không tìm thấy nút ứng tuyển hợp lệ (việc làm có thể đã đóng, hết hạn hoặc đã ứng tuyển trước đó).")
+        await save_error(page, job_url, "NO_APPLY_BTN", "Không tìm thấy nút ứng tuyển hợp lệ hoặc đã nộp")
         return {"status": "NO_APPLY_BTN", "title": job_info["title"]}
 
     # 2. Bấm nút Ứng tuyển ngay để mở Modal
-    log("🚀 Nhấn nút 'Ứng tuyển ngay'...")
-    await page.evaluate("""() => {
+    log("🚀 Nhấn nút 'Ứng tuyển ngay' (chỉ bấm nút nộp lần đầu, loại trừ hoàn toàn nút nộp lại/re-apply)...")
+    click_res = await page.evaluate("""() => {
         const btns = Array.from(document.querySelectorAll('a.open-apply-modal, a.btn-apply, a.btn-apply-job, .btn-action-job.btn-apply, button.btn-apply'));
-        const visibleBtn = btns.find(b => b.offsetWidth > 0 && b.offsetHeight > 0) || btns[0];
-        if (visibleBtn) visibleBtn.click();
+        const safeBtn = btns.find(b => {
+            const txt = (b.innerText || "").trim().toLowerCase();
+            const hasAction = txt.includes('ứng tuyển') || txt.includes('nộp');
+            const hasForbidden = txt.includes('lại') || txt.includes('đã') || txt.includes('reapply') || txt.includes('re-apply') || txt.includes('cập nhật');
+            return hasAction && !hasForbidden && b.offsetWidth > 0 && b.offsetHeight > 0;
+        });
+        if (safeBtn) {
+            safeBtn.click();
+            return { clicked: true, text: safeBtn.innerText.trim() };
+        }
+        return { clicked: false, text: "" };
     }""")
+
+    if not click_res.get("clicked"):
+        log("⚠️ Không tìm thấy nút nộp đơn hợp lệ chưa từng ứng tuyển (có thể là nút Ứng tuyển lại). Bỏ qua!")
+        save_applied_record(applied_dict, job_url, job_info.get("title", ""), job_info.get("company", ""), "Bỏ qua nút Ứng tuyển lại", "")
+        return {"status": "ALREADY_APPLIED", "title": job_info["title"], "reason": "No safe apply button"}
+
     await asyncio.sleep(2.0)
 
     # 3. Chờ Modal hiển thị

@@ -359,11 +359,22 @@ def apply_single_job(page, job, dry_run=False):
         safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
         page.wait_for_timeout(2500)
 
-        # Check if already applied
-        applied_badge = page.locator('button:has-text("Đã ứng tuyển"), button:has-text("Đã nộp hồ sơ"), button[disabled]:has-text("Đã")')
-        if applied_badge.count() > 0 and applied_badge.first.is_visible():
-            print("ℹ️ Việc làm này ĐÃ ỨNG TUYỂN trước đó trên trang.")
-            return {"status": "ALREADY_APPLIED", "submitted": True}
+        # 1. Check if already applied or Re-apply badge/button exists
+        reapply_badge = page.locator(
+            'button:has-text("Ứng tuyển lại"), button:has-text("Nộp lại"), button:has-text("Nộp hồ sơ lại"), '
+            'a:has-text("Ứng tuyển lại"), a:has-text("Nộp lại"), '
+            'button:has-text("Đã ứng tuyển"), button:has-text("Đã nộp hồ sơ"), button[disabled]:has-text("Đã"), '
+            ':text-matches("Đã ứng tuyển|Đã nộp hồ sơ|Ứng tuyển lại|Nộp lại|Re-apply|Reapply")'
+        )
+        if reapply_badge.count() > 0 and any(reapply_badge.nth(i).is_visible() for i in range(reapply_badge.count())):
+            matched_txt = ""
+            for i in range(reapply_badge.count()):
+                if reapply_badge.nth(i).is_visible():
+                    matched_txt = reapply_badge.nth(i).inner_text().strip()
+                    break
+            print(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Việc làm này ĐÃ TỪNG ỨNG TUYỂN trên Vieclam24h (Phát hiện: '{matched_txt}').")
+            print("🛡️  Tuyệt đối KHÔNG bấm nộp lại (Re-apply) để tránh bị sàn đánh dấu spam.")
+            return {"status": "ALREADY_APPLIED", "submitted": True, "reason": matched_txt}
 
         # Check login status before applying
         if not check_login_status(page):
@@ -375,10 +386,21 @@ def apply_single_job(page, job, dry_run=False):
         # Ensure page is interactive
         page.wait_for_timeout(2000)
 
-        # Look for Apply Button
-        apply_btn = page.locator('button:has-text("Ứng tuyển ngay"), button:has-text("Nộp hồ sơ ngay")').first
-        if apply_btn.count() == 0 or not apply_btn.is_visible():
-            print("⚠️ Không tìm thấy nút 'Ứng tuyển ngay' (việc làm có thể đã đóng hoặc hết hạn).")
+        # Look for Apply Button (MUST strictly exclude "lại", "đã", "re-apply")
+        apply_btn_loc = page.locator('button:has-text("Ứng tuyển ngay"), button:has-text("Nộp hồ sơ ngay"), button:has-text("Ứng tuyển"), a:has-text("Ứng tuyển ngay")')
+        apply_btn = None
+        for i in range(apply_btn_loc.count()):
+            cand = apply_btn_loc.nth(i)
+            if cand.is_visible():
+                c_text = cand.inner_text().strip().lower()
+                if any(k in c_text for k in ["lại", "đã", "reapply", "re-apply", "cập nhật"]):
+                    print(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Nút hành động là '{cand.inner_text().strip()}' (Re-apply). Bỏ qua ngay!")
+                    return {"status": "ALREADY_APPLIED", "submitted": True, "reason": cand.inner_text().strip()}
+                apply_btn = cand
+                break
+
+        if apply_btn is None:
+            print("⚠️ Không tìm thấy nút 'Ứng tuyển ngay' hợp lệ (việc làm có thể đã đóng, hết hạn hoặc đã ứng tuyển trước đó).")
             err_shot = os.path.join(ERRORS_DIR, f"v24h_no_btn_{job_id}.png")
             try:
                 page.screenshot(path=err_shot)
