@@ -877,5 +877,56 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-22T14:44:07.867662",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200944613.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-di-lam-tai-ha-noi-thu-nhap-khong-gioi-han-c13p73id200945108.html",
+    "id": "200945108",
+    "title": "Nhân Viên Kinh Doanh - Đi Làm Tại Hà Nội (Thu Nhập Không Giới Hạn)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-phong-kinh-doanh-ha-noi-du-an-ecom-c12p73id200945250.html",
+    "id": "200945250",
+    "title": "Trưởng Phòng Kinh Doanh Hà Nội - Dự Án Ecom",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-23T06:44:44.392431",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200945250.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-kenh-benh-vien-khu-vuc-mien-tay-c13p73id200945085.html",
+    "id": "200945085",
+    "title": "Quản Lý Kinh Doanh Kênh Bệnh Viện Khu Vực Miền Tây",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-23T06:45:09.349975",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200945085.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-du-an-luong-cung-15-20tr-c13p73id200865555.html",
+    "id": "200865555",
+    "title": "Trưởng Phòng Kinh Doanh Dự Án - Lương Cứng 15 - 20Tr",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-23T06:45:35.131710",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200865555.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-fmcg-khu-vuc-ha-noi-c13p73id200907469.html",
+    "id": "200907469",
+    "title": "Giám Sát Bán Hàng (Fmcg) - Khu Vực Hà Nội",
+    "company": "Công Ty Cổ Phần Kai Logistics",
+    "salary": "8 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-23T06:46:00.587928",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200907469.png"
   }
 ]
