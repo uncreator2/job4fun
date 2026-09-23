@@ -928,5 +928,30 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-23T06:46:00.587928",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200907469.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-team-kinh-doanh-c13p73id200943332.html",
+    "id": "200943332",
+    "title": "Trưởng Nhóm Team Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/ha-noi-nu-ban-hang-di-lam-ngay-c13p73id200946014.html",
+    "id": "200946014",
+    "title": "Hà Nội Nữ Bán Hàng Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-giam-sat-kinh-doanh-hn-tb-hp-c13p73id200945697.html",
+    "id": "200945697",
+    "title": "Trưởng Nhóm / Giám Sát Kinh Doanh HN-Tb-Hp",
+    "company": "Công Ty Cổ Phần Starack",
+    "salary": "3 - 7 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-23T12:29:01.614459",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200945697.png"
   }
 ]

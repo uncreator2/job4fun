@@ -708,5 +708,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-09-23T06:42:29.173945"
+  },
+  {
+    "id": "200943332",
+    "title": "Trưởng Nhóm Team Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-team-kinh-doanh-c13p73id200943332.html",
+    "company": "Công  Ty Cổ Phần Năng Lượng Bảo Lâm",
+    "salary": "14 - 16 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-23T12:26:00.978426"
+  },
+  {
+    "id": "200945697",
+    "title": "Trưởng Nhóm / Giám Sát Kinh Doanh HN-Tb-Hp",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-giam-sat-kinh-doanh-hn-tb-hp-c13p73id200945697.html",
+    "company": "Công Ty Cổ Phần Starack",
+    "salary": "3 - 7 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-23T12:26:58.607170"
   }
 ]
