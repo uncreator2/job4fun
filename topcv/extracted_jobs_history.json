@@ -5638,5 +5638,41 @@
     "exp": "Dưới 1 năm",
     "first_extracted_at": "2026-09-23 12:01:55",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh-kenh-phan-phoi/2175310.html": {
+    "job_id": "2175310",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh-kenh-phan-phoi/2175310.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790186106",
+    "clean_url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh-kenh-phan-phoi/2175310.html",
+    "company": "CÔNG TY CỔ PHẦN THIẾT BỊ MẸ VÀ BÉ TOPGIAKIDS",
+    "salary": "14 - 18 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-09-23 17:55:25",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2164291.html": {
+    "job_id": "2164291",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2164291.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790186106",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2164291.html",
+    "company": "CÔNG TY CỔ PHẦN LAMER",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-09-23 17:55:25",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt-mt/1948870.html": {
+    "job_id": "1948870",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt-mt/1948870.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790186243",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt-mt/1948870.html",
+    "company": "CÔNG TY TNHH CỘNG CÀ PHÊ",
+    "salary": "25 - 30 triệu",
+    "location": "Hà Nội & 2 nơi khác",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-23 17:57:37",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }

@@ -953,5 +953,26 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-23T12:29:01.614459",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200945697.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-xay-dung-c31p73id200945618.html",
+    "id": "200945618",
+    "title": "Giám Sát Xây Dựng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-luong-cb-hoa-hong-c13p73id200945748.html",
+    "id": "200945748",
+    "title": "Nhân Viên Kinh Doanh (Lương Cb + Hoa Hồng)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/pho-giam-doc-trung-tam-nghien-cuu-va-phat-trien-san-pham-duc-c47p73id200945039.html",
+    "id": "200945039",
+    "title": "Phó Giám Đốc Trung Tâm Nghiên Cứu Và Phát Triển Sản Phẩm Đúc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
