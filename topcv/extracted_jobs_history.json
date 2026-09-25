@@ -6070,5 +6070,53 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-09-25 12:07:37",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-nhuong-quyen/2103956.html": {
+    "job_id": "2103956",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-nhuong-quyen/2103956.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790359361",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-nhuong-quyen/2103956.html",
+    "company": "CÔNG TY TNHH KIM LÂM ENJOY MART",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-25 18:02:57",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2305550.html": {
+    "job_id": "2305550",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2305550.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790359435",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2305550.html",
+    "company": "CÔNG TY TNHH VIETSUN SOLAR GROUP",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-09-25 18:04:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313236.html": {
+    "job_id": "2313236",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313236.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790359435",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313236.html",
+    "company": "CÔNG TY CỔ PHẦN CEN ACADEMY",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-09-25 18:04:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313264.html": {
+    "job_id": "2313264",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313264.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1790359435",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2313264.html",
+    "company": "CÔNG TY CỔ PHẦN DỊCH VỤ VÀ PHÁT TRIỂN NHÂN LỰC THANH BÌNH",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-09-25 18:04:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
