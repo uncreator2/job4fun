@@ -1035,5 +1035,33 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-25T06:54:31.888865",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200947172.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-dien-ha-noi-c13p73id200947158.html",
+    "id": "200947158",
+    "title": "Trưởng Phòng Kinh Doanh Xe Điện (Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-cong-ty-da-co-thi-truong-c13p73id200947872.html",
+    "id": "200947872",
+    "title": "Nhân Viên Kinh Doanh - Công Ty Đã Có Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/giam-doc-kinh-doanh-ban-le-c12p73id200947644.html",
+    "id": "200947644",
+    "title": "Giám Đốc Kinh Doanh Bán Lẻ",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thiet-bi-cong-nghiep-thu-nhap-tren-20-trieu-c13p73id200947800.html",
+    "id": "200947800",
+    "title": "Nhân Viên Kinh Doanh Thiết Bị Công Nghiệp - Thu Nhập Trên 20 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
