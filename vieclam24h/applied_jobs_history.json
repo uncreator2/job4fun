@@ -974,5 +974,66 @@
     "title": "Phó Giám Đốc Trung Tâm Nghiên Cứu Và Phát Triển Sản Phẩm Đúc",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p73id200945697.html",
+    "id": "200945697",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-xe-dien-ha-noi-c13p73id200947158.html",
+    "id": "200947158",
+    "title": "Giám Đốc Kinh Doanh Xe Điện (Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-tai-van-phong-quan-tay-ho-khong-yeu-cau-kinh-nghiem-c13p73id200946456.html",
+    "id": "200946456",
+    "title": "Nhân Viên Kinh Doanh Tại Văn Phòng Quận Tây Hồ - Không Yêu Cầu Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/ha-noi-cau-giay-nhan-vien-kinh-doanh-c13p73id200947428.html",
+    "id": "200947428",
+    "title": "[Hà Nội - Cầu Giấy] Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p73id200946563.html",
+    "id": "200946563",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "Công Ty TNHH Nghiên Cứu Và Đào Tạo Nghi Thức Eia",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-25T06:53:42.036226",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200946563.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-engineer-account-manager-bfsi-gov-luong-upto-30-trieu-nghi-t7-cn-tai-goldmark-city-136-ho-tung-mau-c13p73id200946017.html",
+    "id": "200946017",
+    "title": "Sales Engineer (Account Manager) - BFSI & GOV Lương Upto 30 Triệu Nghỉ T7,CN Tại Goldmark City 136 Hồ Tùng Mậu",
+    "company": "Công Ty CP Tập Đoàn Mường Thanh",
+    "salary": "15 - 18 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-25T06:54:06.503004",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200946017.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-ung-hoa-sale-oppo-thi-truong-c6p73id200947172.html",
+    "id": "200947172",
+    "title": "[Hà Nội] - Ứng Hoà - Sale Oppo Thị Trường",
+    "company": "Công Ty Cổ Phần Công Nghệ Dss Việt Nam",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-25T06:54:31.888865",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200947172.png"
   }
 ]
