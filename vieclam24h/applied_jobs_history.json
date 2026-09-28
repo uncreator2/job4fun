@@ -1141,5 +1141,88 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-28T07:48:44.101002",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200947650.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-sieu-thi-kinh-doanh-xe-dien-cac-khu-vuc-ha-noi-c13p73id200949190.html",
+    "id": "200949190",
+    "title": "Trưởng Siêu Thị Kinh Doanh Xe Điện (Các Khu Vực Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/tro-ly-giam-doc-kiem-co-van-du-an-cat-soi-san-lap-c1p73id200948489.html",
+    "id": "200948489",
+    "title": "Trợ Lý Giám Đốc Kiêm Cố Vấn Dự Án Cát - Sỏi - San Lấp",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-van-hanh-c6p73id200949219.html",
+    "id": "200949219",
+    "title": "Trường Phòng Vận Hành",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-van-hanh-livestream-tiktok-shop-c13p73id200944373.html",
+    "id": "200944373",
+    "title": "Quản Lý Vận Hành Livestream Tiktok Shop",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/truong-phong-thuong-mai-dien-tu-cham-soc-khach-hang-c30p73id200948572.html",
+    "id": "200948572",
+    "title": "Trưởng Phòng Thương Mại Điện Từ & Chăm Sóc Khách Hàng",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T18:12:15.675430",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200948572.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-khu-vuc-ha-noi-c13p73id200942959.html",
+    "id": "200942959",
+    "title": "Trưởng Phòng Kinh Doanh - Khu Vực Hà Nội",
+    "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-09-28T18:12:27.357538",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p73id200949315.html",
+    "id": "200949315",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T18:12:52.349629",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200949315.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-sieu-thi-kinh-doanh-xe-dien-long-bien-gia-long-ha-noi-c13p73id200949236.html",
+    "id": "200949236",
+    "title": "Trưởng Siêu Thị Kinh Doanh Xe Điện (Long Biên, Gia Long - Hà Nội)",
+    "company": "Công Ty TNHH Rexam",
+    "salary": "12 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T18:13:15.735516",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200949236.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-cua-hang-c13p73id200946198.html",
+    "id": "200946198",
+    "title": "Quản Lý Cửa Hàng",
+    "company": "Công Ty TNHH Hubei",
+    "salary": "25 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T18:13:37.763850",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200946198.png"
   }
 ]
