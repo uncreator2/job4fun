@@ -1063,5 +1063,83 @@
     "title": "Nhân Viên Kinh Doanh Thiết Bị Công Nghiệp - Thu Nhập Trên 20 Triệu",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-di-thi-truong-nganh-do-choi-den-film-dan-cach-nhiet-o-to-di-lam-ngay-c13p122id200948917.html",
+    "id": "200948917",
+    "title": "Nhân Viên Kinh Doanh / Sales Đi Thị Trường – Ngành Đồ Chơi Đèn & Film Dán Cách Nhiệt Ô Tô - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-lam-viec-tai-dabaco-bac-ninh-c13p90id200948946.html",
+    "id": "200948946",
+    "title": "Nhân Viên Kinh Doanh - Làm Việc Tại Dabaco Bắc Ninh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thu-nhap-tu-15-den-30-trieu-ha-noi-c13p73id200948422.html",
+    "id": "200948422",
+    "title": "Nhân Viên Kinh Doanh Thu Nhập Từ 15 Đến 30 Triệu [Hà Nội]",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-representative-ha-noi-kenh-on-c13p73id200948807.html",
+    "id": "200948807",
+    "title": "Nhân Viên Kinh Doanh (Sales Representative) - Hà Nội (Kênh On)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-kenh-khach-hang-dai-ly-c13p73id200947446.html",
+    "id": "200947446",
+    "title": "Nhân Viên Kinh Doanh Thị Trường (Kênh Khách Hàng Đại Lý)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kenh-ban-hang-luong-co-ban-upto-25-trieu-hoa-hong-c13p73id200936800.html",
+    "id": "200936800",
+    "title": "Chuyên Viên Kênh Bán Hàng Lương Cơ Bản Upto 25 Triệu + % Hoa Hồng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-business-development-executive-c13p73id200947437.html",
+    "id": "200947437",
+    "title": "Sales & Business Development Executive",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-tai-ha-noi-di-lam-ngay-luong-tren-15-trieu-c13p73id200948349.html",
+    "id": "200948349",
+    "title": "Nhân Viên Bán Hàng Tại Hà Nội Đi Làm Ngay Lương Trên 15 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/kien-truc-thiet-ke-noi-ngoai-that/ha-noi-truong-nhom-kinh-doanh-17-20tr-c4p73id200948811.html",
+    "id": "200948811",
+    "title": "Hà Nội - Trưởng Nhóm Kinh Doanh (17 - 20Tr)",
+    "company": "Công Ty Cổ Phần Giáo Dục Quốc Tế Tâm Chí Minh",
+    "salary": "10 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T07:47:30.518699",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200948811.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/giam-doc-van-hanh-nganh-thuong-mai-dien-tu-c12p73id200947650.html",
+    "id": "200947650",
+    "title": "Giám Đốc Vận Hành Ngành Thương Mại Điện Từ",
+    "company": "Công Ty Cổ Phần Giáo Dục Quốc Tế Tâm Chí Minh",
+    "salary": "10 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-28T07:48:44.101002",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200947650.png"
   }
 ]

@@ -798,5 +798,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-09-25T12:36:27.805216"
+  },
+  {
+    "id": "200948811",
+    "title": "Hà Nội - Trưởng Nhóm Kinh Doanh (17 - 20Tr)",
+    "url": "https://vieclam24h.vn/kien-truc-thiet-ke-noi-ngoai-that/ha-noi-truong-nhom-kinh-doanh-17-20tr-c4p73id200948811.html",
+    "company": "Công Ty Cổ Phần Giáo Dục Quốc Tế Tâm Chí Minh",
+    "salary": "10 - 15 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-28T07:38:40.893297"
+  },
+  {
+    "id": "200947650",
+    "title": "Giám Đốc Vận Hành Ngành Thương Mại Điện Từ",
+    "url": "https://vieclam24h.vn/marketing/giam-doc-van-hanh-nganh-thuong-mai-dien-tu-c12p73id200947650.html",
+    "company": "Công Ty Cổ Phần Giáo Dục Quốc Tế Tâm Chí Minh",
+    "salary": "10 - 15 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-28T07:38:40.893311"
+  },
+  {
+    "id": "200948572",
+    "title": "Trưởng Phòng Thương Mại Điện Từ & Chăm Sóc Khách Hàng",
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/truong-phong-thuong-mai-dien-tu-cham-soc-khach-hang-c30p73id200948572.html",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-28T07:38:49.753523"
   }
 ]
