@@ -1224,5 +1224,68 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-28T18:13:37.763850",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200946198.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/kien-truc-thiet-ke-noi-ngoai-that/ha-noi-truong-nhom-kinh-doanh-thu-nhap-17-20tr-c4p73id200948811.html",
+    "id": "200948811",
+    "title": "Hà Nội - Trưởng Nhóm Kinh Doanh (Thu Nhập 17 - 20Tr)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-giai-phap-ky-thuat-khoi-ngan-hang-tai-chinh-bao-hiem-chinh-phu-luong-upto-30-trieu-tai-ho-tung-mau-c13p73id200946017.html",
+    "id": "200946017",
+    "title": "Nhân Viên Bán Hàng Giải Pháp Kỹ Thuật Khối Ngân Hàng - Tài Chính - Bảo Hiểm & Chính Phủ Lương Upto 30 Triệu Tại Hồ Tùng Mậu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-my-pham-di-lam-ngay-c6p122id200949798.html",
+    "id": "200949798",
+    "title": "Quản Lý Cửa Hàng Mỹ Phẩm Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-sieu-thi-mini-c6p73id200950118.html",
+    "id": "200950118",
+    "title": "Quản Lý Cửa Hàng Siêu Thị Mini",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/quan-ly-cua-hang-store-manager-c5p73id200948571.html",
+    "id": "200948571",
+    "title": "Quản Lý Cửa Hàng (Store Manager)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/san-xuat-lap-rap-che-bien/giam-doc-dieu-hanh-c9p73id200950282.html",
+    "id": "200950282",
+    "title": "Giám Đốc Điều Hành",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p119id200945302.html",
+    "id": "200945302",
+    "title": "Quản Lý Cửa Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p73id200615674.html",
+    "id": "200615674",
+    "title": "Quản Lý Cửa Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/an-ninh-bao-ve/quan-ly-khu-nha-o-cong-nhan-c2p122id200949462.html",
+    "id": "200949462",
+    "title": "Quản Lý Khu Nhà Ở Công Nhân",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
