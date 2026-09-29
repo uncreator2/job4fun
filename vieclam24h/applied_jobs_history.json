@@ -1287,5 +1287,30 @@
     "title": "Quản Lý Khu Nhà Ở Công Nhân",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-chuyen-vien-kinh-doanh-b2b-c13p122id200950270.html",
+    "id": "200950270",
+    "title": "Nhân Viên / Chuyên Viên Kinh Doanh B2B",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-tu-van-tra-gop-tai-cua-hang-toan-khu-vuc-ha-noi-c13p73id200949793.html",
+    "id": "200949793",
+    "title": "Nhân Viên Tư Vấn Trả Góp Tại Cửa Hàng | Toàn Khu Vực Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-tai-ha-noi-c13p73id200949868.html",
+    "id": "200949868",
+    "title": "Phó Phòng Kinh Doanh Tại Hà Nội",
+    "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-29T16:25:37.853071",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200949868.png"
   }
 ]
