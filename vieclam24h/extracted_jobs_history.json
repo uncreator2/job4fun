@@ -898,5 +898,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-09-29T16:21:37.009870"
+  },
+  {
+    "id": "200950927",
+    "title": "Quản Lý Vận Hành Chuỗi Siêu Thị",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-van-hanh-chuoi-sieu-thi-c6p73id200950927.html",
+    "company": "Công Ty TNHH Truyền Hình Fpt",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-30T16:18:40.934533"
+  },
+  {
+    "id": "200951695",
+    "title": "Trưởng Nhóm Bán & Chăm Sóc Khách Hàng Showroom",
+    "url": "https://vieclam24h.vn/marketing/truong-nhom-ban-cham-soc-khach-hang-showroom-c12p73id200951695.html",
+    "company": "Công Ty TNHH Xuất Nhập Khẩu Thực Phẩm Bình Minh",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-09-30T16:19:37.194138"
   }
 ]

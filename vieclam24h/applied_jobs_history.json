@@ -1340,5 +1340,41 @@
     "title": "Nhân Viên Kinh Doanh - Hà Nội - Coke Steps",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p73id200950875.html",
+    "id": "200950875",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-tu-van-ban-hang-xe-dien-cac-khu-vuc-ha-noi-c13p73id200947151.html",
+    "id": "200947151",
+    "title": "Nhân Viên Tư Vấn Bán Hàng Xe Điện (Các Khu Vực Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-van-hanh-chuoi-sieu-thi-c6p73id200950927.html",
+    "id": "200950927",
+    "title": "Quản Lý Vận Hành Chuỗi Siêu Thị",
+    "company": "Công Ty TNHH Truyền Hình Fpt",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-30T16:22:23.013735",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200950927.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-nhom-ban-cham-soc-khach-hang-showroom-c12p73id200951695.html",
+    "id": "200951695",
+    "title": "Trưởng Nhóm Bán & Chăm Sóc Khách Hàng Showroom",
+    "company": "Công Ty TNHH Xuất Nhập Khẩu Thực Phẩm Bình Minh",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-09-30T16:22:45.304793",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951695.png"
   }
 ]
