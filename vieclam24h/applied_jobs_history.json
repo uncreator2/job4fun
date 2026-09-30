@@ -1312,5 +1312,33 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-29T16:25:37.853071",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200949868.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/giam-sat-mua-hang-cau-giay-ha-noi-nghi-full-t7-cn-c14p73id200950434.html",
+    "id": "200950434",
+    "title": "Giám Sát Mua Hàng - Cầu Giấy, Hà Nội (Nghỉ Full T7&cn)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-express-logistics-phat-trien-thi-truong-20-40-trieu-ha-noi-c13p73id200950685.html",
+    "id": "200950685",
+    "title": "Nhân Viên Kinh Doanh Express & Logistics - Phát Triển Thị Trường (20 - 40 Triệu) Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/san-xuat-lap-rap-che-bien/nhan-vien-kinh-doanh-b2b-noi-dia-ha-noi-c9p73id200902548.html",
+    "id": "200902548",
+    "title": "Nhân Viên Kinh Doanh B2B Nội Địa (Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-ha-noi-coke-steps-c13p73id200946339.html",
+    "id": "200946339",
+    "title": "Nhân Viên Kinh Doanh - Hà Nội - Coke Steps",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
