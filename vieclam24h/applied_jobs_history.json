@@ -1376,5 +1376,62 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-09-30T16:22:45.304793",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951695.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-cham-soc-khach-hang-ban-hang-c30p73id200945271.html",
+    "id": "200945271",
+    "title": "Nhân Viên Chăm Sóc Khách Hàng / Bán Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p73id200951816.html",
+    "id": "200951816",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/nhan-vien-kinh-doanh-thi-truong-c6p73id200950443.html",
+    "id": "200950443",
+    "title": "Nhân Viên Kinh Doanh Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-le-tan-va-ban-hang-showroom-starlake-xuan-tao-c30p73id200950723.html",
+    "id": "200950723",
+    "title": "Nhân Viên Lễ Tân Và Bán Hàng Showroom (Starlake Xuân Tảo)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-dich-vu-cham-soc-khach-hang-c30p73id200950649.html",
+    "id": "200950649",
+    "title": "Nhân Viên Dich Vụ Chăm Sóc Khách Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-kinh-doanh-tru-so-chinh-c6p73id200951818.html",
+    "id": "200951818",
+    "title": "Quản Lý Kinh Doanh - Trụ Sở Chính",
+    "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-01T07:54:17.692089",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951818.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/cua-hang-truong-thoi-trang-tre-em-anta-kids-binh-tan-c13p73id200951931.html",
+    "id": "200951931",
+    "title": "Cửa Hàng Trưởng Thời Trang Trẻ Em (Anta Kids Bình Tân)",
+    "company": "Công Ty TNHH Thương Mại Godo",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-01T07:55:00.359453",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951931.png"
   }
 ]
