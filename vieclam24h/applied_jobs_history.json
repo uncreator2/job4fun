@@ -1433,5 +1433,41 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-01T07:55:00.359453",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951931.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p86id200951834.html",
+    "id": "200951834",
+    "title": "Giám Sát Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-c13p73id200952014.html",
+    "id": "200952014",
+    "title": "Nhân Viên Kinh Doanh Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-kinh-mat-c6p73id200951557.html",
+    "id": "200951557",
+    "title": "Cửa Hàng Trưởng Kính Mắt",
+    "company": "Công Ty Cổ Phần Green Speed",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-01T17:01:09.447273",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951557.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p73id200951834.html",
+    "id": "200951834",
+    "title": "Giám Sát Kinh Doanh",
+    "company": "Công Ty Cổ Phần Đầu Tư Và Phát Triển Công Nghệ Vật Liệu Composit Sao Đỏ",
+    "salary": "12 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-01T17:01:36.342891",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951834.png"
   }
 ]
