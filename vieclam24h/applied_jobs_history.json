@@ -1508,5 +1508,65 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-02T07:48:41.415307",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200952489.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/nhan-vien-nam-sales-admin-lam-viec-ha-noi-di-lam-ngay-c1p210000160id200953464.html",
+    "id": "200953464",
+    "title": "Nhân Viên Nam Sales Admin Làm Việc Hà Nội - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/nhan-vien-kho-sales-admin-c14p73id200945092.html",
+    "id": "200945092",
+    "title": "Nhân Viên Kho – Sales Admin",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-lam-gio-hanh-chinh-tai-vp-ha-noi-khong-yeu-cau-kinh-nghiem-mrshno-c30p210000160id200953578.html",
+    "id": "200953578",
+    "title": "Nhân Viên Làm Giờ Hành Chính Tại VP Hà Nội, Không Yêu Cầu Kinh Nghiệm - Mrshno",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-dieu-hanh-ceo-c13p210000160id200954019.html",
+    "id": "200954019",
+    "title": "Giám Đốc Điều Hành (CEO)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/tro-ly-ban-hang-sales-admin-lam-viec-o-ha-noi-c13p73id200937657.html",
+    "id": "200937657",
+    "title": "Trợ Lý Bán Hàng – Sales Admin (Làm Việc Ở Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/nhan-vien-cua-hang-th-truemart-ha-noi-c6p210000160id200923831.html",
+    "id": "200923831",
+    "title": "Nhân Viên Cửa Hàng Th Truemart Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nu-nhan-vien-kinh-doanh-viec-lam-tai-ha-dong-c13p73id200951897.html",
+    "id": "200951897",
+    "title": "Nữ - Nhân Viên Kinh Doanh - Việc Làm Tại Hà Đông",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/giao-duc-dao-tao/truong-nhom-tuyen-sinh-chi-nhanh-ocean-edu-dong-anh-thu-nhap-tu-18-trieu-thang-c32p210000160id200953659.html",
+    "id": "200953659",
+    "title": "Trưởng Nhóm Tuyển Sinh Chi Nhánh - Ocean Edu Đông Anh - Thu Nhập Từ 18 Triệu / Tháng",
+    "company": "Công Ty TNHH Xuất Nhập Khẩu Thực Phẩm Bình Minh",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-02T16:21:08.895548",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200953659.png"
   }
 ]

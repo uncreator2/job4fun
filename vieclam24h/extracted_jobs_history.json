@@ -988,5 +988,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-10-02T07:42:31.409057"
+  },
+  {
+    "id": "200954019",
+    "title": "Giám Đốc Điều Hành (CEO)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-dieu-hanh-ceo-c13p210000160id200954019.html",
+    "company": "Công Ty Cổ Phần Đầu Tư Đông Dương",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-02T16:14:22.228079"
+  },
+  {
+    "id": "200952878",
+    "title": "Quản Lý Dịch Vụ Hậu Mãi (Aftersales Service Manager)",
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/quan-ly-dich-vu-hau-mai-aftersales-service-manager-c47p210000160id200952878.html",
+    "company": "Swire Coca-Cola Việt Nam",
+    "salary": "12 - 15 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-02T16:14:49.126135"
   }
 ]
