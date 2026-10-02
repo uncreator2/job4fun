@@ -1469,5 +1469,44 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-01T17:01:36.342891",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200951834.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p210000169id200951834.html",
+    "id": "200951834",
+    "title": "Giám Sát Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-phat-trien-kinh-doanh-c13p73id200952484.html",
+    "id": "200952484",
+    "title": "Giám Đốc Phát Triển Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-kinh-doanh-c6p122id200948842.html",
+    "id": "200948842",
+    "title": "Giám Sát Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xuat-nhap-khau/nhan-vien-kinh-doanh-logistics-c15p210000187id200953267.html",
+    "id": "200953267",
+    "title": "Nhân Viên Kinh Doanh Logistics",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/sales-admin-lam-viec-tai-ha-noi-chap-nhan-sinh-vien-moi-ra-truong-c1p210000160id200952489.html",
+    "id": "200952489",
+    "title": "Sales Admin Làm Việc Tại Hà Nội - Chấp Nhận Sinh Viên Mới Ra Trường",
+    "company": "Công Ty CP Chuyển Phát Nhanh Netpost Việt Nam",
+    "salary": "12 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-02T07:48:41.415307",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200952489.png"
   }
 ]
