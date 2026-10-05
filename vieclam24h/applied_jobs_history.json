@@ -1745,5 +1745,72 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-05T08:22:17.724890",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200936656.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/phat-trien-kinh-doanh-sme-dao-tao-chuyen-mon-nganh-logistics-co-hoi-len-leader-c13p122id200934928.html",
+    "id": "200934928",
+    "title": "Phát Triển Kinh Doanh SME (Đào Tạo Chuyên Môn Ngành Logistics, Cơ Hội Lên Leader)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-nang-nguoi-toan-quoc-lam-viec-remote-c13p122id200947119.html",
+    "id": "200947119",
+    "title": "Trưởng Phòng Kinh Doanh Xe Nâng Người (Toàn Quốc) – Làm Việc Remote",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-di-thi-truong-c13p210000160id200955650.html",
+    "id": "200955650",
+    "title": "Nhân Viên Kinh Doanh Đi Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thuc-tap-sinh/nhan-vien-kinh-doanh-bds-vinhomes-c53p210000160id200954830.html",
+    "id": "200954830",
+    "title": "Nhân Viên Kinh Doanh BĐS Vinhomes",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-c13p210000160id200954929.html",
+    "id": "200954929",
+    "title": "Nhân Viên Kinh Doanh Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-van-hanh-san-shopee-thu-nhap-upto-20-trieu-c13p210000160id200955781.html",
+    "id": "200955781",
+    "title": "Quản Lý / Vận Hành Sàn Shopee (Thu Nhập Upto 20 Triệu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/khu-vuc-mien-bac-nhan-vien-tu-van-khoan-vay-thu-nhap-20trieu-c13p73id200943757.html",
+    "id": "200943757",
+    "title": "[ Khu Vực Miền Bắc] Nhân Viên Tư Vấn Khoản Vay Thu Nhập 20Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/chuyen-vien-cham-soc-khach-hang-kenh-gt-c30p210000160id200954901.html",
+    "id": "200954901",
+    "title": "Chuyên Viên Chăm Sóc Khách Hàng Kênh GT",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/quan-ly-dich-vu-hau-mai-aftersales-service-manager-c47p210000160id200952878.html",
+    "id": "200952878",
+    "title": "Quản Lý Dịch Vụ Hậu Mãi (Aftersales Service Manager)",
+    "company": "Swire Coca-Cola Việt Nam",
+    "salary": "12 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-05T19:13:26.572974",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200952878.png"
   }
 ]
