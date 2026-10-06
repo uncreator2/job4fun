@@ -1812,5 +1812,55 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-05T19:13:26.572974",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200952878.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/quan-ly-dich-vu-hau-mai-technopark-tower-c47p210000160id200952886.html",
+    "id": "200952886",
+    "title": "Quản Lý Dịch Vụ Hậu Mãi (Technopark Tower)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/van-hanh-bao-tri-bao-duong/nhan-vien-quan-ly-van-tai-c10p210000160id200955263.html",
+    "id": "200955263",
+    "title": "Nhân Viên Quản Lý Vận Tải",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/co-van-dich-vu-c47p210000160id200956237.html",
+    "id": "200956237",
+    "title": "Cố Vấn Dịch Vụ",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-dich-vu-logistics-di-lam-ngay-c13p210000160id200953935.html",
+    "id": "200953935",
+    "title": "Nhân Viên Kinh Doanh Dịch Vụ Logistics - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/pho-giam-doc-van-hanh-sieu-thi-bach-hoa-luong-25-30-trieu-tp-hcm-ha-noi-c6p73id200936549.html",
+    "id": "200936549",
+    "title": "Phó Giám Đốc Vận Hành Siêu Thị Bách Hóa, Lương 25 - 30 Triệu (Tp.HCM, Hà Nội)",
+    "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-06T08:26:50.671030",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200936549.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/dien-dien-tu-dien-lanh/doi-truong-truong-nhom-co-dien-thu-nhap-tren-25-trieu-di-lam-ngay-c41p210000160id200942053.html",
+    "id": "200942053",
+    "title": "Đội Trưởng (Trưởng Nhóm) Cơ Điện Thu Nhập Trên 25 Triệu - Đi Làm Ngay",
+    "company": "Công Ty Cổ Phần Công Nghệ Eupfin Việt Nam",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-06T08:28:34.217321",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200942053.png"
   }
 ]
