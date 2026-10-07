@@ -1959,5 +1959,102 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-06T16:38:17.803242",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200956155.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/quan-ly-resort-4-5-sao-c5p210000187id200952468.html",
+    "id": "200952468",
+    "title": "Quản Lý Resort 4 - 5 Sao",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-phat-trien-thi-truong-mang-vat-lieu-noi-that-luong-upto-30-trieu-c13p210000160id200937806.html",
+    "id": "200937806",
+    "title": "Nhân Viên Kinh Doanh - Phát Triển Thị Trường (Mảng Vật Liệu Nội Thât) - Lương Upto 30 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-kinh-doanh-duoi-01-nam-kinh-nghiem-thu-nhap-len-den-20-trieu-ha-noi-c13p210000160id200957227.html",
+    "id": "200957227",
+    "title": "Nhân Viên Bán Hàng - Kinh Doanh - Dưới 01 Năm Kinh Nghiệm - Thu Nhập Lên Đến 20 Triệu - Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/tay-ho-ha-noi-nhan-vien-kinh-doanh-tai-van-phong-khong-yeu-cau-kinh-nghiem-c13p210000160id200957473.html",
+    "id": "200957473",
+    "title": "[Tây Hồ - Hà Nội] Nhân Viên Kinh Doanh Tại Văn Phòng - Không Yêu Cầu Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/nhan-vien-kinh-doanh-thi-truong-c6p210000160id200950443.html",
+    "id": "200950443",
+    "title": "Nhân Viên Kinh Doanh Thị Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-thu-nhap-den-30-trieu-thang-c13p210000160id200947446.html",
+    "id": "200947446",
+    "title": "Nhân Viên Kinh Doanh Thị Trường - Thu Nhập Đến 30 Triệu/Tháng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-dien-viettelstore-ha-noi-c13p210000160id200958097.html",
+    "id": "200958097",
+    "title": "Trưởng Phòng Kinh Doanh Xe Điện Viettelstore (Hà Nội)",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T07:48:54.178105",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200958097.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p210000160id200957896.html",
+    "id": "200957896",
+    "title": "Quản Lý Cửa Hàng",
+    "company": "Công Ty TNHH Thiết Bị Khoa Học Và Giáo Dục Nam Việt",
+    "salary": "8.5 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T07:49:19.449254",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957896.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/quan-ly-cua-hang-vikkafe-c5p210000187id200815369.html",
+    "id": "200815369",
+    "title": "Quản Lý Cửa Hàng - Vikkafe",
+    "company": "Công Ty Cổ Phần Medcomtech",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T07:49:44.359774",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200815369.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-xay-dung-cong-trinh-c31p210000160id200957614.html",
+    "id": "200957614",
+    "title": "Giám Sát Xây Dựng Công Trình",
+    "company": "Công Ty TNHH Smarc",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T07:50:29.543640",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957614.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-sieu-thi-viettelstore-kinh-doanh-xe-dien-cac-khu-vuc-ha-noi-c13p210000160id200957711.html",
+    "id": "200957711",
+    "title": "Trưởng Nhóm Siêu Thị Viettelstore Kinh Doanh Xe Điện (Các Khu Vực Hà Nội)",
+    "company": "Công Ty Cổ Phần Tư Vấn Đầu Tư Real Estate Việt Nam",
+    "salary": "2 - 5 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T07:50:56.823464",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957711.png"
   }
 ]

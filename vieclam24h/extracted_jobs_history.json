@@ -1198,5 +1198,55 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-10-06T16:33:02.749688"
+  },
+  {
+    "id": "200958097",
+    "title": "Trưởng Phòng Kinh Doanh Xe Điện Viettelstore (Hà Nội)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-dien-viettelstore-ha-noi-c13p210000160id200958097.html",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-07T07:44:32.880624"
+  },
+  {
+    "id": "200957896",
+    "title": "Quản Lý Cửa Hàng",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p210000160id200957896.html",
+    "company": "Công Ty TNHH Thiết Bị Khoa Học Và Giáo Dục Nam Việt",
+    "salary": "8.5 - 15 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-07T07:44:49.026515"
+  },
+  {
+    "id": "200815369",
+    "title": "Quản Lý Cửa Hàng - Vikkafe",
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/quan-ly-cua-hang-vikkafe-c5p210000187id200815369.html",
+    "company": "Công Ty Cổ Phần Medcomtech",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-07T07:44:56.875516"
+  },
+  {
+    "id": "200957614",
+    "title": "Giám Sát Xây Dựng Công Trình",
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-xay-dung-cong-trinh-c31p210000160id200957614.html",
+    "company": "Công Ty TNHH Smarc",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-07T07:45:04.464089"
+  },
+  {
+    "id": "200957711",
+    "title": "Trưởng Nhóm Siêu Thị Viettelstore Kinh Doanh Xe Điện (Các Khu Vực Hà Nội)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-sieu-thi-viettelstore-kinh-doanh-xe-dien-cac-khu-vuc-ha-noi-c13p210000160id200957711.html",
+    "company": "Công Ty Cổ Phần Tư Vấn Đầu Tư Real Estate Việt Nam",
+    "salary": "2 - 5 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-07T07:45:43.580065"
   }
 ]
