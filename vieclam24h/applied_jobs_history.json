@@ -2056,5 +2056,62 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-07T07:50:56.823464",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957711.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-ca-phe-muoi-chu-long-c6p210000187id200957462.html",
+    "id": "200957462",
+    "title": "Cửa Hàng Trưởng - Cà Phê Muối Chú Long",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/quan-ly-pg-cham-soc-cua-hang-c12p210000160id200957119.html",
+    "id": "200957119",
+    "title": "Quản Lý PG & Chăm Sóc Cửa Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/quan-ly-du-an/giam-sat-ky-thuat-hien-truong-c27p210000160id200957448.html",
+    "id": "200957448",
+    "title": "Giám Sát Kỹ Thuật Hiện Trường",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/nhan-vien-kinh-doanh-c47p210000160id200957878.html",
+    "id": "200957878",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/nhan-vien-phong-quan-ly-thi-cong-biet-lai-xe-luong-18-25tr-thang-c31p210000160id200940759.html",
+    "id": "200940759",
+    "title": "Nhân Viên Phòng Quản Lý Thi Công - Biết Lái Xe Lương 18 - 25Tr / Tháng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-manager-linh-vuc-du-lich-khach-san-c13p210000160id200955332.html",
+    "id": "200955332",
+    "title": "Sales Manager - Lĩnh Vực Du Lịch & Khách Sạn",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T17:10:33.553070",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200955332.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/store-leader-hcm-hn-da-nang-binh-duong-c6p210000187id200957069.html",
+    "id": "200957069",
+    "title": "Store Leader (HCM / HN / Đà Nẵng / Bình Dương)",
+    "company": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ PHÁT TRIỂN BẤT ĐỘNG SẢN BÌNH MINH",
+    "salary": "15 - 100 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-07T17:10:57.445375",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957069.png"
   }
 ]
