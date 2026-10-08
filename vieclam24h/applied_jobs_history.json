@@ -2113,5 +2113,62 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-07T17:10:57.445375",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957069.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/store-leader-truong-nhom-khu-vui-choi-di-lam-ngay-c6p210000187id200958558.html",
+    "id": "200958558",
+    "title": "Store Leader - Trưởng Nhóm Khu Vui Chơi - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-nhom-ban-hang-yeu-cau-biet-tieng-nhat-lam-viec-tai-da-nang-c6p210000180id200950721.html",
+    "id": "200950721",
+    "title": "Trưởng Nhóm Bán Hàng - Yêu Cầu Biết Tiếng Nhật - Làm Việc Tại Đà Nẵng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-khu-vuc-tp-hcm-c6p210000187id200959196.html",
+    "id": "200959196",
+    "title": "Trưởng Phòng Kinh Doanh - Khu Vực Tp HCM",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/hcm-tinh-mien-nam-giam-doc-sieu-thi-winmart-c13p210000187id200957600.html",
+    "id": "200957600",
+    "title": "[HCM& Tỉnh Miền Nam] Giám Đốc Siêu Thị Winmart",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-di-lam-ngay-c13p210000187id200958824.html",
+    "id": "200958824",
+    "title": "Nhân Viên Kinh Doanh [Đi Làm Ngay]",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/cotoneve-italy-quan-ly-kinh-doanh-phat-trien-thi-truong-kenh-sieu-thi-ha-noi-kv-mien-bac-va-tp-hcm-kv-mien-nam-c13p210000160id200952323.html",
+    "id": "200952323",
+    "title": "Cotoneve Italy – Quản Lý Kinh Doanh Phát Triển Thị Trường Kênh Siêu Thị (Hà Nội - Kv Miền Bắc Và Tp.HCM - Kv Miền Nam)",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-10-08T08:41:17.618702",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-bat-dong-san-luong-cung-15-20-trieu-c13p210000160id200957953.html",
+    "id": "200957953",
+    "title": "Trưởng Phòng Kinh Doanh Bất Động Sản Lương Cứng 15 - 20 Triệu",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-08T08:43:27.267369",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957953.png"
   }
 ]
