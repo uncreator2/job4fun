@@ -8110,5 +8110,29 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-10-08 07:53:02",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2314244.html": {
+    "job_id": "2314244",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2314244.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1791478061",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2314244.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "55 - 65 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-08 16:48:11",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-subscription/2325914.html": {
+    "job_id": "2325914",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-subscription/2325914.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1791478061",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-subscription/2325914.html",
+    "company": "CÔNG TY CỔ PHẦN MASSCOM VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-10-08 16:48:11",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
