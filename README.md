@@ -29,8 +29,23 @@ jobs/
 │   ├── applied_jobs_history.json   # Sổ cái việc làm đã nộp thành công
 │   └── errors/                     # Thư mục lưu lỗi & ảnh chụp sự cố
 │
-├── careerviet/                     # Phân hệ CareerViet (Đang phát triển)
-├── vieclam24h/                     # Phân hệ Việc Làm 24h (Đang phát triển)
+├── careerviet/                     # Phân hệ CareerViet
+│   ├── cv_crawler.py               # Crawler quét việc làm CareerViet
+│   ├── cv_applier.py               # Applier nộp đơn tự động CareerViet
+│   ├── cv_filter.py                # Bộ lọc nghiêm ngặt vị trí quản lý
+│   ├── search_urls.txt             # Danh sách URL tìm kiếm mục tiêu tại Hà Nội
+│   ├── extracted_jobs_history.json # Sổ cái việc làm đã quét
+│   ├── applied_jobs_history.json   # Sổ cái việc làm đã nộp thành công
+│   └── errors/                     # Thư mục lưu lỗi & ảnh chụp sự cố
+│
+├── vieclam24h/                     # Phân hệ Việc Làm 24h
+│   ├── v24h_crawler.py             # Crawler quét việc làm Vieclam24h
+│   ├── v24h_applier.py             # Applier nộp đơn tự động Vieclam24h
+│   ├── v24h_filter.py              # Bộ lọc nghiêm ngặt vị trí quản lý
+│   ├── search_urls.txt             # Danh sách URL tìm kiếm mục tiêu
+│   ├── extracted_jobs_history.json # Sổ cái việc làm đã quét
+│   ├── applied_jobs_history.json   # Sổ cái việc làm đã nộp thành công
+│   └── errors/                     # Thư mục lưu lỗi & ảnh chụp sự cố
 │
 └── .github/workflows/
     └── multi_platform_pipeline.yml# Workflow GitHub Actions điều khiển toàn bộ
@@ -49,6 +64,8 @@ jobs/
 | `VNW_ENV` | Email & Mật khẩu tài khoản VietnamWorks |
 | `V24H_COOKIES` | Session cookie JSON đã đăng nhập của Vieclam24h |
 | `V24H_ENV` | Email & Mật khẩu tài khoản Vieclam24h |
+| `CAREERVIET_COOKIES` | Session cookie JSON đã đăng nhập của CareerViet |
+| `CAREERVIET_ENV` | Email & Mật khẩu tài khoản CareerViet |
 
 ---
 
@@ -59,7 +76,7 @@ jobs/
   - **Ca 2 (Đầu giờ chiều):** `01:30 PM VN` (`30 6 * * 1-5` UTC)
   - **Ca 3 (Cuối giờ chiều):** `04:30 PM VN` (`30 9 * * 1-5` UTC)
   - **Ca 4 (Tối):** `08:30 PM VN` (`30 13 * * 1-5` UTC)
-* **Luồng chạy:** Tuần tự `TopCV -> VietnamWorks -> Vieclam24h`
+* **Luồng chạy:** Tuần tự `TopCV -> VietnamWorks -> Vieclam24h -> CareerViet`
   * Hoàn toàn độc lập, cách ly lỗi, không xung đột runner, tự động commit sổ cái và upload ảnh bằng chứng sau mỗi ca.
 
 ---

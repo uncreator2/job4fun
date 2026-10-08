@@ -6,3 +6,5 @@
 | ATT-002 | BUILD | 2026-09-21 09:48 | Fix VNW hydration/disabled button & V24H proxy ERR_CONNECTION_RESET | PROVEN | Local dry-runs passed for both VNW and V24H |
 | ATT-003 | RESEARCH & PLAN | 2026-09-21 10:55 | Diagnose Vieclam24h search pagination fallback, modal async hydration timeout, and loop runaway | PROVEN | Formulate dual-layer role filtering, resilient modal wait, and loop bounding |
 | ATT-004 | BUILD & TEST | 2026-09-21 11:01 | Implement v24h_filter, update crawler & applier, sanitize history ledgers | PROVEN | Local dry-run passed (2/2 jobs identified as management, modal opened, submit hydrated) |
+| ATT-005 | INTAKE & PREFLIGHT | 2026-10-08 15:47 | CareerViet cookie extraction & canonical search URL reverse-engineering | PROVEN | Verified 57 jobs (GĐKD) and 74 jobs (TPKD) at Hà Nội kl4-vi.html via preflight spike |
+| ATT-006 | BUILD & VALIDATE | 2026-10-08 16:05 | CareerViet apply engine, live apply test, dry-run & master cron orchestrator integration | PROVEN | Verified real apply on 35C86C84, dry-run 2/2 jobs, and run_pipeline.py 4th platform step |

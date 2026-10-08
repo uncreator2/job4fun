@@ -17,6 +17,7 @@ __pycache__/
 # OS & Logs
 .DS_Store
 *.log
+scratch/
 session_extracted_jobs.txt
 session_extracted_jobs.json
 

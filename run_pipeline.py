@@ -8,6 +8,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 TOPCV_DIR = os.path.join(ROOT_DIR, "topcv")
 VNW_DIR = os.path.join(ROOT_DIR, "vietnamworks")
 V24H_DIR = os.path.join(ROOT_DIR, "vieclam24h")
+CV_DIR = os.path.join(ROOT_DIR, "careerviet")
 
 def run_step(cmd, cwd, description):
     print(f"\n=======================================================")
@@ -27,7 +28,7 @@ def run_step(cmd, cwd, description):
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-Platform Automated Job Pipeline Orchestrator")
-    parser.add_argument("--platform", choices=["all", "topcv", "vietnamworks", "vieclam24h"], default="all", help="Nền tảng muốn chạy (mặc định: all)")
+    parser.add_argument("--platform", choices=["all", "topcv", "vietnamworks", "vieclam24h", "careerviet"], default="all", help="Nền tảng muốn chạy (mặc định: all)")
     parser.add_argument("--max", type=int, default=30, help="Số lượng việc làm tối đa nộp mỗi sàn (mặc định: 30)")
     parser.add_argument("--dry-run", action="store_true", default=False, help="Chế độ thử nghiệm không nộp thật")
     args = parser.parse_args()
@@ -40,7 +41,7 @@ def main():
     # 1. TOPCV
     if args.platform in ["all", "topcv"]:
         print("\n" + "#" * 60)
-        print("🏢 [BƯỚC 1/3] XỬ LÝ PHÂN HỆ TOPCV")
+        print("🏢 [BƯỚC 1/4] XỬ LÝ PHÂN HỆ TOPCV")
         print("#" * 60)
 
         # Kiểm tra cờ giới hạn ngày TopCV (UTC+7)
@@ -75,7 +76,7 @@ def main():
     # 2. VIETNAMWORKS
     if args.platform in ["all", "vietnamworks"]:
         print("\n" + "#" * 60)
-        print("🏢 [BƯỚC 2/3] XỬ LÝ PHÂN HỆ VIETNAMWORKS")
+        print("🏢 [BƯỚC 2/4] XỬ LÝ PHÂN HỆ VIETNAMWORKS")
         print("#" * 60)
 
         # Crawl
@@ -98,7 +99,7 @@ def main():
     # 3. VIECLAM24H
     if args.platform in ["all", "vieclam24h"]:
         print("\n" + "#" * 60)
-        print("🏢 [BƯỚC 3/3] XỬ LÝ PHÂN HỆ VIECLAM24H")
+        print("🏢 [BƯỚC 3/4] XỬ LÝ PHÂN HỆ VIECLAM24H")
         print("#" * 60)
 
         # Crawl
@@ -117,6 +118,29 @@ def main():
             description="Vieclam24h: Nộp đơn việc làm chưa nộp"
         )
         summary["Vieclam24h"] = {"crawled": c_ok, "applied": a_ok}
+
+    # 4. CAREERVIET
+    if args.platform in ["all", "careerviet"]:
+        print("\n" + "#" * 60)
+        print("🏢 [BƯỚC 4/4] XỬ LÝ PHÂN HỆ CAREERVIET")
+        print("#" * 60)
+
+        # Crawl
+        c_ok = run_step(
+            [sys.executable, "cv_crawler.py"],
+            cwd=CV_DIR,
+            description="CareerViet: Quét việc làm mới"
+        )
+        # Apply
+        apply_cmd = [sys.executable, "cv_applier.py", "--max", str(args.max)]
+        if args.dry_run:
+            apply_cmd.append("--dry-run")
+        a_ok = run_step(
+            apply_cmd,
+            cwd=CV_DIR,
+            description="CareerViet: Nộp đơn việc làm chưa nộp"
+        )
+        summary["CareerViet"] = {"crawled": c_ok, "applied": a_ok}
 
     print("\n" + "=" * 60)
     print("📊 BÁO CÁO TỔNG KẾT PIPELINE HOÀN TẤT")
