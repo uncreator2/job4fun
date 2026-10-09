@@ -13,6 +13,24 @@ def get_proxy_config():
     """
     proxy_str = os.environ.get("PROXY_SERVER", "").strip()
     if not proxy_str:
+        candidates = [
+            os.path.join(os.path.dirname(__file__), "proxy.txt"),
+            os.path.join(os.path.dirname(__file__), "..", "topcv", "proxy.txt"),
+            os.path.join(os.getcwd(), "proxy.txt"),
+            os.path.join(os.getcwd(), "topcv", "proxy.txt")
+        ]
+        for p in candidates:
+            if os.path.exists(p):
+                try:
+                    with open(p, "r", encoding="utf-8") as f:
+                        line = f.read().strip()
+                        if line:
+                            proxy_str = line
+                            break
+                except Exception:
+                    pass
+
+    if not proxy_str:
         return None
 
     # Format 1: host:port:user:pass
