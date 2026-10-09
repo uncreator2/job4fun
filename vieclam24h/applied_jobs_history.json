@@ -2248,5 +2248,98 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-09T04:15:24.112748",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200959613.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/tro-ly-giam-doc-kiem-co-van-du-an-cat-soi-san-lap-c1p210000160id200948489.html",
+    "id": "200948489",
+    "title": "Trợ Lý Giám Đốc Kiêm Cố Vấn Dự Án Cát - Sỏi - San Lấp",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-gian-giao-c6p210000160id200960422.html",
+    "id": "200960422",
+    "title": "Trưởng Phòng Kinh Doanh Giàn Giáo",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/truong-nhom-tu-van-qua-dien-thoai-vpbank-tong-thu-nhap-upto-30tr-thang-c18p210000187id200960166.html",
+    "id": "200960166",
+    "title": "Trưởng Nhóm Tư Vấn Qua Điện Thoại (VPBank - Tổng Thu Nhâp Upto 30Tr / Tháng)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/ky-su-giam-sat-cong-trinh-thu-nhap-len-den-25-trieu-thang-thuong-du-an-c31p210000160id200959992.html",
+    "id": "200959992",
+    "title": "Kỹ Sư Giám Sát Công Trình - Thu Nhập Lên Đến 25 Triệu / Tháng + Thưởng Dự Án",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-nganh-fmcg-c13p210000160id200959106.html",
+    "id": "200959106",
+    "title": "Giám Sát Kinh Doanh - Ngành Fmcg",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-mang-xe-nang-toan-quoc-c13p210000160id200960378.html",
+    "id": "200960378",
+    "title": "Trưởng Phòng Kinh Doanh Mảng Xe Nâng - Toàn Quốc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-bat-dong-san-khong-can-kinh-nghiem-data-nong-c13p210000187id200959648.html",
+    "id": "200959648",
+    "title": "Nhân Viên Kinh Doanh Bất Động Sản - Không Cần Kinh Nghiệm - Data Nóng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/account-manager-koc-partnership-c12p73id200921578.html",
+    "id": "200921578",
+    "title": "Account Manager (KOC Partnership)",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-09T15:38:19.804996",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-ban-le-c6p73id200915297.html",
+    "id": "200915297",
+    "title": "Giám Sát Bán Lẻ",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-09T15:38:36.954961",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-mien-bac-c13p73id200917815.html",
+    "id": "200917815",
+    "title": "Giám Sát Kinh Doanh Miền Bắc",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-09T15:38:52.591663",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/bien-phien-dich/tro-ly-giam-doc-tieng-trung-tu-hsk5-kinh-nghiem-tu-1-nam-c37p73id200889744.html",
+    "id": "200889744",
+    "title": "Trợ Lý Giám Đốc (Tiếng Trung Từ Hsk5 - Kinh Nghiệm Từ 1 Năm)",
+    "company": "Công Ty Cổ Phần Govi Việt Nam",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-09T15:39:18.200954",
+    "proof": null
   }
 ]

@@ -191,6 +191,10 @@ async def inject_cookies(context):
                 raw_cookies = json.load(f)
                 formatted = []
                 for c in raw_cookies:
+                    # Skip Cloudflare fingerprint cookies that trigger 403 when IP changes
+                    c_name = c.get("name", "").lower()
+                    if any(k in c_name for k in ["cf_", "__cf"]):
+                        continue
                     formatted.append({
                         "name": c["name"],
                         "value": c["value"],
@@ -198,7 +202,7 @@ async def inject_cookies(context):
                         "path": c.get("path", "/")
                     })
                 await context.add_cookies(formatted)
-                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên.")
+                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên (đã lọc CF fingerprint).")
                 return True
         except Exception as e:
             log(f"[!] Lỗi nạp cookies: {e}")

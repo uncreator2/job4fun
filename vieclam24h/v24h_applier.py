@@ -400,6 +400,20 @@ def apply_single_job(page, job, dry_run=False):
                 break
 
         if apply_btn is None:
+            # Check if job posting is officially expired or closed
+            is_expired = False
+            try:
+                is_expired = page.evaluate("""() => {
+                    const t = document.body.innerText.toLowerCase();
+                    return t.includes('hết hạn nộp hồ sơ') || t.includes('việc làm này đã đóng') || t.includes('tin tuyển dụng đã hết hạn');
+                }""")
+            except Exception:
+                pass
+
+            if is_expired:
+                print("ℹ️ [BỎ QUA VIỆC HẾT HẠN] Việc làm này đã hết hạn nộp hồ sơ. Đánh dấu vào sổ cái để không kiểm tra lại.")
+                return {"status": "EXPIRED", "submitted": True, "reason": "Hết hạn nộp hồ sơ"}
+
             print("⚠️ Không tìm thấy nút 'Ứng tuyển ngay' hợp lệ (việc làm có thể đã đóng, hết hạn hoặc đã ứng tuyển trước đó).")
             err_shot = os.path.join(ERRORS_DIR, f"v24h_no_btn_{job_id}.png")
             try:
@@ -755,9 +769,10 @@ def run_applier(max_applies=20, dry_run=False):
                     break
 
                 if result.get("submitted"):
-                    applied_count += 1
-                    consecutive_errors = 0  # Reset on any successful submission or dry-run
-                    if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED"]:
+                    if status != "EXPIRED":
+                        applied_count += 1
+                        consecutive_errors = 0  # Reset on any successful submission or dry-run
+                    if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED", "EXPIRED"]:
                         applied_dict[u] = {
                             "url": u,
                             "id": job.get("id"),
