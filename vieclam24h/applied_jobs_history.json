@@ -2170,5 +2170,83 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-08T08:43:27.267369",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957953.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-nhan-vien-kinh-doanh-luong-cung-10-trieu-thu-nhap-tu-15-20-trieu-ha-noi-c13p210000160id200959927.html",
+    "id": "200959927",
+    "title": "Nam Nhân Viên Kinh Doanh (Lương Cứng 10 Triệu, Thu Nhập Từ 15 - 20 Triệu) - Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-b2b-tu-1-nam-kinh-nghiem-thu-nhap-upto-20-trieu-c13p210000160id200958798.html",
+    "id": "200958798",
+    "title": "Nhân Viên Kinh Doanh B2B - Từ 1 Năm Kinh Nghiệm - Thu Nhập Upto 20 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000160id200959481.html",
+    "id": "200959481",
+    "title": "Giám Đốc Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/bat-dong-san/chuyen-vien-kinh-doanh-sales-bat-dong-san-thu-viec-100-luong-co-dao-tao-c29p73id200950367.html",
+    "id": "200950367",
+    "title": "Chuyên Viên Kinh Doanh / Sales Bất Động Sản - Thử Việc 100% Lương - Có Đào Tạo",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/nhan-vien-kinh-doanh-luong-cung-15-trieu-khong-yeu-cau-cao-c6p210000160id200957138.html",
+    "id": "200957138",
+    "title": "Nhân Viên Kinh Doanh Lương Cứng 15 Triệu (Không Yêu Cầu Cao)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-bat-dong-san-co-luong-cung-data-san-di-lam-ngay-c13p210000187id200953766.html",
+    "id": "200953766",
+    "title": "Nhân Viên Kinh Doanh Bất Động Sản - Có Lương Cứng (Data Sẵn) Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/chi-huy-truong-luong-65-70-trieu-c31p210000160id200958121.html",
+    "id": "200958121",
+    "title": "Chỉ Huy Trưởng Lương 65-70 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-bat-dong-san-c13p122id200950073.html",
+    "id": "200950073",
+    "title": "Trưởng Phòng Kinh Doanh Bất Động Sản",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-phat-trien-kinh-doanh-c13p210000160id200957949.html",
+    "id": "200957949",
+    "title": "Giám Đốc Phát Triển Kinh Doanh",
+    "company": "Công Ty TNHH Thương Mại Kata Việt Nam",
+    "salary": "15 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-09T04:07:49.196478",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957949.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/account-manager-kinh-doanh-du-an-c13p210000160id200959613.html",
+    "id": "200959613",
+    "title": "Account Manager Kinh Doanh Dự Án",
+    "company": "Công Ty Cổ Phần Việc Làm 24H",
+    "salary": "10 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-09T04:15:24.112748",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200959613.png"
   }
 ]

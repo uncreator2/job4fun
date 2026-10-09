@@ -1308,5 +1308,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-10-08T08:28:39.505091"
+  },
+  {
+    "id": "200959481",
+    "title": "Giám Đốc Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000160id200959481.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-09T03:53:10.866517"
+  },
+  {
+    "id": "200959992",
+    "title": "Kỹ Sư Giám Sát Công Trình - Thu Nhập Lên Đến 25 Triệu / Tháng + Thưởng Dự Án",
+    "url": "https://vieclam24h.vn/xay-dung/ky-su-giam-sat-cong-trinh-thu-nhap-len-den-25-trieu-thang-thuong-du-an-c31p210000160id200959992.html",
+    "company": "Công Ty Cổ Phần Kinh Doanh Địa Ốc Trường Phát",
+    "salary": "50 - 100 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-09T03:53:46.321591"
+  },
+  {
+    "id": "200959613",
+    "title": "Account Manager Kinh Doanh Dự Án",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/account-manager-kinh-doanh-du-an-c13p210000160id200959613.html",
+    "company": "Công Ty Cổ Phần Việc Làm 24H",
+    "salary": "10 - 40 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-09T03:54:06.977001"
   }
 ]
