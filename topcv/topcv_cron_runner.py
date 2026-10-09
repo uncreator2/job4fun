@@ -198,7 +198,7 @@ async def run():
 
         context_kwargs = {
             "viewport": {"width": 1440, "height": 900},
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
             "locale": "vi-VN",
             "timezone_id": "Asia/Ho_Chi_Minh"
         }
@@ -206,6 +206,20 @@ async def run():
             context_kwargs["proxy"] = proxy_config
 
         context = await browser.new_context(**context_kwargs)
+
+        async def block_heavy_resources(route):
+            try:
+                req = route.request
+                if req.resource_type in ["image", "media", "font"]:
+                    await route.abort()
+                elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                    await route.abort()
+                else:
+                    await route.continue_()
+            except Exception:
+                pass
+
+        await context.route("**/*", block_heavy_resources)
         page = await context.new_page()
         try:
             stealth = Stealth()

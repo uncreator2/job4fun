@@ -203,7 +203,8 @@ def crawl_vieclam24h(max_pages_limit=MAX_PAGES_PER_URL):
     history_dict = load_extracted_history()
     print(f"📚 Sổ cái hiện có: {len(history_dict)} việc làm đã lưu.")
 
-    proxy_cfg = get_proxy_config()
+    # Vieclam24h không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
+    proxy_cfg = get_proxy_config() if os.environ.get("USE_V24H_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
     if proxy_cfg:
         print(f"🌐 Sử dụng Proxy: {proxy_cfg.get('server')}")
 

@@ -724,6 +724,20 @@ async def run(target_url=None, dry_run=None, max_applies=None):
             context_kwargs["proxy"] = proxy_config
 
         context = await browser.new_context(**context_kwargs)
+
+        async def block_heavy_resources(route):
+            try:
+                req = route.request
+                if req.resource_type in ["image", "media", "font"]:
+                    await route.abort()
+                elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                    await route.abort()
+                else:
+                    await route.continue_()
+            except Exception:
+                pass
+
+        await context.route("**/*", block_heavy_resources)
         page = await context.new_page()
         try:
             stealth = Stealth()

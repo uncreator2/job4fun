@@ -618,7 +618,10 @@ def run_applier(max_applies=20, dry_run=False):
         print("✅ Tất cả việc làm đã được nộp hoặc không còn việc mới. Hoàn tất!")
         return 0
 
-    proxy_cfg = get_proxy_config()
+    # Vieclam24h không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
+    proxy_cfg = get_proxy_config() if os.environ.get("USE_V24H_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
+    if proxy_cfg:
+        print(f"🌐 Sử dụng Proxy: {proxy_cfg.get('server')}")
     raw_cookies = load_cookies()
 
     applied_count = 0
