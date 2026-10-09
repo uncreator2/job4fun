@@ -152,12 +152,25 @@ async def save_error(page, job_url: str, error_type: str, details: str = ""):
 
         screenshot_rel = ""
         screenshot_path = os.path.join(ERRORS_DIR, f"{prefix}.png")
+        html_path = os.path.join(ERRORS_DIR, f"{prefix}.html")
+        ray_id = ""
         if page:
             try:
                 await page.screenshot(path=screenshot_path)
                 screenshot_rel = f"{prefix}.png"
             except Exception:
                 screenshot_rel = ""
+            try:
+                content = await page.content()
+                with open(html_path, "w", encoding="utf-8") as hf:
+                    hf.write(content)
+                m_ray = re.search(r"Cloudflare Ray ID:\s*<[^>]+>([a-f0-9]+)<", content, re.I)
+                if not m_ray:
+                    m_ray = re.search(r"Ray ID:\s*([a-f0-9]+)", content, re.I)
+                if m_ray:
+                    ray_id = m_ray.group(1)
+            except Exception:
+                pass
 
         json_path = os.path.join(ERRORS_DIR, f"{prefix}.json")
         data = {
@@ -165,7 +178,9 @@ async def save_error(page, job_url: str, error_type: str, details: str = ""):
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "error_type": error_type,
             "details": str(details),
-            "screenshot": screenshot_rel
+            "ray_id": ray_id,
+            "screenshot": screenshot_rel,
+            "html_dump": f"{prefix}.html" if os.path.exists(html_path) else ""
         }
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
@@ -191,10 +206,6 @@ async def inject_cookies(context):
                 raw_cookies = json.load(f)
                 formatted = []
                 for c in raw_cookies:
-                    # Skip Cloudflare fingerprint cookies that trigger 403 when IP changes
-                    c_name = c.get("name", "").lower()
-                    if any(k in c_name for k in ["cf_", "__cf"]):
-                        continue
                     formatted.append({
                         "name": c["name"],
                         "value": c["value"],
@@ -202,7 +213,7 @@ async def inject_cookies(context):
                         "path": c.get("path", "/")
                     })
                 await context.add_cookies(formatted)
-                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên (đã lọc CF fingerprint).")
+                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên TopCV.")
                 return True
         except Exception as e:
             log(f"[!] Lỗi nạp cookies: {e}")
@@ -414,6 +425,34 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
             isBlocked: isBlocked
         };
     }""")
+
+    if job_info.get("isBlocked"):
+        log("⏳ Phát hiện màn hình Cloudflare, tạm dừng 3.5s và thử tải lại trang...")
+        await asyncio.sleep(3.5)
+        try:
+            await page.reload(wait_until="domcontentloaded", timeout=30000)
+            await asyncio.sleep(2.5)
+            job_info = await page.evaluate("""() => {
+                const titleEl = document.querySelector('h1.job-detail__info--title, .job-detail-info h1, h1');
+                const compEl = document.querySelector('.company-name, .company-title, a.company');
+                const descEl = document.querySelector('.job-description, #job-description, .job-data');
+                const applyBtns = Array.from(document.querySelectorAll('a.btn-apply, button.btn-apply, a.open-apply-modal, a.btn-apply-job, .btn-action-job.btn-apply, .box-apply .btn, a[href*="#modal-apply"]'));
+                const bodyText = document.body ? document.body.innerText : "";
+                const isLoggedOut = bodyText.includes('Đăng nhập để ứng tuyển') || applyBtns.some(b => (b.innerText || '').includes('Đăng nhập'));
+                const isBlocked = bodyText.includes('Sorry, you have been blocked') || bodyText.includes('Just a moment...');
+                return {
+                    title: titleEl ? titleEl.innerText.trim() : document.title,
+                    company: compEl ? compEl.innerText.trim() : '',
+                    description: descEl ? descEl.innerText.slice(0, 800) : '',
+                    hasApplyBtn: applyBtns.length > 0,
+                    isLoggedOut: !!isLoggedOut,
+                    isBlocked: isBlocked
+                };
+            }""")
+            if not job_info.get("isBlocked"):
+                log("✅ Cloudflare đã giải tỏa sau khi tải lại!")
+        except Exception as e:
+            log(f"⚠️ Thử tải lại sau Cloudflare gặp lỗi: {e}")
 
     if job_info.get("isBlocked"):
         log("❌ Cloudflare chặn truy cập vào URL này trên IP runner.")
@@ -721,7 +760,7 @@ async def run(target_url=None, dry_run=None, max_applies=None):
 
         context_kwargs = {
             "viewport": {"width": 1440, "height": 900},
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             "locale": "vi-VN",
             "timezone_id": "Asia/Ho_Chi_Minh"
         }
@@ -733,9 +772,7 @@ async def run(target_url=None, dry_run=None, max_applies=None):
         async def block_heavy_resources(route):
             try:
                 req = route.request
-                if req.resource_type in ["image", "media", "font"]:
-                    await route.abort()
-                elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                if any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
                     await route.abort()
                 else:
                     await route.continue_()

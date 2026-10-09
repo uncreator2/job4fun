@@ -101,10 +101,6 @@ async def inject_cookies(context):
                 raw_cookies = json.load(f)
                 formatted = []
                 for c in raw_cookies:
-                    # Skip Cloudflare fingerprint cookies that trigger 403 when IP changes
-                    c_name = c.get("name", "").lower()
-                    if any(k in c_name for k in ["cf_", "__cf"]):
-                        continue
                     formatted.append({
                         "name": c["name"],
                         "value": c["value"],
@@ -112,7 +108,7 @@ async def inject_cookies(context):
                         "path": c.get("path", "/")
                     })
                 await context.add_cookies(formatted)
-                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên trình duyệt (đã lọc CF fingerprint).")
+                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên trình duyệt TopCV.")
                 return True
         except Exception as e:
             log(f"[!] Lỗi đọc cookies: {e}")
@@ -202,7 +198,7 @@ async def run():
 
         context_kwargs = {
             "viewport": {"width": 1440, "height": 900},
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             "locale": "vi-VN",
             "timezone_id": "Asia/Ho_Chi_Minh"
         }
@@ -214,9 +210,7 @@ async def run():
         async def block_heavy_resources(route):
             try:
                 req = route.request
-                if req.resource_type in ["image", "media", "font"]:
-                    await route.abort()
-                elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                if any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
                     await route.abort()
                 else:
                     await route.continue_()

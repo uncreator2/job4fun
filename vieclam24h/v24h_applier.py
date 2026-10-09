@@ -736,14 +736,15 @@ def run_applier(max_applies=20, dry_run=False):
                 j for j in candidate_jobs
                 if j.get("url") not in applied_dict and is_target_management_job(j.get("title", ""), j.get("url", ""))
             ]
-            max_eval_attempts = min(len(candidate_jobs), max_applies * 2)
+            max_eval_attempts = min(len(candidate_jobs), max(max_applies * 5, 20))
             eval_candidates = candidate_jobs[:max_eval_attempts]
+            target_todo = min(len(candidate_jobs), max_applies)
             print(f"📋 Danh sách việc làm mục tiêu cần nộp: {len(candidate_jobs)} (Tối đa duyệt ca này: {len(eval_candidates)}, Chỉ tiêu nộp: {max_applies})")
 
             session_report = {
                 "platform": "Vieclam24h",
                 "timestamp": datetime.now().isoformat(),
-                "todo_count": len(eval_candidates),
+                "todo_count": target_todo,
                 "applied_count": 0,
                 "applied_jobs": [],
                 "skipped_counts": {
