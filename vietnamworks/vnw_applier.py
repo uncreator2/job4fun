@@ -516,17 +516,18 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
 
             if status in ["SUBMITTED", "ALREADY_APPLIED", "DRY_RUN_READY"]:
                 consecutive_fails = 0
-                applied_dict[url] = {
-                    "id": job.get("id"),
-                    "title": job.get("title"),
-                    "company": job.get("company"),
-                    "salary": job.get("salary"),
-                    "url": url,
-                    "applied_at": datetime.now().isoformat(),
-                    "status": status,
-                    "proof": res.get("proof", "")
-                }
-                save_applied_history(applied_dict)
+                if not dry_run or status == "ALREADY_APPLIED":
+                    applied_dict[url] = {
+                        "id": job.get("id"),
+                        "title": job.get("title"),
+                        "company": job.get("company"),
+                        "salary": job.get("salary"),
+                        "url": url,
+                        "applied_at": datetime.now().isoformat(),
+                        "status": status,
+                        "proof": res.get("proof", "")
+                    }
+                    save_applied_history(applied_dict)
                 applied_count += 1
             elif status == "NO_APPLY_BUTTON":
                 # Tin tuyển dụng đã đóng hoặc hết hạn: lưu vào sổ cái để không quét lặp lại gây tốn thời gian
