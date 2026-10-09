@@ -8218,5 +8218,41 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-10-09 10:07:20",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-tai/1482490.html": {
+    "job_id": "1482490",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-tai/1482490.html?ta_source=JobSearchList_LinkDetail&u_sr_id=ZLy7vWIcFkWUswbibG1baEEWmjsJI0CX5ix7b8BE_1791563202",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-tai/1482490.html",
+    "company": "CÔNG TY CỔ PHẦN VẬN TẢI ĐƯỜNG SẮT VIỆT NAM",
+    "salary": "30 - 35 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-09 16:26:59",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-sales-online-helios/2321693.html": {
+    "job_id": "2321693",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-sales-online-helios/2321693.html?ta_source=JobSearchList_LinkDetail&u_sr_id=ZLy7vWIcFkWUswbibG1baEEWmjsJI0CX5ix7b8BE_1791563202",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-sales-online-helios/2321693.html",
+    "company": "CÔNG TY TNHH SUNROCK",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-10-09 16:26:59",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an/2325451.html": {
+    "job_id": "2325451",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an/2325451.html?ta_source=JobSearchList_LinkDetail&u_sr_id=ZLy7vWIcFkWUswbibG1baEEWmjsJI0CX5ix7b8BE_1791563202",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an/2325451.html",
+    "company": "CÔNG TY CỔ PHẦN PRINTGO VIỆT NAM",
+    "salary": "15 - 25 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-09 16:26:59",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
