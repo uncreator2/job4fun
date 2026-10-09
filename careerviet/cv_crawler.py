@@ -141,18 +141,30 @@ def get_page_url(base_url, page_number):
     return f"{base_url}?page={page_number}"
 
 def extract_jobs_from_page(page, search_source_url):
+    # 1. Wait for .job-item with resilient fallback and gentle scrolling
+    try:
+        page.wait_for_selector('.job-item, .job_link', timeout=8000)
+    except Exception:
+        try:
+            page.evaluate("window.scrollBy(0, 500)")
+            time.sleep(1)
+            page.wait_for_selector('.job-item, .job_link', timeout=4000)
+        except Exception:
+            pass
+
+    # 2. Layer 1: Extract from live DOM
     raw_jobs = page.evaluate("""() => {
         const cards = Array.from(document.querySelectorAll('.job-item'));
         const list = [];
         const seen = new Set();
 
         for (const card of cards) {
-            const titleEl = card.querySelector('.job-title a, a.job_link, .title a');
+            const titleEl = card.querySelector('.job-title a, a.job_link, .title a, h2 a');
             if (!titleEl) continue;
 
-            const title = titleEl.innerText.trim();
+            const title = (titleEl.innerText || titleEl.textContent || '').trim();
             let href = titleEl.getAttribute('href') || '';
-            if (!href) continue;
+            if (!href || !title) continue;
             if (href.startsWith('/')) {
                 href = 'https://careerviet.vn' + href;
             }
@@ -162,15 +174,15 @@ def extract_jobs_from_page(page, search_source_url):
 
             // Company
             const compEl = card.querySelector('.company-name a, .company-name, .employer a');
-            const company = compEl ? compEl.innerText.trim() : '';
+            const company = compEl ? (compEl.innerText || compEl.textContent || '').trim() : '';
 
             // Salary
             const salaryEl = card.querySelector('.salary, .job-salary');
-            const salary = salaryEl ? salaryEl.innerText.trim() : 'Thoả thuận';
+            const salary = salaryEl ? (salaryEl.innerText || salaryEl.textContent || '').trim() : 'Thoả thuận';
 
             // Location
             const locEl = card.querySelector('.location, .job-location');
-            let location = locEl ? locEl.innerText.trim().replace(/\\n/g, ', ') : 'Hà Nội';
+            let location = locEl ? (locEl.innerText || locEl.textContent || '').trim().replace(/\\n/g, ', ') : 'Hà Nội';
 
             // Extract Job ID
             const idMatch = cleanUrl.match(/\\.([0-9A-Za-z]+)\\.html$/);
@@ -189,6 +201,43 @@ def extract_jobs_from_page(page, search_source_url):
         return list;
     }""")
 
+    # 3. Layer 2: Next.js SSR Fallback if live DOM returned 0 cards
+    if not raw_jobs:
+        try:
+            content = page.content()
+            seen_urls = set()
+            pattern = re.compile(r'<a[^>]*class=["\'][^"\']*job_link[^"\']*["\'][^>]*href=["\']([^"\']+)["\'][^>]*>([\s\S]*?)</a>', re.I)
+            for m in pattern.finditer(content):
+                href = m.group(1).strip()
+                raw_title = re.sub(r'<[^>]+>', '', m.group(2)).strip()
+                if not raw_title or not href:
+                    continue
+                if href.startswith('/'):
+                    href = 'https://careerviet.vn' + href
+                clean_url = href.split('?')[0]
+                if clean_url in seen_urls:
+                    continue
+                if len(raw_title) > 120 and "Cập nhật:" in raw_title:
+                    continue
+
+                seen_urls.add(clean_url)
+                id_match = re.search(r'\.([0-9A-Za-z]+)\.html$', clean_url)
+                job_id = id_match.group(1) if id_match else ''
+
+                raw_jobs.append({
+                    "id": job_id,
+                    "title": raw_title,
+                    "url": clean_url,
+                    "company": "",
+                    "salary": "Thoả thuận",
+                    "location": "Hà Nội",
+                    "source": "careerviet"
+                })
+        except Exception as e:
+            print(f"    ⚠️ Lỗi fallback SSR HTML: {e}")
+
+    raw_count = len(raw_jobs)
+
     # Apply strict role filter
     filtered_jobs = []
     for j in raw_jobs:
@@ -199,7 +248,7 @@ def extract_jobs_from_page(page, search_source_url):
             j["search_source"] = search_source_url
             filtered_jobs.append(j)
 
-    return filtered_jobs
+    return filtered_jobs, raw_count
 
 def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
     print("=" * 60)
@@ -247,6 +296,9 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                 def block_heavy_resources(route):
                     try:
                         req = route.request
+                        if "_next" in req.url:
+                            route.continue_()
+                            return
                         if req.resource_type in ["image", "media", "font"]:
                             route.abort()
                         elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok", "zalo"]):
@@ -281,11 +333,14 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                     time.sleep(2)
 
                     # Extract jobs
-                    jobs = extract_jobs_from_page(page, search_url)
-                    print(f"    -> Tìm thấy {len(jobs)} việc làm quản lý phù hợp trên trang.")
+                    jobs, raw_count = extract_jobs_from_page(page, search_url)
+                    print(f"    -> Thẻ việc làm phát hiện (DOM/SSR): {raw_count} | Phù hợp bộ lọc quản lý: {len(jobs)}")
 
                     if not jobs:
-                        print("    ⏹️ Không còn việc làm phù hợp trên trang này, chuyển truy vấn tiếp theo.")
+                        if raw_count == 0:
+                            print(f"    ⏹️ Không phát hiện thẻ việc làm nào trên trang (URL: {page.url}). Chuyển truy vấn tiếp theo.")
+                        else:
+                            print(f"    ⏹️ Đã duyệt {raw_count} việc làm nhưng không có việc nào đạt tiêu chuẩn quản lý. Chuyển truy vấn.")
                         break
 
                     new_on_page = 0
@@ -298,7 +353,7 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                             new_on_page += 1
                             print(f"      ✨ MỚI: [{j['id']}] {j['title']} | {j['company']} | {j['salary']}")
 
-                    print(f"    -> Đã thêm {new_on_page} việc làm mới vào sổ cái.")
+                    print(f"    -> Đã thêm {new_on_page} việc làm MỚI vào sổ cái ({len(jobs) - new_on_page} đã có trong lịch sử).")
 
                 except Exception as e:
                     print(f"    ❌ Lỗi khi duyệt trang {page_num}: {e}")
