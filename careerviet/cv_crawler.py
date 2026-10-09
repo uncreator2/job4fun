@@ -232,7 +232,8 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                 use_cdp = False
 
         if not use_cdp:
-            proxy_cfg = get_proxy_config()
+            # CareerViet không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
+            proxy_cfg = get_proxy_config() if os.environ.get("USE_CV_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
             launch_args = ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
             browser = p.chromium.launch(headless=True, args=launch_args)
             context = browser.new_context(

@@ -463,9 +463,10 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
     applied_dict = load_applied_history()
     print(f"📦 Tổng việc đã quét: {len(extracted_jobs)} | Đã nộp trong lịch sử: {len(applied_dict)}")
 
-    # Filter unapplied jobs
+    # Filter unapplied jobs - sort newest first to prioritize fresh active vacancies
     unapplied_jobs = [j for j in extracted_jobs if j.get("url") not in applied_dict]
-    print(f"🎯 Số việc làm CHƯA NỘP còn lại: {len(unapplied_jobs)}")
+    unapplied_jobs.sort(key=lambda j: j.get("first_seen") or "", reverse=True)
+    print(f"🎯 Số việc làm CHƯA NỘP còn lại: {len(unapplied_jobs)} (Đã sắp xếp ưu tiên tin tuyển dụng mới nhất)")
 
     if not unapplied_jobs:
         print("🎉 Bạn đã nộp toàn bộ việc làm hiện có trên VietnamWorks! Không có việc mới.")
@@ -477,6 +478,7 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
 
     jobs_to_process = unapplied_jobs[:max_applies]
     applied_count = 0
+    consecutive_fails = 0
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -502,6 +504,10 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
         print(f"📋 Danh sách nộp sau khi đồng bộ: {len(jobs_to_process)} việc làm.")
 
         for idx, job in enumerate(jobs_to_process, 1):
+            if applied_count >= max_applies:
+                print(f"🏁 Đạt hạn mức {max_applies} việc làm cho ca VietnamWorks. Kết thúc phiên.")
+                break
+
             print(f"\n[{idx}/{len(jobs_to_process)}] ----------------------------------------")
             res = apply_job(page, job, dry_run=dry_run)
 
@@ -509,6 +515,7 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
             status = res.get("status")
 
             if status in ["SUBMITTED", "ALREADY_APPLIED", "DRY_RUN_READY"]:
+                consecutive_fails = 0
                 applied_dict[url] = {
                     "id": job.get("id"),
                     "title": job.get("title"),
@@ -521,7 +528,25 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
                 }
                 save_applied_history(applied_dict)
                 applied_count += 1
+            elif status == "NO_APPLY_BUTTON":
+                # Tin tuyển dụng đã đóng hoặc hết hạn: lưu vào sổ cái để không quét lặp lại gây tốn thời gian
+                consecutive_fails += 1
+                applied_dict[url] = {
+                    "id": job.get("id"),
+                    "title": job.get("title"),
+                    "company": job.get("company"),
+                    "salary": job.get("salary"),
+                    "url": url,
+                    "applied_at": datetime.now().isoformat(),
+                    "status": "EXPIRED_OR_CLOSED",
+                    "reason": "Tin tuyển dụng đã đóng hoặc hết hạn trên hệ thống"
+                }
+                save_applied_history(applied_dict)
+                if consecutive_fails >= 5:
+                    print("🛑 Circuit breaker: Đạt 5 lần không tìm thấy nút liên tiếp. Tạm dừng ca VietnamWorks.")
+                    break
             else:
+                consecutive_fails += 1
                 # Log error
                 err_info = {
                     "job": job,

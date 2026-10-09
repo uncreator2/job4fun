@@ -202,15 +202,41 @@ def apply_single_job(page, job, dry_run=False):
     # NỘP THẬT: Bấm nút #btnsubmit
     print("  🚀 Đang gửi hồ sơ ứng tuyển...")
     try:
-        submit_btn.click()
-        time.sleep(3.5)
+        api_response_status = [None]
+        def handle_response(response):
+            if f"/apply-jobs/{job_id}" in response.url or "/apply-jobs" in response.url:
+                try:
+                    if response.status in [200, 201]:
+                        api_response_status[0] = response.status
+                except Exception:
+                    pass
 
-        # Chờ tối đa 10s cho đến khi nút hết trạng thái loading (aria-busy="false")
-        for _ in range(10):
-            busy = submit_btn.get_attribute("aria-busy")
-            if busy != "true":
-                break
+        page.on("response", handle_response)
+        submit_btn.click()
+        
+        # Chờ tối đa 8s cho API phản hồi hoặc trang điều hướng sau khi nộp
+        for _ in range(8):
             time.sleep(1.0)
+            if api_response_status[0] in [200, 201]:
+                break
+            try:
+                if f"jobs/apply?job_id={job_id}" not in page.url:
+                    break
+            except Exception:
+                break
+        
+        # Thử kiểm tra xác nhận trên trang chi tiết việc làm
+        time.sleep(2.0)
+        try:
+            safe_goto(page, job_url, timeout=20000)
+            time.sleep(1.5)
+            check_btn = page.locator('a.btnApplyClick, a.btn-gradient, [class*="btnApply"]').first
+            if check_btn.count() > 0:
+                t = check_btn.inner_text().strip().lower()
+                if any(k in t for k in ["đã", "applied"]):
+                    print(f"  🌟 Xác nhận thành công trên trang việc làm: '{t.upper()}'")
+        except Exception as e_verify:
+            print(f"  ℹ️ Lưu ý sau nộp: {e_verify}")
 
         proof_path = os.path.join(PROOFS_DIR, f"apply_proof_cv_{job_id}.png")
         page.screenshot(path=proof_path)
@@ -219,7 +245,10 @@ def apply_single_job(page, job, dry_run=False):
     except Exception as e:
         print(f"  ❌ Lỗi khi thực thi bấm nộp: {e}")
         err_shot = os.path.join(ERRORS_DIR, f"err_submit_{job_id}.png")
-        page.screenshot(path=err_shot)
+        try:
+            page.screenshot(path=err_shot)
+        except Exception:
+            pass
         return "FAILED"
 
 def run_applier(max_applies=30, dry_run=False, use_cdp=False):
@@ -280,7 +309,8 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
                 use_cdp = False
 
         if not use_cdp:
-            proxy_cfg = get_proxy_config()
+            # CareerViet không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
+            proxy_cfg = get_proxy_config() if os.environ.get("USE_CV_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
             launch_args = ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
             browser = p.chromium.launch(headless=True, args=launch_args)
             context = browser.new_context(
@@ -310,19 +340,20 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
             if status in ["APPLIED_OK", "DRY_RUN_OK"]:
                 success_count += 1
                 consecutive_fails = 0
-                now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                applied_history[job["url"]] = {
-                    "id": job.get("id"),
-                    "title": job.get("title"),
-                    "company": job.get("company"),
-                    "salary": job.get("salary"),
-                    "location": job.get("location"),
-                    "url": job["url"],
-                    "applied_at": now_str,
-                    "dry_run": dry_run,
-                    "source": "careerviet"
-                }
-                save_applied_history(applied_history)
+                if not dry_run:
+                    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    applied_history[job["url"]] = {
+                        "id": job.get("id"),
+                        "title": job.get("title"),
+                        "company": job.get("company"),
+                        "salary": job.get("salary"),
+                        "location": job.get("location"),
+                        "url": job["url"],
+                        "applied_at": now_str,
+                        "dry_run": False,
+                        "source": "careerviet"
+                    }
+                    save_applied_history(applied_history)
                 time.sleep(2.0)
 
             elif status == "ALREADY_APPLIED":

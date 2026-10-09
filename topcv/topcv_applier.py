@@ -430,7 +430,6 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         reason = job_info.get("matchedReason") or "Đã ứng tuyển trước đó hoặc xuất hiện nút 'Ứng tuyển lại'"
         log(f"ℹ️ [BỎ QUA KHÔNG NỘP LẠI] Việc làm này ĐÃ TỪNG ỨNG TUYỂN trên TopCV ({reason}).")
         log("🛡️  Tuyệt đối KHÔNG click nút 'Ứng tuyển lại' (Re-apply) để tránh bị sàn phát hiện hành vi spam.")
-        save_applied_record(applied_dict, job_url, job_info.get("title", ""), job_info.get("company", ""), f"Đã ứng tuyển ({reason})", "")
         return {"status": "ALREADY_APPLIED", "title": job_info["title"], "reason": reason}
 
     if not job_info.get("hasApplyBtn"):
@@ -457,7 +456,6 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     if not click_res.get("clicked"):
         log("⚠️ Không tìm thấy nút nộp đơn hợp lệ chưa từng ứng tuyển (có thể là nút Ứng tuyển lại). Bỏ qua!")
-        save_applied_record(applied_dict, job_url, job_info.get("title", ""), job_info.get("company", ""), "Bỏ qua nút Ứng tuyển lại", "")
         return {"status": "ALREADY_APPLIED", "title": job_info["title"], "reason": "No safe apply button"}
 
     await asyncio.sleep(2.0)
@@ -718,7 +716,7 @@ async def run(target_url=None, dry_run=None, max_applies=None):
 
         context_kwargs = {
             "viewport": {"width": 1440, "height": 900},
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
             "locale": "vi-VN",
             "timezone_id": "Asia/Ho_Chi_Minh"
         }
@@ -773,15 +771,23 @@ async def run(target_url=None, dry_run=None, max_applies=None):
 
         log(f"\n🎯 Danh sách To-Do List sạch sẽ: Sẽ thực hiện ứng tuyển {len(jobs_to_apply)} việc làm CHƯA TỪNG NỘP.")
 
+        consecutive_blocks = 0
         for idx, job_url in enumerate(jobs_to_apply, 1):
             log(f"\n==================================================")
             log(f"📌 [{idx}/{len(jobs_to_apply)}] TIẾN TRÌNH: {job_url}")
             try:
                 res = await apply_to_single_job(page, job_url, dry_run=dry_run)
                 if res.get("status") in ["SUCCESS", "SUBMITTED"]:
+                    consecutive_blocks = 0
                     save_applied_record(applied_dict, job_url, res.get("title", ""), res.get("company", ""), res.get("letter", ""), res.get("proof", ""))
                 elif res.get("status") == "ALREADY_APPLIED":
+                    consecutive_blocks = 0
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
+                elif res.get("status") in ["CF_BLOCKED", "PAGE_LOAD_ERROR", "ERROR"]:
+                    consecutive_blocks += 1
+                    if consecutive_blocks >= 3:
+                        log(f"\n🛑 [CIRCUIT BREAKER] Gặp 3 lỗi mạng / Cloudflare WAF liên tiếp ({res.get('status')}). Tạm dừng ca TopCV để bảo vệ tài khoản.\n")
+                        break
                 elif res.get("status") == "DAILY_LIMIT_REACHED":
                     log(f"\n🛑 [DỪNG TIẾN TRÌNH TOPCV] Chạm giới hạn tài khoản hôm nay: {res.get('reason')}")
                     log("⏩ Đã khoá cờ giới hạn ngày hôm nay. Các ca tiếp theo trong ngày sẽ tự động bỏ qua TopCV.\n")
@@ -789,6 +795,10 @@ async def run(target_url=None, dry_run=None, max_applies=None):
             except Exception as e:
                 log(f"❌ Lỗi khi xử lý job {job_url}: {e}. Tự động bỏ qua và chuyển sang job tiếp theo.")
                 await save_error(page, job_url, "UNEXPECTED_LOOP_EXCEPTION", str(e))
+                consecutive_blocks += 1
+                if consecutive_blocks >= 3:
+                    log("\n🛑 [CIRCUIT BREAKER] Gặp 3 ngoại lệ liên tiếp. Tạm dừng ca TopCV.\n")
+                    break
             await asyncio.sleep(random.uniform(4.0, 7.0))
 
         await browser.close()
