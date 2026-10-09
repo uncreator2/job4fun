@@ -8170,5 +8170,29 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-10-09 15:31:29",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-ca-phe-rang-xay/2326105.html": {
+    "job_id": "2326105",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-ca-phe-rang-xay/2326105.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1791536372",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-ca-phe-rang-xay/2326105.html",
+    "company": "CÔNG TY CỔ PHẦN XUẤT KHẨU CÀ PHÊ VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-09 08:59:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-va-marketing/2323127.html": {
+    "job_id": "2323127",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-va-marketing/2323127.html?ta_source=JobSearchList_LinkDetail&u_sr_id=N3VAjR3zAWqbLiheeljFfU6O7sIIRhsrGOHGBYcn_1791536372",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-va-marketing/2323127.html",
+    "company": "CÔNG TY TNHH BEEKING",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-09 08:59:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
