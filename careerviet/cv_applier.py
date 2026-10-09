@@ -61,7 +61,7 @@ def safe_goto(page, url, wait_until="domcontentloaded", timeout=35000, max_retri
     raise last_err
 
 def load_cookies():
-    env_cookies = os.environ.get("CAREERVIET_COOKIES", "").strip() or os.environ.get("COOKIES", "").strip()
+    env_cookies = os.environ.get("CAREERVIET_COOKIES", "").strip()
     if env_cookies:
         try:
             return json.loads(env_cookies)
