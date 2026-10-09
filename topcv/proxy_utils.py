@@ -33,6 +33,9 @@ def get_proxy_config():
     if not proxy_str:
         return None
 
+    # Auto-migrate any legacy hardcoded IP to the dynamic domain hostname
+    proxy_str = proxy_str.replace("103.121.89.32", "zl47151.ipv4dancu.com")
+
     # Format 1: host:port:user:pass
     m_quad = re.match(r"^([a-zA-Z0-9.\-]+):(\d+):([^:@]+):([^:@]+)$", proxy_str)
     if m_quad:

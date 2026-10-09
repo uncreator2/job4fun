@@ -618,10 +618,10 @@ def run_applier(max_applies=20, dry_run=False):
         print("✅ Tất cả việc làm đã được nộp hoặc không còn việc mới. Hoàn tất!")
         return 0
 
-    # Vieclam24h không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
-    proxy_cfg = get_proxy_config() if os.environ.get("USE_V24H_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
+    # Mặc định sử dụng Residential/Mobile Proxy để tránh bị chặn IP
+    proxy_cfg = None if os.environ.get("DISABLE_V24H_PROXY", "false").lower() == "true" or os.environ.get("DISABLE_PROXY", "false").lower() == "true" else get_proxy_config()
     if proxy_cfg:
-        print(f"🌐 Sử dụng Proxy: {proxy_cfg.get('server')}")
+        print(f"🌐 Vieclam24h sử dụng Proxy: {proxy_cfg.get('server')}")
     raw_cookies = load_cookies()
 
     applied_count = 0
@@ -635,6 +635,19 @@ def run_applier(max_applies=20, dry_run=False):
                 user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
                 locale="vi-VN"
             )
+            if proxy_cfg:
+                def block_heavy_resources(route):
+                    try:
+                        req = route.request
+                        if req.resource_type in ["image", "media", "font"]:
+                            route.abort()
+                        elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                            route.abort()
+                        else:
+                            route.continue_()
+                    except Exception:
+                        pass
+                context.route("**/*", block_heavy_resources)
 
             if raw_cookies:
                 try:
@@ -655,11 +668,41 @@ def run_applier(max_applies=20, dry_run=False):
             print("🌐 Kiểm tra trạng thái đăng nhập trên Vieclam24h...")
             is_logged_in = False
             try:
-                safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=40000)
+                safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=25000)
                 page.wait_for_timeout(2500)
                 is_logged_in = check_login_status(page)
             except Exception as e:
-                print(f"⚠️ Kiểm tra đăng nhập bằng cookie gặp lỗi kết nối: {e}")
+                print(f"⚠️ Kiểm tra đăng nhập với proxy thất bại: {e}")
+                if proxy_cfg:
+                    print("🔄 Chuyển sang Direct IP do proxy phản hồi chậm trên Vieclam24h...")
+                    try:
+                        context.close()
+                        browser.close()
+                        browser = p.chromium.launch(headless=True)
+                        context = browser.new_context(
+                            viewport={"width": 1440, "height": 900},
+                            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                            locale="vi-VN"
+                        )
+                        if raw_cookies:
+                            try:
+                                formatted = format_cookies(raw_cookies)
+                                if formatted:
+                                    context.add_cookies(formatted)
+                            except Exception:
+                                pass
+                        page = context.new_page()
+                        if Stealth:
+                            try:
+                                Stealth().apply_stealth_sync(page)
+                            except Exception:
+                                pass
+                        proxy_cfg = None
+                        safe_goto(page, "https://vieclam24h.vn/", wait_until="domcontentloaded", timeout=40000)
+                        page.wait_for_timeout(2500)
+                        is_logged_in = check_login_status(page)
+                    except Exception as err2:
+                        print(f"⚠️ Direct IP retry failed: {err2}")
 
             if not is_logged_in:
                 print("⚠️ Chưa đăng nhập hoặc cookie hết hạn. Tiến hành fallback đăng nhập biểu mẫu...")

@@ -203,10 +203,10 @@ def crawl_vieclam24h(max_pages_limit=MAX_PAGES_PER_URL):
     history_dict = load_extracted_history()
     print(f"📚 Sổ cái hiện có: {len(history_dict)} việc làm đã lưu.")
 
-    # Vieclam24h không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
-    proxy_cfg = get_proxy_config() if os.environ.get("USE_V24H_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
+    # Mặc định sử dụng Residential/Mobile Proxy để tránh bị chặn IP
+    proxy_cfg = None if os.environ.get("DISABLE_V24H_PROXY", "false").lower() == "true" or os.environ.get("DISABLE_PROXY", "false").lower() == "true" else get_proxy_config()
     if proxy_cfg:
-        print(f"🌐 Sử dụng Proxy: {proxy_cfg.get('server')}")
+        print(f"🌐 Vieclam24h sử dụng Proxy: {proxy_cfg.get('server')}")
 
     new_session_urls = []
     total_found_in_session = 0
@@ -218,6 +218,20 @@ def crawl_vieclam24h(max_pages_limit=MAX_PAGES_PER_URL):
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             locale="vi-VN"
         )
+        if proxy_cfg:
+            def block_heavy_resources(route):
+                try:
+                    req = route.request
+                    if req.resource_type in ["image", "media", "font"]:
+                        route.abort()
+                    elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                        route.abort()
+                    else:
+                        route.continue_()
+                except Exception:
+                    pass
+            context.route("**/*", block_heavy_resources)
+
         page = context.new_page()
 
         if Stealth:
@@ -233,11 +247,36 @@ def crawl_vieclam24h(max_pages_limit=MAX_PAGES_PER_URL):
 
             # Load first page to detect max pages from pager DOM
             paged_url_1 = get_page_url(base_url, 1)
-            try:
-                page.goto(paged_url_1, wait_until="domcontentloaded", timeout=40000)
-                page.wait_for_timeout(3000)
-            except Exception as e:
-                print(f"⚠️ Không tải được trang 1: {e}")
+            loaded = False
+            for attempt in range(1, 3):
+                try:
+                    page.goto(paged_url_1, wait_until="domcontentloaded", timeout=25000)
+                    page.wait_for_timeout(3000)
+                    loaded = True
+                    break
+                except Exception as e:
+                    print(f"⚠️ Không tải được trang 1 (lần {attempt}): {e}")
+                    if proxy_cfg and attempt == 1:
+                        print("🔄 Thử chuyển sang Direct IP do proxy timeout trên Vieclam24h...")
+                        try:
+                            context.close()
+                            browser.close()
+                            browser = p.chromium.launch(headless=True)
+                            context = browser.new_context(
+                                viewport={"width": 1440, "height": 900},
+                                user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                                locale="vi-VN"
+                            )
+                            page = context.new_page()
+                            if Stealth:
+                                try:
+                                    Stealth().apply_stealth_sync(page)
+                                except Exception:
+                                    pass
+                            proxy_cfg = None
+                        except Exception as switch_err:
+                            print(f"⚠️ Lỗi chuyển Direct IP: {switch_err}")
+            if not loaded:
                 continue
 
             max_page_detected = detect_max_pages(page)

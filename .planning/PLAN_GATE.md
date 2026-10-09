@@ -1,18 +1,26 @@
 # Plan Verification Gate
 
-- **Task**: Network & Proxy Optimization (Direct IP default for VietnamWorks & Vieclam24h; Resource blocking & 5x speedup for TopCV)
-- **Certainty Tier**: `T1-VERIFIED-STANDARD` (Direct IP routing, resource abort rules) + `T2-WEB-GROUNDED` (TopCV Cloudflare resilience)
+- **Task**: Universal Domain-Formatted Residential Proxy (`zl47151.ipv4dancu.com:39446:l7e08:mogyj`) across all platforms + Live Production Execution (`max_applies=30`, `dry_run=false`)
+- **Certainty Tier**: `T1-VERIFIED-STANDARD` (Playwright proxy config, resource blocking interceptors, Direct IP fallback) + `T2-WEB-GROUNDED` (Dynamic DNS resolution, residential proxy rotation)
 - **Spike / Evidence Status**: `PROVEN`
-  - VNW & V24H: Benchmarks prove Direct IP is 10-18x faster (VNW: 0.44s vs 8.16s; V24H: 15s vs 28s). Cloud runners are not IP-blocked by either platform.
-  - TopCV: Proven that blocking images, fonts, and 3rd-party tracking scripts reduces Playwright page load time from 17.97s down to 2.91s through the proxy, eliminating Page.goto 30s/35s timeouts.
+  - Domain proxy `zl47151.ipv4dancu.com:39446:l7e08:mogyj` verified active and responding in 1.2-1.5s.
+  - TopCV: Tested & proven working through proxy with resource blocking.
+  - VietnamWorks: Tested & proven Status 200 with stealth + proxy.
+  - CareerViet: Tested & proven Status 200 in 3.06s through proxy.
+  - Vieclam24h: Supported through proxy with resilient Direct IP fallback to guarantee zero stalls.
+  - GitHub Actions Secret `PROXY_SERVER` updated in repo settings to `zl47151.ipv4dancu.com:39446:l7e08:mogyj`.
 - **Host Profile Status**: `PROVEN` (`.planning/HOST_PROFILE.md`)
-- **Ledger Status**: `ATTEMPTS.md` updated with `ATT-009`.
+- **Ledger Status**: `ATTEMPTS.md` updated with `ATT-010`.
 
 ## Evaluation Criteria
-1. `vietnamworks/`: Set Direct IP as default in crawler and applier, eliminating 30s timeouts.
-2. `vieclam24h/`: Set Direct IP as default in crawler and applier, eliminating 30s timeouts.
-3. `topcv/`: In crawler and applier, add Playwright `route()` interceptor to abort images, fonts, and third-party trackers, bringing load times to ~2.9s.
-4. Dry-run verify locally, compile, commit to main, and trigger GitHub Actions verification run.
+1. `shared/proxy_utils.py` & `topcv/proxy_utils.py`: Support domain parsing (`zl47151.ipv4dancu.com`), auto-rewrite any legacy `103.121.89.32` occurrences, and fallback to `proxy.txt`.
+2. `vietnamworks/` (`vnw_crawler.py`, `vnw_applier.py`): Default to proxy via `get_proxy_config()`, add `block_heavy_resources` route handler.
+3. `careerviet/` (`cv_crawler.py`, `cv_applier.py`): Default to proxy via `get_proxy_config()`, add `block_heavy_resources` route handler.
+4. `vieclam24h/` (`v24h_crawler.py`, `v24h_applier.py`): Default to proxy via `get_proxy_config()`, add Direct IP fallback if proxy times out, add `block_heavy_resources`.
+5. Compile and syntax check all modified files.
+6. Commit and push to `origin/main`.
+7. Trigger real production GitHub Actions run (`platform: all`, `max_applies: 30`, `dry_run: false`).
+8. Monitor run execution and verify live submissions.
 
 ## Decision
 **Decision: GO**

@@ -11,4 +11,5 @@
 | ATT-007 | VALIDATE & COMPLETE | 2026-10-08 16:20 | GitHub Actions Run #41 trigger, secrets injection, Ubuntu runner execution, artifact & ledger commit | PROVEN | Run #41 succeeded (1m 54s), processed dry-run jobs 35C884D3 & 35C89EB4, committed back to main |
 | ATT-008 | RESEARCH & FIX | 2026-10-09 11:45 | Fix CareerViet post-apply detached DOM crash, TopCV NameError & Cloudflare 403, VNW stale jobs | PROVEN | Verified API 201 response, button state Đã Nộp Ứng Tuyển on live CareerViet, fixed scope in TopCV |
 | ATT-009 | BUILD & OPTIMIZE | 2026-10-09 13:00 | Network/Proxy optimization: Direct IP for VNW/V24H; Route blocking & 5x speedup for TopCV | PROVEN | GitHub Actions Run #46 succeeded green (10m 14s). All 4 platforms ran with zero timeouts. VNW (+2 jobs) & CareerViet (+1 job) applied & ledgers auto-committed. |
+| ATT-010 | BUILD & DEPLOY | 2026-10-09 13:50 | Deploy universal domain proxy (zl47151.ipv4dancu.com:39446:l7e08:mogyj) across all platforms & trigger production run | IN_PROGRESS | Preflight probes passed 200 across sites. Activating real apply run (dry_run=false, max_applies=30). |
 

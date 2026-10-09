@@ -6,6 +6,11 @@ import re
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
+try:
+    from playwright_stealth import Stealth
+except ImportError:
+    Stealth = None
+
 # Path configuration
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR = os.path.dirname(SCRIPT_DIR)
@@ -472,8 +477,10 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
         print("🎉 Bạn đã nộp toàn bộ việc làm hiện có trên VietnamWorks! Không có việc mới.")
         return 0
 
-    # VietnamWorks không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
-    proxy_cfg = get_proxy_config() if os.environ.get("USE_VNW_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
+    # Mặc định sử dụng Residential/Mobile Proxy để tránh bị chặn IP
+    proxy_cfg = None if os.environ.get("DISABLE_VNW_PROXY", "false").lower() == "true" or os.environ.get("DISABLE_PROXY", "false").lower() == "true" else get_proxy_config()
+    if proxy_cfg:
+        print(f"🌐 VietnamWorks sử dụng Proxy: {proxy_cfg.get('server')}")
     raw_cookies = load_cookies()
     formatted_cookies = format_cookies_for_playwright(raw_cookies)
 
@@ -491,10 +498,29 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             extra_http_headers={"referer": "https://www.vietnamworks.com/"}
         )
+        if proxy_cfg:
+            def block_heavy_resources(route):
+                try:
+                    req = route.request
+                    if req.resource_type in ["image", "media", "font"]:
+                        route.abort()
+                    elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok"]):
+                        route.abort()
+                    else:
+                        route.continue_()
+                except Exception:
+                    pass
+            context.route("**/*", block_heavy_resources)
+
         if formatted_cookies:
             context.add_cookies(formatted_cookies)
 
         page = context.new_page()
+        if Stealth:
+            try:
+                Stealth().apply_stealth_sync(page)
+            except Exception:
+                pass
 
         # Check Login & Sync Portal History
         verify_and_ensure_login(page)

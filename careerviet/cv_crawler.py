@@ -232,8 +232,10 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                 use_cdp = False
 
         if not use_cdp:
-            # CareerViet không chặn IP runner GitHub Actions. Mặc định dùng Direct IP tốc độ cao, tránh nghẽn proxy
-            proxy_cfg = get_proxy_config() if os.environ.get("USE_CV_PROXY", "false").lower() == "true" or os.environ.get("FORCE_ALL_PROXY", "false").lower() == "true" else None
+            # Mặc định sử dụng Residential/Mobile Proxy để tránh bị chặn IP
+            proxy_cfg = None if os.environ.get("DISABLE_CV_PROXY", "false").lower() == "true" or os.environ.get("DISABLE_PROXY", "false").lower() == "true" else get_proxy_config()
+            if proxy_cfg:
+                print(f"🌐 CareerViet sử dụng Proxy: {proxy_cfg.get('server')}")
             launch_args = ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
             browser = p.chromium.launch(headless=True, args=launch_args)
             context = browser.new_context(
@@ -241,6 +243,19 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                 user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
                 viewport={"width": 1440, "height": 900}
             )
+            if proxy_cfg:
+                def block_heavy_resources(route):
+                    try:
+                        req = route.request
+                        if req.resource_type in ["image", "media", "font"]:
+                            route.abort()
+                        elif any(k in req.url for k in ["google-analytics", "googletagmanager", "facebook", "doubleclick", "clarity", "hotjar", "tiktok", "zalo"]):
+                            route.abort()
+                        else:
+                            route.continue_()
+                    except Exception:
+                        pass
+                context.route("**/*", block_heavy_resources)
 
             # Load cookies
             cookies = load_cookies()
