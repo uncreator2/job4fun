@@ -121,6 +121,7 @@ jobs:
             ${{ matrix.platform }}/apply_proof_*.png
             ${{ matrix.platform }}/errors/
             ${{ matrix.platform }}/proofs/
+            ${{ matrix.platform }}/session_report.json
           if-no-files-found: ignore
           retention-days: 14
 

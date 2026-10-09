@@ -345,6 +345,22 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
 
         page = context.new_page()
 
+        session_report = {
+            "platform": "CareerViet",
+            "timestamp": datetime.now().isoformat(),
+            "todo_count": len(evaluation_queue),
+            "applied_count": 0,
+            "applied_jobs": [],
+            "skipped_counts": {
+                "already_applied": 0,
+                "expired": 0,
+                "cf_blocked": 0,
+                "daily_limit": 0,
+                "errors": 0
+            },
+            "skipped_details": []
+        }
+
         for job in evaluation_queue:
             if success_count >= max_applies:
                 print(f"🏁 Đạt hạn mức {max_applies} việc làm cho ca hiện tại. Kết thúc phiên.")
@@ -355,6 +371,13 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
             if status in ["APPLIED_OK", "DRY_RUN_OK"]:
                 success_count += 1
                 consecutive_fails = 0
+                session_report["applied_count"] += 1
+                session_report["applied_jobs"].append({
+                    "title": job.get("title", ""),
+                    "company": job.get("company", ""),
+                    "url": job.get("url", ""),
+                    "status": status
+                })
                 if not dry_run:
                     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     applied_history[job["url"]] = {
@@ -374,6 +397,8 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
             elif status == "ALREADY_APPLIED":
                 already_count += 1
                 consecutive_fails = 0
+                session_report["skipped_counts"]["already_applied"] += 1
+                session_report["skipped_details"].append({"url": job.get("url", ""), "title": job.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
                 now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 applied_history[job["url"]] = {
                     "id": job.get("id"),
@@ -388,6 +413,13 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
 
             else:
                 consecutive_fails += 1
+                if status in ["CLOSED", "EXPIRED"]:
+                    session_report["skipped_counts"]["expired"] += 1
+                    session_report["skipped_details"].append({"url": job.get("url", ""), "title": job.get("title", ""), "reason": "Tin tuyển dụng hết hạn/đóng"})
+                else:
+                    session_report["skipped_counts"]["errors"] += 1
+                    session_report["skipped_details"].append({"url": job.get("url", ""), "title": job.get("title", ""), "reason": status or "Lỗi nộp đơn"})
+
                 if consecutive_fails >= 5:
                     print("🛑 Circuit breaker: Đạt 5 lần thất bại liên tiếp. Tạm dừng để bảo vệ tài khoản.")
                     break
@@ -395,6 +427,16 @@ def run_applier(max_applies=30, dry_run=False, use_cdp=False):
         page.close()
         if not use_cdp and browser:
             browser.close()
+
+    # Lưu session_report.json
+    try:
+        if 'session_report' in locals():
+            report_path = os.path.join(SCRIPT_DIR, "session_report.json")
+            with open(report_path, "w", encoding="utf-8") as f:
+                json.dump(session_report, f, indent=2, ensure_ascii=False)
+            print(f"💾 Đã lưu báo cáo phiên CareerViet: {report_path}")
+    except Exception as e:
+        print(f"⚠️ Lỗi lưu session_report.json: {e}")
 
     print("\n" + "=" * 60)
     print("📊 KẾT QUẢ PHIÊN NỘP ĐƠN CAREERVIET:")

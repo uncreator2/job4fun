@@ -21,7 +21,7 @@ HISTORY_JSON = os.path.join(BASE_DIR, "extracted_jobs_history.json")
 STATUS_SCREENSHOT = os.path.join(BASE_DIR, "topcv_status.png")
 
 # Configuration
-MAX_PAGES_PER_QUERY = int(os.environ.get("MAX_PAGES_PER_QUERY", "20"))
+MAX_PAGES_PER_QUERY = int(os.environ.get("MAX_PAGES_PER_QUERY", "2"))
 DEFAULT_SEARCH_URLS = [
     "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1",
     "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1",

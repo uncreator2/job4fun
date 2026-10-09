@@ -8,6 +8,8 @@ proxy_server*.txt
 *www.*.json
 *vieclam24h*.json
 *.session
+!topcv/topcv_cookies.json
+!vieclam24h/vieclam24h_cookies.json
 
 # Python
 __pycache__/
@@ -20,6 +22,7 @@ __pycache__/
 scratch/
 session_extracted_jobs.txt
 session_extracted_jobs.json
+session_report.json
 
 # Screenshots & Proofs (preserve errors)
 *.png

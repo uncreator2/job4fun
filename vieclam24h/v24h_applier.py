@@ -171,21 +171,23 @@ def save_applied_history(history_dict):
 
 def check_login_status(page):
     try:
+        # Check context cookies for auth tokens
+        cookies = page.context.cookies()
+        has_auth_cookie = any(c.get("name") in ["access_token", "user_info", "bss_session_id"] and c.get("value") for c in cookies)
+
         header = page.locator("header")
-        if header.count() == 0:
-            return False
+        if header.count() > 0:
+            login_btn = header.locator(":text('Đăng ký/Đăng nhập'), :text('Đăng nhập')")
+            if login_btn.count() > 0:
+                for i in range(login_btn.count()):
+                    if login_btn.nth(i).is_visible():
+                        return False
 
-        # If header has login button visible, definitely not logged in
-        login_btn = header.locator(":text('Đăng ký/Đăng nhập'), :text('Đăng nhập')")
-        if login_btn.count() > 0:
-            for i in range(login_btn.count()):
-                if login_btn.nth(i).is_visible():
-                    return False
+            header_text = header.inner_text()
+            if any(k in header_text for k in ["Ha", "Hoang Ha", "Hoàng Hà", "Đăng xuất"]) or header.locator('[data-component-name="UserHeaderDropdown"], .svicon-user').count() > 0:
+                return True
 
-        # Check presence of user identifier in header
-        header_text = header.inner_text()
-        if "\nHa\n" in header_text or "Hoang Ha" in header_text or "Đăng xuất" in header_text or header.locator('[data-component-name="UserHeaderDropdown"], .svicon-user').count() > 0:
-            return True
+        return has_auth_cookie
     except Exception:
         pass
     return False
@@ -376,12 +378,6 @@ def apply_single_job(page, job, dry_run=False):
             print("🛡️  Tuyệt đối KHÔNG bấm nộp lại (Re-apply) để tránh bị sàn đánh dấu spam.")
             return {"status": "ALREADY_APPLIED", "submitted": True, "reason": matched_txt}
 
-        # Check login status before applying
-        if not check_login_status(page):
-            print("⚠️ Phát hiện tài khoản chưa đăng nhập hoặc phiên hết hạn. Đang đăng nhập lại...")
-            perform_form_login(page, page.context)
-            safe_goto(page, url, wait_until="domcontentloaded", timeout=35000)
-            page.wait_for_timeout(2500)
 
         # Ensure page is interactive
         page.wait_for_timeout(2000)
@@ -744,6 +740,22 @@ def run_applier(max_applies=20, dry_run=False):
             eval_candidates = candidate_jobs[:max_eval_attempts]
             print(f"📋 Danh sách việc làm mục tiêu cần nộp: {len(candidate_jobs)} (Tối đa duyệt ca này: {len(eval_candidates)}, Chỉ tiêu nộp: {max_applies})")
 
+            session_report = {
+                "platform": "Vieclam24h",
+                "timestamp": datetime.now().isoformat(),
+                "todo_count": len(eval_candidates),
+                "applied_count": 0,
+                "applied_jobs": [],
+                "skipped_counts": {
+                    "already_applied": 0,
+                    "expired": 0,
+                    "cf_blocked": 0,
+                    "daily_limit": 0,
+                    "errors": 0
+                },
+                "skipped_details": []
+            }
+
             consecutive_errors = 0
             MAX_CONSECUTIVE_ERRORS = 5
 
@@ -766,13 +778,31 @@ def run_applier(max_applies=20, dry_run=False):
                     print(f"\n🛑 PHÁT HIỆN HẾT HẠN MỨC ỨNG TUYỂN HÔM NAY (DAILY_LIMIT_REACHED).")
                     print(f"Lý do: {result.get('reason')}")
                     daily_limit_hit = True
+                    session_report["skipped_counts"]["daily_limit"] += 1
+                    session_report["skipped_details"].append({"url": u, "title": job.get("title", ""), "reason": "Hết hạn mức nộp trong ngày"})
                     break
 
                 if result.get("submitted"):
                     if status != "EXPIRED":
                         applied_count += 1
+                        session_report["applied_count"] += 1
+                        session_report["applied_jobs"].append({
+                            "title": job.get("title", ""),
+                            "company": job.get("company", ""),
+                            "url": u,
+                            "status": status,
+                            "proof": result.get("proof", "")
+                        })
                         consecutive_errors = 0  # Reset on any successful submission or dry-run
+                    else:
+                        session_report["skipped_counts"]["expired"] += 1
+                        session_report["skipped_details"].append({"url": u, "title": job.get("title", ""), "reason": "Tin tuyển dụng hết hạn"})
+
                     if status in ["APPLIED_SUCCESS", "ALREADY_APPLIED", "EXPIRED"]:
+                        if status == "ALREADY_APPLIED":
+                            session_report["skipped_counts"]["already_applied"] += 1
+                            session_report["skipped_details"].append({"url": u, "title": job.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
+
                         applied_dict[u] = {
                             "url": u,
                             "id": job.get("id"),
@@ -788,6 +818,8 @@ def run_applier(max_applies=20, dry_run=False):
                 else:
                     if status in ["NO_SUBMIT_BTN", "MODAL_FAILED", "ERROR"]:
                         consecutive_errors += 1
+                        session_report["skipped_counts"]["errors"] += 1
+                        session_report["skipped_details"].append({"url": u, "title": job.get("title", ""), "reason": status or "Lỗi form nộp"})
 
                 # Sleep between applications to avoid anti-spam
                 sleep_sec = 4 if not dry_run else 1
@@ -801,6 +833,16 @@ def run_applier(max_applies=20, dry_run=False):
         traceback.print_exc()
 
     save_applied_history(applied_dict)
+
+    # Lưu session_report.json
+    try:
+        if 'session_report' in locals():
+            report_path = os.path.join(SCRIPT_DIR, "session_report.json")
+            with open(report_path, "w", encoding="utf-8") as f:
+                json.dump(session_report, f, indent=2, ensure_ascii=False)
+            print(f"💾 Đã lưu báo cáo phiên vào: {report_path}")
+    except Exception as e:
+        print(f"⚠️ Lỗi lưu session_report.json: {e}")
 
     print(f"\n================ HOÀN TẤT VIECLAM24H APPLIER ================")
     print(f"📊 Đã xử lý nộp thành công: {applied_count} việc làm.")

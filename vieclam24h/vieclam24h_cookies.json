@@ -1,0 +1,312 @@
+[
+  {
+    "name": "sv_ckaid_v1",
+    "value": "acc28ea8-d3a1-43a1-90d2-582427b770e1",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1823073809,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sv_re_device_type",
+    "value": "Desktop",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1821497022.516408,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825233802,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "01M30ZVHBDKV7A7PQHG37F1BH4_.tt.1.1789961028974",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825233802,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.1251803574.1789961029",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1826097801.576536,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1789961029075.285442596664023462.AQYAAQMC",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1799313803,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sv_rid",
+    "value": "9c52e40c57982858bd633062c70c4af1",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1821499985,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.587993103.1789961028.1412423600.1789963846.1789963956.581151261.1789963846.1789963956",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1797737028,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "access_token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjaGFubmVsX2NvZGUiOiJ2bDI0aCIsInVzZXIiOnsiaWQiOiIyMDI2NjQ2MTkiLCJuYW1lIjoiSG9hbmcgSGEiLCJlbWFpbCI6Im5waG9hbmdoYTkxQGdtYWlsLmNvbSIsImF2YXRhciI6bnVsbCwiaGFzX3Bhc3MiOiI1ZGQxMWI5ODlhMmYwNTA3ZTYzMTU3NDlmNTNiM2JhMiIsInJvbGUiOiJzZWVrZXIifSwiZXhwIjoxODIxMDY3OTU2LCJ2ZXJzaW9uIjoxfQ.AB-Q6CwjyTnULI1X4-F9OGpLQqiJLV-iw3Fr3QDnB4Q",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1821499957,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "meta_info",
+    "value": "eyJ0eXBlIjoic2Vla2VyIiwiaWQiOjIwMjY2NDYxOSwibmFtZSI6IkhvYW5nIEhhIiwiZGF0ZU9mQmlydGgiOiIwMS0wMS0xOTcwIiwiZ2VuZGVyIjoiQ2jGsGEgY+G6rXAgbmjhuq10IiwibWFyaXRhbFN0YXR1cyI6IkNoxrBhIGPhuq1wIG5o4bqtdCIsImNpdHkiOiJIw6AgTuG7mWkifQ==",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1821499957,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "user_info",
+    "value": "eyJpZCI6MjAyNjY0NjE5LCJuYW1lIjoiSG9hbmcgSGEiLCJhdmF0YXIiOm51bGwsImVtYWlsIjoibnBob2FuZ2hhOTFAZ21haWwuY29tIiwicm9sZSI6InNlZWtlciIsImxvZ2luX2ZpcnN0IjpmYWxzZSwib2xkX2NoYW5uZWxfY29kZSI6bnVsbCwibG9naW5fZmlyc3Rfc29jaWFsIjpmYWxzZSwicmVnaXN0cmF0aW9uX3N0YXR1cyI6ImV4aXN0aW5nIiwiZGF0YV9hY2Nlc3Nfc3RhdHVzIjoxLCJkYXRhX2FjY2Vzc19yZXF1aXJlZCI6ZmFsc2V9",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1821499957,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "WZRK_G",
+    "value": "1fef673adddf4f758e7221c843d618f7",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1823073800,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bss_session_id",
+    "value": "60d3469c9efcbcfbd0db9db4fbe6027e",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791538639.813353,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SVCITYREGION",
+    "value": "north",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sv_cksid_v1",
+    "value": "f6b1554d-9af2-498f-9cbf-a7e0782ca985",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791539601,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bss_window_size",
+    "value": "1350x713",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791623240,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sv_p_r",
+    "value": "https%253A%252F%252Fvieclam24h.vn%252F",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791624200,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clck",
+    "value": "174r0j%5E2%5Ega5%5E1%5E2455",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1823073267,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "vl24h_utm_params",
+    "value": "%7B%22src_type%22%3A%22direct%22%2C%22last_activity%22%3A1791537800106%7D",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791539600.098547,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "turn",
+    "value": "4",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791624200,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sv_p_r_a",
+    "value": "1",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1791624200,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "g_state",
+    "value": "{\"i_l\":0,\"i_ll\":1791537800945,\"i_b\":\"pvE61XFckQQ2alimJUO0PSU71YdSaA+KpVmfv8qXABc\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1791537800945}",
+    "domain": "vieclam24h.vn",
+    "path": "/",
+    "expires": 1807089800,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_TSD5THEC50",
+    "value": "GS2.1.s1791537266$o3$g1$t1791537801$j60$l1$h1255819267",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1826097801.462945,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_3ERGT7F24H",
+    "value": "GS2.1.s1791537266$o4$g1$t1791537801$j60$l0$h0",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1826097801.519971,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_1QF2GYW1WQ",
+    "value": "GS2.1.s1791537266$o4$g1$t1791537801$j60$l0$h816160653",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1826097801.610732,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cto_bundle",
+    "value": "L0aQUF8yaUdRSyUyRjVENjRxdHBrd1AweFJwSWFYeHhiTlhVWnUlMkJxdjZrYkRMcmt5ZVpsSHhlSGdPN3dqMHIzU25BaG1ucnNiRlI3YkZjY3daZ1kyMkl5JTJGJTJCNnY2dnpxVjFCSGx6Z1cxWlEwTXF0NmJBdk5XWk8zVTN3MkZZRmR6ODZjbjdvbXc0WiUyQkY4bTNxNzNOZE9teVIwek9RJTNEJTNE",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825701801,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_C5N8ME91P6O5QGAPTNQ0",
+    "value": "1791537266856::nmOlCFCVmOW_w-KQyvUf.4.1791537802599.0",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825233802,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clsk",
+    "value": "24hzg0%5E1791537802963%5E2%5E1%5Ez.clarity.ms%2Fcollect",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1791624202,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_CQ6E6HRC77U3D7M7484G",
+    "value": "1791537266854::woozMFMzBRsNnqyjvGzr.3.1791537805326.0",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825233805,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1791537266855::nRMERZCkDpi-uZDgxnpY.3.1791537805326.0::1.532559.535247::0.0.0.0::0.0.0",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1825233805,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "WZRK_S_R97-9R5-R77Z",
+    "value": "%7B%22p%22%3A4%2C%22s%22%3A1791536840%2C%22t%22%3A1791537809%7D",
+    "domain": ".vieclam24h.vn",
+    "path": "/",
+    "expires": 1791539009,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

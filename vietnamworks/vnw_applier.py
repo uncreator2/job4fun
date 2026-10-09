@@ -530,6 +530,22 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
         jobs_to_process = [j for j in jobs_to_process if j.get("url") not in applied_dict]
         print(f"📋 Danh sách nộp sau khi đồng bộ: {len(jobs_to_process)} việc làm.")
 
+        session_report = {
+            "platform": "VietnamWorks",
+            "timestamp": datetime.now().isoformat(),
+            "todo_count": len(jobs_to_process),
+            "applied_count": 0,
+            "applied_jobs": [],
+            "skipped_counts": {
+                "already_applied": 0,
+                "expired": 0,
+                "cf_blocked": 0,
+                "daily_limit": 0,
+                "errors": 0
+            },
+            "skipped_details": []
+        }
+
         for idx, job in enumerate(jobs_to_process, 1):
             if applied_count >= max_applies:
                 print(f"🏁 Đạt hạn mức {max_applies} việc làm cho ca VietnamWorks. Kết thúc phiên.")
@@ -541,9 +557,18 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
             url = job.get("url")
             status = res.get("status")
 
-            if status in ["SUBMITTED", "ALREADY_APPLIED", "DRY_RUN_READY"]:
+            if status in ["SUBMITTED", "DRY_RUN_READY"]:
                 consecutive_fails = 0
-                if not dry_run or status == "ALREADY_APPLIED":
+                applied_count += 1
+                session_report["applied_count"] += 1
+                session_report["applied_jobs"].append({
+                    "title": job.get("title", ""),
+                    "company": job.get("company", ""),
+                    "url": url,
+                    "status": status,
+                    "proof": res.get("proof", "")
+                })
+                if not dry_run:
                     applied_dict[url] = {
                         "id": job.get("id"),
                         "title": job.get("title"),
@@ -555,10 +580,25 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
                         "proof": res.get("proof", "")
                     }
                     save_applied_history(applied_dict)
-                applied_count += 1
+            elif status == "ALREADY_APPLIED":
+                consecutive_fails = 0
+                session_report["skipped_counts"]["already_applied"] += 1
+                session_report["skipped_details"].append({"url": url, "title": job.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
+                applied_dict[url] = {
+                    "id": job.get("id"),
+                    "title": job.get("title"),
+                    "company": job.get("company"),
+                    "salary": job.get("salary"),
+                    "url": url,
+                    "applied_at": datetime.now().isoformat(),
+                    "status": status,
+                    "proof": res.get("proof", "")
+                }
+                save_applied_history(applied_dict)
             elif status == "NO_APPLY_BUTTON":
-                # Tin tuyển dụng đã đóng hoặc hết hạn: lưu vào sổ cái để không quét lặp lại gây tốn thời gian
                 consecutive_fails += 1
+                session_report["skipped_counts"]["expired"] += 1
+                session_report["skipped_details"].append({"url": url, "title": job.get("title", ""), "reason": "Tin tuyển dụng đã đóng hoặc hết hạn"})
                 applied_dict[url] = {
                     "id": job.get("id"),
                     "title": job.get("title"),
@@ -575,7 +615,6 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
                     break
             else:
                 consecutive_fails += 1
-                # Log error
                 err_info = {
                     "job": job,
                     "result": res,
@@ -588,16 +627,29 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
                 except Exception:
                     pass
 
-                # If VietnamWorks reached daily application limit, skip the rest of the day
                 if status == "DAILY_LIMIT_REACHED":
+                    session_report["skipped_counts"]["daily_limit"] += 1
+                    session_report["skipped_details"].append({"url": url, "title": job.get("title", ""), "reason": "Đạt giới hạn nộp trong ngày"})
                     print("\n" + "🛑" * 38)
                     print("🛑 VIETNAMWORKS: ĐÃ ĐẠT GIỚI HẠN NỘP HỒ SƠ TRONG NGÀY (DAILY LIMIT)!")
                     print(f"🛑 Chi tiết thông báo: {res.get('reason')}")
                     print("🛑 Tự động dừng ca nộp hôm nay và bỏ qua các công việc còn lại.")
                     print("🛑" * 38 + "\n")
                     break
+                else:
+                    session_report["skipped_counts"]["errors"] += 1
+                    session_report["skipped_details"].append({"url": url, "title": job.get("title", ""), "reason": res.get("error", status or "Lỗi nộp đơn")})
 
             time.sleep(2)
+
+        # Lưu session_report.json
+        try:
+            report_path = os.path.join(SCRIPT_DIR, "session_report.json")
+            with open(report_path, "w", encoding="utf-8") as f:
+                json.dump(session_report, f, indent=2, ensure_ascii=False)
+            print(f"💾 Đã lưu báo cáo phiên VietnamWorks: {report_path}")
+        except Exception as e:
+            print(f"⚠️ Lỗi lưu session_report.json: {e}")
 
         browser.close()
 

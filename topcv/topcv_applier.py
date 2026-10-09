@@ -215,15 +215,16 @@ async def verify_and_ensure_login(page, context, force_relogin=False):
 
     if not force_relogin:
         try:
-            await page.goto("https://www.topcv.vn", wait_until="domcontentloaded", timeout=30000)
+            # Check context cookies first
+            cookies = await context.cookies()
+            has_session = any(c.get("name") in ["topcv_session", "sso_token"] and c.get("value") for c in cookies)
+
+            # Probe candidate history page directly
+            await page.goto("https://www.topcv.vn/lich-su-ung-tuyen", wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(2.0)
-            is_logged_in = await page.evaluate("""() => {
-                const hasLoginBtn = !!document.querySelector('a[href*="/login"]');
-                const hasUserMenu = !!document.querySelector('.dropdown-user, .user-avatar, [href*="/logout"], .navbar-user, .header-user');
-                const hasUserName = document.body.innerText.includes('Hoàng Hà');
-                return hasUserMenu || hasUserName || !hasLoginBtn;
-            }""")
-            if is_logged_in:
+
+            # If not logged in, TopCV automatically redirects to /login
+            if "/login" not in page.url and ("lich-su-ung-tuyen" in page.url or "topcv.vn" in page.url):
                 log("✅ XÁC NHẬN ĐĂNG NHẬP: Ứng viên Nguyễn Phú Hoàng Hà đã đăng nhập hợp lệ (Session active).")
                 return True
         except Exception as e:
@@ -782,8 +783,30 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                             if len(jobs_to_apply) >= max_applies:
                                 break
 
+        session_report = {
+            "platform": "TopCV",
+            "timestamp": datetime.now().isoformat(),
+            "todo_count": len(jobs_to_apply),
+            "applied_count": 0,
+            "applied_jobs": [],
+            "skipped_counts": {
+                "already_applied": 0,
+                "expired": 0,
+                "cf_blocked": 0,
+                "daily_limit": 0,
+                "errors": 0
+            },
+            "skipped_details": []
+        }
+
         if not jobs_to_apply:
             log("🎉 Tất cả việc làm trong kho lưu trữ đều đã được ứng tuyển hoặc chưa có việc làm mới nào cần nộp!")
+            report_path = os.path.join(BASE_DIR, "session_report.json")
+            try:
+                with open(report_path, "w", encoding="utf-8") as f:
+                    json.dump(session_report, f, indent=2, ensure_ascii=False)
+            except Exception:
+                pass
             await browser.close()
             return
 
@@ -795,29 +818,65 @@ async def run(target_url=None, dry_run=None, max_applies=None):
             log(f"📌 [{idx}/{len(jobs_to_apply)}] TIẾN TRÌNH: {job_url}")
             try:
                 res = await apply_to_single_job(page, job_url, dry_run=dry_run)
-                if res.get("status") in ["SUCCESS", "SUBMITTED"]:
+                st = res.get("status")
+                if st in ["SUCCESS", "SUBMITTED"]:
                     consecutive_blocks = 0
+                    session_report["applied_count"] += 1
+                    session_report["applied_jobs"].append({
+                        "title": res.get("title", ""),
+                        "company": res.get("company", ""),
+                        "url": job_url,
+                        "status": st,
+                        "proof": res.get("proof", "")
+                    })
                     save_applied_record(applied_dict, job_url, res.get("title", ""), res.get("company", ""), res.get("letter", ""), res.get("proof", ""))
-                elif res.get("status") == "ALREADY_APPLIED":
+                elif st == "ALREADY_APPLIED":
                     consecutive_blocks = 0
+                    session_report["skipped_counts"]["already_applied"] += 1
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
-                elif res.get("status") in ["CF_BLOCKED", "PAGE_LOAD_ERROR", "ERROR"]:
+                elif st == "EXPIRED":
+                    session_report["skipped_counts"]["expired"] += 1
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Tin tuyển dụng hết hạn"})
+                elif st == "CF_BLOCKED":
+                    session_report["skipped_counts"]["cf_blocked"] += 1
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Bị Cloudflare WAF chặn"})
                     consecutive_blocks += 1
                     if consecutive_blocks >= 3:
-                        log(f"\n🛑 [CIRCUIT BREAKER] Gặp 3 lỗi mạng / Cloudflare WAF liên tiếp ({res.get('status')}). Tạm dừng ca TopCV để bảo vệ tài khoản.\n")
+                        log(f"\n🛑 [CIRCUIT BREAKER] Gặp 3 lỗi Cloudflare WAF liên tiếp. Tạm dừng ca TopCV để bảo vệ tài khoản.\n")
                         break
-                elif res.get("status") == "DAILY_LIMIT_REACHED":
+                elif st == "DAILY_LIMIT_REACHED":
+                    session_report["skipped_counts"]["daily_limit"] += 1
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Chạm giới hạn tài khoản trong ngày"})
                     log(f"\n🛑 [DỪNG TIẾN TRÌNH TOPCV] Chạm giới hạn tài khoản hôm nay: {res.get('reason')}")
                     log("⏩ Đã khoá cờ giới hạn ngày hôm nay. Các ca tiếp theo trong ngày sẽ tự động bỏ qua TopCV.\n")
                     break
+                elif st in ["PAGE_LOAD_ERROR", "ERROR"]:
+                    session_report["skipped_counts"]["errors"] += 1
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": str(res.get("reason", "Lỗi nộp đơn"))})
+                    consecutive_blocks += 1
+                    if consecutive_blocks >= 3:
+                        log(f"\n🛑 [CIRCUIT BREAKER] Gặp 3 lỗi mạng liên tiếp ({st}). Tạm dừng ca TopCV.\n")
+                        break
             except Exception as e:
                 log(f"❌ Lỗi khi xử lý job {job_url}: {e}. Tự động bỏ qua và chuyển sang job tiếp theo.")
                 await save_error(page, job_url, "UNEXPECTED_LOOP_EXCEPTION", str(e))
+                session_report["skipped_counts"]["errors"] += 1
+                session_report["skipped_details"].append({"url": job_url, "title": "", "reason": str(e)})
                 consecutive_blocks += 1
                 if consecutive_blocks >= 3:
                     log("\n🛑 [CIRCUIT BREAKER] Gặp 3 ngoại lệ liên tiếp. Tạm dừng ca TopCV.\n")
                     break
             await asyncio.sleep(random.uniform(4.0, 7.0))
+
+        # Lưu session_report.json
+        try:
+            report_path = os.path.join(BASE_DIR, "session_report.json")
+            with open(report_path, "w", encoding="utf-8") as f:
+                json.dump(session_report, f, indent=2, ensure_ascii=False)
+            log(f"💾 Đã lưu báo cáo phiên TopCV: {report_path}")
+        except Exception as e:
+            log(f"⚠️ Lỗi lưu session_report.json: {e}")
 
         await browser.close()
 

@@ -1,0 +1,244 @@
+[
+  {
+    "name": "client_id",
+    "value": "dc941d96-3752-46c3-97cd-a1b663a73c2e",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1824260419.380681,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1825233778,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "01M2S7AD6FZ0N8ZTSB966BWXMB_.tt.1.1789700420815",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1825233778,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1789700421514.134898866986723596",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1799313778,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_taid",
+    "value": "aAb6Fx5VyN.1789701919842",
+    "domain": "www.topcv.vn",
+    "path": "/",
+    "expires": 1823073777,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.1917164746.1791516635",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791624178,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clck",
+    "value": "1ljhtzf%5E2%5Ega5%5E0%5E2452",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1823052635,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_tafp",
+    "value": "c433c78ea8ac527575148e53dab384bf",
+    "domain": "www.topcv.vn",
+    "path": "/",
+    "expires": 1791603036,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_tasid",
+    "value": "iZ6K2asBXt.1791537257171",
+    "domain": "www.topcv.vn",
+    "path": "/",
+    "expires": 1791539578,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gat_UA-55579411-1",
+    "value": "1",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791537809,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "g_state",
+    "value": "{\"i_l\":0,\"i_ll\":1791537750729,\"i_b\":\"9uuVoTNHgB9PzXbsyUDHoEqN55vYEn53nWrQUCfLrp4\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1791537750729}",
+    "domain": "www.topcv.vn",
+    "path": "/",
+    "expires": 1807089750,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clsk",
+    "value": "1lyqxuo%5E1791537751258%5E3%5E0%5Eh.clarity.ms%2Fcollect",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791624151,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sso_token",
+    "value": "eyJpdiI6IkR4NGMrQVEzMU5BRGhYMTQrWDZlMUE9PSIsInZhbHVlIjoiWStVUm1OeXNJT1puTmlxVWRlcmNYdjB1cHNyVWhPZkNMYWIyTlcwcTk4NCt5OTd0UXRGVTAwNnlLdnVFcnRQbyIsIm1hYyI6IjA5OTkyMjJjZmY5ZjUxNmJlNWI3MTUwOTY3NGYzN2FlNDY5ZGY5ODIwNTU5ZDUxOTc4OWIyOTgyMGZmMGRmY2MiLCJ0YWciOiIifQ",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791580976.52695,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ref_source_tracking_id",
+    "value": "eyJpdiI6IlNHZHJiVEpMZUtEUGtBaTZubTdSYWc9PSIsInZhbHVlIjoiVlBFbENYaFhKMmd5UG9aQjIyMDNDSDU4RDN4OFlTaDRLRitZY1RmMXJ2a0JzU09BVlVWc3lQdXZlaExoMkpIWHJsYy91UnFLbXJlZ1FiV1ZvZVU0bUxjR2FrVHRYT0YwSC9QMUlYTVZ0d2c9IiwibWFjIjoiNjU0NzljZDRlY2NkYzIxZWU5ZDFlM2ZhZDQwY2FlYWIzYzMwMWY0M2RhZDMwNWZhYTg5ZTEwNzMwZDZjMzU5MCIsInRhZyI6IiJ9",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791552176.527038,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "appier",
+    "value": "%7B%22event%22%3A%22candidate_login%22%2C%22payload%22%3A%7B%22user_id%22%3A6086747%7D%7D",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1791538376.527303,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1777517803.1789700420.1583512814.1791537259.1791537778.1575684596.1791516633.1791537778",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1797476420,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_tasla",
+    "value": "1791537778232",
+    "domain": "www.topcv.vn",
+    "path": "/",
+    "expires": 1791539578,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_F385SHE0Y3",
+    "value": "GS2.1.s1791537256$o7$g1$t1791537778$j31$l1$h114057652$dbXQV_uudBMaROPqePD9S1bGsO-deFsnZIA",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1826097778.244121,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cf_clearance",
+    "value": "XDhEvEtZcYOFnVKXPNwgQWdsRKvHaApzFwtkUy53jzg-1791537778-1.2.1.1-VhBxf2zHlJ5N_MC.eimF6DkW6j4rmhrwwgMra8VnIoGJotVGqSJnvCKVoCP5xPxCOx30zMnkF3newQqsU9FNHTyILDhf3QrRS49WtQFOxLWg5CgiRb99GzQA7ZfQAdlcW2osQAwx1jTpKxYBgGgSjxtr3BZeG5CUAqHfAHnMqawVkWe7DQWDSIonlsOGnyIMNvvdB127UmBTWou_NcmLTz5V2Bc0kz0GoEXDelg96jlBa6y_NH7jGOZeeUguMjuWLTDli20NeYNJWXoM7nP858rcs2_6ksVtlXgUOMXuA6ftQU7C88SdR_YGBj1q2D8wJeaxlTGsbeo1ELamvXlTfTvwEisJdNP260uAAEB7p62Ed.tH.bGCfJzA.Yi1qoEgOQsjdv9lcxqnRlMgcPA5hOPnYkglMOtm6gnpjQ09tN1JjaGNZ0q_68DjxpODIWJvvMiuCv28uqPyM4KySkrlKzlyoGLZeSkUcM9pVBj9.P8qV1j0tj3xk7IrE5KK2RchuAGyTdq1nOFHuHlcE_TKLg",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1823073778.27523,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://topcv.vn",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.2.1402141914.1789700420",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1826097778.29754,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "XSRF-TOKEN",
+    "value": "eyJpdiI6InlFSE5YRHB4dTVPV1ZoYjhudkRpY3c9PSIsInZhbHVlIjoiRkV4VVphbG1JQW05NjliTk02Y0RpRmgwM2hiU0ozTHF5RGhxTi96M0ZncTdMRElTMlpXMS8wYWhSVlVkRjdJMm5Gc1k3bm5jWG13elVjMS9NSHduMVNyRkJhMFM1WVQ1RkdlRHFnQmVTaEpsa3FqMWd4S29RUEtaY3k4T2dXM04iLCJtYWMiOiI4ZDA2OWQ1NzFiODIzOTI2NDgzNGYxYWQxMjdiYjg4OWE0NjE4NDZlMGUwYmU3ZmNhZGQ4ODE4Y2FiZDBjMzA5IiwidGFnIjoiIn0%3D",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1799313778.71589,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "topcv_session",
+    "value": "eyJpdiI6Ik9qRkNnNGtqWU9adnhqTWxVNWN0TEE9PSIsInZhbHVlIjoiY1B2UUl3ZTdheXRZeUdETXB0RkdVcFhNbmFnUzZ4VFZHZGxrOXljd3dDSlZaRG40RUxQUzFmdXpTQVZ5ZnZENTZ0QUNzaXBSUGNhRjFablNOYk9LVzAwM1NxSkhTVW5HVFpVNHZTUGtNS3FnRno3MFNkRHAwK3hpM0lxK2FicGMiLCJtYWMiOiJjMzUyNWMyNTY3ZGMxZWFlMGNjM2RkZjc1YTc3MmUzYjdjMGViODQ5YTYxYjMyZjJmZTc1MzlkYzA5N2VhM2ZhIiwidGFnIjoiIn0%3D",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1799313778.716055,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1791537257692::rvTT24mtadGUPwUyxUT4.9.1791537778742.0::1.518369.520805::514442.3.675.484::0.0.0",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1825233778,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_D0FPAFRC77UA600KP0E0",
+    "value": "1791537257692::ZQWPPa-X2x4HA2Bb2YX6.9.1791537778742.1",
+    "domain": ".topcv.vn",
+    "path": "/",
+    "expires": 1825233778,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

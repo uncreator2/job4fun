@@ -35,7 +35,7 @@ SITE_CONFIGS = {
         "url": "https://www.topcv.vn/",
         "search_url": "https://www.topcv.vn/tim-viec-lam-moi-nhat",
         "cookie_env": "COOKIES",
-        "cookie_file": os.path.join(TOPCV_DIR, "cookies.txt"),
+        "cookie_file": os.path.join(TOPCV_DIR, "topcv_cookies.json"),
         "crawler_script": "topcv_cron_runner.py",
         "applier_script": "topcv_applier.py"
     },
