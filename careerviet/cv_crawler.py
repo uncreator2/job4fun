@@ -329,10 +329,22 @@ def run_crawler(max_pages=MAX_PAGES_PER_QUERY, use_cdp=False):
                 print(f"  📄 Trang {page_num}: {page_target_url}")
 
                 try:
-                    page.goto(page_target_url, timeout=30000, wait_until="domcontentloaded")
-                    time.sleep(2)
+                    # Resilient goto with retry and commit wait_until to avoid tracker/ad timeouts
+                    loaded = False
+                    for attempt in range(1, 3):
+                        try:
+                            page.goto(page_target_url, timeout=45000, wait_until="commit")
+                            time.sleep(2)
+                            loaded = True
+                            break
+                        except Exception as nav_err:
+                            if attempt == 1:
+                                print(f"    ⚠️ Lần 1 tải trang bị trễ ({nav_err}), tạm dừng 3s và thử lại...")
+                                time.sleep(3)
+                            else:
+                                raise nav_err
 
-                    # Extract jobs
+                    # Extract jobs (waits for .job-item and falls back to SSR HTML)
                     jobs, raw_count = extract_jobs_from_page(page, search_url)
                     print(f"    -> Thẻ việc làm phát hiện (DOM/SSR): {raw_count} | Phù hợp bộ lọc quản lý: {len(jobs)}")
 
