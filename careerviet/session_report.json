@@ -1,212 +1,70 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-12T05:33:53.057329",
-  "todo_count": 38,
-  "applied_count": 30,
+  "timestamp": "2026-10-12T16:02:47.487707",
+  "todo_count": 9,
+  "applied_count": 9,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ HQG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C7EE55.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng kinh doanh",
-      "company": "Bảo mật",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8739B.html",
+      "title": "Strategic Sourcing Commodity Leader (Leads Category Leader)",
+      "company": "Friwo Vietnam Co., Ltd",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/strategic-sourcing-commodity-leader-leads-category-leader.35C8694D.html",
       "status": "APPLIED_OK"
     },
     {
       "title": "TRƯỞNG PHÒNG KINH DOANH",
-      "company": "Công ty cổ phần Chăm Sóc Sức Khoẻ Đường Ruột Việt Nam (DR. RUỘT)",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C86CAF.html",
+      "company": "CÔNG TY TNHH HARICO GLOBAL",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C89F0F.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "TRƯỞNG PHÒNG KINH DOANH",
-      "company": "CÔNG TY TNHH THƯƠNG MẠI XUẤT NHẬP KHẨU THIẾT KẾ XÂY DỰNG PRETTY HOUSE",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C885E8.html",
+      "title": "Trưởng phòng kinh doanh Subscription",
+      "company": "Công ty Cổ phần Masscom Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-subscription.35C89D85.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công ty TNHH Viễn thông IPN",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C873DB.html",
+      "title": "TRƯỞNG PHÒNG KINH DOANH DỰ ÁN B2B - NGÀNH VẬT LIỆU",
+      "company": "Công ty Cổ phần Tập đoàn Gỗ Minh Long",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-du-an-b2b-nganh-vat-lieu.35C89F93.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "CÔNG TY CỔ PHẦN QUỐC TẾ AEMG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C83FD7.html",
+      "title": "TRƯỞNG PHÒNG BÁN HÀNG B2B - VẬT LIỆU NỘI THẤT",
+      "company": "Công ty Cổ phần Tập đoàn Gỗ Minh Long",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-ban-hang-b2b-vat-lieu-noi-that.35C89F94.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng phòng Kinh doanh Online",
-      "company": "Công ty TNHH Thiên Thủy Mộc",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-online.35C88F39.html",
+      "title": "Trưởng nhóm Kinh doanh Ngành Truyền Thông Quảng Cáo Thang Máy (Sales Team Leader)",
+      "company": "CÔNG TY TNHH FOCUS MEDIA (VIỆT NAM)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-thang-may-sales-team-leader.35C8A3C1.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "TRƯỞNG PHÒNG KINH DOANH OEM/ODM(MỚI)",
+      "title": "Trưởng phòng Kinh doanh - Khu vực Hà Nội, Ninh Bình, Nghệ An",
+      "company": "Tổng Công ty Cổ phần Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam (BIC)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-khu-vuc-ha-noi-ninh-binh-nghe-an.35C8A392.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "134730 - Sales & Marketing Manager - Real Estate",
+      "company": "RGF HR Agent Vietnam Co., LTD",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/134730-sales-marketing-manager-real-estate.35C8A474.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh Nội Địa",
       "company": "Tập Đoàn Karofi Holding",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-oem-odm.35C8993A.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "TRƯỞNG PHÒNG KINH DOANH QUỐC TẾ",
-      "company": "Công ty cổ phần sản xuất và xuất khẩu Quế hồi Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-quoc-te.35C7FC0F.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh - Lọc tổng",
-      "company": "Tập Đoàn Karofi Holding",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-loc-tong.35C88ECC.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh bán lẻ",
-      "company": "Công ty TNHH PHD",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-ban-le.35C8952B.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Kênh Offline",
-      "company": "CÔNG TY TNHH ĐỒ DÙNG THỂ THAO DO-WIN VIETNAM",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-kenh-offline.35C86121.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh Bia hơi",
-      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bia-hoi.35C884F2.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (SL: 01)",
-      "company": "Công ty Cổ phần VISCOM",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-sl-01.35C7FAD1.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh & Marketing (Mảng Sách)",
-      "company": "Công ty TNHH Phát Triển Giáo Dục Và Hợp Tác Quốc Tế THANHMAIHSK",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-marketing-mang-sach.35C85ADD.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng kinh doanh dự án - mảng đèn",
-      "company": "HR Vietnam’s ESS Client",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-du-an-mang-den.35C802BD.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng kinh doanh B2C",
-      "company": "Công ty Cổ phần TP Solar",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-b2c.35C81747.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "TRƯỞNG PHÒNG KINH DOANH KÊNH ONLINE (TMDT)",
-      "company": "Công ty TNHH Thực Phẩm & TMDV Lê Gia",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-kenh-online-tmdt.35C83122.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh Hàng hóa phái sinh",
-      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ FIREANT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-hang-hoa-phai-sinh.35C8273A.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Thiết Bị Y Tế",
-      "company": "TMT MEDICAL",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-thiet-bi-y-te.35C80EA6.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Tool Dao Cụ Máy CNC",
-      "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN CÔNG NGHỆ TLT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-tool-dao-cu-may-cnc.35C885EB.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng Phòng Kinh doanh - [BAC A BANK - KV Hà Nội]",
-      "company": "Ngân Hàng Thương mại cổ phần Bắc Á- BAC A BANK",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bac-a-bank-kv-ha-noi.35C83885.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "TRƯỞNG PHÒNG HÀNH CHÍNH NHÂN SỰ",
-      "company": "CÔNG TY CỔ PHẦN ĐỊA ỐC MAI VIỆT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-hanh-chinh-nhan-su.35C87376.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "GIÁM ĐỐC CÔNG TY BẢO HIỂM MIC THÀNH ĐÔ(MỚI)",
-      "company": "Tổng Công ty Cổ phần Bảo hiểm Quân đội (MIC)",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cong-ty-bao-hiem-mic-thanh-do.35C898BC.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "GIÁM ĐỐC CÔNG TY BẢO HIỂM MIC THÀNH ĐÔ",
-      "company": "Tổng Công ty Cổ phần Bảo hiểm Quân đội (MIC)",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cong-ty-bao-hiem-mic-thanh-do.35C87B4F.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Quản lý kinh doanh vùng kênh GT",
-      "company": "Công ty cổ phần Nu Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-kinh-doanh-vung-kenh-gt.35C86A79.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Manager Technical Operations",
-      "company": "Công ty TNHH Olam Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/manager-technical-operations.35C8A33B.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Kế toán trưởng  ( Làm việc tại Q.7 )",
-      "company": "Công Ty TNHH Laser Ưu Việt (OLAS)",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/ke-toan-truong-lam-viec-tai-q-7.35C8882B.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Quality Engineer / Kỹ Sư Quản Lý Chất Lượng ngành điện tử (Có xe đưa đón từ TP. Hồ Chí Minh)",
-      "company": "Công ty TNHH Amphenol Technology Vietnam (Xưởng 3)",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/quality-engineer-ky-su-quan-ly-chat-luong-nganh-dien-tu-co-xe-dua-don-tu-tp-ho-chi-minh.35C86B47.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Phát triển Sản phẩm Phi tín dụng – Trung tâm Phát triển sản Phẩm – Khối Ngân hàng Doanh nghiệp",
-      "company": "Ngân hàng TMCP Kiên Long",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-phat-trien-san-pham-phi-tin-dung-trung-tam-phat-trien-san-pham-khoi-ngan-hang-doanh-nghiep.35C8306E.html",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-noi-dia.35C8A3E4.html",
       "status": "APPLIED_OK"
     }
   ],
   "skipped_counts": {
-    "already_applied": 3,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C863DA.html",
-      "title": "Trưởng phòng kinh doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C83451.html",
-      "title": "Trưởng phòng kinh doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-du-an-b2b-nganh-vat-lieu.35C8633C.html",
-      "title": "TRƯỞNG PHÒNG KINH DOANH DỰ ÁN B2B - NGÀNH VẬT LIỆU",
-      "reason": "Đã ứng tuyển trước đó"
-    }
-  ]
+  "skipped_details": []
 }
