@@ -1,0 +1,156 @@
+{
+  "platform": "TopCV",
+  "timestamp": "2026-10-12T16:04:35.830474",
+  "todo_count": 30,
+  "applied_count": 0,
+  "applied_jobs": [],
+  "skipped_counts": {
+    "already_applied": 25,
+    "expired": 3,
+    "cf_blocked": 0,
+    "daily_limit": 0,
+    "errors": 0
+  },
+  "skipped_details": [
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2327376.html",
+      "title": "Sales Manager",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-luong-cung-25-30tr-lam-viec-tai-hoang-mai/2327702.html",
+      "title": "Trưởng Phòng Kinh Doanh - Lương Cứng 25-30Tr / Làm Việc Tại Hoàng Mai",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-phat-trien-kinh-doanh-nganh-cham-soc-suc-khoe/2309964.html",
+      "title": "Giám Đốc Phát Triển Kinh Doanh Ngành Chăm Sóc Sức Khỏe",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sdm-sales-manager-it/2328575.html",
+      "title": "SDM & Sales Manager -IT",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2240829.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/msbank/tuyen-dung/giam-doc-kinh-doanh-ngoai-te-ha-noi-khu-vuc-nguyen-chi-thanh-lang-ha-huynh-thuc-khang-cua-nam-rb-msb-3x024-j2328499.html",
+      "title": "MSB",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2040298.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-ooh-dooh/2196056.html",
+      "title": "Giám Đốc Kinh Doanh OOH/DOOH",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-logistics/2098002.html",
+      "title": "Giám Đốc Kinh Doanh Logistics",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-b2b-b2c/2327815.html",
+      "title": "Giám Đốc Kinh Doanh (B2B/B2C)",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-su-kien-du-lich/2327282.html",
+      "title": "Trưởng Nhóm Kinh Doanh Sự Kiện/ Du Lịch",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-su-kien-du-lich/2327335.html",
+      "title": "Trưởng Nhóm Kinh Doanh Sự Kiện/ Du Lịch",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2327188.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-cong-ty-thuc-pham-xanh/2157628.html",
+      "title": "Trưởng Phòng Kinh Doanh Công Ty Thực Phẩm Xanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-hieu-qua-kinh-doanh/2326159.html",
+      "title": "Quản Lý Phát Triển Hiệu Quả Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phan-mem/1280131.html",
+      "title": "Trưởng Phòng Kinh Doanh Phần Mềm",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-tim-kiem-phat-trien-mat-bang/2327886.html",
+      "title": "Trưởng Nhóm Tìm Kiếm & Phát Triển Mặt Bằng",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-telesale-mang-duoc/2192463.html",
+      "title": "Trưởng Phòng Kinh Doanh Telesale Mảng Dược",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-kinh-doanh-b2b-cau-long-tennis-gosen-nhat-ban-thi-truong-noi-dia-va-quoc-te/2317353.html",
+      "title": "Chuyên Viên Kinh Doanh B2B Cầu Lông Tennis Gosen Nhật Bản - Thị Trường Nội Địa Và Quốc Tế",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2293418.html",
+      "title": "Tin hết hạn / Chuyển hướng trang chủ",
+      "reason": "Tin tuyển dụng hết hạn"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-cong-ty-dich-vu-8/2216601.html",
+      "title": "Tin hết hạn / Chuyển hướng trang chủ",
+      "reason": "Tin tuyển dụng hết hạn"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2098582.html",
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2156570.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/2280458.html",
+      "title": "Trưởng Phòng Kinh Doanh B2B",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2282362.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-leader-sale/2169947.html",
+      "title": "Trưởng Nhóm Kinh Doanh /Leader Sale",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/project-sales-manager/1203373.html",
+      "title": "Project Sales Manager",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-mang-tieng-anh/2145949.html",
+      "title": "Tin hết hạn / Chuyển hướng trang chủ",
+      "reason": "Tin tuyển dụng hết hạn"
+    }
+  ]
+}
