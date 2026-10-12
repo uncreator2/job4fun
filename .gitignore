@@ -22,7 +22,8 @@ __pycache__/
 scratch/
 session_extracted_jobs.txt
 session_extracted_jobs.json
-session_report.json
+# session_report.json is tracked in platform directories
+!*/session_report.json
 
 # Screenshots & Proofs (preserve errors)
 *.png

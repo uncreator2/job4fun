@@ -1,0 +1,67 @@
+{
+  "platform": "Vieclam24h",
+  "timestamp": "2026-10-12T05:35:12.873708",
+  "todo_count": 8,
+  "applied_count": 5,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh Thu Nhập Từ 25 Triệu",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thu-nhap-tu-25-trieu-c13p210000160id200961704.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961704.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Nội Thất (Thu Nhập Cao)",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-thu-nhap-cao-c6p210000160id200961625.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961625.png"
+    },
+    {
+      "title": "Quản Lý Cửa Hàng",
+      "company": "Công Ty Cổ Phần Phát Triển Công Nghệ NGN",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p210000187id200961676.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961676.png"
+    },
+    {
+      "title": "Quản Lý Booking & Phát Triển Show",
+      "company": "Công Ty TNHH Nội Thất Minh Phong",
+      "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/quan-ly-booking-phat-trien-show-c24p73id200839167.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200839167.png"
+    },
+    {
+      "title": "Trưởng Nhóm Quản Lý Nhắc Phí Qua Tổng Đài - Mrshno",
+      "company": "Công Ty TNHH Nội Thất Minh Phong",
+      "url": "https://vieclam24h.vn/luat-phap-ly-tuan-thu/truong-nhom-quan-ly-nhac-phi-qua-tong-dai-mrshno-c25p210000160id200961914.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961914.png"
+    }
+  ],
+  "skipped_counts": {
+    "already_applied": 0,
+    "expired": 2,
+    "cf_blocked": 0,
+    "daily_limit": 0,
+    "errors": 1
+  },
+  "skipped_details": [
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-giam-sat-kinh-doanh-tra-gop-dien-may-sedhno-c6p73id200917283.html",
+      "title": "Hà Nội: Giám Sát Kinh Doanh Trả Góp Điện Máy-Sedhno",
+      "reason": "Tin tuyển dụng hết hạn"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p73id200920792.html",
+      "title": "Giám Sát Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
+      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
+      "reason": "ERROR"
+    }
+  ]
+}
