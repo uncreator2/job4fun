@@ -1,43 +1,22 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-12T05:35:12.873708",
-  "todo_count": 8,
-  "applied_count": 5,
+  "timestamp": "2026-10-12T16:04:01.840101",
+  "todo_count": 5,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh Thu Nhập Từ 25 Triệu",
+      "title": "Phó Giám Đốc Vận Hành Siêu Thị Bách Hóa (Tp. HCM, Hà Nội)",
       "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thu-nhap-tu-25-trieu-c13p210000160id200961704.html",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/pho-giam-doc-van-hanh-sieu-thi-bach-hoa-tp-hcm-ha-noi-c6p210000187id200962285.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961704.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200962285.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh Nội Thất (Thu Nhập Cao)",
+      "title": "Trưởng Phòng Kinh Doanh BĐS Vinhomes / Masterise Homes / Mik Group...",
       "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-thu-nhap-cao-c6p210000160id200961625.html",
+      "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bds-vinhomes-masterise-homes-mik-group-c29p210000160id200924800.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961625.png"
-    },
-    {
-      "title": "Quản Lý Cửa Hàng",
-      "company": "Công Ty Cổ Phần Phát Triển Công Nghệ NGN",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-c6p210000187id200961676.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961676.png"
-    },
-    {
-      "title": "Quản Lý Booking & Phát Triển Show",
-      "company": "Công Ty TNHH Nội Thất Minh Phong",
-      "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/quan-ly-booking-phat-trien-show-c24p73id200839167.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200839167.png"
-    },
-    {
-      "title": "Trưởng Nhóm Quản Lý Nhắc Phí Qua Tổng Đài - Mrshno",
-      "company": "Công Ty TNHH Nội Thất Minh Phong",
-      "url": "https://vieclam24h.vn/luat-phap-ly-tuan-thu/truong-nhom-quan-ly-nhac-phi-qua-tong-dai-mrshno-c25p210000160id200961914.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961914.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200924800.png"
     }
   ],
   "skipped_counts": {

@@ -2391,5 +2391,84 @@
     "applied_at": "2026-10-12T05:35:12.873708",
     "status": "APPLIED_SUCCESS",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200961914.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p210000160id200961753.html",
+    "id": "200961753",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/co-khi-o-to-tu-dong-hoa/co-van-dich-vu-lam-tai-vp-da-nang-va-ha-noi-c47p210000160id200962114.html",
+    "id": "200962114",
+    "title": "Cố Vấn Dịch Vụ [ Làm Tại VP Đà Nẵng Và Hà Nội]",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/nhan-vien-hanh-chinh-du-an-di-lam-ngay-c1p210000160id200962189.html",
+    "id": "200962189",
+    "title": "Nhân Viên Hành Chính Dự Án - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000187id200962030.html",
+    "id": "200962030",
+    "title": "Giám Đốc Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p210000160id200951816.html",
+    "id": "200951816",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-giam-sat-kinh-doanh-tra-gop-dien-may-sedhno-c6p73id200917283.html",
+    "id": "200917283",
+    "title": "Hà Nội: Giám Sát Kinh Doanh Trả Góp Điện Máy-Sedhno",
+    "company": "Công Ty Cổ Phần Thép Nam Kim",
+    "salary": "14 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-12T16:04:10.430456",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p73id200920792.html",
+    "id": "200920792",
+    "title": "Giám Sát Kinh Doanh",
+    "company": "Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp Wincommerce",
+    "salary": "11 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-10-12T16:04:23.523176",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/pho-giam-doc-van-hanh-sieu-thi-bach-hoa-tp-hcm-ha-noi-c6p210000187id200962285.html",
+    "id": "200962285",
+    "title": "Phó Giám Đốc Vận Hành Siêu Thị Bách Hóa (Tp. HCM, Hà Nội)",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-12T16:04:45.022689",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200962285.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bds-vinhomes-masterise-homes-mik-group-c29p210000160id200924800.html",
+    "id": "200924800",
+    "title": "Trưởng Phòng Kinh Doanh BĐS Vinhomes / Masterise Homes / Mik Group...",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-12T16:05:08.990180",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200924800.png"
   }
 ]
