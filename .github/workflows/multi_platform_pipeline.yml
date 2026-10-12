@@ -129,8 +129,10 @@ jobs:
         if: always() && steps.check-run.outputs.should_run == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ${{ matrix.platform }}/extracted_jobs_history.* ${{ matrix.platform }}/applied_jobs_history.* ${{ matrix.platform }}/topcv_daily_limit_*.flag || true
+          git add -f ${{ matrix.platform }}/extracted_jobs_history.* 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/applied_jobs_history.* 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/*daily_limit*.flag 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/session_report.json 2>/dev/null || true
           if git diff --cached --name-only | grep -E "(${{ matrix.platform }})"; then
             git commit -m "Auto-update ${{ matrix.platform }} application ledgers [skip ci]"
             # Resilient push loop with rebase to avoid race conditions with other parallel runners
