@@ -796,6 +796,8 @@ async def run(target_url=None, dry_run=None, max_applies=None):
         await sync_topcv_applied_history(page, applied_set, applied_dict)
 
         # 3. Lọc danh sách To-Do List: CHỈ LẤY CÁC VIỆC THỰC SỰ CHƯA TỪNG ỨNG TUYỂN
+        # Lấy dư buffer (max_applies * 4) để nếu gặp tin đã nộp hoặc hết hạn thì vẫn lướt tiếp cho tới khi nộp đủ max_applies đơn thực tế
+        queue_limit = max(max_applies * 4, 120)
         jobs_to_apply = []
         if target_url:
             jobs_to_apply = [target_url]
@@ -807,17 +809,17 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                         u = line.strip().split('?')[0].split('#')[0]
                         if u and u not in applied_set and u not in jobs_to_apply:
                             jobs_to_apply.append(u)
-                            if len(jobs_to_apply) >= max_applies:
+                            if len(jobs_to_apply) >= queue_limit:
                                 break
 
-            # Nếu chưa đủ số lượng ca này, lấy thêm từ kho lịch sử toàn bộ các việc đã quét
-            if len(jobs_to_apply) < max_applies and os.path.exists(HISTORY_TXT):
+            # Nếu chưa đủ số lượng buffer ca này, lấy thêm từ kho lịch sử toàn bộ các việc đã quét
+            if len(jobs_to_apply) < queue_limit and os.path.exists(HISTORY_TXT):
                 with open(HISTORY_TXT, "r", encoding="utf-8") as f:
                     for line in f:
                         u = line.strip().split('?')[0].split('#')[0]
                         if u and u not in applied_set and u not in jobs_to_apply:
                             jobs_to_apply.append(u)
-                            if len(jobs_to_apply) >= max_applies:
+                            if len(jobs_to_apply) >= queue_limit:
                                 break
 
         session_report = {
@@ -847,12 +849,16 @@ async def run(target_url=None, dry_run=None, max_applies=None):
             await browser.close()
             return
 
-        log(f"\n🎯 Danh sách To-Do List sạch sẽ: Sẽ thực hiện ứng tuyển {len(jobs_to_apply)} việc làm CHƯA TỪNG NỘP.")
+        log(f"\n🎯 Danh sách ứng viên To-Do: {len(jobs_to_apply)} việc làm chưa nộp (Mục tiêu nộp thành công: {max_applies} đơn).")
 
         consecutive_blocks = 0
         for idx, job_url in enumerate(jobs_to_apply, 1):
+            if session_report["applied_count"] >= max_applies:
+                log(f"\n🏁 Đã nộp thành công đủ {max_applies} việc làm mục tiêu cho ca TopCV. Kết thúc phiên!")
+                break
+
             log(f"\n==================================================")
-            log(f"📌 [{idx}/{len(jobs_to_apply)}] TIẾN TRÌNH: {job_url}")
+            log(f"📌 [{idx}/{len(jobs_to_apply)} | Đã nộp: {session_report['applied_count']}/{max_applies}] TIẾN TRÌNH: {job_url}")
             try:
                 res = await apply_to_single_job(page, job_url, dry_run=dry_run)
                 st = res.get("status")
@@ -873,8 +879,10 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                     session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
                 elif st == "EXPIRED":
+                    consecutive_blocks = 0
                     session_report["skipped_counts"]["expired"] += 1
                     session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Tin tuyển dụng hết hạn"})
+                    save_applied_record(applied_dict, job_url, res.get("title", "Tin hết hạn"), "", "Tin tuyển dụng hết hạn trên TopCV", "")
                 elif st == "CF_BLOCKED":
                     session_report["skipped_counts"]["cf_blocked"] += 1
                     session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Bị Cloudflare WAF chặn"})

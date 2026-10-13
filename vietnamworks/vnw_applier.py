@@ -484,7 +484,7 @@ def run_applier(max_applies=MAX_APPLIES_DEFAULT, dry_run=DRY_RUN_DEFAULT):
     raw_cookies = load_cookies()
     formatted_cookies = format_cookies_for_playwright(raw_cookies)
 
-    jobs_to_process = unapplied_jobs[:max_applies]
+    jobs_to_process = unapplied_jobs[:max(max_applies * 3, 90)]
     applied_count = 0
     consecutive_fails = 0
 

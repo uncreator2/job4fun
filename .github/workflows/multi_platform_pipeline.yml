@@ -2,8 +2,11 @@ name: Multi-Platform Automated Job Application Pipeline
 
 on:
   schedule:
-    # 4 shifts daily: 08:35, 13:35, 16:35, 20:35 (VN Time UTC+7) Mon-Fri
-    - cron: '35 1,6,9,13 * * 1-5'
+    # 4 independent shifts daily at prime off-peak minutes (VN Time UTC+7) Mon-Fri
+    - cron: '17 1 * * 1-5'   # Ca 1: 08:17 sáng (VN Time)
+    - cron: '23 6 * * 1-5'   # Ca 2: 13:23 chiều (VN Time)
+    - cron: '41 9 * * 1-5'   # Ca 3: 16:41 chiều (VN Time)
+    - cron: '47 13 * * 1-5'  # Ca 4: 20:47 tối (VN Time)
   workflow_dispatch:
     inputs:
       platform:
