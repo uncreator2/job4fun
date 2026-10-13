@@ -1,587 +1,392 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-13T03:43:30.528214",
+  "timestamp": "2026-10-13T07:19:18.764374",
   "todo_count": 120,
-  "applied_count": 30,
+  "applied_count": 20,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Phát Triển Kinh Doanh Kênh Offline Tại Mỹ Đình",
+      "title": "Trưởng Phòng Kinh Doanh - Thu Nhập Từ 20 Triệu - 40 Triệu",
+      "company": "",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thu-nhap-tu-20-trieu-40-trieu/2329557.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2329557.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh B2b",
+      "company": "OPENASIA JSC",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/2327724.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2327724.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh HORECA",
+      "company": "CÔNG TY TNHH THISO RETAIL (EMART VIỆT NAM)",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-horeca/2328683.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2328683.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Thiết Bị Thẩm Mỹ",
+      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-tham-my/2112605.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2112605.png"
+    },
+    {
+      "title": "Phó Giám Đốc Kinh Doanh Dự Án - Nhôm Kính",
       "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-kenh-offline-tai-my-dinh/2300984.html",
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-du-an-nhom-kinh/2241256.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2300984.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2241256.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh - [Làm Việc Tại Ô Chợ Dừa - Hà Nội]",
+      "title": "Quản Lý Phát Triển Kinh Doanh",
+      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-kinh-doanh/2236545.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2236545.png"
+    },
+    {
+      "title": "Sales Manager - Khách Sạn My Way",
+      "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-khach-san-my-way/2233608.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2233608.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1188193.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1188193.png"
+    },
+    {
+      "title": "Quản Lý Phòng Khám",
       "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-co-kinh-nghiem-ve-du-lich-lam-viec-tai-o-cho-dua-ha-noi/2303192.html",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-phong-kham/2231132.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2303192.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2231132.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh Vận Tải - Hà Nội, Bình Dương (Thu Nhập 30 - 50 Triệu)",
-      "company": "Công ty Cổ phần Truyền Thông Tập Trung Mặt Trời Vàng",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ha-noi-binh-duong-thu-nhap-30-50-trieu/2304602.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2304602.png"
-    },
-    {
-      "title": "Regional Sales Manager (Male) – Industrial Equipment / Plastic & Packaging Solutions – Remote (English Required)| 4.000–5.000 USD + Commission",
+      "title": "Trưởng Phòng Kinh Doanh (Head Of Sales)",
       "company": "CÔNG TY CỔ PHẦN CPT GROUP",
-      "url": "https://www.topcv.vn/viec-lam/regional-sales-manager-male-industrial-equipment-plastic-packaging-solutions-remote-english-required-4-0005-000-usd-commission/2216518.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-head-of-sales/2302667.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2216518.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2302667.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh - Sale Manager / Có KN Trong Ngành Fitness",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager-co-kn-trong-nganh-fitness/2283906.html",
+      "title": "Quản Lý Bán Hàng Khu Vực - Area Sales Manager",
+      "company": "4S SAIGON FOODS AND BEVERAGE COMPANY LIMITED",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-khu-vuc-area-sales-manager/2301387.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2283906.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2301387.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh B2B",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/1783361.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1783361.png"
-    },
-    {
-      "title": "Quản Lý Kinh Doanh Vùng Đông Bắc",
-      "company": "CÔNG TY TNHH KOIKEYA VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-vung-dong-bac/2305492.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2305492.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Du Học Việt - Trung, Thu Nhập 30 - 40 Triệu (Hoàng Mai - Hà Nội)",
-      "company": "Công ty TNHH MBC Playbe Việt Nam",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-hoc-viet-trung-thu-nhap-30-40-trieu-hoang-mai-ha-noi/2302873.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2302873.png"
-    },
-    {
-      "title": "Phó/Trưởng Phòng Quản Lý Sản Phẩm",
-      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
-      "url": "https://www.topcv.vn/viec-lam/pho-truong-phong-quan-ly-san-pham/2305956.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2305956.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Thiết Bị Bếp Công Nghiệp",
-      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-bep-cong-nghiep/2110799.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2110799.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2189347.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2189347.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Online",
-      "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-online/2162809.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2162809.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Quốc Tế",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-quoc-te/2089905.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2089905.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh / Sales Manager (Du Lịch)",
-      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-du-lich/2290333.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2290333.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1968074.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1968074.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh Du Lịch",
+      "title": "Giám Đốc Kinh Doanh - Lĩnh Vực Thẩm Mỹ",
       "company": "CÔNG TY CỔ PHẦN CPT GROUP",
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-du-lich/2238171.html",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-tham-my/2112525.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2238171.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1344097.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1344097.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2181894.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2181894.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh Không Áp Doanh Số",
-      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khong-ap-doanh-so/2251597.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2251597.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Kênh GT - Horeca",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-gt-horeca/2250187.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2250187.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh",
-      "company": "CÔNG TY CỔ PHẦN CPT GROUP",
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2156570.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2156570.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2112525.png"
     },
     {
       "title": "Trưởng Phòng Kinh Doanh",
       "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2282362.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1821457.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2282362.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1821457.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Và Phát Triển Khách Hàng",
+      "company": "CÔNG TY TNHH CÔNG NGHỆ VÀ DU LỊCH THUẬN PHONG",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-phat-trien-khach-hang/2228494.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2228494.png"
+    },
+    {
+      "title": "Quản Lý Và Giám Sát Đội Ngũ Bán Hàng",
+      "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-va-giam-sat-doi-ngu-ban-hang/2297883.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2297883.png"
+    },
+    {
+      "title": "Quản Lý Khu Vực Kênh ETC (Dược Phẩm)",
+      "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-khu-vuc-kenh-etc-duoc-pham/2298158.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2298158.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Mảng Sách) - Đi Làm Ngay",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-sach-di-lam-ngay/1979049.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1979049.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh Thị Trường",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thi-truong/1786804.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1786804.png"
     },
     {
       "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2125087.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2125087.png"
-    },
-    {
-      "title": "Trưởng Nhóm Kinh Doanh /Leader Sale",
       "company": "Công ty CP Công nghệ phần mềm và nội dung số OSP",
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-leader-sale/2169947.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2279273.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2169947.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2279273.png"
     },
     {
-      "title": "Project Sales Manager",
-      "company": "Công ty Cổ phần Truyền Thông Tập Trung Mặt Trời Vàng",
-      "url": "https://www.topcv.vn/viec-lam/project-sales-manager/1203373.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1203373.png"
-    },
-    {
-      "title": "Sales Manager (Phần Mềm Quản Lý Bán Hàng)",
+      "title": "Quản Lý Kinh Doanh (Group Center Manager)",
       "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
-      "url": "https://www.topcv.vn/viec-lam/sales-manager-phan-mem-quan-ly-ban-hang/2023952.html",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-group-center-manager/1731962.html",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2023952.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Phần Mềm",
-      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phan-mem/1909595.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1909595.png"
-    },
-    {
-      "title": "Trưởng Phòng Phát Triển Đối Tác Doanh Nghiệp",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816591.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1816591.png"
-    },
-    {
-      "title": "Trưởng Phòng Phát Triển Đối Tác Doanh Nghiệp",
-      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816627.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1816627.png"
-    },
-    {
-      "title": "Senior Sales Manager - Du Thuyền Cao Cấp",
-      "company": "Pro\nCÔNG TY CỔ PHẦN VẬN TẢI VÀ THƯƠNG MẠI ĐƯỜNG SẮT",
-      "url": "https://www.topcv.vn/viec-lam/senior-sales-manager-du-thuyen-cao-cap/2281099.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2281099.png"
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1731962.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 10,
-    "expired": 62,
+    "already_applied": 4,
+    "expired": 39,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 4
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-tu-2-nam-kinh-nghiem-thu-nhap-len-den-30-trieu/2299827.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1605676.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2238484.html",
+      "title": "Sales Manager",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-doc-quyen-vinhomes-thu-nhap-hap-dan-ha-noi-hung-yen/2143290.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-phat-trien-san-pham-ban-le-so/2279503.html",
+      "title": "Giám Đốc Phát Triển Sản Phẩm Bán Lẻ Số",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-it-outsourcing-bfsi/2273838.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2145335.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/leader-sales-online/2288594.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/leader-sale/2276515.html",
+      "title": "Leader Sale",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-thiet-bi-cong-nghiep/2279446.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-leader-sales-b2b/2279024.html",
+      "title": "Trưởng Nhóm Kinh Doanh / Leader Sales B2B",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le-sales-manager-mang-thoi-trang/2006887.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1992067.html",
+      "title": "Trưởng Phòng Kinh Doanh - Sale Manager",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics-tu-3-nam-kinh-nghiem-thu-nhap-len-toi-60-trieu/2299679.html",
-      "title": "Trưởng Phòng Kinh Doanh Logistics (Từ 3 Năm Kinh Nghiệm - Thu Nhập Lên Tới 60 Triệu)",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-bo-phan-kinh-doanh/2278065.html",
+      "title": "Quản Lý Bộ Phận Kinh Doanh",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-dai-dien-kinh-doanh-thu-nhap-tu-25-50-trieu/2253482.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-phat-trien-khach-hang/1941084.html",
+      "title": "Chuyên Viên Phát Triển Khách Hàng",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-luong-30-000-000d-60-000-000d/2288680.html",
-      "title": "Giám Đốc Kinh Doanh - Lương 30.000.000đ - 60.000.000đ",
+      "url": "https://www.topcv.vn/brand/distributing/tuyen-dung/truong-phong-thuong-mai-dien-tu-j2267129.html",
+      "title": "CÔNG TY CỔ PHẦN TCR DISTRIBUTING",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/baoviet/tuyen-dung/giam-doc-kinh-doanh-khu-vuc-j2235381.html",
+      "title": "Tổng công ty Bảo Việt Nhân Thọ",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/vinako/tuyen-dung/truong-phong-kinh-doanh-b2b-thu-nhap-32-45tr-thang-nganh-du-hoc-han-quoc-j2288317.html",
+      "title": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ VINAKO",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-mang-ban-buon-b2b-thu-nhap-thoa-thuan-tai-ha-noi/2286993.html",
+      "title": "Phó Phòng Kinh Doanh (Mảng Bán Buôn/ B2B) Thu Nhập Thỏa Thuận Tại Hà Nội",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-telesales-mang-tham-my/2305432.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-lam-online/2028170.html",
+      "title": "Trưởng Phòng Kinh Doanh Làm Online",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-tham-my/1819494.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tuyen-sinh/1278953.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-phat-trien-mang-du-hoc-han-quoc/2302743.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-telesales/2299503.html",
       "title": "Tin hết hạn / Chuyển hướng trang chủ",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-thi-truong-chuyen-vien-quan-ly-kinh-doanh-sales-tu-van-ban-hang-di-lam-ngay-tai-ha-noi/2301152.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2297565.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2278029.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-b2g-giao-duc/2262184.html",
+      "title": "Trưởng Phòng Kinh Doanh (B2B/B2G - Giáo Dục)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2293642.html",
       "title": "www.topcv.vn",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tai-ha-noi/2299749.html",
-      "title": "Trưởng Phòng Kinh Doanh Tại Hà Nội",
+      "url": "https://www.topcv.vn/viec-lam/business-unit-director-beauty-brand-factory/2293390.html",
+      "title": "Business Unit Director (Beauty Brand Factory)",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-phong-giao-dich-khu-vuc-ha-noi-hai-phong/2306003.html",
-      "title": "Giám Đốc Phòng Giao Dịch (Khu Vực Hà Nội, Hải Phòng)",
-      "reason": "Đã ứng tuyển trước đó"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-manager/2256359.html",
+      "title": "GIÁM ĐỐC KINH DOANH (Sales Manager)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2306434.html",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-bac-nganh-bao-bi-vat-tu-nganh-banh/2279300.html",
       "title": "www.topcv.vn",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2305571.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/789517.html",
-      "title": "Trưởng Nhóm Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/sale-manager-truong-phong-kinh-doanh/2306081.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-go-cong-nghiep/2142891.html",
-      "title": "Trưởng Phòng Kinh Doanh B2B - Gỗ Công Nghiệp",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-tham-my/2300593.html",
+      "url": "https://www.topcv.vn/viec-lam/brand-manager/2292859.html",
       "title": "Tin hết hạn / Chuyển hướng trang chủ",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/-/2269890.html",
-      "title": "网络安全销售经理",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2210734.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2267300.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-ban-le/2272919.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thoi-trang-nam-cao-cap/2157083.html",
-      "title": "Trưởng Phòng Kinh Doanh Thời Trang Nam Cao Cấp",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2299349.html",
-      "title": "Giám Đốc Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh/2299134.html",
-      "title": "Trợ Lý Giám Đốc Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-di-lam-ngay/2216084.html",
-      "title": "Trưởng Phòng Kinh Doanh Dự Án - Đi Làm Ngay",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2244659.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-corp-khach-san-5-sao/2244906.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-ban-le-thoi-trang/2248091.html",
       "title": "Tin hết hạn / Chuyển hướng trang chủ",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2121826.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanhnha-khoa-medlatec/1841797.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/field-sales-manager-business-development-manager/2292555.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-khu-vuc/2244427.html",
+      "title": "Giám Đốc Khu Vực",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-dai-ly-ban-buon/2224050.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/b2b-sales-manager/1909285.html",
+      "title": "B2B Sales Manager",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-dong-phuc/1821098.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-telesales-tham-my/2261040.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-ban-hang/2231072.html",
+      "title": "Giám Đốc Bán Hàng",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-gt-bep-gia-dung/2286178.html",
+      "title": "Giám Đốc Kinh Doanh Kênh GT (Bếp - Gia Dụng)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc/2285454.html",
+      "title": "Giám Đốc Kinh Doanh Khu Vực",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/b2b-sales-manager-key-account-manager/2284003.html",
+      "title": "B2B Sales Manager / Key Account Manager",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-di-lam-ngay/1933159.html",
+      "title": "Trưởng Phòng Kinh Doanh ( Đi Làm Ngay)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-he-thong-trung-tam-tieng-anh/1713949.html",
+      "title": "Giám Đốc Kinh Doanh Hệ Thống Trung Tâm Tiếng Anh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-b2b-saas-technology-solution/2283868.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-mt/1836188.html",
+      "title": "Giám Đốc Kinh Doanh Kênh MT",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-asm/838409.html",
+      "title": "Giám Đốc Kinh Doanh Vùng (ASM)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-chuoi-ban-le-cong-nghe/1576384.html",
+      "title": "Giám Đốc Kinh Doanh (Chuỗi Bán Lẻ Công Nghệ)",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-nganh-phu-gia-o-to/2246300.html",
+      "title": "Quản Lý Kinh Doanh Ngành Phụ Gia Ô Tô",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2249019.html",
       "title": "Giám Đốc Kinh Doanh",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-giao-duc/2199980.html",
-      "title": "www.topcv.vn",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-airko/2281027.html",
+      "title": "Trưởng Phòng Kinh Doanh Airko",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-b2b/2295926.html",
-      "title": "Giám Đốc Kinh Doanh Kênh B2B",
-      "reason": "Đã ứng tuyển trước đó"
+      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-ke-hoach-va-dieu-hanh-du-an-kinh-doanh/2279777.html",
+      "title": "Chuyên Viên Kế Hoạch Và Điều Hành Dự Án Kinh Doanh",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-kinh-doanh/2254230.html",
-      "title": "Quản Lý Phát Triển Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-cong-nghe/2297010.html",
-      "title": "Giám Đốc Kinh Doanh Công Nghệ",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-trung-tam-tu-van-dau-thau/2137556.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2256901.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2286462.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2219159.html",
       "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/sales-manager-domestic-international-markets/2295473.html",
-      "title": "Sales Manager – Domestic & International Markets",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh/2294773.html",
-      "title": "Trưởng Phòng Tuyển Sinh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-online-xe-tai/2285375.html",
-      "title": "Just a moment...",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/1781053.html",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2280798.html",
       "title": "Giám Đốc Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1966559.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/sales-manager-b2b-advertising-solutions/2295173.html",
-      "title": "Sales Manager (B2B Advertising Solutions)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2293640.html",
-      "title": "Giám Đốc Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-son-nuoc/1232589.html",
-      "title": "Giám Đốc Kinh Doanh – Ngành Sơn Nước",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/phat-trien-kinh-doanh-nganh-vat-lieu-cong-nghiep/2294128.html",
-      "title": "Phát Triển Kinh Doanh Ngành Vật Liệu Công Nghiệp",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-phan-mem/2111195.html",
-      "title": "Giám Đốc Kinh Doanh (Phần Mềm)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/key-account-sales-manager-thu-2-thu-6/2261165.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kiem-soat-noi-bo-va-tuan-thu/2291348.html",
-      "title": "Trưởng Phòng Kiểm Soát Nội Bộ Và Tuân Thủ",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2276258.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dong-phuc/1703800.html",
-      "title": "Trưởng Phòng Kinh Doanh Đồng Phục",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thuong-mai-dien-tu/1678109.html",
-      "title": "Trưởng Phòng Kinh Doanh Thương Mại Điện Tử",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-b2b-khach-hang-nha-may-fdi-thiet-bi-cong-nghiep/2257423.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-thi-truong-b2b/2186490.html",
-      "title": "Trưởng Phòng Kinh Doanh Kênh Thị Trường B2B",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-tieng-trung-anh/1934551.html",
-      "title": "Quản Lý Kinh Doanh (Tiếng Trung/Anh)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2139371.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2288258.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tu-van-giao-duc/2221301.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/operations-after-sales-manager/2287182.html",
-      "title": "Operations & After-Sales Manager",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/b2b-global-sales-team-lead-mang-thoi-trang/2241145.html",
-      "title": "B2B Global Sales Team Lead (Mảng Thời Trang)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/1599381.html",
-      "title": "Quản Lý Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/1638675.html",
-      "title": "Quản Lý Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2098582.html",
-      "title": "Trưởng Nhóm Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2133821.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/2280458.html",
-      "title": "Trưởng Phòng Kinh Doanh B2B",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-account-manager/2247917.html",
-      "title": "Trưởng Phòng Kinh Doanh (Account Manager)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/1813159.html",
-      "title": "Quản Lý Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c/2237418.html",
-      "title": "Trưởng Phòng Kinh Doanh B2C",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-dai-ly/2171508.html",
-      "title": "Trưởng Phòng Kinh Doanh B2B/Đại Lý",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+      "reason": "Modal ứng tuyển không mở được"
     }
   ]
 }
