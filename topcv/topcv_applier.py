@@ -365,24 +365,10 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
         let isAlreadyApplied = false;
         let matchedReason = "";
 
-        for (const kw of reapplyKeywords) {
-            if (bodyTextLower.includes(kw)) {
-                isReapply = true;
-                matchedReason = `Phát hiện cụm từ '${kw}' trong nội dung trang`;
-                break;
-            }
-        }
-        if (!isReapply) {
-            for (const kw of alreadyAppliedKeywords) {
-                if (bodyTextLower.includes(kw)) {
-                    isAlreadyApplied = true;
-                    matchedReason = `Phát hiện cụm từ '${kw}' trong nội dung trang`;
-                    break;
-                }
-            }
-        }
+        // Kiểm tra chi tiết trên từng nút nộp đơn và khung hành động ứng tuyển (TUYỆT ĐỐI KHÔNG quét toàn bộ bodyText vì thanh menu trên cùng luôn có chữ 'Việc làm đã ứng tuyển')
+        const actionBox = document.querySelector('.box-apply-current, .job-detail__information-detail--actions, .box-apply');
+        const actionBoxText = actionBox ? (actionBox.innerText || "").toLowerCase() : "";
 
-        // Kiểm tra chi tiết trên từng nút nộp đơn
         for (const b of applyBtns) {
             const txt = (b.innerText || "").trim().toLowerCase();
             for (const kw of reapplyKeywords) {
@@ -396,6 +382,15 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
                 if (txt.includes(kw)) {
                     isAlreadyApplied = true;
                     matchedReason = `Nút ứng tuyển có nhãn: '${b.innerText.trim()}'`;
+                    break;
+                }
+            }
+        }
+        if (!isReapply && !isAlreadyApplied && actionBoxText) {
+            for (const kw of ["ứng tuyển lại", "bạn đã ứng tuyển", "đã nộp hồ sơ cho công việc này"]) {
+                if (actionBoxText.includes(kw)) {
+                    isAlreadyApplied = true;
+                    matchedReason = `Khung ứng tuyển hiển thị: '${kw}'`;
                     break;
                 }
             }
@@ -878,10 +873,10 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                     session_report["skipped_counts"]["already_applied"] += 1
                     session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Đã ứng tuyển trước đó"})
                     save_applied_record(applied_dict, job_url, res.get("title", ""), "", "Đã ứng tuyển trước đó trên TopCV", "")
-                elif st == "EXPIRED":
+                elif st in ["EXPIRED", "NO_APPLY_BTN"]:
                     consecutive_blocks = 0
                     session_report["skipped_counts"]["expired"] += 1
-                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Tin tuyển dụng hết hạn"})
+                    session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"})
                     save_applied_record(applied_dict, job_url, res.get("title", "Tin hết hạn"), "", "Tin tuyển dụng hết hạn trên TopCV", "")
                 elif st == "CF_BLOCKED":
                     session_report["skipped_counts"]["cf_blocked"] += 1
@@ -896,7 +891,7 @@ async def run(target_url=None, dry_run=None, max_applies=None):
                     log(f"\n🛑 [DỪNG TIẾN TRÌNH TOPCV] Chạm giới hạn tài khoản hôm nay: {res.get('reason')}")
                     log("⏩ Đã khoá cờ giới hạn ngày hôm nay. Các ca tiếp theo trong ngày sẽ tự động bỏ qua TopCV.\n")
                     break
-                elif st in ["PAGE_LOAD_ERROR", "ERROR"]:
+                elif st in ["PAGE_LOAD_ERROR", "ERROR", "MODAL_NOT_OPENED"]:
                     session_report["skipped_counts"]["errors"] += 1
                     session_report["skipped_details"].append({"url": job_url, "title": res.get("title", ""), "reason": str(res.get("reason", "Lỗi nộp đơn"))})
                     consecutive_blocks += 1
