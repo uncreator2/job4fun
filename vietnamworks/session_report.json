@@ -1,36 +1,22 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-13T14:32:32.682217",
-  "todo_count": 10,
-  "applied_count": 4,
+  "timestamp": "2026-10-13T17:13:37.059708",
+  "todo_count": 8,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Mới [Yêu Cầu Tiếng Trung] Trưởng Phòng Kinh Doanh (Làm Việc Remote)",
-      "company": "Công Ty TNHH Horizon Construction Development OVERSEAS (Việt Nam)",
-      "url": "https://www.vietnamworks.com/yeu-cau-tieng-trung-truong-phong-kinh-doanh-lam-viec-remote--2119004-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119004.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh Thị Trường (Tiếng Anh)",
+      "title": "Mới Merchandise Manager/ Sale Manager (Garment)",
       "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-thi-truong-tieng-anh-2119046-jv",
+      "url": "https://www.vietnamworks.com/merchandise-manager-sale-manager-garment-1791889751133067671-2119068-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119046.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119068.png"
     },
     {
-      "title": "Business Development Manager",
-      "company": "Công Ty TNHH Công Nghệ Huawei Việt Nam",
-      "url": "https://www.vietnamworks.com/business-development-manager-1790908057280174381-2114902-jv",
+      "title": "Sales Manager - Hyundai Electric",
+      "company": "Công ty TNHH Linh Trung",
+      "url": "https://www.vietnamworks.com/sales-manager-hyundai-electric-1790768954783003069-2114264-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114902.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Mảng Đầu Tư - Cho Vay Tại Láng Hạ, Đống Đa",
-      "company": "CÔNG TY TNHH LIÊN DOANH XÚC TIẾN ĐẦU TƯ VÀ HỢP TÁC QUỐC TẾ FDI",
-      "url": "https://www.vietnamworks.com/giam-djoc-kinh-doanh-mang-djau-tu-cho-vay-tai-lang-ha-djong-dja-2096899-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2096899.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114264.png"
     }
   ],
   "skipped_counts": {
@@ -44,12 +30,12 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
