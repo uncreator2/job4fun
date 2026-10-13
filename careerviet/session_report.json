@@ -1,19 +1,13 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-13T02:07:11.336152",
-  "todo_count": 2,
-  "applied_count": 2,
+  "timestamp": "2026-10-13T14:24:25.545273",
+  "todo_count": 1,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Quality Manager",
-      "company": "AkzoNobel Vietnam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/quality-manager.35C88A63.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Giám sát HSE",
-      "company": "Công ty TNHH Chế biến Thực phẩm Olam Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-hse.35C86C76.html",
+      "title": "Kế Toán Trưởng",
+      "company": "AKI - Creating Impactful Workspaces Across Vietnam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ke-toan-truong.35C8A67A.html",
       "status": "APPLIED_OK"
     }
   ],
