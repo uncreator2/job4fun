@@ -1,144 +1,51 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-13T02:09:29.407505",
-  "todo_count": 24,
-  "applied_count": 18,
+  "timestamp": "2026-10-13T03:08:12.432284",
+  "todo_count": 11,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "[REMOTE] KOC Booking Operator (Fresher - Tiếng Ả Rập; Freelance)",
-      "company": "PICKDI CORP",
-      "url": "https://www.vietnamworks.com/remote-koc-booking-operator-fresher-tieng-a-rap-freelance-2116573-jv",
+      "title": "Giám Đốc Khách Hàng (Client Director)",
+      "company": "Chi Nhánh Công Ty Cổ Phần Công Nghệ Thông Tin Truyền Thông Thiên Hy Long Việt Nam",
+      "url": "https://www.vietnamworks.com/giam-doc-khach-hang-client-director-1790937925016515433-2115287-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2116573.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2115287.png"
     },
     {
-      "title": "[REMOTE] Influencer Marketer - tiếng Đài Loan (Freelance Remote)",
-      "company": "PICKDI CORP",
-      "url": "https://www.vietnamworks.com/remote-influencer-marketer-tieng-djai-loan-freelance-remote-2118201-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118201.png"
-    },
-    {
-      "title": "Sales & Marketing Manager (Real Estate)",
-      "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/sales-amp-marketing-manager-real-estate-2117992-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117992.png"
-    },
-    {
-      "title": "Trưởng Phòng Hỗ Trợ Kinh Doanh",
-      "company": "Công Ty Cổ Phần Thương Mại Cổng Vàng",
-      "url": "https://www.vietnamworks.com/truong-phong-ho-tro-kinh-doanh-2115157-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2115157.png"
-    },
-    {
-      "title": "Sales Manager - Viễn Thông & Cloud/data Center.",
-      "company": "Công Ty Cổ Phần HTC Viễn Thông Quốc Tế",
-      "url": "https://www.vietnamworks.com/sales-manager-vien-thong-cloud-data-center-2115730-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2115730.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Tập Đoàn CEO",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1791797888956954413-2118532-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118532.png"
-    },
-    {
-      "title": "ETC Regional Sales Manager (Ha Noi + North)",
-      "company": "United International Pharma Co., Ltd.",
-      "url": "https://www.vietnamworks.com/etc-regional-sales-manager-ha-noi-north-1791365314298243400-2116922-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2116922.png"
-    },
-    {
-      "title": "Leasing Manager",
+      "title": "Sales Operations Manager",
       "company": "",
-      "url": "https://www.vietnamworks.com/leasing-manager-1790910047755854710-2114939-jv/",
+      "url": "https://www.vietnamworks.com/sales-operations-manager-1791515620034153447-2117541-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857488.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791860929.png"
     },
     {
-      "title": "Sales Manager",
+      "title": "GTM & RM Enablement Lead (Go-to-Market And Capability Building)",
       "company": "",
-      "url": "https://www.vietnamworks.com/sales-manager-1790929197232097792-2115182-jv/",
+      "url": "https://www.vietnamworks.com/gtm-and-rm-enablement-lead-go-to-market-and-capability-building-2114601-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857510.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791860954.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1791797888956954413-2118532-jv/",
+      "title": "Key Account Manager (Project Development) - Project Sales Team in Hanoi",
+      "company": "Häfele Vietnam LLC",
+      "url": "https://www.vietnamworks.com/key-account-manager-project-development-project-sales-team-in-hanoi-1791776926696278270-2118299-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857529.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1791369241518696518-2116970-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857566.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh B2B (Mảng Phụ Tùng Xe Máy)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-mang-phu-tung-xe-may-2114203-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857583.png"
-    },
-    {
-      "title": "Export Sales Manager / Trưởng Phòng Kinh Doanh Xuất Khẩu",
-      "company": "",
-      "url": "https://www.vietnamworks.com/export-sales-manager-truong-phong-kinh-doanh-xuat-khau--2110007-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857601.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Online",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-online-1790765001896450619-2114106-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791857619.png"
-    },
-    {
-      "title": "Ftz Business Development & Key Account Manager",
-      "company": "Công Ty Cổ Phần Hạ Tầng Hàng Không Masterise",
-      "url": "https://www.vietnamworks.com/ftz-business-development-key-account-manager-2117352-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117352.png"
-    },
-    {
-      "title": "[HN/HCM] Giám Đốc Khu Vực Kinh Doanh (Thu Nhập Từ 50 - 200M)",
-      "company": "Công Ty Cổ Phần Quản lý Tài sản EMIR",
-      "url": "https://www.vietnamworks.com/hn-hcm-giam-doc-khu-vuc-kinh-doanh-thu-nhap-tu-50-200m-1791340046957890696-2116570-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2116570.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Bán Lẻ Ngành Thương Mại Điện Tử",
-      "company": "HWIN",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-ban-le-nganh-thuong-mai-dien-tu-2113959-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2113959.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Bất Động Sản",
-      "company": "Công Ty Cổ Phần VNT Invest Group",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-bat-dong-san-1790751287954851664-2113788-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2113788.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118299.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 6
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-sales-manager-1791775308976713455-2118255-jv",
+      "title": "Trưởng Phòng Kinh Doanh B2B (Sales Manager)",
+      "reason": "Đã ứng tuyển trước đó"
+    },
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
@@ -162,12 +69,12 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
