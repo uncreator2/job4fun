@@ -8494,5 +8494,29 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-10-13 02:07:04",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-tmdt-luong-cung-22-35m-thu-nhap-cao/2328941.html": {
+    "job_id": "2328941",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-tmdt-luong-cung-22-35m-thu-nhap-cao/2328941.html?ta_source=JobSearchList_LinkDetail&u_sr_id=ZLy7vWIcFkWUswbibG1baEEWmjsJI0CX5ix7b8BE_1791860696",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-tmdt-luong-cung-22-35m-thu-nhap-cao/2328941.html",
+    "company": "CÔNG TY CỔ PHẦN GREEKMAN POWER TOOLS",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-13 03:05:14",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/phu-trach-tuyen-sinh-thi-truong-dai-loan-tai-ha-noi-luong-tu-15-trieu-thuong-kpi/2328960.html": {
+    "job_id": "2328960",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/phu-trach-tuyen-sinh-thi-truong-dai-loan-tai-ha-noi-luong-tu-15-trieu-thuong-kpi/2328960.html?ta_source=JobSearchList_LinkDetail&u_sr_id=ZLy7vWIcFkWUswbibG1baEEWmjsJI0CX5ix7b8BE_1791860737",
+    "clean_url": "https://www.topcv.vn/viec-lam/phu-trach-tuyen-sinh-thi-truong-dai-loan-tai-ha-noi-luong-tu-15-trieu-thuong-kpi/2328960.html",
+    "company": "CÔNG TY CỔ PHẦN HỌC VIỆN QUỐC TẾ LABCO",
+    "salary": "Từ 15 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-13 03:05:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
