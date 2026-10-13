@@ -1,29 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-13T03:07:00.169641",
-  "todo_count": 2,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Nhóm / Leader Telesale Phòng Khám",
-      "company": "Công Ty TNHH Vnpro Quốc Tế",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-leader-telesale-phong-kham-c13p210000160id200962860.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200962860.png"
-    }
-  ],
+  "timestamp": "2026-10-13T07:19:40.737608",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 1
+    "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
-      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
-      "reason": "ERROR"
-    }
-  ]
+  "skipped_details": []
 }
