@@ -2596,5 +2596,40 @@
     "title": "Trưởng Phòng Kinh Doanh – Chi Nhánh Miền Nam",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/toan-quoc-nu-nhan-vien-ban-sua-thu-nhap-10-12-trieu-c30p210000187id200963770.html",
+    "id": "200963770",
+    "title": "Toàn Quốc - Nữ Nhân Viên Bán Sữa Thu Nhập 10 - 12 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-supervisor-giam-sat-kinh-doanh-c13p210000186id200952732.html",
+    "id": "200952732",
+    "title": "Sales Supervisor – Giám Sát Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-quan-tan-phu-c13p210000187id200962962.html",
+    "id": "200962962",
+    "title": "Nhân Viên Bán Hàng - Quận Tân Phú",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-sales-thi-truong-banh-keo-keo-chups-alpenliebe-mentos-c13p210000160id200956634.html",
+    "id": "200956634",
+    "title": "Nhân Viên Sales Thị Trường Bánh Kẹo (Kẹo Chups, Alpenliebe, Mentos)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-van-phong-ban-hang-c30p210000187id200962708.html",
+    "id": "200962708",
+    "title": "Nhân Viên Văn Phòng - Bán Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
