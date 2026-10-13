@@ -1,15 +1,57 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-13T07:19:40.737608",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-13T14:27:22.468980",
+  "todo_count": 6,
+  "applied_count": 5,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Bán Lẻ",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-ban-le-c13p210000160id200963696.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200963696.png"
+    },
+    {
+      "title": "Toàn Quốc: Giám Sát Kinh Doanh Thị Trường Trả Góp-Smchno",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/toan-quoc-giam-sat-kinh-doanh-thi-truong-tra-gop-smchno-c6p210000163id200963744.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200963744.png"
+    },
+    {
+      "title": "Giám Sát Kinh Doanh Miền Bắc (Hải Phòng, Hà Nội, Điện Biên) - Smchno",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-kinh-doanh-mien-bac-hai-phong-ha-noi-dien-bien-smchno-c6p210000160id200963351.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200963351.png"
+    },
+    {
+      "title": "Giám Sát Bán Hàng",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-c13p210000160id200960407.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200960407.png"
+    },
+    {
+      "title": "PG Sales Supervisor - Giám Sát PG Tiếp Thị Toàn Quốc",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/pg-sales-supervisor-giam-sat-pg-tiep-thi-toan-quoc-c6p210000187id200963287.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200963287.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 1
   },
-  "skipped_details": []
+  "skipped_details": [
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
+      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
+      "reason": "ERROR"
+    }
+  ]
 }
