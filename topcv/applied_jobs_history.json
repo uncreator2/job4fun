@@ -1918,5 +1918,789 @@
     "applied_at": "2026-10-12 16:15:00",
     "cover_letter": "Tin tuyển dụng hết hạn",
     "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2328668.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2328668.html",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:09:03",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2125087.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2125087.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:09:25",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager-phan-mem-quan-ly-ban-hang/2023952.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/sales-manager-phan-mem-quan-ly-ban-hang/2023952.html",
+    "title": "Sales Manager (Phần Mềm Quản Lý Bán Hàng)",
+    "company": "",
+    "applied_at": "2026-10-13 02:09:45",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phan-mem/1909595.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phan-mem/1909595.html",
+    "title": "Trưởng Phòng Kinh Doanh Phần Mềm",
+    "company": "",
+    "applied_at": "2026-10-13 02:10:07",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-account-manager/2247917.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-account-manager/2247917.html",
+    "title": "Trưởng Phòng Kinh Doanh (Account Manager)",
+    "company": "",
+    "applied_at": "2026-10-13 02:10:28",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/1813159.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/1813159.html",
+    "title": "Quản Lý Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:10:51",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816591.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816591.html",
+    "title": "Trưởng Phòng Phát Triển Đối Tác Doanh Nghiệp",
+    "company": "",
+    "applied_at": "2026-10-13 02:11:14",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816627.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-doi-tac-doanh-nghiep/1816627.html",
+    "title": "Trưởng Phòng Phát Triển Đối Tác Doanh Nghiệp",
+    "company": "",
+    "applied_at": "2026-10-13 02:11:45",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c/2237418.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c/2237418.html",
+    "title": "Trưởng Phòng Kinh Doanh B2C",
+    "company": "",
+    "applied_at": "2026-10-13 02:12:07",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-dai-ly/2171508.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-dai-ly/2171508.html",
+    "title": "Trưởng Phòng Kinh Doanh B2B/Đại Lý",
+    "company": "",
+    "applied_at": "2026-10-13 02:12:32",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/senior-sales-manager-du-thuyen-cao-cap/2281099.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/senior-sales-manager-du-thuyen-cao-cap/2281099.html",
+    "title": "Senior Sales Manager - Du Thuyền Cao Cấp",
+    "company": "",
+    "applied_at": "2026-10-13 02:12:55",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager/2238484.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/sales-manager/2238484.html",
+    "title": "Sales Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:13:20",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-phat-trien-san-pham-ban-le-so/2279503.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-phat-trien-san-pham-ban-le-so/2279503.html",
+    "title": "Giám Đốc Phát Triển Sản Phẩm Bán Lẻ Số",
+    "company": "",
+    "applied_at": "2026-10-13 02:13:43",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2145335.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2145335.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:14:11",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-tham-my/2112605.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-tham-my/2112605.html",
+    "title": "Trưởng Phòng Kinh Doanh Thiết Bị Thẩm Mỹ",
+    "company": "",
+    "applied_at": "2026-10-13 02:14:41",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/leader-sale/2276515.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/leader-sale/2276515.html",
+    "title": "Leader Sale",
+    "company": "",
+    "applied_at": "2026-10-13 02:15:01",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-b2c/2209478.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-b2c/2209478.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:15:19",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-leader-sales-b2b/2279024.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-leader-sales-b2b/2279024.html",
+    "title": "Trưởng Nhóm Kinh Doanh / Leader Sales B2B",
+    "company": "",
+    "applied_at": "2026-10-13 02:15:42",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-du-an-nhom-kinh/2241256.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-du-an-nhom-kinh/2241256.html",
+    "title": "Phó Giám Đốc Kinh Doanh Dự Án - Nhôm Kính",
+    "company": "",
+    "applied_at": "2026-10-13 02:16:03",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1992067.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1992067.html",
+    "title": "Trưởng Phòng Kinh Doanh - Sale Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:16:27",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-kinh-doanh/2236545.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-kinh-doanh/2236545.html",
+    "title": "Quản Lý Phát Triển Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:16:48",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-bo-phan-kinh-doanh/2278065.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-bo-phan-kinh-doanh/2278065.html",
+    "title": "Quản Lý Bộ Phận Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:17:10",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/chuyen-vien-phat-trien-khach-hang/1941084.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/chuyen-vien-phat-trien-khach-hang/1941084.html",
+    "title": "Chuyên Viên Phát Triển Khách Hàng",
+    "company": "",
+    "applied_at": "2026-10-13 02:17:31",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager-khach-san-my-way/2233608.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/sales-manager-khach-san-my-way/2233608.html",
+    "title": "Sales Manager - Khách Sạn My Way",
+    "company": "",
+    "applied_at": "2026-10-13 02:17:52",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1188193.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1188193.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:18:13",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/distributing/tuyen-dung/truong-phong-thuong-mai-dien-tu-j2267129.html": {
+    "job_url": "https://www.topcv.vn/brand/distributing/tuyen-dung/truong-phong-thuong-mai-dien-tu-j2267129.html",
+    "title": "CÔNG TY CỔ PHẦN TCR DISTRIBUTING",
+    "company": "",
+    "applied_at": "2026-10-13 02:18:32",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/baoviet/tuyen-dung/giam-doc-kinh-doanh-khu-vuc-j2235381.html": {
+    "job_url": "https://www.topcv.vn/brand/baoviet/tuyen-dung/giam-doc-kinh-doanh-khu-vuc-j2235381.html",
+    "title": "Tổng công ty Bảo Việt Nhân Thọ",
+    "company": "",
+    "applied_at": "2026-10-13 02:18:53",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/vinako/tuyen-dung/truong-phong-kinh-doanh-b2b-thu-nhap-32-45tr-thang-nganh-du-hoc-han-quoc-j2288317.html": {
+    "job_url": "https://www.topcv.vn/brand/vinako/tuyen-dung/truong-phong-kinh-doanh-b2b-thu-nhap-32-45tr-thang-nganh-du-hoc-han-quoc-j2288317.html",
+    "title": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ VINAKO",
+    "company": "",
+    "applied_at": "2026-10-13 02:19:13",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-phong-kham/2231132.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-phong-kham/2231132.html",
+    "title": "Quản Lý Phòng Khám",
+    "company": "",
+    "applied_at": "2026-10-13 02:19:33",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-head-of-sales/2302667.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-head-of-sales/2302667.html",
+    "title": "Trưởng Phòng Kinh Doanh (Head Of Sales)",
+    "company": "",
+    "applied_at": "2026-10-13 02:19:55",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-mang-ban-buon-b2b-thu-nhap-thoa-thuan-tai-ha-noi/2286993.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-mang-ban-buon-b2b-thu-nhap-thoa-thuan-tai-ha-noi/2286993.html",
+    "title": "Phó Phòng Kinh Doanh (Mảng Bán Buôn/ B2B) Thu Nhập Thỏa Thuận Tại Hà Nội",
+    "company": "",
+    "applied_at": "2026-10-13 02:20:16",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-tham-my/2112525.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-tham-my/2112525.html",
+    "title": "Giám Đốc Kinh Doanh - Lĩnh Vực Thẩm Mỹ",
+    "company": "",
+    "applied_at": "2026-10-13 02:20:48",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1821457.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1821457.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:21:12",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-phat-trien-khach-hang/2228494.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-phat-trien-khach-hang/2228494.html",
+    "title": "Trưởng Nhóm Kinh Doanh Và Phát Triển Khách Hàng",
+    "company": "",
+    "applied_at": "2026-10-13 02:21:36",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh/2300608.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh/2300608.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:21:46",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-telesales/2299501.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-telesales/2299501.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:21:56",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-lam-online/2028170.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-lam-online/2028170.html",
+    "title": "Trưởng Phòng Kinh Doanh Làm Online",
+    "company": "",
+    "applied_at": "2026-10-13 02:22:17",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-va-giam-sat-doi-ngu-ban-hang/2297883.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-va-giam-sat-doi-ngu-ban-hang/2297883.html",
+    "title": "Quản Lý Và Giám Sát Đội Ngũ Bán Hàng",
+    "company": "",
+    "applied_at": "2026-10-13 02:22:44",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-khu-vuc-kenh-etc-duoc-pham/2298158.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-khu-vuc-kenh-etc-duoc-pham/2298158.html",
+    "title": "Quản Lý Khu Vực Kênh ETC (Dược Phẩm)",
+    "company": "",
+    "applied_at": "2026-10-13 02:23:05",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2278029.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2278029.html",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:23:33",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/rinoedu/tuyen-dung/quan-ly-trung-tam-j2292782.html": {
+    "job_url": "https://www.topcv.vn/brand/rinoedu/tuyen-dung/quan-ly-trung-tam-j2292782.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:24:01",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/barett/tuyen-dung/tro-ly-giam-doc-kinh-doanh-j2294969.html": {
+    "job_url": "https://www.topcv.vn/brand/barett/tuyen-dung/tro-ly-giam-doc-kinh-doanh-j2294969.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:24:30",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-manager/2256359.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-manager/2256359.html",
+    "title": "GIÁM ĐỐC KINH DOANH (Sales Manager)",
+    "company": "",
+    "applied_at": "2026-10-13 02:25:07",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-bac-nganh-bao-bi-vat-tu-nganh-banh/2279300.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-bac-nganh-bao-bi-vat-tu-nganh-banh/2279300.html",
+    "title": "Giám Đốc Kinh Doanh Miền Bắc (Ngành Bao Bì - Vật Tư Ngành Bánh)",
+    "company": "",
+    "applied_at": "2026-10-13 02:25:29",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-ban-le-thoi-trang/2248091.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-ban-le-thoi-trang/2248091.html",
+    "title": "Trưởng Phòng Kinh Doanh Ngành Bán Lẻ Thời Trang",
+    "company": "",
+    "applied_at": "2026-10-13 02:26:03",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/field-sales-manager-business-development-manager/2292555.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/field-sales-manager-business-development-manager/2292555.html",
+    "title": "Field Sales Manager (Business Development Manager)",
+    "company": "",
+    "applied_at": "2026-10-13 02:26:36",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-khu-vuc/2244427.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-khu-vuc/2244427.html",
+    "title": "Giám Đốc Khu Vực",
+    "company": "",
+    "applied_at": "2026-10-13 02:26:59",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-dai-ly-ban-buon/2224050.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-dai-ly-ban-buon/2224050.html",
+    "title": "Trưởng Phòng Kinh Doanh Kênh Đại Lý/ Bán Buôn",
+    "company": "",
+    "applied_at": "2026-10-13 02:27:20",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/b2b-sales-manager/1909285.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/b2b-sales-manager/1909285.html",
+    "title": "B2B Sales Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:27:43",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-dong-phuc/1821098.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-dong-phuc/1821098.html",
+    "title": "Trưởng Phòng Kinh Doanh (Mảng Đồng Phục)",
+    "company": "",
+    "applied_at": "2026-10-13 02:28:11",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thi-truong/1786804.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thi-truong/1786804.html",
+    "title": "Quản Lý Kinh Doanh Thị Trường",
+    "company": "",
+    "applied_at": "2026-10-13 02:28:31",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-dien/2107050.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thiet-bi-dien/2107050.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:28:41",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-ban-hang/2231072.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-ban-hang/2231072.html",
+    "title": "Giám Đốc Bán Hàng",
+    "company": "",
+    "applied_at": "2026-10-13 02:29:08",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-gt-bep-gia-dung/2286178.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-gt-bep-gia-dung/2286178.html",
+    "title": "Giám Đốc Kinh Doanh Kênh GT (Bếp - Gia Dụng)",
+    "company": "",
+    "applied_at": "2026-10-13 02:29:29",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/b2b-sales-manager-key-account-manager/2284003.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/b2b-sales-manager-key-account-manager/2284003.html",
+    "title": "B2B Sales Manager / Key Account Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:29:58",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-di-lam-ngay/1933159.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-di-lam-ngay/1933159.html",
+    "title": "Trưởng Phòng Kinh Doanh ( Đi Làm Ngay)",
+    "company": "",
+    "applied_at": "2026-10-13 02:30:19",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-he-thong-trung-tam-tieng-anh/1713949.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-he-thong-trung-tam-tieng-anh/1713949.html",
+    "title": "Giám Đốc Kinh Doanh Hệ Thống Trung Tâm Tiếng Anh",
+    "company": "",
+    "applied_at": "2026-10-13 02:30:40",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2279273.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2279273.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:31:09",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-mt/1836188.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-mt/1836188.html",
+    "title": "Giám Đốc Kinh Doanh Kênh MT",
+    "company": "",
+    "applied_at": "2026-10-13 02:31:33",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-mang-luoi-doi-tac-b2b/2247785.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-mang-luoi-doi-tac-b2b/2247785.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:31:42",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-asm/838409.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-asm/838409.html",
+    "title": "Giám Đốc Kinh Doanh Vùng (ASM)",
+    "company": "",
+    "applied_at": "2026-10-13 02:32:12",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-chuoi-ban-le-cong-nghe/1576384.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-chuoi-ban-le-cong-nghe/1576384.html",
+    "title": "Giám Đốc Kinh Doanh (Chuỗi Bán Lẻ Công Nghệ)",
+    "company": "",
+    "applied_at": "2026-10-13 02:32:36",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-nganh-phu-gia-o-to/2246300.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-nganh-phu-gia-o-to/2246300.html",
+    "title": "Quản Lý Kinh Doanh Ngành Phụ Gia Ô Tô",
+    "company": "",
+    "applied_at": "2026-10-13 02:32:57",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2249019.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2249019.html",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:33:17",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/chuyen-vien-ke-hoach-va-dieu-hanh-du-an-kinh-doanh/2279777.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/chuyen-vien-ke-hoach-va-dieu-hanh-du-an-kinh-doanh/2279777.html",
+    "title": "Chuyên Viên Kế Hoạch Và Điều Hành Dự Án Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:33:48",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2219159.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2219159.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:34:12",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2280798.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2280798.html",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:34:34",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager/2280556.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/sales-manager/2280556.html",
+    "title": "Sales Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:34:55",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien/2164630.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien/2164630.html",
+    "title": "Giám Đốc Kinh Doanh Miền",
+    "company": "",
+    "applied_at": "2026-10-13 02:35:23",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2277363.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2277363.html",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:35:45",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-b2b/2222841.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-b2b/2222841.html",
+    "title": "Giám Đốc Kinh Doanh B2B",
+    "company": "",
+    "applied_at": "2026-10-13 02:36:08",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/elcom/tuyen-dung/account-manager-b2g-chuyen-doi-so-chinh-phu-j1835278.html": {
+    "job_url": "https://www.topcv.vn/brand/elcom/tuyen-dung/account-manager-b2g-chuyen-doi-so-chinh-phu-j1835278.html",
+    "title": "ELCOM Corporation",
+    "company": "",
+    "applied_at": "2026-10-13 02:36:43",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/pho-phong-ke-hoach-chinh-sach-kinh-doanh/2274306.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/pho-phong-ke-hoach-chinh-sach-kinh-doanh/2274306.html",
+    "title": "Phó Phòng Kế Hoạch & Chính Sách Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:37:05",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-smarthome-aqara/2024689.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-smarthome-aqara/2024689.html",
+    "title": "Trưởng Phòng Kinh Doanh Dự Án Smarthome Aqara",
+    "company": "",
+    "applied_at": "2026-10-13 02:37:25",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2305947.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2305947.html",
+    "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+    "company": "",
+    "applied_at": "2026-10-13 02:37:48",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/shinhanfinance1/tuyen-dung/truong-nhom-kinh-doanh-mien-bac-j2277050.html": {
+    "job_url": "https://www.topcv.vn/brand/shinhanfinance1/tuyen-dung/truong-nhom-kinh-doanh-mien-bac-j2277050.html",
+    "title": "Trưởng Nhóm Kinh Doanh - Miền Bắc",
+    "company": "",
+    "applied_at": "2026-10-13 02:38:07",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/brand/misa/tuyen-dung/quan-ly-doi-tac-chien-luoc-j2290255.html": {
+    "job_url": "https://www.topcv.vn/brand/misa/tuyen-dung/quan-ly-doi-tac-chien-luoc-j2290255.html",
+    "title": "Quản Lý Đối Tác Chiến Lược",
+    "company": "",
+    "applied_at": "2026-10-13 02:38:25",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/product-manager/2304492.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/product-manager/2304492.html",
+    "title": "Product Manager",
+    "company": "",
+    "applied_at": "2026-10-13 02:38:47",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2236390.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2236390.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:39:11",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt/1620784.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt/1620784.html",
+    "title": "Quản Lý Kinh Doanh Khu Vực (ASM Kênh GT)",
+    "company": "",
+    "applied_at": "2026-10-13 02:39:32",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303390.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303390.html",
+    "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+    "company": "",
+    "applied_at": "2026-10-13 02:39:54",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303330.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303330.html",
+    "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+    "company": "",
+    "applied_at": "2026-10-13 02:40:18",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics-kho-van/2262018.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics-kho-van/2262018.html",
+    "title": "Trưởng Phòng Kinh Doanh Logistics (Kho Vận)",
+    "company": "",
+    "applied_at": "2026-10-13 02:40:40",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2302390.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2302390.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:41:02",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-b2b-vat-lieu-xd/2270723.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-b2b-vat-lieu-xd/2270723.html",
+    "title": "Trưởng Phòng Kinh Doanh Dự Án B2B - Vật Liệu XD",
+    "company": "",
+    "applied_at": "2026-10-13 02:41:21",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2301077.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2301077.html",
+    "title": "Quản Lý Kinh Doanh Khu Vực (ASM)",
+    "company": "",
+    "applied_at": "2026-10-13 02:41:43",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/pho-truong-phong-kinh-doanh/1909057.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/pho-truong-phong-kinh-doanh/1909057.html",
+    "title": "Phó Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:42:14",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2238587.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2238587.html",
+    "title": "Trưởng Phòng Kinh Doanh Bất Động Sản",
+    "company": "",
+    "applied_at": "2026-10-13 02:42:35",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bds-luong-cung-on-dinh-tron-doi-khong-gioi-han-thu-nhap-chi-tra-ngay-khi-giao-dich-thanh-cong/2267021.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bds-luong-cung-on-dinh-tron-doi-khong-gioi-han-thu-nhap-chi-tra-ngay-khi-giao-dich-thanh-cong/2267021.html",
+    "title": "Trưởng Phòng Kinh Doanh BĐS Lương Cứng Ổn Định, Trọn Đời (Không Giới Hạn Thu Nhập, Chi Trả Ngay Khi Giao Dịch Thành Công)",
+    "company": "",
+    "applied_at": "2026-10-13 02:42:57",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/chuyen-vien-kinh-doanh-cap-cao/2299573.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/chuyen-vien-kinh-doanh-cap-cao/2299573.html",
+    "title": "Chuyên Viên Kinh Doanh Cấp Cao",
+    "company": "",
+    "applied_at": "2026-10-13 02:43:29",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-tin-dung-cau-giay-hn/2286378.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-tin-dung-cau-giay-hn/2286378.html",
+    "title": "Trưởng Nhóm Kinh Doanh (Tín Dụng) - [Cầu Giấy, HN]",
+    "company": "",
+    "applied_at": "2026-10-13 02:43:49",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/1494239.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/1494239.html",
+    "title": "Trưởng Phòng Kinh Doanh B2B",
+    "company": "",
+    "applied_at": "2026-10-13 02:44:08",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dong-phuc/1360238.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dong-phuc/1360238.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:44:27",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2299023.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2299023.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:44:49",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1999223.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1999223.html",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "",
+    "applied_at": "2026-10-13 02:45:10",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-inbound-khach-san-5-sao/2230638.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-inbound-khach-san-5-sao/2230638.html",
+    "title": "Trưởng Phòng Kinh Doanh Inbound - Khách Sạn 5 Sao",
+    "company": "",
+    "applied_at": "2026-10-13 02:45:41",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2286584.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2286584.html",
+    "title": "Tin hết hạn / Chuyển hướng trang chủ",
+    "company": "",
+    "applied_at": "2026-10-13 02:45:51",
+    "cover_letter": "Tin tuyển dụng hết hạn trên TopCV",
+    "proof_screenshot": ""
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-dai-ly/2298177.html": {
+    "job_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-dai-ly/2298177.html",
+    "title": "Trưởng Phòng Kinh Doanh (Kênh Đại Lý)",
+    "company": "",
+    "applied_at": "2026-10-13 02:46:11",
+    "cover_letter": "Đã ứng tuyển trước đó trên TopCV",
+    "proof_screenshot": ""
   }
 }
