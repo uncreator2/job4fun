@@ -1,40 +1,33 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-13T03:08:12.432284",
-  "todo_count": 11,
-  "applied_count": 4,
+  "timestamp": "2026-10-13T07:19:42.848227",
+  "todo_count": 9,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Giám Đốc Khách Hàng (Client Director)",
-      "company": "Chi Nhánh Công Ty Cổ Phần Công Nghệ Thông Tin Truyền Thông Thiên Hy Long Việt Nam",
-      "url": "https://www.vietnamworks.com/giam-doc-khach-hang-client-director-1790937925016515433-2115287-jv",
+      "title": "Mới Sales Manager",
+      "company": "CÔNG TY TNHH ĐẦU TƯ JD (VIỆT NAM)",
+      "url": "https://www.vietnamworks.com/sales-manager-1791864578034389187-2118736-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2115287.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118736.png"
     },
     {
-      "title": "Sales Operations Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/sales-operations-manager-1791515620034153447-2117541-jv/",
+      "title": "Mới Trưởng Phòng Vận Hành & Hỗ Trợ Kinh Doanh (CRM | Điều Phối Triển Khai | Hoa Hồng Bán Hàng)",
+      "company": "Công Ty Cổ Phần Thiết Bị Công Nghiệp Geic",
+      "url": "https://www.vietnamworks.com/truong-phong-van-hanh-ho-tro-kinh-doanh-crm-dieu-phoi-trien-khai-hoa-hong-ban-hang--2118755-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791860929.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118755.png"
     },
     {
-      "title": "GTM & RM Enablement Lead (Go-to-Market And Capability Building)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/gtm-and-rm-enablement-lead-go-to-market-and-capability-building-2114601-jv/",
+      "title": "Mới Phó Giám Đốc Kinh doanh Công Ty Ô tô Hải Âu",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ Ô TÔ HẢI ÂU",
+      "url": "https://www.vietnamworks.com/pho-giam-djoc-kinh-doanh-cong-ty-o-to-hai-au-2118787-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1791860954.png"
-    },
-    {
-      "title": "Key Account Manager (Project Development) - Project Sales Team in Hanoi",
-      "company": "Häfele Vietnam LLC",
-      "url": "https://www.vietnamworks.com/key-account-manager-project-development-project-sales-team-in-hanoi-1791776926696278270-2118299-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118299.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118787.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -42,39 +35,34 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-sales-manager-1791775308976713455-2118255-jv",
-      "title": "Trưởng Phòng Kinh Doanh B2B (Sales Manager)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
