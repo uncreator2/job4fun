@@ -1,0 +1,151 @@
+name: Manual Parallel Debug Pipeline (All 4 Sites)
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Nền tảng muốn chạy (all = Chạy song song 4 sàn, topcv, vietnamworks, vieclam24h, careerviet)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - topcv
+          - vietnamworks
+          - vieclam24h
+          - careerviet
+      max_applies:
+        description: 'Số lượng việc làm tối đa nộp mỗi sàn'
+        required: false
+        default: '5'
+        type: string
+      dry_run:
+        description: 'Chế độ thử nghiệm Dry-Run (true = Không bấm nộp thật, chỉ chụp ảnh; false = Nộp thật)'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  parallel-debug-matrix:
+    name: Debug (${{ matrix.platform }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [careerviet, vieclam24h, vietnamworks, topcv]
+
+    steps:
+      - name: Check if platform should execute
+        id: check-run
+        run: |
+          SELECTED="${{ github.event.inputs.platform || 'all' }}"
+          if [ "$SELECTED" = "all" ] || [ "$SELECTED" = "${{ matrix.platform }}" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "✅ Kích hoạt ca chạy debug cho sàn: ${{ matrix.platform }}"
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+            echo "⏩ Bỏ qua sàn ${{ matrix.platform }} do chỉ định chạy sàn: $SELECTED"
+          fi
+
+      - name: Checkout repository
+        if: steps.check-run.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        if: steps.check-run.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Cache Playwright Chromium
+        if: steps.check-run.outputs.should_run == 'true'
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install dependencies & Playwright Chromium
+        if: steps.check-run.outputs.should_run == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != 'true' ]; then
+            playwright install --with-deps chromium
+          else
+            playwright install-deps chromium
+          fi
+
+      - name: Run Pipeline for ${{ matrix.platform }}
+        if: steps.check-run.outputs.should_run == 'true'
+        env:
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          COOKIES: ${{ secrets.COOKIES }}
+          ENV_TXT: ${{ secrets.ENV_TXT }}
+          VNW_COOKIES: ${{ secrets.VNW_COOKIES }}
+          VNW_ENV: ${{ secrets.VNW_ENV }}
+          V24H_COOKIES: ${{ secrets.V24H_COOKIES }}
+          V24H_ENV: ${{ secrets.V24H_ENV }}
+          CAREERVIET_COOKIES: ${{ secrets.CAREERVIET_COOKIES }}
+          CAREERVIET_ENV: ${{ secrets.CAREERVIET_ENV }}
+        run: |
+          MAX="${{ github.event.inputs.max_applies || '5' }}"
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+
+          CMD="python run_pipeline.py --platform ${{ matrix.platform }} --max $MAX"
+          if [ "$DRY_RUN" = "true" ]; then
+            CMD="$CMD --dry-run"
+          fi
+
+          echo "🚀 Thực thi song song (Debug) cho ${{ matrix.platform }}: $CMD"
+          eval $CMD
+
+      - name: Upload proof screenshots & session results
+        if: always() && steps.check-run.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-results-${{ matrix.platform }}-${{ github.run_id }}
+          path: |
+            ${{ matrix.platform }}/apply_proof_*.png
+            ${{ matrix.platform }}/errors/
+            ${{ matrix.platform }}/proofs/
+            ${{ matrix.platform }}/session_report.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Commit and update history ledgers
+        if: always() && steps.check-run.outputs.should_run == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f ${{ matrix.platform }}/extracted_jobs_history.* 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/applied_jobs_history.* 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/*daily_limit*.flag 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/session_report.json 2>/dev/null || true
+          git add -f ${{ matrix.platform }}/latest_extracted_jobs.json 2>/dev/null || true
+          if git diff --cached --name-only | grep -E "(${{ matrix.platform }})"; then
+            git commit -m "Auto-update ${{ matrix.platform }} debug ledgers [skip ci]"
+            git checkout -- . 2>/dev/null || true
+            git clean -fd 2>/dev/null || true
+            for i in 1 2 3 4 5; do
+              echo "Attempt $i: Pulling with rebase and pushing..."
+              if git pull --rebase origin main && git push origin main; then
+                echo "✅ Push thành công!"
+                break
+              fi
+              SLEEP_SEC=$(( (RANDOM % 5) + 2 ))
+              echo "⚠️ Push trùng thời điểm, chờ ${SLEEP_SEC}s trước khi thử lại..."
+              sleep $SLEEP_SEC
+            done
+          else
+            echo "ℹ️ Không có thay đổi nào trong ledger ${{ matrix.platform }} cần commit."
+          fi
