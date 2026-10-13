@@ -88,28 +88,50 @@ def get_target_search_urls():
 
 async def inject_cookies(context):
     raw_cookies_env = os.environ.get("COOKIES", "").strip()
+    env_cookies = []
     if raw_cookies_env:
         try:
-            with open(COOKIES_FILE, "w", encoding="utf-8") as f:
-                f.write(raw_cookies_env)
+            env_cookies = json.loads(raw_cookies_env)
         except Exception:
             pass
 
+    file_cookies = []
     if os.path.exists(COOKIES_FILE):
         try:
             with open(COOKIES_FILE, "r", encoding="utf-8") as f:
-                raw_cookies = json.load(f)
-                formatted = []
-                for c in raw_cookies:
-                    formatted.append({
-                        "name": c["name"],
-                        "value": c["value"],
-                        "domain": c.get("domain", ".topcv.vn"),
-                        "path": c.get("path", "/")
-                    })
-                await context.add_cookies(formatted)
-                log(f"[*] Đã nạp {len(formatted)} cookies vào phiên trình duyệt TopCV.")
-                return True
+                file_cookies = json.load(f)
+        except Exception:
+            pass
+
+    def _session_exp(clist):
+        for c in (clist or []):
+            if isinstance(c, dict) and c.get("name") == "topcv_session":
+                return float(c.get("expires") or 0)
+        return 0.0
+
+    raw_cookies = file_cookies if _session_exp(file_cookies) >= _session_exp(env_cookies) else env_cookies
+    if raw_cookies:
+        try:
+            with open(COOKIES_FILE, "w", encoding="utf-8") as f:
+                json.dump(raw_cookies, f, indent=2, ensure_ascii=False)
+            formatted = []
+            for c in raw_cookies:
+                item = {
+                    "name": c["name"],
+                    "value": c["value"],
+                    "domain": c.get("domain", ".topcv.vn"),
+                    "path": c.get("path", "/")
+                }
+                if "httpOnly" in c:
+                    item["httpOnly"] = bool(c["httpOnly"])
+                if "secure" in c:
+                    item["secure"] = bool(c["secure"])
+                if c.get("sameSite") in ["Strict", "Lax", "None"]:
+                    item["sameSite"] = c["sameSite"]
+                formatted.append(item)
+            await context.add_cookies(formatted)
+            log(f"[*] Đã nạp {len(formatted)} cookies mới nhất vào phiên trình duyệt TopCV.")
+            return True
         except Exception as e:
             log(f"[!] Lỗi đọc cookies: {e}")
     return False
