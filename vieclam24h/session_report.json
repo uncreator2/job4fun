@@ -1,15 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-13T02:08:39.138528",
+  "timestamp": "2026-10-13T03:07:00.169641",
   "todo_count": 2,
   "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Nhóm Booking KOL / KOC",
-      "company": "Công Ty Cổ Phần Thép Nam Kim",
-      "url": "https://vieclam24h.vn/marketing/truong-nhom-booking-kol-koc-c12p210000160id200927056.html",
+      "title": "Trưởng Nhóm / Leader Telesale Phòng Khám",
+      "company": "Công Ty TNHH Vnpro Quốc Tế",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-leader-telesale-phong-kham-c13p210000160id200962860.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200927056.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200962860.png"
     }
   ],
   "skipped_counts": {
