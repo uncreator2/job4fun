@@ -1,24 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-13T17:13:37.059708",
-  "todo_count": 8,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Mới Merchandise Manager/ Sale Manager (Garment)",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/merchandise-manager-sale-manager-garment-1791889751133067671-2119068-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119068.png"
-    },
-    {
-      "title": "Sales Manager - Hyundai Electric",
-      "company": "Công ty TNHH Linh Trung",
-      "url": "https://www.vietnamworks.com/sales-manager-hyundai-electric-1790768954783003069-2114264-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114264.png"
-    }
-  ],
+  "timestamp": "2026-10-13T20:04:19.769162",
+  "todo_count": 6,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -40,17 +25,17 @@
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
