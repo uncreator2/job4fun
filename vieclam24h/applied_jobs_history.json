@@ -2470,5 +2470,37 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-12T16:05:08.990180",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200924800.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-showroom-ha-noi-c13p210000160id200962171.html",
+    "id": "200962171",
+    "title": "Nhân Viên Bán Hàng Showroom - Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-nganh-hang-sieu-thi-bach-hoa-luong-14-17-trieu-tp-hcm-ha-noi-c6p210000187id200962280.html",
+    "id": "200962280",
+    "title": "Quản Lý Ngành Hàng Siêu Thị Bách Hóa, Lương 14 - 17 Triệu (Tp.HCM, Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-quan-ly-cua-hang-chuoi-cua-hang-xe-dap-hcm-binh-duong-vung-tau-c13p210000187id200962088.html",
+    "id": "200962088",
+    "title": "Phó Quản Lý Cửa Hàng Chuỗi Cửa Hàng Xe Đạp (HCM, Bình Dương, Vũng Tàu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-nhom-booking-kol-koc-c12p210000160id200927056.html",
+    "id": "200927056",
+    "title": "Trưởng Nhóm Booking KOL / KOC",
+    "company": "Công Ty Cổ Phần Thép Nam Kim",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-13T02:09:15.353511",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200927056.png"
   }
 ]

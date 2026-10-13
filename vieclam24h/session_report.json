@@ -1,42 +1,25 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-12T16:04:01.840101",
-  "todo_count": 5,
-  "applied_count": 2,
+  "timestamp": "2026-10-13T02:08:39.138528",
+  "todo_count": 2,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Phó Giám Đốc Vận Hành Siêu Thị Bách Hóa (Tp. HCM, Hà Nội)",
-      "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/pho-giam-doc-van-hanh-sieu-thi-bach-hoa-tp-hcm-ha-noi-c6p210000187id200962285.html",
+      "title": "Trưởng Nhóm Booking KOL / KOC",
+      "company": "Công Ty Cổ Phần Thép Nam Kim",
+      "url": "https://vieclam24h.vn/marketing/truong-nhom-booking-kol-koc-c12p210000160id200927056.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200962285.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh BĐS Vinhomes / Masterise Homes / Mik Group...",
-      "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bds-vinhomes-masterise-homes-mik-group-c29p210000160id200924800.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200924800.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200927056.png"
     }
   ],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 2,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 1
   },
   "skipped_details": [
-    {
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-giam-sat-kinh-doanh-tra-gop-dien-may-sedhno-c6p73id200917283.html",
-      "title": "Hà Nội: Giám Sát Kinh Doanh Trả Góp Điện Máy-Sedhno",
-      "reason": "Tin tuyển dụng hết hạn"
-    },
-    {
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-c13p73id200920792.html",
-      "title": "Giám Sát Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn"
-    },
     {
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
