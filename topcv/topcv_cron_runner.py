@@ -88,7 +88,7 @@ def get_target_search_urls():
 
 async def inject_cookies(context):
     raw_cookies_env = os.environ.get("COOKIES", "").strip()
-    if raw_cookies_env and not os.path.exists(COOKIES_FILE):
+    if raw_cookies_env:
         try:
             with open(COOKIES_FILE, "w", encoding="utf-8") as f:
                 f.write(raw_cookies_env)
