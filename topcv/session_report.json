@@ -1,21 +1,61 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-13T03:07:40.448194",
+  "timestamp": "2026-10-13T03:32:05.327824",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 0,
-    "expired": 0,
+    "already_applied": 1,
+    "expired": 3,
     "cf_blocked": 0,
-    "daily_limit": 1,
-    "errors": 0
+    "daily_limit": 0,
+    "errors": 5
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-tmdt-luong-cung-22-35m-thu-nhap-cao/2328941.html",
-      "title": "Giám Đốc Kinh Doanh Sàn TMĐT - Lương Cứng 22-35M , Thu Nhập Cao",
-      "reason": "Chạm giới hạn tài khoản trong ngày"
+      "url": "https://www.topcv.vn/viec-lam/area-sales-manager-asm-general-trade-kenh-gt-gt-channel-thu-nhap-50-trieu-thuong-fmcg-ban-le-tieu-dung-quan-ly-nha-phan-phoi-doi-ngu-sales/2319684.html",
+      "title": "Area Sales Manager (ASM) – General Trade (Kênh GT - GT Channel) | Thu Nhập 50 Triệu+ Thưởng | FMCG - Bán Lẻ Tiêu Dùng | Quản Lý Nhà Phân Phối & Đội Ngũ Sales",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-du-lich-tour-inbound-b2c-luong-cung-15-trieu-tro-len-thuong-thu-nhap-den-30-trieu-thang/2293494.html",
+      "title": "CÔNG TY TNHH DỊCH VỤ VÀ DU LỊCH INDOCHINA TRAVEL EXPERT",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-3035tr-kpi-nganh-thiet-bi-gia-dung-va-cong-nghiep/2298307.html",
+      "title": "Trưởng Phòng Kinh Doanh| 30–35Tr + KPI | Ngành Thiết Bị Gia Dụng Và Công Nghiệp",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh-chien-luoc-thu-nhap-15-20-trieu-hoang-mai-ha-noi/2261837.html",
+      "title": "Trợ Lý Giám Đốc Kinh Doanh (Chiến Lược), Thu Nhập 15 - 20 Triệu (Hoàng Mai - Hà Nội)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-kenh-offline-tai-my-dinh/2300984.html",
+      "title": "Trưởng Phòng Phát Triển Kinh Doanh Kênh Offline Tại Mỹ Đình",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-linh-vuc-logistics/2258592.html",
+      "title": "Trưởng Phòng Kinh Doanh - Lĩnh Vực Logistics",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-co-kinh-nghiem-ve-du-lich-lam-viec-tai-o-cho-dua-ha-noi/2303192.html",
+      "title": "Trưởng Phòng Kinh Doanh - [Làm Việc Tại Ô Chợ Dừa - Hà Nội]",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ha-noi-binh-duong-thu-nhap-30-50-trieu/2304602.html",
+      "title": "Trưởng Phòng Kinh Doanh Vận Tải - Hà Nội, Bình Dương (Thu Nhập 30 - 50 Triệu)",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-tu-2-nam-kinh-nghiem-thu-nhap-len-den-30-trieu/2299827.html",
+      "title": "Trưởng Bộ Phận Sale/Sale Manager/Kinh Doanh Thu Nhập Lên Đến 30 Triệu",
+      "reason": "Modal ứng tuyển không mở được"
     }
   ]
 }
