@@ -2589,5 +2589,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-13T14:29:30.205386",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200963287.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-chi-nhanh-mien-nam-c13p210000187id200963271.html",
+    "id": "200963271",
+    "title": "Trưởng Phòng Kinh Doanh – Chi Nhánh Miền Nam",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
