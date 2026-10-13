@@ -8662,5 +8662,41 @@
     "exp": "1 năm",
     "first_extracted_at": "2026-10-13 14:36:04",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing/2324286.html": {
+    "job_id": "2324286",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing/2324286.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1791911820",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing/2324286.html",
+    "company": "SALONZO GROUP",
+    "salary": "50 - 60 triệu",
+    "location": "Hà Nội",
+    "exp": "4 năm",
+    "first_extracted_at": "2026-10-13 17:17:17",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2330007.html": {
+    "job_id": "2330007",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2330007.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1791911820",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2330007.html",
+    "company": "CÔNG TY TNHH THƯƠNG MẠI DƯƠNG ANH VIỆT NAM",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-13 17:17:17",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-lich-inbound/2062128.html": {
+    "job_id": "2062128",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-lich-inbound/2062128.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1791911820",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-lich-inbound/2062128.html",
+    "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN SANG TRỌNG",
+    "salary": "20 - 25 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-13 17:17:17",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
