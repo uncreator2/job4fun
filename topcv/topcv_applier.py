@@ -277,12 +277,16 @@ async def verify_and_ensure_login(page, context, force_relogin=False):
         await page.click("button.btn-sign, button.g-recaptcha")
         await asyncio.sleep(5.0)
 
-        # Trích xuất và lưu session cookies mới
-        new_cookies = await context.cookies()
-        with open(COOKIES_FILE, "w", encoding="utf-8") as f:
-            json.dump(new_cookies, f, indent=2, ensure_ascii=False)
-        log("🎉 Tự động đăng nhập lại thành công! Đã làm mới session cookies.")
-        return True
+        # Kiểm tra xem đã thực sự thoát khỏi trang /login chưa
+        if "/login" not in page.url:
+            new_cookies = await context.cookies()
+            with open(COOKIES_FILE, "w", encoding="utf-8") as f:
+                json.dump(new_cookies, f, indent=2, ensure_ascii=False)
+            log("🎉 Tự động đăng nhập lại thành công! Đã làm mới session cookies.")
+            return True
+        else:
+            log(f"⚠️ Vẫn đang ở trang đăng nhập ({page.url}) — có thể bị chặn bởi reCAPTCHA trên runner.")
+            return False
     except Exception as e:
         log(f"❌ Lỗi tự động đăng nhập lại: {e}")
         return False
@@ -501,14 +505,14 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
 
     # 3. Chờ Modal hiển thị
     modal_opened = await page.evaluate("""() => {
-        const modal = document.querySelector('#modal-apply-cv, #modal-apply, .modal.in, .modal.show');
+        const modal = document.querySelector('#modal-apply-cv, #modal-apply');
         return modal ? (modal.offsetWidth > 0 && modal.offsetHeight > 0) : false;
     }""")
 
     if not modal_opened:
-        log("❌ Modal ứng tuyển không mở được.")
+        log("❌ Modal ứng tuyển (#modal-apply-cv) không mở được (có thể phiên đăng nhập đã hết hạn hoặc bị chặn).")
         await save_error(page, job_url, "MODAL_NOT_OPENED", "Modal ứng tuyển không mở được sau khi click nút Ứng tuyển")
-        return {"status": "MODAL_NOT_OPENED", "title": job_info["title"]}
+        return {"status": "MODAL_NOT_OPENED", "title": job_info["title"], "reason": "Modal ứng tuyển không mở được"}
 
     log("✅ Modal ứng tuyển đã mở thành công.")
 
@@ -600,6 +604,11 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
     }})()""")
 
     log(f"   Trạng thái điền form: {fill_result}")
+    if not fill_result.get("success"):
+        log("❌ Không thể điền form ứng tuyển vì không tìm thấy modal #modal-apply-cv.")
+        await save_error(page, job_url, "MODAL_NOT_OPENED", str(fill_result))
+        return {"status": "MODAL_NOT_OPENED", "title": job_info["title"], "reason": "No apply modal found"}
+
     await asyncio.sleep(1.5)
 
     # 6. Chế độ Thử nghiệm (Dry-Run) hay Nộp thật
@@ -649,16 +658,17 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
     log("⏳ Đang chờ xác nhận từ hệ thống TopCV...")
     await asyncio.sleep(6.0)
 
-    # Kiểm tra xác nhận thành công hoặc cảnh báo giới hạn / bất thường
+    # Kiểm tra xác nhận thành công hoặc cảnh báo giới hạn / bất thường (CHỈ kiểm tra trên modal/toast/alert đang hiển thị, KHÔNG quét bodyText của JD)
     submit_status = {"isSuccess": False, "isLimited": False, "alertMsg": ""}
     try:
         submit_status = await page.evaluate("""() => {
             const bodyText = document.body ? document.body.innerText : "";
-            const modals = Array.from(document.querySelectorAll('.modal-body, .modal, .alert, [role="dialog"], .toast-message, #modal-apply-cv, #modal-apply'));
-            const modalText = modals.map(m => m.innerText || "").join(" ");
-            const fullText = (bodyText + " " + modalText).toLowerCase();
+            const visibleModals = Array.from(document.querySelectorAll('.modal-body, .modal.in, .modal.show, .alert, [role="dialog"], .toast-message, .swal2-popup, #modal-apply-cv, #modal-apply'))
+                .filter(m => m.offsetWidth > 0 && m.offsetHeight > 0);
+            const modalText = visibleModals.map(m => m.innerText || "").join(" ");
+            const modalTextLower = modalText.toLowerCase();
 
-            // Kiểm tra thông báo giới hạn / bất thường
+            // Kiểm tra thông báo giới hạn / bất thường CHỈ trong modal/toast/alert đang hiển thị
             const limitKeywords = [
                 "dấu hiệu bất thường",
                 "quay lại ứng tuyển vào ngày mai",
@@ -669,16 +679,13 @@ async def apply_to_single_job(page, job_url: str, dry_run: bool = False) -> dict
                 "quá giới hạn"
             ];
             for (const kw of limitKeywords) {
-                if (fullText.includes(kw)) {
-                    let matchedMsg = modalText.trim();
-                    if (!matchedMsg) matchedMsg = bodyText.trim();
-                    return { isSuccess: false, isLimited: true, alertMsg: matchedMsg.substring(0, 300) };
+                if (modalTextLower.includes(kw)) {
+                    return { isSuccess: false, isLimited: true, alertMsg: modalText.trim().substring(0, 300) };
                 }
             }
 
             const isSuccess = bodyText.includes('Ứng tuyển thành công') ||
                               bodyText.includes('Hồ sơ của bạn đã được gửi') ||
-                              bodyText.includes('Đã ứng tuyển') ||
                               !!document.querySelector('.modal-apply-success, #modal-apply-success');
             const alertMsg = document.querySelector('.alert, .toast-message, .error-message')?.innerText?.trim() || "";
             return { isSuccess: isSuccess, isLimited: false, alertMsg: alertMsg };
