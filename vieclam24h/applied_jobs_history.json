@@ -2721,5 +2721,26 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-15T06:33:48.090250",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964750.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/hoa-hoc-hoa-sinh/nhan-vien-kinh-doanh-hoa-chat-c43p210000160id200912880.html",
+    "id": "200912880",
+    "title": "Nhân Viên Kinh Doanh Hóa Chất",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-phan-mem-c13p210000160id200966027.html",
+    "id": "200966027",
+    "title": "Nhân Viên Kinh Doanh Phần Mềm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-online-hoac-di-thi-truong-khong-can-kinh-nghiem-ha-noi-c13p210000160id200965725.html",
+    "id": "200965725",
+    "title": "Nhân Viên Kinh Doanh / Sales Online Hoặc Đi Thị Trường - Không Cần Kinh Nghiệm - Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
