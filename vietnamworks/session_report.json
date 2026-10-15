@@ -1,9 +1,122 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-13T20:04:19.769162",
-  "todo_count": 6,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-15T06:37:39.234137",
+  "todo_count": 22,
+  "applied_count": 16,
+  "applied_jobs": [
+    {
+      "title": "Tax Manager (Working in Malaysia)",
+      "company": "Vietnamworks' Client",
+      "url": "https://www.vietnamworks.com/tax-manager-working-in-malaysia-2118670-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118670.png"
+    },
+    {
+      "title": "Process Engineer/ Senior Process Engineer for Long-Term Job in Laos",
+      "company": "Công Ty TNHH CCI Việt Nam",
+      "url": "https://www.vietnamworks.com/process-engineer-senior-process-engineer-for-long-term-job-in-laos-2117297-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117297.png"
+    },
+    {
+      "title": "Taiwan - Electrical Engineer (EPC Only)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/taiwan-electrical-engineer-epc-only-2118134-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118134.png"
+    },
+    {
+      "title": "Trading Commodity Manager - Based In Laos",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/trading-commodity-manager-based-in-laos-2118600-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118600.png"
+    },
+    {
+      "title": "Trưởng Phòng Quản Lý Vận Hành ( Lĩnh Vực Điện Gió Tại Lào)",
+      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
+      "url": "https://www.vietnamworks.com/truong-phong-quan-ly-van-hanh-linh-vuc-dien-gio-tai-lao-1791971837995500142-2119444-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119444.png"
+    },
+    {
+      "title": "Mới Business Development Manager (Head Of BD Department)",
+      "company": "CJ Logistics Vietnam Co., Ltd - Hanoi Branch",
+      "url": "https://www.vietnamworks.com/business-development-manager-head-of-bd-department-1792031234395293521-2119676-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119676.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh Miền Bắc (Field Sales Manager – Automotive)",
+      "company": "Hino Motors Vietnam, LTD.",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-mien-bac-field-sales-manager-automotive-2119689-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119689.png"
+    },
+    {
+      "title": "Outside Sales / Account Manager",
+      "company": "Heilind Asia Pacific (SG) Pte. Ltd.",
+      "url": "https://www.vietnamworks.com/outside-sales-account-manager-1790667772943810823-2112885-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2112885.png"
+    },
+    {
+      "title": "Mới [Vinpearl V-OTA] Quản Lý Kinh Doanh (Business Development Manager)",
+      "company": "Công Ty Cổ Phần Vinpearl",
+      "url": "https://www.vietnamworks.com/vinpearl-v-ota-quan-ly-kinh-doanh-business-development-manager-1792035594678758140-2119754-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119754.png"
+    },
+    {
+      "title": "Trưởng Phòng Phát Triển Thị Trường",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-thi-truong-2113113-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792046419.png"
+    },
+    {
+      "title": "Quản Lý Đối Tác Chiến Lược",
+      "company": "",
+      "url": "https://www.vietnamworks.com/quan-ly-doi-tac-chien-luoc-1790937134581386976-2115223-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792046437.png"
+    },
+    {
+      "title": "Merchandise Manager/ Sale Manager (Garment)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/merchandise-manager-sale-manager-garment-1791889751133067671-2119068-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792046458.png"
+    },
+    {
+      "title": "Giám Đốc Trung Tâm Kinh Doanh Trực Tiếp",
+      "company": "Ngân Hàng TMCP Quốc Tế Việt Nam (VIB)",
+      "url": "https://www.vietnamworks.com/giam-doc-trung-tam-kinh-doanh-truc-tiep-1791958560900201172-2119290-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119290.png"
+    },
+    {
+      "title": "Phó Tổng Giám Đốc Kinh Doanh Và Quản Lý Vận Hành",
+      "company": "CÔNG TY CỔ PHẦN CHITTA GROUP",
+      "url": "https://www.vietnamworks.com/pho-tong-giam-doc-kinh-doanh-va-quan-ly-van-hanh-1791975171201779491-2119593-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119593.png"
+    },
+    {
+      "title": "Mới Giám Đốc Kinh Doanh Dịch Vụ Logistics",
+      "company": "Công Ty Cổ Phần Tập Đoàn Trường Hải (Thaco)",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-dich-vu-logistics-1792034879559112003-2119735-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119735.png"
+    },
+    {
+      "title": "Mới Giám Đốc Kinh Doanh",
+      "company": "Công Ty Cổ Phần Vinpearl",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1792035319577221204-2119745-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119745.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -40,7 +153,7 @@
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
