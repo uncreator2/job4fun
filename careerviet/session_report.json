@@ -1,31 +1,37 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-15T06:24:30.793559",
-  "todo_count": 4,
-  "applied_count": 4,
+  "timestamp": "2026-10-15T11:44:20.440250",
+  "todo_count": 5,
+  "applied_count": 5,
   "applied_jobs": [
     {
-      "title": "Giám sát kho",
-      "company": "CÔNG TY TNHH SX BAO BÌ NAM VIỆT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-kho.35C8AACD.html",
+      "title": "Giám đốc kinh doanh MT miền Bắc",
+      "company": "Tập Đoàn Karofi Holding",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-mt-mien-bac.35C8ABE8.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Giám sát sản xuất",
-      "company": "Công ty TNHH Olam Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-san-xuat.35C8AA68.html",
+      "title": "ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/asm-giam-doc-kinh-doanh-vung-thu-do.35C8A5A0.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Operations Manager / Quản Lý Vận Hành",
-      "company": "CÔNG TY TNHH MNAQ VIỆT NAM",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/operations-manager-quan-ly-van-hanh.35C8A9AB.html",
+      "title": "Giám đốc Kinh doanh B2B",
+      "company": "Công Ty TNHH NDC",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-b2b.35C8AB28.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Recruitment & Training Supervisor",
-      "company": "Công ty TNHH Olam Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/recruitment-training-supervisor.35C8A766.html",
+      "title": "Giám đốc Kinh doanh (Chuỗi VinWonders/ Vinpearl Golf)",
+      "company": "VinWonders",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-chuoi-vinwonders-vinpearl-golf.35C8A588.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Commercial Director",
+      "company": "CareerViet's client",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/commercial-director.35C89F1E.html",
       "status": "APPLIED_OK"
     }
   ],
