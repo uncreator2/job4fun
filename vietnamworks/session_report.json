@@ -1,9 +1,31 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-15T14:29:55.358097",
-  "todo_count": 6,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-15T18:00:09.956564",
+  "todo_count": 9,
+  "applied_count": 3,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Đầu Tư (Financial Manager)",
+      "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
+      "url": "https://www.vietnamworks.com/truong-phong-dau-tu-financial-manager--2119201-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119201.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh Logistics - Thu Nhập Upto 100Tr/tháng",
+      "company": "CÔNG TY CỔ PHẦN LOGISTICS THẾ HỆ MỚI CF",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-logistics-thu-nhap-upto-100tr-thang-1792059753243708921-2120098-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120098.png"
+    },
+    {
+      "title": "Assistant Project Sales Manager",
+      "company": "Saint-Gobain Vietnam Co., Ltd",
+      "url": "https://www.vietnamworks.com/assistant-project-sales-manager-1791966038953501584-2119438-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119438.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -15,17 +37,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
@@ -35,12 +57,12 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
