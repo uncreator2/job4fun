@@ -1,9 +1,45 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-13T19:59:50.339868",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-15T06:30:06.784876",
+  "todo_count": 6,
+  "applied_count": 5,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh Du Lịch – Bán Tour – Quản Lý Đội Nhóm – Tp.HCM, Hà Nội",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/truong-phong-kinh-doanh-du-lich-ban-tour-quan-ly-doi-nhom-tp-hcm-ha-noi-c5p210000187id200959884.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200959884.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dịch Vụ",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-dich-vu-c13p210000160id200965292.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965292.png"
+    },
+    {
+      "title": "Phó Quản Lý Rạp",
+      "company": "Siêu Việt Group",
+      "url": "https://vieclam24h.vn/cham-soc-khach-hang/pho-quan-ly-rap-c30p210000160id200964566.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964566.png"
+    },
+    {
+      "title": "Tổng Giám Đốc Công Ty Du Lịch – Quản Lý Điều Hành Lương Thỏa Thuận - HCM, Hà Nội",
+      "company": "Siêu Việt Group",
+      "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/tong-giam-doc-cong-ty-du-lich-quan-ly-dieu-hanh-luong-thoa-thuan-hcm-ha-noi-c5p210000187id200959879.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200959879.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh F&b (Hội Nghị Tiệc Cưới)",
+      "company": "Công Ty Cổ Phần Công Nghệ Và Giải Pháp Ems",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-f-b-hoi-nghi-tiec-cuoi-c13p210000160id200964750.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964750.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
