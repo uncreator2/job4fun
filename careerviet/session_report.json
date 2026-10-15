@@ -1,13 +1,31 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-13T14:24:25.545273",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-10-15T06:24:30.793559",
+  "todo_count": 4,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "Kế Toán Trưởng",
-      "company": "AKI - Creating Impactful Workspaces Across Vietnam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/ke-toan-truong.35C8A67A.html",
+      "title": "Giám sát kho",
+      "company": "CÔNG TY TNHH SX BAO BÌ NAM VIỆT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-kho.35C8AACD.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám sát sản xuất",
+      "company": "Công ty TNHH Olam Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-san-xuat.35C8AA68.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Operations Manager / Quản Lý Vận Hành",
+      "company": "CÔNG TY TNHH MNAQ VIỆT NAM",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/operations-manager-quan-ly-van-hanh.35C8A9AB.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Recruitment & Training Supervisor",
+      "company": "Công ty TNHH Olam Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/recruitment-training-supervisor.35C8A766.html",
       "status": "APPLIED_OK"
     }
   ],
