@@ -1,31 +1,282 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-13T20:09:10.864247",
+  "timestamp": "2026-10-15T06:47:18.999363",
   "todo_count": 120,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "applied_count": 30,
+  "applied_jobs": [
+    {
+      "title": "Area Sales Manager (ASM) – Modern/General Trade (Kênh MT - GT Channel) | Thu Nhập 50 Triệu+ Thưởng | FMCG - Bán Lẻ Tiêu Dùng | Quản Lý Nhà Phân Phối & Đội Ngũ Sales",
+      "company": "CÔNG TY TNHH KOIKEYA VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/area-sales-manager-asm-modern-general-trade-kenh-mt-gt-channel-thu-nhap-50-trieu-thuong-fmcg-ban-le-tieu-dung-quan-ly-nha-phan-phoi-doi-ngu-sales/2319684.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2319684.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Sales Manager) – Du Lịch, F&B & Hospitality",
+      "company": "CÔNG TY TNHH THISO RETAIL (EMART VIỆT NAM)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-du-lich-fb-hospitality/2330513.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330513.png"
+    },
+    {
+      "title": "Sales Manager",
+      "company": "CÔNG TY TNHH NOVERRA",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2331891.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2331891.png"
+    },
+    {
+      "title": "Trưởng Trung Tâm Kiểm Soát Cận Thị",
+      "company": "CÔNG TY TNHH NOVERRA",
+      "url": "https://www.topcv.vn/viec-lam/truong-trung-tam-kiem-soat-can-thi/2331332.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2331332.png"
+    },
+    {
+      "title": "Sales Manager TA",
+      "company": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ HAKICO",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-ta/2330333.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330333.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh B2C (Mảng Cà Phê)",
+      "company": "CÔNG TY CỔ PHẦN CPT GROUP",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c-mang-ca-phe/2329395.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2329395.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Kho Bãi Và Kho Ngoại Quan",
+      "company": "CÔNG TY TNHH NOVERRA",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kho-bai-va-kho-ngoai-quan/2331043.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2331043.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Và Phát Triển Hệ Thống Sơn",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-phat-trien-he-thong-son/2331001.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2331001.png"
+    },
+    {
+      "title": "Sales Leader Tỉnh (Mảng Giáo Dục)",
+      "company": "CÔNG TY TNHH NOVERRA",
+      "url": "https://www.topcv.vn/viec-lam/sales-leader-tinh-mang-giao-duc/2331336.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2331336.png"
+    },
+    {
+      "title": "Sales Manager",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2290628.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2290628.png"
+    },
+    {
+      "title": "Phụ Trách Tuyển Sinh Thị Trường Đài Loan - Có Kinh Nghiệm Về Marketing (Lương Từ 15 Triệu + Thưởng KPI)",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/phu-trach-tuyen-sinh-thi-truong-dai-loan-co-kinh-nghiem-ve-marketing-luong-tu-15-trieu-thuong-kpi/2328960.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2328960.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh In Bao Bì Giấy Offset",
+      "company": "CÔNG TY TNHH THISO RETAIL (EMART VIỆT NAM)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-in-bao-bi-giay-offset/2330549.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330549.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh",
+      "company": "CÔNG TY TNHH KOIKEYA VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2330387.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330387.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Cước Quốc Tế",
+      "company": "Pro\nBee Logistics Corporation",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-cuoc-quoc-te/2330921.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330921.png"
+    },
+    {
+      "title": "Chuyên Viên Vận Hành Kinh Doanh",
+      "company": "CÔNG TY TNHH EM'S NORDIC BAKERY",
+      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-van-hanh-kinh-doanh/2330980.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330980.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh, Phát Triển Thị Trường",
+      "company": "GOOD FOOD CO., LTD",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phat-trien-thi-truong/2330115.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2330115.png"
+    },
+    {
+      "title": "Senior B2B International Sales Executive|Chuyên Viên Kinh Doanh B2B - Có Thể Làm Remote - Lương Upto 45 Triệu/Tháng - Nghỉ Thứ 7 Và Chủ Nhật",
+      "company": "CÔNG TY CỔ PHẦN GIAO HÀNG TIẾT KIỆM",
+      "url": "https://www.topcv.vn/viec-lam/senior-b2b-international-sales-executive-chuyen-vien-kinh-doanh-b2b-co-the-lam-remote-luong-upto-45-trieu-thang-nghi-thu-7-va-chu-nhat/2324305.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2324305.png"
+    },
+    {
+      "title": "Sales IT/ Account Manager",
+      "company": "Công ty cổ phần Onenet",
+      "url": "https://www.topcv.vn/viec-lam/sales-it-account-manager/2329316.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2329316.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh (Chuỗi Bán Lẻ Công Nghệ)",
+      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-chuoi-ban-le-cong-nghe/1576384.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1576384.png"
+    },
+    {
+      "title": "Chuyên Viên Kế Hoạch Và Điều Hành Dự Án Kinh Doanh",
+      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
+      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-ke-hoach-va-dieu-hanh-du-an-kinh-doanh/2279777.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2279777.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2219159.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2219159.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh",
+      "company": "Công Ty TNHH Quốc Tế Yetom (VN)",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2280798.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2280798.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dự Án Smarthome Aqara",
+      "company": "CÔNG TY TNHH MẸ GẤU PILATES",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-smarthome-aqara/2024689.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2024689.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+      "company": "Công ty Cổ phần Nụ Cười Mới Việt Nam",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2305947.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2305947.png"
+    },
+    {
+      "title": "Product Manager",
+      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/product-manager/2304492.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2304492.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN KPP",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2236390.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2236390.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh Khu Vực (ASM Kênh GT)",
+      "company": "CÔNG TY CỔ PHẦN AN NINH DỮ LIỆU VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-gt/1620784.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1620784.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+      "company": "Công ty Cổ phần Nụ Cười Mới Việt Nam",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303390.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2303390.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Y Tế",
+      "company": "Công ty Cổ phần Nụ Cười Mới Việt Nam",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dich-vu-y-te/2303330.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2303330.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Logistics (Kho Vận)",
+      "company": "CÔNG TY TNHH THISO RETAIL (EMART VIỆT NAM)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics-kho-van/2262018.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2262018.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
-    "expired": 0,
+    "already_applied": 1,
+    "expired": 10,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 3
+    "errors": 0
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-chuoi-ban-le-cong-nghe/1576384.html",
-      "title": "Giám Đốc Kinh Doanh (Chuỗi Bán Lẻ Công Nghệ)",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2280556.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-ke-hoach-va-dieu-hanh-du-an-kinh-doanh/2279777.html",
-      "title": "Chuyên Viên Kế Hoạch Và Điều Hành Dự Án Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-phat-trien-thi-truong/2242512.html",
+      "title": "Trưởng Phòng Kinh Doanh Phát Triển Thị Trường",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2219159.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien/2164630.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2277363.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-b2b/2222841.html",
+      "title": "Giám Đốc Kinh Doanh B2B",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2242563.html",
+      "title": "Tin hết hạn / Chuyển hướng trang chủ",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/thuc-tap-sinh-sale-kinh-doanh/2277758.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/elcom/tuyen-dung/account-manager-b2g-chuyen-doi-so-chinh-phu-j1835278.html",
+      "title": "ELCOM Corporation",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-phong-ke-hoach-chinh-sach-kinh-doanh/2274306.html",
+      "title": "Phó Phòng Kế Hoạch & Chính Sách Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/shinhanfinance1/tuyen-dung/truong-nhom-kinh-doanh-mien-bac-j2277050.html",
+      "title": "Trưởng Nhóm Kinh Doanh - Miền Bắc",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/misa/tuyen-dung/quan-ly-doi-tac-chien-luoc-j2290255.html",
+      "title": "Quản Lý Đối Tác Chiến Lược",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     }
   ]
 }
