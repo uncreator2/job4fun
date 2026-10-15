@@ -8998,5 +8998,29 @@
     "exp": "Dưới 1 năm",
     "first_extracted_at": "2026-10-15 11:59:33",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2331615.html": {
+    "job_id": "2331615",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2331615.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792074702",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2331615.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHỆ THÔNG MINH",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-15 14:32:00",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2332212.html": {
+    "job_id": "2332212",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2332212.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792074763",
+    "clean_url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2332212.html",
+    "company": "CÔNG TY CỔ PHẦN TIERRA",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-10-15 14:32:57",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
