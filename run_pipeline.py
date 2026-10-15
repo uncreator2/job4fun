@@ -247,5 +247,13 @@ def main():
         print(f"🏢 {platform:<14} | To-Do: {todo_cnt:<3} | Nộp thành công: {app_cnt:<3} | Trạng thái: {lbl}")
     print("=" * 80 + "\n")
 
+    has_critical_failure = any(
+        not s.get("skipped_limit") and not s.get("crawled") and not s.get("applied")
+        for s in summary.values()
+    )
+    if has_critical_failure:
+        print("❌ LỖI HỆ THỐNG: Toàn bộ tiến trình quét và nộp của phân hệ thất bại!")
+        sys.exit(1)
+
 if __name__ == "__main__":
     main()
