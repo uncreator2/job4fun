@@ -1,22 +1,29 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-16T14:18:42.409730",
-  "todo_count": 8,
-  "applied_count": 2,
+  "timestamp": "2026-10-16T17:48:27.472355",
+  "todo_count": 9,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Kỹ Sư Kinh Tế Xây Dựng (Dự Toán)",
-      "company": "Công Ty CP Tập Đoàn Đầu Tư Việt Phương",
-      "url": "https://www.vietnamworks.com/ky-su-kinh-te-xay-dung-du-toan-1790750220312088600-2113760-jv",
+      "title": "Merchandiser Manager I Sales Manager I Garment",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/merchandiser-manager-i-sales-manager-i-garment-2119375-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2113760.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119375.png"
     },
     {
-      "title": "Trưởng Phòng Vận Hành Bệnh Viện (Hà Nội)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-van-hanh-benh-vien-ha-noi-2118594-jv/",
+      "title": "Sales Manager I Garment",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/sales-manager-i-garment-1791975506682451315-2119609-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792160339.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119609.png"
+    },
+    {
+      "title": "Area Sales Manager (ASM)- KÊNH GT",
+      "company": "CÔNG TY TNHH CÔNG NGHỆ SMART- LINK VIỆT NAM",
+      "url": "https://www.vietnamworks.com/area-sales-manager-asm-kenh-gt-1792057443152782068-2120049-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120049.png"
     }
   ],
   "skipped_counts": {
