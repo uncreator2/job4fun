@@ -2742,5 +2742,62 @@
     "title": "Nhân Viên Kinh Doanh / Sales Online Hoặc Đi Thị Trường - Không Cần Kinh Nghiệm - Hà Nội",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-mien-bac-luong-16tr-den-19tr-c6p210000160id200966137.html",
+    "id": "200966137",
+    "title": "Trưởng Phòng Kinh Doanh (Miền Bắc) - Lương 16Tr Đến 19Tr",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000187id200966557.html",
+    "id": "200966557",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-tai-van-phong-ha-noi-c13p210000160id200965729.html",
+    "id": "200965729",
+    "title": "Nhân Viên Kinh Doanh Tại Văn Phòng Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-truong-phong-kinh-doanh-thu-nhap-18-30-trieu-c13p210000187id200961157.html",
+    "id": "200961157",
+    "title": "Nam Trưởng Phòng Kinh Doanh, Thu Nhập 18 - 30 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-du-lich-luong-thoa-thuan-uu-tien-gan-tan-phu-hcm-c13p210000187id200959546.html",
+    "id": "200959546",
+    "title": "Trưởng Phòng Kinh Doanh Du Lịch - Lương Thỏa Thuận - Ưu Tiên Gần Tân Phú, HCM",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nganh-hang-xe-dien-c13p210000160id200965388.html",
+    "id": "200965388",
+    "title": "Trưởng Ngành Hàng Xe Điện",
+    "company": "Công Ty Cổ Phần Việc Làm 24H",
+    "salary": "10 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-16T05:57:42.433668",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965388.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p210000187id200938996.html",
+    "id": "200938996",
+    "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
+    "company": "Công Ty Cổ Phần Sơn Thái Living",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-10-16T05:58:00.108002",
+    "proof": null
   }
 ]

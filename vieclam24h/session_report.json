@@ -1,11 +1,26 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-15T17:56:36.672178",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-16T05:56:36.516623",
+  "todo_count": 3,
+  "applied_count": 2,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Ngành Hàng Xe Điện",
+      "company": "Công Ty Cổ Phần Việc Làm 24H",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nganh-hang-xe-dien-c13p210000160id200965388.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965388.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
+      "company": "Công Ty Cổ Phần Sơn Thái Living",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p210000187id200938996.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -16,6 +31,11 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p210000187id200938996.html",
+      "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
+      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }
