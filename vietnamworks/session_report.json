@@ -1,71 +1,22 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-16T11:43:45.524701",
-  "todo_count": 15,
-  "applied_count": 9,
+  "timestamp": "2026-10-16T14:18:42.409730",
+  "todo_count": 8,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "CHUYÊN GIA ĐIỀU PHỐI BÁN HÀNG | Sales & Distribution Expert",
-      "company": "Viettel Mozambique (Movitel S.A)",
-      "url": "https://www.vietnamworks.com/chuyen-gia-djieu-phoi-ban-hang-or-sales-and-distribution-expert-2117013-jv",
+      "title": "Kỹ Sư Kinh Tế Xây Dựng (Dự Toán)",
+      "company": "Công Ty CP Tập Đoàn Đầu Tư Việt Phương",
+      "url": "https://www.vietnamworks.com/ky-su-kinh-te-xay-dung-du-toan-1790750220312088600-2113760-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117013.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2113760.png"
     },
     {
-      "title": "Mới Thiết Kế Khuôn Dập Kim Loại (Stamping Dies) - Team Quốc Tế",
-      "company": "Molex Vietnam Co., Ltd.",
-      "url": "https://www.vietnamworks.com/thiet-ke-khuon-dap-kim-loai-stamping-dies-team-quoc-te-1792140948457624027-2120454-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120454.png"
-    },
-    {
-      "title": "Mới Thiết Kế Khuôn Ép Nhựa (Injection Molds) - Team Quốc Tế",
-      "company": "Molex Vietnam Co., Ltd.",
-      "url": "https://www.vietnamworks.com/thiet-ke-khuon-ep-nhua-injection-molds-team-quoc-te-1792141182325609411-2120455-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120455.png"
-    },
-    {
-      "title": "Mới Development Process Engineer (Global team)",
-      "company": "Molex Vietnam Co., Ltd.",
-      "url": "https://www.vietnamworks.com/development-process-engineer-global-team-1792143217874877406-2120508-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120508.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh (Sales)",
-      "company": "Công ty TNHH Đầu tư và Du lịch Quốc tế Merry Group",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-1792139550731592923-2120198-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120198.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Bất Động Sản Khu Công Nghiệp",
-      "company": "Công ty CP Đầu tư phát triển Hạ tầng Phú Gia",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-bat-dong-san-khu-cong-nghiep--2120092-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120092.png"
-    },
-    {
-      "title": "Trưởng phòng Kinh Doanh Logistics",
-      "company": "VISION Shipping Vietnam Co.,ltd",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-logistics-1790825655513148890-2114604-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114604.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh Cloud (Lương Lên Tới 45 Triệu + Thưởng)",
-      "company": "Công Ty Cổ Phần Sunteco",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-cloud-luong-len-toi-45-trieu-thuong-1792146728288032430-2120590-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120590.png"
-    },
-    {
-      "title": "Phó Tổng Giám Đốc Kinh Doanh Và Quản Lý Vận Hành",
+      "title": "Trưởng Phòng Vận Hành Bệnh Viện (Hà Nội)",
       "company": "",
-      "url": "https://www.vietnamworks.com/pho-tong-giam-doc-kinh-doanh-va-quan-ly-van-hanh-1791975171201779491-2119593-jv/",
+      "url": "https://www.vietnamworks.com/truong-phong-van-hanh-benh-vien-ha-noi-2118594-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792151159.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792160339.png"
     }
   ],
   "skipped_counts": {
