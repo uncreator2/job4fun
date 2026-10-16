@@ -1,29 +1,64 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-15T18:00:09.956564",
-  "todo_count": 9,
-  "applied_count": 3,
+  "timestamp": "2026-10-16T06:02:09.838657",
+  "todo_count": 14,
+  "applied_count": 8,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Đầu Tư (Financial Manager)",
+      "title": "[Tmax Tibero] Database Management System Sales Manager",
+      "company": "KOTRA HCM",
+      "url": "https://www.vietnamworks.com/tmax-tibero-database-management-system-sales-manager-1791972990236233873-2119578-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119578.png"
+    },
+    {
+      "title": "[Urgent] Trưởng Phòng Kinh Doanh kiêm Quản Lý Phòng Khám (Hà Nội)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/urgent-truong-phong-kinh-doanh-kiem-quan-ly-phong-kham-ha-noi-2119172-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119172.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh Mảng Xe Thương Mại Biết Tiếng Trung",
+      "company": "Weichai Vietnam",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-mang-xe-thuong-mai-biet-tieng-trung-1792121516291664570-2120076-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120076.png"
+    },
+    {
+      "title": "Mới (Hot) Trưởng Phòng Kiểm Soát Chất Lượng Thi Công",
       "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
-      "url": "https://www.vietnamworks.com/truong-phong-dau-tu-financial-manager--2119201-jv",
+      "url": "https://www.vietnamworks.com/hot-truong-phong-kiem-soat-chat-luong-thi-cong-2111436-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119201.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2111436.png"
     },
     {
-      "title": "Mới Trưởng Phòng Kinh Doanh Logistics - Thu Nhập Upto 100Tr/tháng",
-      "company": "CÔNG TY CỔ PHẦN LOGISTICS THẾ HỆ MỚI CF",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-logistics-thu-nhap-upto-100tr-thang-1792059753243708921-2120098-jv",
+      "title": "Sale Manager (Hà Nội)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sale-manager-ha-noi-1792056033922199177-2120029-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120098.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792130600.png"
     },
     {
-      "title": "Assistant Project Sales Manager",
-      "company": "Saint-Gobain Vietnam Co., Ltd",
-      "url": "https://www.vietnamworks.com/assistant-project-sales-manager-1791966038953501584-2119438-jv",
+      "title": "Sales Manager I Garment",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-i-garment-1791975506682451315-2119609-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119438.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792130618.png"
+    },
+    {
+      "title": "Trưởng Phòng Vận Hành & Hỗ Trợ Kinh Doanh (CRM | Điều Phối Triển Khai | Hoa Hồng Bán Hàng)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-van-hanh-ho-tro-kinh-doanh-crm-dieu-phoi-trien-khai-hoa-hong-ban-hang--2118755-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792130635.png"
+    },
+    {
+      "title": "Phó Giám Đốc Kinh doanh Công Ty (Thu nhập lên đến 80 triệu)",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ Ô TÔ HẢI ÂU",
+      "url": "https://www.vietnamworks.com/pho-giam-djoc-kinh-doanh-cong-ty-thu-nhap-len-djen-80-trieu-2118787-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118787.png"
     }
   ],
   "skipped_counts": {
@@ -37,17 +72,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
@@ -62,7 +97,7 @@
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
