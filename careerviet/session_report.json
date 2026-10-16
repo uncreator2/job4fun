@@ -1,37 +1,13 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-15T11:44:20.440250",
-  "todo_count": 5,
-  "applied_count": 5,
+  "timestamp": "2026-10-16T05:53:10.638157",
+  "todo_count": 1,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Giám đốc kinh doanh MT miền Bắc",
-      "company": "Tập Đoàn Karofi Holding",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-mt-mien-bac.35C8ABE8.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô",
-      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/asm-giam-doc-kinh-doanh-vung-thu-do.35C8A5A0.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Giám đốc Kinh doanh B2B",
-      "company": "Công Ty TNHH NDC",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-b2b.35C8AB28.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Giám đốc Kinh doanh (Chuỗi VinWonders/ Vinpearl Golf)",
-      "company": "VinWonders",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-chuoi-vinwonders-vinpearl-golf.35C8A588.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Commercial Director",
-      "company": "CareerViet's client",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/commercial-director.35C89F1E.html",
+      "title": "Trưởng Phòng Kinh Doanh Thực Phẩm",
+      "company": "Hợp Tác Xã Chăn Nuôi Bình Minh",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-thuc-pham.35C8AD98.html",
       "status": "APPLIED_OK"
     }
   ],
