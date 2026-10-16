@@ -1,33 +1,11 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-16T11:39:45.385097",
-  "todo_count": 4,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "Chuyên Viên Phát Triển Kinh Doanh Cao Cấp (Tạo Nguồn Lên Trưởng Nhóm)",
-      "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-phat-trien-kinh-doanh-cao-cap-tao-nguon-len-truong-nhom-c13p210000160id200964612.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964612.png"
-    },
-    {
-      "title": "Quản Lý Kinh Doanh - Hà Nội",
-      "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p210000160id200919892.html",
-      "status": "ALREADY_APPLIED",
-      "proof": ""
-    },
-    {
-      "title": "Quản Lý Trình Dược Viên Khu Vực Hà Nội - Lương 20-25Tr, Nhận Việc Ngay",
-      "company": "ACB - NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN Á CHÂU",
-      "url": "https://vieclam24h.vn/duoc-pham/quan-ly-trinh-duoc-vien-khu-vuc-ha-noi-luong-20-25tr-nhan-viec-ngay-c42p210000160id200967210.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967210.png"
-    }
-  ],
+  "timestamp": "2026-10-16T14:15:26.626176",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -38,11 +16,6 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
-    },
-    {
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p210000160id200919892.html",
-      "title": "Quản Lý Kinh Doanh - Hà Nội",
-      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }

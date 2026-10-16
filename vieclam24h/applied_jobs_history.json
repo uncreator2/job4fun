@@ -2839,5 +2839,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-16T11:40:51.153112",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967210.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kinh-doanh-phat-trien-thi-truong-ruou-vang-c13p210000160id200966668.html",
+    "id": "200966668",
+    "title": "Chuyên Viên Kinh Doanh & Phát Triển Thị Trường Rượu Vang",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
