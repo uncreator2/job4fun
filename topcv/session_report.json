@@ -1,26 +1,15 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-16T14:23:25.049047",
-  "todo_count": 2,
+  "timestamp": "2026-10-16T17:52:43.798519",
+  "todo_count": 0,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 2,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-benh-vien-tham-my/2333283.html",
-      "title": "Giám Đốc Kinh Doanh - Lĩnh Vực Bệnh Viện Thẩm Mỹ",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333664.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    }
-  ]
+  "skipped_details": []
 }
