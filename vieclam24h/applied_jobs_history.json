@@ -2799,5 +2799,45 @@
     "status": "ALREADY_APPLIED",
     "applied_at": "2026-10-16T05:58:00.108002",
     "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-kinh-doanh-khu-vui-choi-mien-bac-luong-16tr-den-18tr-c6p210000160id200966137.html",
+    "id": "200966137",
+    "title": "Giám Sát Kinh Doanh Khu Vui Chơi (Miền Bắc) - Lương 16Tr Đến 18Tr",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-phat-trien-kinh-doanh-cao-cap-tao-nguon-len-truong-nhom-c13p210000160id200964612.html",
+    "id": "200964612",
+    "title": "Chuyên Viên Phát Triển Kinh Doanh Cao Cấp (Tạo Nguồn Lên Trưởng Nhóm)",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-16T11:40:19.043832",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964612.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p210000160id200919892.html",
+    "id": "200919892",
+    "title": "Quản Lý Kinh Doanh - Hà Nội",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-10-16T11:40:30.421908",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-trinh-duoc-vien-khu-vuc-ha-noi-luong-20-25tr-nhan-viec-ngay-c42p210000160id200967210.html",
+    "id": "200967210",
+    "title": "Quản Lý Trình Dược Viên Khu Vực Hà Nội - Lương 20-25Tr, Nhận Việc Ngay",
+    "company": "ACB - NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN Á CHÂU",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-16T11:40:51.153112",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967210.png"
   }
 ]

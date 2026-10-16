@@ -1,22 +1,29 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-16T05:56:36.516623",
-  "todo_count": 3,
-  "applied_count": 2,
+  "timestamp": "2026-10-16T11:39:45.385097",
+  "todo_count": 4,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Trưởng Ngành Hàng Xe Điện",
-      "company": "Công Ty Cổ Phần Việc Làm 24H",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nganh-hang-xe-dien-c13p210000160id200965388.html",
+      "title": "Chuyên Viên Phát Triển Kinh Doanh Cao Cấp (Tạo Nguồn Lên Trưởng Nhóm)",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-phat-trien-kinh-doanh-cao-cap-tao-nguon-len-truong-nhom-c13p210000160id200964612.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965388.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200964612.png"
     },
     {
-      "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
-      "company": "Công Ty Cổ Phần Sơn Thái Living",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p210000187id200938996.html",
+      "title": "Quản Lý Kinh Doanh - Hà Nội",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p210000160id200919892.html",
       "status": "ALREADY_APPLIED",
       "proof": ""
+    },
+    {
+      "title": "Quản Lý Trình Dược Viên Khu Vực Hà Nội - Lương 20-25Tr, Nhận Việc Ngay",
+      "company": "ACB - NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN Á CHÂU",
+      "url": "https://vieclam24h.vn/duoc-pham/quan-ly-trinh-duoc-vien-khu-vuc-ha-noi-luong-20-25tr-nhan-viec-ngay-c42p210000160id200967210.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967210.png"
     }
   ],
   "skipped_counts": {
@@ -33,8 +40,8 @@
       "reason": "ERROR"
     },
     {
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-nganh-truyen-thong-quang-cao-dooh-ooh-c13p210000187id200938996.html",
-      "title": "Trưởng Nhóm Kinh Doanh Ngành Truyền Thông Quảng Cáo Dooh / OOH",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-ha-noi-c13p210000160id200919892.html",
+      "title": "Quản Lý Kinh Doanh - Hà Nội",
       "reason": "Đã ứng tuyển trước đó"
     }
   ]
