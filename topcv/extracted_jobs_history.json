@@ -9202,5 +9202,29 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-10-16 11:48:47",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-benh-vien-tham-my/2333283.html": {
+    "job_id": "2333283",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-benh-vien-tham-my/2333283.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792160448",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-benh-vien-tham-my/2333283.html",
+    "company": "CÔNG TY TNHH ĐẦU TƯ Y KHOA VÀ THẨM MỸ MEGACELL",
+    "salary": "200 - 300 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-10-16 14:21:08",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333664.html": {
+    "job_id": "2333664",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333664.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792160448",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333664.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ GIÁO DỤC QUỐC TẾ SEC",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-16 14:21:08",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }

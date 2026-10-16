@@ -1,60 +1,25 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-16T11:49:40.911928",
-  "todo_count": 9,
+  "timestamp": "2026-10-16T14:23:25.049047",
+  "todo_count": 2,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 9,
+    "expired": 2,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-tai-ha-noi/2333052.html",
-      "title": "Trưởng Phòng Kinh Doanh/ Sales Manager Tại Hà Nội",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-benh-vien-tham-my/2333283.html",
+      "title": "Giám Đốc Kinh Doanh - Lĩnh Vực Bệnh Viện Thẩm Mỹ",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/brand/nganhangthuongmaicophanquandoi/tuyen-dung/giam-doc-ub-cn-ba-dinh-phuong-ngoc-ha-ha-noi-2026td457509-j2332894.html",
-      "title": "Giám Đốc UB - CN. Ba Đình - Phường Ngọc Hà, Hà Nội (2026TD457509)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c-b2c-sales-lead/2330022.html",
-      "title": "Trưởng Phòng Kinh Doanh B2C (B2C Sales Lead)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2332260.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333664.html",
       "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2319401.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2332700.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2333285.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-trung-tam-thu-nhap-hap-dan-upto-40m-team-tre-trung-chuyen-nghiep/2332948.html",
-      "title": "Quản Lý Trung Tâm - Thu Nhập Hấp Dẫn UPTO 40M - Team Trẻ Trung - Chuyên Nghiệp",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-va-marketing/2323127.html",
-      "title": "Giám Đốc Kinh Doanh Và Marketing",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     }
   ]
