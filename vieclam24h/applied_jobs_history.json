@@ -2853,5 +2853,138 @@
     "title": "Chuyên Viên Kinh Doanh Cấp Cao",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-kenh-otc-khu-vuc-mien-bac-luong-25-30-tr-nhan-viec-ngay-c42p210000160id200967210.html",
+    "id": "200967210",
+    "title": "Quản Lý Kênh OTC Khu Vực Miền Bắc - Lương 25-30 Tr, Nhận Việc Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-otc-mien-bac-luong-25-30-tr-tu-1-nam-kinh-nghiem-c42p210000160id200967731.html",
+    "id": "200967731",
+    "title": "Quản Lý OTC Miền Bắc - Lương 25-30 Tr, Từ 1 Năm Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/truong-bo-phan-kinh-doanh-otc-luong-25-30-trieu-khu-vuc-mien-bac-c42p210000160id200967730.html",
+    "id": "200967730",
+    "title": "Trưởng Bộ Phận Kinh Doanh OTC – Lương 25–30 Triệu Khu Vực Miền Bắc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-kinh-doanh-otc-khu-vuc-mien-bac-tu-1-nam-kinh-nghiem-c42p210000160id200967733.html",
+    "id": "200967733",
+    "title": "Quản Lý Kinh Doanh OTC Khu Vực Miền Bắc, Từ 1 Năm Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/truong-phong-kinh-doanh-otc-mien-bac-thu-nhap-25-30tr-c42p210000160id200967732.html",
+    "id": "200967732",
+    "title": "Trưởng Phòng Kinh Doanh OTC Miền Bắc - Thu Nhập 25-30Tr++",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/truong-phong-kinh-doanh-otc-khu-vuc-mien-bac-c42p210000160id200967734.html",
+    "id": "200967734",
+    "title": "Trưởng Phòng Kinh Doanh OTC Khu Vực Miền Bắc",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-thu-nhap-15-25-trieu-c13p210000160id200966899.html",
+    "id": "200966899",
+    "title": "Nhân Viên Kinh Doanh Thị Trường - Thu Nhập 15 - 25 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nu-nhan-vien-kinh-doanh-co-kinh-nghiem-tai-ha-noi-c13p210000160id200967006.html",
+    "id": "200967006",
+    "title": "Nữ Nhân Viên Kinh Doanh Có Kinh Nghiệm Tại Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-du-lich-noi-dia-inbound-outbound-c13p210000160id200966522.html",
+    "id": "200966522",
+    "title": "Trưởng Phòng Kinh Doanh Du Lịch Nội Địa, Inbound, Outbound",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:16:49.084833",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966522.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-manager-truong-phong-kinh-doanh-c13p210000160id200967664.html",
+    "id": "200967664",
+    "title": "Sales Manager (Trưởng Phòng Kinh Doanh)",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:17:08.615360",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967664.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/pho-phong-kinh-doanh-dieu-hanh-du-lich-c12p210000160id200966527.html",
+    "id": "200966527",
+    "title": "Phó Phòng Kinh Doanh / Điều Hành Du Lịch",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:17:28.028225",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966527.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-kinh-doanh-otc-nganh-duoc-thu-nhap-30tr-c42p210000160id200967729.html",
+    "id": "200967729",
+    "title": "Quản Lý Kinh Doanh OTC Ngành Dược – Thu Nhập 30Tr++",
+    "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
+    "salary": "25 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:17:47.393456",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967729.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-mang-du-lich-c12p210000160id200966547.html",
+    "id": "200966547",
+    "title": "Trưởng Phòng Marketing - Mảng Du Lịch",
+    "company": "Công Ty Cổ Phần Kỹ Thương Thiên Hoàng",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:18:07.125791",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966547.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/dien-dien-tu-dien-lanh/truong-nhom-doi-truong-co-dien-thu-nhap-tren-25-trieu-di-lam-ngay-c41p210000160id200967495.html",
+    "id": "200967495",
+    "title": "Trưởng Nhóm (Đội Trưởng) Cơ Điện Thu Nhập Trên 25 Triệu - Đi Làm Ngay",
+    "company": "Công Ty Cổ Phần Kỹ Thương Thiên Hoàng",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:18:26.767468",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967495.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-sale-oppo-phu-trach-kinh-doanh-c6p210000160id200968195.html",
+    "id": "200968195",
+    "title": "[Hà Nội] Sale Oppo Phụ Trách Kinh Doanh",
+    "company": "Công Ty Cổ Phần Thương Mại Và Dịch Vụ Công Nghệ DHT",
+    "salary": "10 - 25 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-19T06:18:49.157271",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
   }
 ]

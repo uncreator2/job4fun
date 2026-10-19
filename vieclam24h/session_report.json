@@ -1,9 +1,59 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-16T17:45:11.513797",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-19T06:16:17.334536",
+  "todo_count": 8,
+  "applied_count": 7,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh Du Lịch Nội Địa, Inbound, Outbound",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-du-lich-noi-dia-inbound-outbound-c13p210000160id200966522.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966522.png"
+    },
+    {
+      "title": "Sales Manager (Trưởng Phòng Kinh Doanh)",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-manager-truong-phong-kinh-doanh-c13p210000160id200967664.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967664.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh / Điều Hành Du Lịch",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/marketing/pho-phong-kinh-doanh-dieu-hanh-du-lich-c12p210000160id200966527.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966527.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh OTC Ngành Dược – Thu Nhập 30Tr++",
+      "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
+      "url": "https://vieclam24h.vn/duoc-pham/quan-ly-kinh-doanh-otc-nganh-duoc-thu-nhap-30tr-c42p210000160id200967729.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967729.png"
+    },
+    {
+      "title": "Trưởng Phòng Marketing - Mảng Du Lịch",
+      "company": "Công Ty Cổ Phần Kỹ Thương Thiên Hoàng",
+      "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-mang-du-lich-c12p210000160id200966547.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966547.png"
+    },
+    {
+      "title": "Trưởng Nhóm (Đội Trưởng) Cơ Điện Thu Nhập Trên 25 Triệu - Đi Làm Ngay",
+      "company": "Công Ty Cổ Phần Kỹ Thương Thiên Hoàng",
+      "url": "https://vieclam24h.vn/dien-dien-tu-dien-lanh/truong-nhom-doi-truong-co-dien-thu-nhap-tren-25-trieu-di-lam-ngay-c41p210000160id200967495.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200967495.png"
+    },
+    {
+      "title": "[Hà Nội] Sale Oppo Phụ Trách Kinh Doanh",
+      "company": "Công Ty Cổ Phần Thương Mại Và Dịch Vụ Công Nghệ DHT",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-sale-oppo-phu-trach-kinh-doanh-c6p210000160id200968195.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
