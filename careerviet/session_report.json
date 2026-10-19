@@ -1,13 +1,25 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-19T06:13:41.322218",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-10-19T13:38:17.520361",
+  "todo_count": 3,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Quản lý vận hành kinh doanh (SOM)",
-      "company": "Công ty Cổ phần thực phẩm và đồ uống Barett",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-van-hanh-kinh-doanh-som.35C8B228.html",
+      "title": "TRƯỞNG PHÒNG KINH DOANH BÁN LẺ",
+      "company": "CÔNG TY TNHH HÙNG ANH LUXURY FASHION",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-ban-le.35C8B32A.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Kênh Online",
+      "company": "CÔNG TY TNHH TẬP ĐOÀN BÁCH MỘC AN",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-kenh-online.35C89B92.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "PHÓ PHÒNG KINH DOANH BÁN LẺ",
+      "company": "CÔNG TY TNHH HÙNG ANH LUXURY FASHION",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-kinh-doanh-ban-le.35C8B32C.html",
       "status": "APPLIED_OK"
     }
   ],
