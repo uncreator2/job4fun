@@ -2986,5 +2986,26 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-19T06:18:49.157271",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-dich-vu-pccc-b2b-thu-nhap-12-30-trieu-c13p210000160id200968539.html",
+    "id": "200968539",
+    "title": "Nhân Viên Kinh Doanh Dịch Vụ Pccc (B2B) – Thu Nhập 12-30 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-kenh-otc-c13p210000186id200968316.html",
+    "id": "200968316",
+    "title": "Nhân Viên Kinh Doanh Kênh OTC",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-di-lam-ngay-c13p210000160id200968698.html",
+    "id": "200968698",
+    "title": "Nhân Viên Kinh Doanh - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
