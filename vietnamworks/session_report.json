@@ -1,22 +1,36 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-19T16:43:32.817137",
-  "todo_count": 8,
-  "applied_count": 2,
+  "timestamp": "2026-10-19T19:35:03.802358",
+  "todo_count": 10,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "Mới Trưởng Phòng Kinh Doanh B2B",
-      "company": "Công Ty Cổ Phần Tập Đoàn Mavin",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-1792401768713715002-2121090-jv",
+      "title": "Mới Sales Manager (Bất Động Sản)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-manager-bat-dong-san-2120809-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121090.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120809.png"
     },
     {
-      "title": "Mới Sales Manager - Metal stamping - Manufacturing",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/sales-manager-metal-stamping-manufacturing-2121163-jv",
+      "title": "Mới Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty TNHH Thương Mại Và Vận Tải Thái Tân",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-2121030-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121163.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121030.png"
+    },
+    {
+      "title": "Sales Manager - Metal stamping - Manufacturing",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-metal-stamping-manufacturing-2121163-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792438538.png"
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-manager-1792391970493749083-2120929-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792438555.png"
     }
   ],
   "skipped_counts": {
