@@ -3014,5 +3014,33 @@
     "title": "Trợ Lý Kinh Doanh - Sales Admin",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kinh-doanh-thang-may-thu-nhap-20-50tr-co-ho-tro-dao-tao-di-lam-ngay-tai-ha-dong-c13p210000160id200968320.html",
+    "id": "200968320",
+    "title": "Chuyên Viên Kinh Doanh Thang Máy (Thu Nhập 20-50Tr, Có Hỗ Trợ Đào Tạo, Đi Làm Ngay Tại Hà Đông)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-mep-noi-that-c31p210000187id200968700.html",
+    "id": "200968700",
+    "title": "Giám Sát MEP (Nội Thất)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/dien-dien-tu-dien-lanh/ky-su-co-dien-thu-nhap-tren-15-trieu-co-ho-tro-dao-tao-di-lam-ngay-c41p210000160id200968285.html",
+    "id": "200968285",
+    "title": "Kỹ Sư Cơ - Điện Thu Nhập Trên 15 Triệu (Có Hỗ Trợ Đào Tạo) - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/ky-su-xay-dung-di-lam-ngay-c31p210000160id200968656.html",
+    "id": "200968656",
+    "title": "Kỹ Sư Xây Dựng - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
