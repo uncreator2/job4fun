@@ -9514,5 +9514,17 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-10-19 13:51:28",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thoi-trang/2335144.html": {
+    "job_id": "2335144",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thoi-trang/2335144.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792428329",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thoi-trang/2335144.html",
+    "company": "CÔNG TY TNHH KEIKO FASHION",
+    "salary": "24 - 25 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-10-19 16:45:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
