@@ -1,79 +1,60 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-20T11:59:57.771787",
-  "todo_count": 15,
-  "applied_count": 8,
+  "timestamp": "2026-10-20T14:35:38.303828",
+  "todo_count": 12,
+  "applied_count": 6,
   "applied_jobs": [
     {
-      "title": "Mới Customer Service Agent",
-      "company": "Qatar Airways",
-      "url": "https://www.vietnamworks.com/customer-service-agent-1792493621622573495-2121569-jv",
+      "title": "Giám Đốc Dự Án Thiết Bị Quản Lý Bay (Project Sales Manager – ATM Systems)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/giam-djoc-du-an-thiet-bi-quan-ly-bay-project-sales-manager-atm-systems-2111576-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121569.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506938.png"
     },
     {
-      "title": "Remote Customer Experience Specialist (Philippines)",
-      "company": "Công Ty TNHH Active Research",
-      "url": "https://www.vietnamworks.com/remote-customer-experience-specialist-philippines-1790234406102611414-2111125-jv",
+      "title": "[Bac Ninh Branch] Chinese FDI Relationship Manager",
+      "company": "",
+      "url": "https://www.vietnamworks.com/bac-ninh-branch-chinese-fdi-relationship-manager-1791168881665824736-2115500-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2111125.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506956.png"
     },
     {
-      "title": "Mới Chuyên Viên Phát Triển Kinh Doanh - Thành thạo tiếng Trung",
-      "company": "Công ty cổ phần Trang (TrangCorp)",
-      "url": "https://www.vietnamworks.com/chuyen-vien-phat-trien-kinh-doanh-thanh-thao-tieng-trung-1792476987155240756-2121362-jv",
+      "title": "ETC Regional Sales Manager (Ha Noi + North)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/etc-regional-sales-manager-ha-noi-north-1791365314298243400-2116922-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121362.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506973.png"
     },
     {
-      "title": "Mới Chuyên viên OCS",
-      "company": "Viettel Peru S.A",
-      "url": "https://www.vietnamworks.com/chuyen-vien-ocs-1792477891503035743-2121298-jv",
+      "title": "Business Development Manager",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-manager-1792141164200085574-2120458-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121298.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506990.png"
     },
     {
-      "title": "Mới Senior Manager, Business Development - Japan Desk (Native Japanese)",
-      "company": "KPMG Việt Nam",
-      "url": "https://www.vietnamworks.com/senior-manager-business-development-japan-desk-native-japanese-2121410-jv",
+      "title": "Business Development Manager - Chinese Speaking",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-manager-chinese-speaking-1791445299287310914-2117288-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121410.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792507007.png"
     },
     {
-      "title": "Senior Regional Sales Manager - GT Channel",
-      "company": "Abbott",
-      "url": "https://www.vietnamworks.com/senior-regional-sales-manager-gt-channel-1789975303408537223-2109552-jv",
+      "title": "Trưởng Phòng Kinh Doanh Mảng Xe Thương Mại Biết Tiếng Trung",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-mang-xe-thuong-mai-biet-tieng-trung-1792121516291664570-2120076-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2109552.png"
-    },
-    {
-      "title": "Quản Lý Trung Tâm - Center Sales Manager",
-      "company": "Mathnasium Việt Nam",
-      "url": "https://www.vietnamworks.com/quan-ly-trung-tam-center-sales-manager-1790564569903040072-2112260-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2112260.png"
-    },
-    {
-      "title": "Mới Business Development Manager (Field Sales Manager) - Hanoi & Hai Phong",
-      "company": "DHL Global Forwarding (Vietnam) Corporation",
-      "url": "https://www.vietnamworks.com/business-development-manager-field-sales-manager-hanoi-hai-phong-1792492755355859521-2121566-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121566.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792507024.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 6
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/pho-giam-doc-van-hanh-nganh-food-2111428-jv",
-      "title": "Phó Giám đốc vận hành ngành Food",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
@@ -82,7 +63,7 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
