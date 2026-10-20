@@ -3128,5 +3128,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-20T11:56:58.485996",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965443.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-c6p210000160id200965443.html",
+    "id": "200965443",
+    "title": "Cửa Hàng Trưởng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
