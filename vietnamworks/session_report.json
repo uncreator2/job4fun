@@ -1,50 +1,22 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-20T14:35:38.303828",
-  "todo_count": 12,
-  "applied_count": 6,
+  "timestamp": "2026-10-20T18:13:50.919432",
+  "todo_count": 8,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Giám Đốc Dự Án Thiết Bị Quản Lý Bay (Project Sales Manager – ATM Systems)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/giam-djoc-du-an-thiet-bi-quan-ly-bay-project-sales-manager-atm-systems-2111576-jv/",
+      "title": "Mới Trưởng Phòng Kinh Doanh - Dịch Vụ Xe Tuyến",
+      "company": "GSM",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-dich-vu-xe-tuyen-1792463568698538486-2121224-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506938.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121224.png"
     },
     {
-      "title": "[Bac Ninh Branch] Chinese FDI Relationship Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/bac-ninh-branch-chinese-fdi-relationship-manager-1791168881665824736-2115500-jv/",
+      "title": "Mới [Vinpearl Head Office Hà Nội] Quản Lý Kinh Doanh Nhà Hát",
+      "company": "Công Ty Cổ Phần Vinpearl",
+      "url": "https://www.vietnamworks.com/vinpearl-head-office-ha-noi-quan-ly-kinh-doanh-nha-hat-1792467973618752145-2121287-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506956.png"
-    },
-    {
-      "title": "ETC Regional Sales Manager (Ha Noi + North)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/etc-regional-sales-manager-ha-noi-north-1791365314298243400-2116922-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506973.png"
-    },
-    {
-      "title": "Business Development Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-1792141164200085574-2120458-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792506990.png"
-    },
-    {
-      "title": "Business Development Manager - Chinese Speaking",
-      "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-chinese-speaking-1791445299287310914-2117288-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792507007.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Mảng Xe Thương Mại Biết Tiếng Trung",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-mang-xe-thuong-mai-biet-tieng-trung-1792121516291664570-2120076-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792507024.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121287.png"
     }
   ],
   "skipped_counts": {
@@ -58,7 +30,7 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
