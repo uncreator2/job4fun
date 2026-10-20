@@ -9526,5 +9526,53 @@
     "exp": "1 năm",
     "first_extracted_at": "2026-10-19 16:45:45",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-mt/2335356.html": {
+    "job_id": "2335356",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-mt/2335356.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792476658",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-mt/2335356.html",
+    "company": "CÔNG TY CỔ PHẦN PALM FOREST VIỆT NAM",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-10-20 06:11:16",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-du-an-coo/2333390.html": {
+    "job_id": "2333390",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-du-an-coo/2333390.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792476658",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-du-an-coo/2333390.html",
+    "company": "CÔNG TY CP CVB VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-20 06:11:16",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-giai-phap-chieu-sang-luong-cung-18-25-trieu-thang-le-trong-tan-ha-noi/2335634.html": {
+    "job_id": "2335634",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-giai-phap-chieu-sang-luong-cung-18-25-trieu-thang-le-trong-tan-ha-noi/2335634.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792476699",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-giai-phap-chieu-sang-luong-cung-18-25-trieu-thang-le-trong-tan-ha-noi/2335634.html",
+    "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ LED FAWOOKIDI",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-20 06:11:54",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-noi-that/2335428.html": {
+    "job_id": "2335428",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-noi-that/2335428.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792476718",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-noi-that/2335428.html",
+    "company": "CÔNG TY TNHH DELUX HOME VIỆT NAM",
+    "salary": "20 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-20 06:12:12",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
