@@ -3042,5 +3042,44 @@
     "title": "Kỹ Sư Xây Dựng - Đi Làm Ngay",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/nhan-vien-du-toan-xay-dung-qs-thu-nhap-tu-15-20-trieu-di-lam-ngay-c31p210000160id200968566.html",
+    "id": "200968566",
+    "title": "Nhân Viên Dự Toán Xây Dựng (QS) Thu Nhập Từ 15-20 Triệu - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-nhan-vien-kinh-doanh-thi-truong-khong-yeu-cau-kinh-nghiem-c13p210000160id200968971.html",
+    "id": "200968971",
+    "title": "Nam Nhân Viên Kinh Doanh Thị Trường - Không Yêu Cầu Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khoa-hoc-ky-thuat/ky-su-dien-thu-nhap-len-toi-25-trieu-c34p210000160id200969334.html",
+    "id": "200969334",
+    "title": "Kỹ Sư Điện - Thu Nhập Lên Tới 25 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/dien-dien-tu-dien-lanh/ky-su-co-dien-m-e-di-lam-ngay-c41p210000160id200962453.html",
+    "id": "200962453",
+    "title": "Kỹ Sư Cơ Điện (M&E) - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/tro-ly-giam-doc-kiem-co-van-du-an-cat-soi-san-lap-luong-den-35-trieu-c1p210000160id200969289.html",
+    "id": "200969289",
+    "title": "Trợ Lý Giám Đốc Kiêm Cố Vấn Dự Án Cát - Sỏi - San Lấp - Lương Đến 35 Triệu",
+    "company": "Công Ty Cổ Phần Kingmann Paint&coating",
+    "salary": "15 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-20T06:04:26.369287",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969289.png"
   }
 ]
