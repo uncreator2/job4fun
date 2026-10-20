@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-20T06:13:07.474058",
-  "todo_count": 29,
+  "timestamp": "2026-10-20T12:05:48.338548",
+  "todo_count": 35,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-mt/2335356.html",
-      "title": "Trưởng Phòng Kinh Doanh (Kênh MT)",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-nganh-logistic/2335444.html",
+      "title": "Trưởng Nhóm Kinh Doanh - Ngành Logistic",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-du-an-coo/2333390.html",
-      "title": "Giám Đốc Điều Hành Dự Án (COO)",
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-sale/2106645.html",
+      "title": "Nhân Viên Sale",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-giai-phap-chieu-sang-luong-cung-18-25-trieu-thang-le-trong-tan-ha-noi/2335634.html",
-      "title": "Trưởng Nhóm Kinh Doanh Giải Pháp Chiếu Sáng, Lương Cứng 18 - 25 Triệu/ Tháng [Lê Trọng Tấn - Hà Nội]",
+      "url": "https://www.topcv.vn/viec-lam/tro-ly-truong-phong-kinh-doanh-part-time/2335946.html",
+      "title": "Trợ Lý Trưởng Phòng Kinh Doanh (Part-Time)",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
