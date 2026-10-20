@@ -1,36 +1,50 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-19T19:35:03.802358",
-  "todo_count": 10,
-  "applied_count": 4,
+  "timestamp": "2026-10-20T06:07:53.699540",
+  "todo_count": 12,
+  "applied_count": 6,
   "applied_jobs": [
     {
-      "title": "Mới Sales Manager (Bất Động Sản)",
-      "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/sales-manager-bat-dong-san-2120809-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120809.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty TNHH Thương Mại Và Vận Tải Thái Tân",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-2121030-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121030.png"
-    },
-    {
-      "title": "Sales Manager - Metal stamping - Manufacturing",
+      "title": "Senior Manager, Product Development (Industrial Park & Logistics Park)",
       "company": "",
-      "url": "https://www.vietnamworks.com/sales-manager-metal-stamping-manufacturing-2121163-jv/",
+      "url": "https://www.vietnamworks.com/senior-manager-product-development-industrial-park-logistics-park-1791449754038779711-2117354-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792438538.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476473.png"
     },
     {
-      "title": "Business Development Manager",
+      "title": "Head of Direct Retailer - GT Channel (Kakkoe channel)",
       "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-1792391970493749083-2120929-jv/",
+      "url": "https://www.vietnamworks.com/head-of-direct-retailer-gt-channel-kakkoe-channel-1792374125326391042-2120765-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792438555.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476491.png"
+    },
+    {
+      "title": "Sales Manager",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-2120601-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476509.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1792035319577221204-2119745-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476526.png"
+    },
+    {
+      "title": "Sales Manager - Industrial Manufacturing Equipment, Hanoi",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-industrial-manufacturing-equipment-hanoi-2110591-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476543.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-2121030-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792476560.png"
     }
   ],
   "skipped_counts": {
