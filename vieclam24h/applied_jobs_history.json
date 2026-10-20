@@ -3081,5 +3081,52 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-20T06:04:26.369287",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969289.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/cham-soc-khach-hang/nhan-vien-sieu-thi-tay-ho-luong-thu-nhap-len-den-10-trieu-di-lam-ngay-c30p210000160id200969066.html",
+    "id": "200969066",
+    "title": "Nhân Viên Siêu Thị Tây Hồ Lương - Thu Nhập Lên Đến 10 Triệu Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thi-truong-momo-c13p210000160id200968234.html",
+    "id": "200968234",
+    "title": "Nhân Viên Kinh Doanh Thị Trường Momo",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000187id200969518.html",
+    "id": "200969518",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-20T11:56:04.960766",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969518.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-c13p210000160id200969720.html",
+    "id": "200969720",
+    "title": "Giám Sát Kinh Doanh / Sales Supervisor",
+    "company": "Công Ty Cổ Phần Đầu Tư Wonderhomes",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-20T11:56:30.063670",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969720.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-cua-hang-c6p210000160id200965443.html",
+    "id": "200965443",
+    "title": "Trưởng Cửa Hàng",
+    "company": "Công Ty Cổ Phần Hai Bốn Bảy",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-20T11:56:58.485996",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965443.png"
   }
 ]

@@ -1,15 +1,29 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-20T06:03:52.552487",
-  "todo_count": 2,
-  "applied_count": 1,
+  "timestamp": "2026-10-20T11:55:31.056473",
+  "todo_count": 4,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Trợ Lý Giám Đốc Kiêm Cố Vấn Dự Án Cát - Sỏi - San Lấp - Lương Đến 35 Triệu",
-      "company": "Công Ty Cổ Phần Kingmann Paint&coating",
-      "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/tro-ly-giam-doc-kiem-co-van-du-an-cat-soi-san-lap-luong-den-35-trieu-c1p210000160id200969289.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000187id200969518.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969289.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969518.png"
+    },
+    {
+      "title": "Giám Sát Kinh Doanh / Sales Supervisor",
+      "company": "Công Ty Cổ Phần Đầu Tư Wonderhomes",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-c13p210000160id200969720.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969720.png"
+    },
+    {
+      "title": "Trưởng Cửa Hàng",
+      "company": "Công Ty Cổ Phần Hai Bốn Bảy",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-cua-hang-c6p210000160id200965443.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200965443.png"
     }
   ],
   "skipped_counts": {

@@ -1768,5 +1768,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-10-20T06:02:46.840446"
+  },
+  {
+    "id": "200969518",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000187id200969518.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-20T11:54:07.734203"
+  },
+  {
+    "id": "200969720",
+    "title": "Giám Sát Kinh Doanh / Sales Supervisor",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-c13p210000160id200969720.html",
+    "company": "Công Ty Cổ Phần Đầu Tư Wonderhomes",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-20T11:54:13.747861"
+  },
+  {
+    "id": "200965443",
+    "title": "Trưởng Cửa Hàng",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-cua-hang-c6p210000160id200965443.html",
+    "company": "Công Ty Cổ Phần Hai Bốn Bảy",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-20T11:54:25.953575"
   }
 ]
