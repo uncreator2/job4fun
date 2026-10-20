@@ -9658,5 +9658,17 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-10-20 14:39:02",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mang-son-nuoc/2016700.html": {
+    "job_id": "2016700",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mang-son-nuoc/2016700.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792520166",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mang-son-nuoc/2016700.html",
+    "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN MINH DŨNG",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-20 18:16:26",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
