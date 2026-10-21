@@ -3231,5 +3231,33 @@
     "title": "Trợ Lý Kinh Doanh",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-thu-nhap-len-den-30-trieu-thang-khong-yeu-cau-di-thi-truong-ha-noi-c13p210000160id200970778.html",
+    "id": "200970778",
+    "title": "Nhân Viên Kinh Doanh - Thu Nhập Lên Đến 30 Triệu / Tháng - Không Yêu Cầu Đi Thị Trường | Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/nu-nhan-vien-mua-hang-xuat-nhap-khau-tai-long-bien-c14p210000160id200938341.html",
+    "id": "200938341",
+    "title": "Nữ Nhân Viên Mua Hàng & Xuất Nhập Khẩu Tại Long Biên",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/nhan-vien-mua-hang-nhap-khau-c14p210000160id200951028.html",
+    "id": "200951028",
+    "title": "Nhân Viên Mua Hàng Nhập Khẩu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-khong-can-kinh-nghiem-thu-nhap-15-25-trieu-c13p210000160id200966899.html",
+    "id": "200966899",
+    "title": "Nhân Viên Kinh Doanh Không Cần Kinh Nghiệm - Thu Nhập 15 - 25 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
