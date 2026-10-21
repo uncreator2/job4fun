@@ -1,11 +1,19 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-20T18:10:16.376481",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-21T06:05:18.284353",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Quản Lý Booking & Phát Triển Show",
+      "company": "Công Ty TNHH Nhà Máy Bia Heineken Việt Nam",
+      "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/quan-ly-booking-phat-trien-show-c24p210000160id200839167.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -16,6 +24,11 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
+    },
+    {
+      "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/quan-ly-booking-phat-trien-show-c24p210000160id200839167.html",
+      "title": "Quản Lý Booking & Phát Triển Show",
+      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }

@@ -3135,5 +3135,51 @@
     "title": "Cửa Hàng Trưởng",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-khu-vui-choi-thu-nhap-len-den-12-trieu-lam-viec-tai-ha-noi-centre-c6p210000160id200966099.html",
+    "id": "200966099",
+    "title": "Cửa Hàng Trưởng Khu Vui Chơi_ Thu Nhập Lên Đến 12 Triệu (Làm Việc Tại Hà Nội Centre)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-khu-vuc-mien-nam-di-lam-ngay-c6p210000187id200837423.html",
+    "id": "200837423",
+    "title": "Cửa Hàng Trưởng - Khu Vực Miền Nam (Đi Làm Ngay)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/cua-hang-truong-nganh-my-pham-c13p210000187id200957062.html",
+    "id": "200957062",
+    "title": "Cửa Hàng Trưởng - Ngành Mỹ Phẩm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-nu-the-loop-luong-cung-10-trieu-thang-c6p210000160id200964296.html",
+    "id": "200964296",
+    "title": "Cửa Hàng Trưởng (Nữ) - The Loop - Lương Cứng 10 Triệu / Tháng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/ha-noi-giam-sat-cua-hang-nhan-viec-ngay-c5p210000160id200959340.html",
+    "id": "200959340",
+    "title": "[Hà Nội] Giám Sát Cửa Hàng Nhận Việc Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/quan-ly-booking-phat-trien-show-c24p210000160id200839167.html",
+    "id": "200839167",
+    "title": "Quản Lý Booking & Phát Triển Show",
+    "company": "Công Ty TNHH Nhà Máy Bia Heineken Việt Nam",
+    "salary": "11 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-10-21T06:05:40.857523",
+    "proof": null
   }
 ]
