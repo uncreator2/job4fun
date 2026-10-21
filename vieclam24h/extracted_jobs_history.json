@@ -1818,5 +1818,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-10-21T06:04:47.768021"
+  },
+  {
+    "id": "200966945",
+    "title": "Phó Phòng Kinh Doanh Xuất Nhập Khẩu",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-xuat-nhap-khau-c13p210000160id200966945.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-21T12:05:37.107673"
+  },
+  {
+    "id": "200964803",
+    "title": "Trưởng Phòng Kinh Doanh- Thu Nhập Từ 50 Triệu- Ngành Bất Động Sản",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thu-nhap-tu-50-trieu-nganh-bat-dong-san-c13p210000160id200964803.html",
+    "company": "Công Ty TNHH Aeon Fantasy Việt Nam",
+    "salary": "16 - 18 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-21T12:05:45.661612"
+  },
+  {
+    "id": "200968195",
+    "title": "[Hà Nội] Sales Oppo Phụ Trách Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-sales-oppo-phu-trach-kinh-doanh-c6p210000160id200968195.html",
+    "company": "Oppo Việt Nam",
+    "salary": "12 - 20 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-10-21T12:06:05.473692"
   }
 ]

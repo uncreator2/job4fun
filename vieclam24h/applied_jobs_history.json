@@ -3181,5 +3181,41 @@
     "status": "ALREADY_APPLIED",
     "applied_at": "2026-10-21T06:05:40.857523",
     "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-cua-hang-c13p210000160id200970553.html",
+    "id": "200970553",
+    "title": "Quản Lý Cửa Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thu-nhap-tu-50-trieu-nganh-bat-dong-san-c13p210000160id200964803.html",
+    "id": "200964803",
+    "title": "Trưởng Phòng Kinh Doanh- Thu Nhập Từ 50 Triệu- Ngành Bất Động Sản",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-xuat-nhap-khau-c13p210000160id200966945.html",
+    "id": "200966945",
+    "title": "Phó Phòng Kinh Doanh Xuất Nhập Khẩu",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-21T12:08:24.003575",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966945.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-sales-oppo-phu-trach-kinh-doanh-c6p210000160id200968195.html",
+    "id": "200968195",
+    "title": "[Hà Nội] Sales Oppo Phụ Trách Kinh Doanh",
+    "company": "Oppo Việt Nam",
+    "salary": "12 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-21T12:08:45.892587",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
   }
 ]
