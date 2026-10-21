@@ -1,54 +1,47 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-21T06:08:50.736539",
-  "todo_count": 14,
-  "applied_count": 6,
+  "timestamp": "2026-10-21T12:12:00.422414",
+  "todo_count": 11,
+  "applied_count": 5,
   "applied_jobs": [
     {
-      "title": "Mới Finance Business Analyst Manager - ID4156",
-      "company": "VPBank - Https://tuyendung.vpbank.com.vn/",
-      "url": "https://www.vietnamworks.com/finance-business-analyst-manager-id4156-1792551989388393519-2121679-jv",
+      "title": "[Hot] Quản Lý Tiến Độ Dự Án (Project Manager)",
+      "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
+      "url": "https://www.vietnamworks.com/hot-quan-ly-tien-do-du-an-project-manager-1792488814779146426-2121496-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121679.png"
-    },
-    {
-      "title": "Mới Service Manager (VinFast) | Giám Đốc Xưởng Dịch Vụ Ô Tô",
-      "company": "Vietnamworks' Client",
-      "url": "https://www.vietnamworks.com/service-manager-vinfast-giam-doc-xuong-dich-vu-o-to-1790742493245361939-2113624-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2113624.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121496.png"
     },
     {
       "title": "Trưởng Phòng Kinh Doanh",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1791515171124557288-2117224-jv/",
+      "company": "CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ QUẢN TRỊ DOANH NGHIỆP VIỆT NAM",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1791535154425357151-2117740-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792562979.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117740.png"
     },
     {
-      "title": "Assistant Project Sales Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/assistant-project-sales-manager-1791966038953501584-2119438-jv/",
+      "title": "Mới Trưởng Phòng Kinh Doanh Online",
+      "company": "Menard Vietnam",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-online-1790765001896450619-2114106-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792562999.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114106.png"
     },
     {
-      "title": "Giám Đốc Đơn Vị Kinh Doanh [Khu Vực Hồ Chí Minh]",
-      "company": "",
-      "url": "https://www.vietnamworks.com/giam-doc-don-vi-kinh-doanh-khu-vuc-ho-chi-minh-2121591-jv/",
+      "title": "Mới Trưởng Phòng Kinh Doanh B2B (Mảng Phụ Tùng Xe Máy)",
+      "company": "CÔNG TY TNHH DAICHI VIỆT NAM",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-mang-phu-tung-xe-may-2114203-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792563016.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114203.png"
     },
     {
-      "title": "Commercial Banking Relationship Manager (Hanoi, Chinese Speaking RM)",
+      "title": "Project Sales Manager – Aviation & ATM Systems",
       "company": "",
-      "url": "https://www.vietnamworks.com/commercial-banking-relationship-manager-hanoi-chinese-speaking-rm-1792050880749809267-2119953-jv/",
+      "url": "https://www.vietnamworks.com/project-sales-manager-aviation-atm-systems-2111576-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792563034.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792584788.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 2,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -56,44 +49,34 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.vietnamworks.com/giam-doc-cong-ty-vi-dien-tu-bipay-1790771397243553116-2114433-jv",
-      "title": "Mới Giám Đốc Công Ty Ví Điện Tử Bipay",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/giam-djoc-kinh-doanh-sales-director-2099710-jv",
-      "title": "Mới Giám Đốc Kinh Doanh - Sales Director",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
