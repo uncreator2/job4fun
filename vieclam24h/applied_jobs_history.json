@@ -3217,5 +3217,19 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-21T12:08:45.892587",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-tu-van-sales-luong-tu-15-20-trieu-tai-hoang-mai-gia-lam-c13p210000160id200970258.html",
+    "id": "200970258",
+    "title": "Nhân Viên Kinh Doanh / Tư Vấn / Sales - Lương Từ 15-20 Triệu Tại Hoàng Mai, Gia Lâm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/tro-ly-kinh-doanh-c1p210000187id200960788.html",
+    "id": "200960788",
+    "title": "Trợ Lý Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]

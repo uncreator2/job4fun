@@ -1,24 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-21T12:07:38.652796",
-  "todo_count": 3,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Phó Phòng Kinh Doanh Xuất Nhập Khẩu",
-      "company": "CÔNG TY TNHH VENESA",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-xuat-nhap-khau-c13p210000160id200966945.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966945.png"
-    },
-    {
-      "title": "[Hà Nội] Sales Oppo Phụ Trách Kinh Doanh",
-      "company": "Oppo Việt Nam",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-sales-oppo-phu-trach-kinh-doanh-c6p210000160id200968195.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968195.png"
-    }
-  ],
+  "timestamp": "2026-10-21T14:42:26.708884",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
