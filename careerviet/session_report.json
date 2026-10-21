@@ -1,25 +1,13 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-20T11:51:52.504011",
-  "todo_count": 3,
-  "applied_count": 3,
+  "timestamp": "2026-10-21T06:02:27.068266",
+  "todo_count": 1,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh (Mảng Logistics)",
-      "company": "Nhất Tín Logistics",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-mang-logistics.35C8B54A.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng kinh doanh",
-      "company": "Công ty Cổ phần Masscom Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8B4FF.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh",
-      "company": "Công Ty Cổ Phần Công Nghệ Mạng Viễn Thông C-LINK",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8B4DF.html",
+      "title": "Sales Director (Oncology)",
+      "company": "Bảo mật",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-director-oncology.35C8B64A.html",
       "status": "APPLIED_OK"
     }
   ],
