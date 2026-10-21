@@ -9910,5 +9910,17 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-10-21 14:49:00",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2335140.html": {
+    "job_id": "2335140",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2335140.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792607065",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2335140.html",
+    "company": "CÔNG TY TNHH PROTUS SUPPLY CHAIN (VIETNAM)",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-21 18:24:43",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
