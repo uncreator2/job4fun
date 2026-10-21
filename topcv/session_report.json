@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-21T12:18:12.191445",
-  "todo_count": 54,
+  "timestamp": "2026-10-21T14:49:50.658948",
+  "todo_count": 57,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/sales-manager-b2b-healthcare-audiology-solutions-40-50-mil/2337310.html",
-      "title": "Sales Manager B2B (Healthcare - Audiology Solutions) | 40-50 Mil",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-linh-vuc-tai-chinh-o-to/2334898.html",
+      "title": "Quản Lý Kinh Doanh Khu Vực Lĩnh Vực Tài Chính Ô Tô",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2336737.html",
-      "title": "Trưởng Phòng Kinh Doanh",
+      "url": "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2262663.html",
+      "title": "Quản Lí Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-vat-tu-nganh-nuoc/2335862.html",
-      "title": "Trưởng Phòng Kinh Doanh Vật Tư Ngành Nước",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2336022.html",
+      "title": "Quản Lý Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]

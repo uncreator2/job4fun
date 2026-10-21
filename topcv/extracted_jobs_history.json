@@ -9874,5 +9874,41 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-10-21 12:16:59",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-linh-vuc-tai-chinh-o-to/2334898.html": {
+    "job_id": "2334898",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-linh-vuc-tai-chinh-o-to/2334898.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792594073",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-linh-vuc-tai-chinh-o-to/2334898.html",
+    "company": "CÔNG TY CỔ PHẦN FUNDIIN",
+    "salary": "16 - 20 triệu",
+    "location": "Hà Nội & 9 nơi khác",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-10-21 14:48:09",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2262663.html": {
+    "job_id": "2262663",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2262663.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792594128",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2262663.html",
+    "company": "CÔNG TY TNHH DONGFENG MOTOR VIỆT NAM",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-10-21 14:49:00",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2336022.html": {
+    "job_id": "2336022",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2336022.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792594128",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2336022.html",
+    "company": "CÔNG TY TNHH NL VIỆT NAM",
+    "salary": "15 - 40 triệu",
+    "location": "Hà Nội & 9 nơi khác",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-10-21 14:49:00",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
