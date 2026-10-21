@@ -1,15 +1,29 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-21T14:45:53.072350",
-  "todo_count": 7,
-  "applied_count": 1,
+  "timestamp": "2026-10-21T18:22:10.796008",
+  "todo_count": 9,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Mới Trưởng Phòng Kinh Doanh",
-      "company": "Công ty Cổ phần Dược phẩm trung ương CPC1",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1792554931968004620-2121706-jv",
+      "title": "Mới Trưởng Phòng Kinh Doanh Thiết Bị Y Tế",
+      "company": "Công ty TNHH công nghệ và y tế Đại Long",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-thiet-bi-y-te-1791362653619862435-2116889-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121706.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2116889.png"
+    },
+    {
+      "title": "Sales Manager (Non-Life Insurance)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-manager-non-life-insurance-1-2121441-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121441.png"
+    },
+    {
+      "title": "Mới Quản Lý Kinh Doanh Cấp Cao B2B",
+      "company": "Công Ty Cổ Phần Giovanni Hoa Sơn ECO Factory",
+      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-cap-cao-b2b-1792573972403305530-2121998-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121998.png"
     }
   ],
   "skipped_counts": {
