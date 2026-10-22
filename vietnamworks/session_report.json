@@ -1,71 +1,50 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-22T06:14:58.571495",
-  "todo_count": 15,
-  "applied_count": 9,
+  "timestamp": "2026-10-22T12:32:01.095875",
+  "todo_count": 12,
+  "applied_count": 6,
   "applied_jobs": [
     {
-      "title": "Mới Phó Tổng Giám Đốc Phụ Trách Trạm Biến Áp Và Đường Dây (Tại Lào)",
-      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
-      "url": "https://www.vietnamworks.com/pho-tong-giam-doc-phu-trach-tram-bien-ap-va-duong-day-tai-lao-1791971801614974828-2119448-jv",
+      "title": "Mới Nhân Viên Kỹ Thuật – Chương Trình Đào Tạo Tại Hoa Kỳ",
+      "company": "Công Ty CP Hyundai Aluminum Vina",
+      "url": "https://www.vietnamworks.com/nhan-vien-ky-thuat-chuong-trinh-dao-tao-tai-hoa-ky-1792651610688496384-2122370-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119448.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122370.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh Đồng Hành Xây Dựng Hệ Thống Kinh Doanh Trà Việt Toàn Quốc",
+      "company": "CÔNG TY TNHH MTV HỒNG TRÀ",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-dong-hanh-xay-dung-he-thong-kinh-doanh-tra-viet-toan-quoc-1792655492651876671-2122425-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122425.png"
+    },
+    {
+      "title": "[Hot] Quản Lý Kiểm Soát Tài Chính",
+      "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
+      "url": "https://www.vietnamworks.com/hot-quan-ly-kiem-soat-tai-chinh-1792487663752834774-2121479-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121479.png"
+    },
+    {
+      "title": "Mới Trưởng phòng Phát triển Kinh doanh - Business Development Manager - Khối Khách hàng lớn (2026TD456711)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-kinh-doanh-business-development-manager-khoi-khach-hang-lon-2026td456711-1792637650354398659-2122117-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122117.png"
     },
     {
       "title": "Mới Trưởng Phòng Kinh Doanh",
-      "company": "CTCP Chăm sóc sức khỏe đường ruột Việt Nam",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1792640162702561437-2122013-jv",
+      "company": "CÔNG TY CỔ PHẦN VSOUL CREATION",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1792655898743322564-2122375-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122013.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122375.png"
     },
     {
-      "title": "Sales Manager",
-      "company": "CÔNG TY TNHH VẬN TẢI KART (VIỆT NAM)",
-      "url": "https://www.vietnamworks.com/sales-manager-2120601-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120601.png"
-    },
-    {
-      "title": "Mới Business Development Manager - North",
-      "company": "IDP Education (Vietnam)",
-      "url": "https://www.vietnamworks.com/business-development-manager-north-1792639698108049600-2122182-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122182.png"
-    },
-    {
-      "title": "Mới Export Sales Manager / Trưởng Phòng Kinh Doanh Xuất Khẩu",
-      "company": "Tập Đoàn Karofi Holding",
-      "url": "https://www.vietnamworks.com/export-sales-manager-truong-phong-kinh-doanh-xuat-khau-1792644675790333289-2122298-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122298.png"
-    },
-    {
-      "title": "IT/ Retail Key Account Manager (Northern Side)",
+      "title": "Associate Account Manager",
       "company": "",
-      "url": "https://www.vietnamworks.com/it-retail-key-account-manager-northern-side-2111651-jv/",
+      "url": "https://www.vietnamworks.com/associate-account-manager-1790752354234116564-2113731-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792649780.png"
-    },
-    {
-      "title": "Area Sales Manager - ETC (Ho Chi Minh)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/area-sales-manager-etc-ho-chi-minh-1792581310861643238-2122035-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792649795.png"
-    },
-    {
-      "title": "Business Development Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-1792574822132343088-2122007-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792649812.png"
-    },
-    {
-      "title": "Sales Manager – Xiaomi Brand",
-      "company": "",
-      "url": "https://www.vietnamworks.com/sales-manager-xiaomi-brand-1792571788931927045-2121931-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792649827.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792672412.png"
     }
   ],
   "skipped_counts": {
@@ -79,17 +58,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
