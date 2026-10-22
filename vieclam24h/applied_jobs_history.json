@@ -3349,5 +3349,58 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-22T12:11:59.393557",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971825.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-goi-dien-chot-don-thuong-theo-doanh-so-thu-nhap-14-20-trieu-c13p210000187id200971933.html",
+    "id": "200971933",
+    "title": "Nhân Viên Gọi Điện Chốt Đơn – Thưởng Theo Doanh Số Thu Nhập 14 - 20 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-lam-tai-quan-1-c13p210000187id200971174.html",
+    "id": "200971174",
+    "title": "Trưởng Nhóm Kinh Doanh - Làm Tại Quận 1",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-nhan-vien-sale-kinh-doanh-lam-viec-tai-quan-10-thu-nhap-len-toi-30-trieu-thang-c13p210000187id200970774.html",
+    "id": "200970774",
+    "title": "Nam Nhân Viên Sale - Kinh Doanh Làm Việc Tại Quận 10 - Thu Nhập Lên Tới 30 Triệu / Tháng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-thu-nhap-den-18-trieu-nhan-viec-ngay-c13p210000160id200970643.html",
+    "id": "200970643",
+    "title": "Nhân Viên Bán Hàng - Thu Nhập Đến 18 Triệu - Nhận Việc Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-nam-thu-nhap-len-den-20-trieu-c13p210000187id200971172.html",
+    "id": "200971172",
+    "title": "Nhân Viên Kinh Doanh [Nam] (Thu Nhập Lên Đến 20 Triệu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-kinh-doanh-b2b-hcm-di-lam-ngay-c6p210000187id200969288.html",
+    "id": "200969288",
+    "title": "Quản Lý Kinh Doanh B2B [HCM] Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nv-kinh-doanh-thi-truong-c13p210000160id200971231.html",
+    "id": "200971231",
+    "title": "NV Kinh Doanh Thị Trường",
+    "company": "Công Ty Cổ Phần Tập Đoàn Lê Gia",
+    "salary": "10 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-22T18:43:29.186196",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971231.png"
   }
 ]

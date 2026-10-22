@@ -1,9 +1,17 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-22T14:55:35.366779",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-22T18:42:56.706664",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "NV Kinh Doanh Thị Trường",
+      "company": "Công Ty Cổ Phần Tập Đoàn Lê Gia",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nv-kinh-doanh-thi-truong-c13p210000160id200971231.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971231.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
