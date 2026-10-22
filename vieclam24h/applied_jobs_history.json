@@ -3281,5 +3281,73 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-22T06:11:40.763085",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200954662.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sale-quan-ly-kenh-phan-phoi-tai-ha-noi-c13p210000160id200957596.html",
+    "id": "200957596",
+    "title": "Nhân Viên Kinh Doanh / Sale / Quản Lý Kênh Phân Phối Tại Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/chuyen-vien-nhap-khau-thuc-pham-cau-giay-nghi-full-t7-cn-c14p210000160id200971185.html",
+    "id": "200971185",
+    "title": "Chuyên Viên Nhập Khẩu Thực Phẩm - Cầu Giấy (Nghỉ Full T7&cn)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/buu-chinh-vien-thong/nhan-vien-kinh-doanh-vtvcab-tai-ha-noi-thu-nhap-tu-10-25-trieu-khong-can-kinh-nghiem-c38p210000160id200971813.html",
+    "id": "200971813",
+    "title": "Nhân Viên Kinh Doanh Vtvcab Tại Hà Nội_Thu Nhập Từ 10 - 25 Triệu_Không Cần Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/bien-phien-dich/tro-ly-giam-doc-biet-tieng-trung-hsk5-c37p210000187id200972142.html",
+    "id": "200972142",
+    "title": "Trợ Lý Giám Đốc Biết Tiếng Trung Hsk5",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kinh-doanh-kenh-nha-phan-phoi-ruou-thu-nhap-tu-17-40-trieu-c13p210000187id200913931.html",
+    "id": "200913931",
+    "title": "Chuyên Viên Kinh Doanh Kênh Nhà Phân Phối Rượu, Thu Nhập Từ 17 - 40 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200972132.html",
+    "id": "200972132",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-22T12:11:24.006106",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200972132.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-kinh-doanh-tru-so-chinh-c6p210000160id200951818.html",
+    "id": "200951818",
+    "title": "Quản Lý Kinh Doanh - Trụ Sở Chính",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-10-22T12:11:35.039646",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/truong-nhom-ban-hang-qua-dien-thoai-vpbank-luong-cung-thuong-hieu-qua-quan-ly-thuong-kinh-doanh-tong-thu-nhap-upto-30tr-thang-c18p210000187id200971825.html",
+    "id": "200971825",
+    "title": "Trưởng Nhóm Bán Hàng Qua Điện Thoại (VPBank - Lương Cứng + Thưởng Hiệu Quả Quản Lý + Thưởng Kinh Doanh. Tổng Thu Nhập Upto 30Tr / Tháng)",
+    "company": "Công Ty Cổ Phần Công Nghệ Và Ứng Dụng Sao Mộc",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-22T12:11:59.393557",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971825.png"
   }
 ]
