@@ -1,9 +1,24 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-21T18:18:48.332718",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-10-22T06:10:45.097261",
+  "todo_count": 3,
+  "applied_count": 2,
+  "applied_jobs": [
+    {
+      "title": "Kinh Doanh / Sale / Quản Lý Kênh Phân Phối Tại Hà Nội",
+      "company": "CÔNG TY CỔ PHẦN EUROSTARK",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/kinh-doanh-sale-quan-ly-kenh-phan-phoi-tai-ha-noi-c13p210000160id200957596.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957596.png"
+    },
+    {
+      "title": "Sales Thị Trường- Thu Nhập Trên 17 Triệu- Làm Tại Hà Nam",
+      "company": "CÔNG TY CỔ PHẦN EUROSTARK",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-thi-truong-thu-nhap-tren-17-trieu-lam-tai-ha-nam-c13p210000174id200954662.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200954662.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
