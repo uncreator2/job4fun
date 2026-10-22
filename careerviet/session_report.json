@@ -1,13 +1,25 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-22T06:08:05.797586",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-10-22T12:06:40.771318",
+  "todo_count": 3,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Trưởng phòng kinh doanh BĐS",
-      "company": "CÔNG TY CP ĐẦU TƯ XÂY DỰNG VÀ CƠ ĐIỆN IEC",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bds.35C8B7B9.html",
+      "title": "GIÁM ĐỐC KINH DOANH FDI BĐS CÔNG NGHIỆP",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ MAI VIỆT INDUSTRIAL",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-fdi-bds-cong-nghiep.35C8B904.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Giám đốc Kinh doanh",
+      "company": "Công ty cổ phần văn phòng phẩm Hồng Hà",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-giam-doc-kinh-doanh.35C8B879.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "TRƯỞNG PHÒNG KINH DOANH FDI BĐS CÔNG NGHIỆP",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ MAI VIỆT INDUSTRIAL",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-fdi-bds-cong-nghiep.35C8B8AA.html",
       "status": "APPLIED_OK"
     }
   ],
