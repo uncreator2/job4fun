@@ -1,15 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-22T18:42:56.706664",
+  "timestamp": "2026-10-23T06:05:51.579703",
   "todo_count": 2,
   "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "NV Kinh Doanh Thị Trường",
-      "company": "Công Ty Cổ Phần Tập Đoàn Lê Gia",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nv-kinh-doanh-thi-truong-c13p210000160id200971231.html",
+      "title": "Leader Sale",
+      "company": "Công Ty TNHH Nhà Máy Bia Heineken Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/leader-sale-c13p210000160id200969442.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971231.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969442.png"
     }
   ],
   "skipped_counts": {

@@ -3402,5 +3402,44 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-10-22T18:43:29.186196",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200971231.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/bat-dong-san/thu-duc-nhan-vien-kinh-doanh-luong-co-ban-upto-20m-di-lam-ngay-c29p210000187id200972521.html",
+    "id": "200972521",
+    "title": "[Thủ Đức] Nhân Viên Kinh Doanh Lương Cơ Bản Upto 20M - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/nhan-vien-kinh-doanh-thu-nhap-len-den-20tr-thang-di-lam-ngay-c12p210000187id200969907.html",
+    "id": "200969907",
+    "title": "Nhân Viên Kinh Doanh Thu Nhập Lên Đến 20Tr / Tháng - Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-ban-hang-horeca-thu-nhap-upto-40-trieu-vung-tau-ho-chi-minh-c13p210000187id200965801.html",
+    "id": "200965801",
+    "title": "Nhân Viên Kinh Doanh / Sales / Bán Hàng - Horeca, Thu Nhập Upto 40 Triệu, Vũng Tàu / Hồ Chí Minh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-ban-hang-tai-van-phong-khong-can-kinh-nghiem-tong-thu-nhap-14-trieu-c13p210000187id200972334.html",
+    "id": "200972334",
+    "title": "Nhân Viên Bán Hàng Tại Văn Phòng Không Cần Kinh Nghiệm Tổng Thu Nhập 14 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/leader-sale-c13p210000160id200969442.html",
+    "id": "200969442",
+    "title": "Leader Sale",
+    "company": "Công Ty TNHH Nhà Máy Bia Heineken Việt Nam",
+    "salary": "11 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-10-23T06:06:27.748371",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969442.png"
   }
 ]
