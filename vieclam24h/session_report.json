@@ -1,29 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-23T06:05:51.579703",
-  "todo_count": 2,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Leader Sale",
-      "company": "Công Ty TNHH Nhà Máy Bia Heineken Việt Nam",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/leader-sale-c13p210000160id200969442.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200969442.png"
-    }
-  ],
+  "timestamp": "2026-10-23T12:03:47.256135",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 1
+    "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
-      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
-      "reason": "ERROR"
-    }
-  ]
+  "skipped_details": []
 }
