@@ -10078,5 +10078,41 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-10-22 15:03:57",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tieng-trung/2256901.html": {
+    "job_id": "2256901",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tieng-trung/2256901.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792736431",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tieng-trung/2256901.html",
+    "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ PHÚC BÌNH",
+    "salary": "15 - 22 triệu",
+    "location": "Hà Nội, Hải Phòng",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-10-23 06:20:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager/2336737.html": {
+    "job_id": "2336737",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager/2336737.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792736431",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager/2336737.html",
+    "company": "CÔNG TY CỔ PHẦN MASSCOM VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-10-23 06:20:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-y-te-thu-nhap-hap-dan/2338866.html": {
+    "job_id": "2338866",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-y-te-thu-nhap-hap-dan/2338866.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1792736431",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-y-te-thu-nhap-hap-dan/2338866.html",
+    "company": "CÔNG TY CỔ PHẦN THĂNG LONG LẠC VIỆT",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-10-23 06:20:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
