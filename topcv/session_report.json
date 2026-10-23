@@ -1,6 +1,6 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-23T06:22:40.689315",
+  "timestamp": "2026-10-23T12:07:25.406251",
   "todo_count": 74,
   "applied_count": 0,
   "applied_jobs": [],
@@ -13,19 +13,19 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tieng-trung/2256901.html",
-      "title": "Trưởng Phòng Kinh Doanh Tiếng Trung",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html",
+      "title": "",
+      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager/2336737.html",
-      "title": "Trưởng Phòng Kinh Doanh | Sales Manager",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html",
+      "title": "",
+      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-y-te-thu-nhap-hap-dan/2338866.html",
-      "title": "Giám Đốc Kinh Doanh Ngành Y Tế - Thu Nhập Hấp Dẫn",
-      "reason": "Modal ứng tuyển không mở được"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
+      "title": "",
+      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
