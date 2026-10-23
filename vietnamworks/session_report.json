@@ -1,31 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-23T06:17:22.994967",
-  "todo_count": 9,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "[Hà Nội] Chuyên viên cấp cao/Chuyên gia Sản phẩm & Giải pháp kinh doanh (Quản lý dòng tiền) - Cash Sales Specialist - Khối Khách hàng Doanh nghiệp",
-      "company": "Ngân Hàng TMCP Quốc Dân ( NCB )",
-      "url": "https://www.vietnamworks.com/ha-noi-chuyen-vien-cap-cao-chuyen-gia-san-pham-giai-phap-kinh-doanh-quan-ly-dong-tien-cash-sales-specialist-khoi-khach-hang-doanh-nghiep-1792667103003479810-2122681-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122681.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh Bất Động Sản",
-      "company": "Công Ty Cổ Phần Vinhomes",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-bat-dong-san-1792730598561288110-2122890-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122890.png"
-    },
-    {
-      "title": "Key Account Manager - English & Chinses proficiency - Packaging Industry",
-      "company": "",
-      "url": "https://www.vietnamworks.com/key-account-manager-english-chinses-proficiency-packaging-industry-1790136683433343519-2110544-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1792736277.png"
-    }
-  ],
+  "timestamp": "2026-10-23T12:05:07.211323",
+  "todo_count": 6,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -37,32 +15,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/product-marketing-manager-2084750-jv/\nCall log:\n  - navigating to \"https://www.vietnamworks.com/product-marketing-manager-2084750-jv/\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
