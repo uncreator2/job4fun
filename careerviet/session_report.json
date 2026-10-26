@@ -1,7 +1,7 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-26T06:14:06.069531",
-  "todo_count": 4,
+  "timestamp": "2026-10-26T13:19:41.639955",
+  "todo_count": 6,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -9,7 +9,7 @@
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 4
+    "errors": 5
   },
   "skipped_details": [
     {
@@ -30,6 +30,11 @@
     {
       "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-quoc-te.35C8BC34.html",
       "title": "TRƯỞNG PHÒNG KINH DOANH QUỐC TẾ",
+      "reason": "FAILED"
+    },
+    {
+      "url": "https://careerviet.vn/vi/tim-viec-lam/trade-marketing-manager-retail-gt-mt.35C8BD86.html",
+      "title": "Trade Marketing Manager (Retail GT & MT)",
       "reason": "FAILED"
     }
   ]
