@@ -1,15 +1,144 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-10-30T18:55:29.351852",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-02T07:49:51.468777",
+  "todo_count": 17,
+  "applied_count": 16,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Thu Nhập 40-100 Triệu / Tháng)",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thu-nhap-40-100-trieu-thang-c13p210000160id200979488.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200979488.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200980290.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200980290.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh - Đi Làm Ngay",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-di-lam-ngay-c13p210000160id200975462.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200975462.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Thị Trường BĐS",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-thi-truong-bds-c29p210000160id200977175.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200977175.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000173id200958678.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200958678.png"
+    },
+    {
+      "title": "[HN] Area Sales Manager - Bear / Joyoung",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/hn-area-sales-manager-bear-joyoung-c13p210000160id200977888.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200977888.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh Kênh Bệnh Viện Miền Bắc",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-kenh-benh-vien-mien-bac-c13p210000160id200976811.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200976811.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh Tại Hà Nội",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-tai-ha-noi-c13p210000160id200978643.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200978643.png"
+    },
+    {
+      "title": "Area Sales Manager (Dreame)",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/area-sales-manager-dreame-c13p210000160id200950960.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200968617.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200968617.png"
+    },
+    {
+      "title": "[Toàn Quốc] Giám Sát Kinh Doanh Trực Tiếp",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ngan-hang/toan-quoc-giam-sat-kinh-doanh-truc-tiep-c19p210000160id200972944.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200972944.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200949315.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "Công Ty CP Du Lịch Hàng Không Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-phong-kinh-doanh-c13p210000160id200974106.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200974106.png"
+    },
+    {
+      "title": "Account Manager Khối Ngân Hàng & Chính Phủ Upto 30 Triệu",
+      "company": "Công Ty TNHH Adsagency Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/account-manager-khoi-ngan-hang-chinh-phu-upto-30-trieu-c13p210000160id200973025.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200973025.png"
+    },
+    {
+      "title": "Cửa Hàng Trưởng Lương 15-20Tr - Hà Nội",
+      "company": "Công Ty TNHH Adsagency Việt Nam",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-luong-15-20tr-ha-noi-c6p210000160id200978106.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200978106.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Và Phát Triển Khách Hàng (Leader Sale)",
+      "company": "Công Ty TNHH Tuấn Phát - Sofita C82 Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-va-phat-trien-khach-hang-leader-sale-c13p210000160id200977585.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200977585.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 2,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 1
   },
-  "skipped_details": []
+  "skipped_details": [
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
+      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
+      "reason": "ERROR"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/area-sales-manager-dreame-c13p210000160id200950960.html",
+      "title": "Area Sales Manager (Dreame)",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200949315.html",
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    }
+  ]
 }
