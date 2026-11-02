@@ -2108,5 +2108,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-02T07:49:30.478187"
+  },
+  {
+    "id": "200981452",
+    "title": "Nam Trưởng Phòng Kinh Doanh, Thu Nhập 18 - 30 Triệu (Hà Nội)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-truong-phong-kinh-doanh-thu-nhap-18-30-trieu-ha-noi-c13p210000160id200981452.html",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-02T16:19:31.101614"
+  },
+  {
+    "id": "200981539",
+    "title": "Quản Lý Kinh Doanh Vùng / Khu Vực (Toàn Quốc)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-vung-khu-vuc-toan-quoc-c13p210000187id200981539.html",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-02T16:19:31.101626"
+  },
+  {
+    "id": "200981456",
+    "title": "Trưởng Phòng Kinh Doanh Xuất Khẩu",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xuat-khau-c13p210000160id200981456.html",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-02T16:19:31.101629"
   }
 ]

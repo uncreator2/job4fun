@@ -3659,5 +3659,45 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-02T07:55:05.990949",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200977585.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/pho-phong-kinh-doanh-c12p210000187id200980377.html",
+    "id": "200980377",
+    "title": "Phó Phòng Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-truong-phong-kinh-doanh-thu-nhap-18-30-trieu-ha-noi-c13p210000160id200981452.html",
+    "id": "200981452",
+    "title": "Nam Trưởng Phòng Kinh Doanh, Thu Nhập 18 - 30 Triệu (Hà Nội)",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-02T16:21:25.531433",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981452.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-vung-khu-vuc-toan-quoc-c13p210000187id200981539.html",
+    "id": "200981539",
+    "title": "Quản Lý Kinh Doanh Vùng / Khu Vực (Toàn Quốc)",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-02T16:21:45.654924",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981539.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xuat-khau-c13p210000160id200981456.html",
+    "id": "200981456",
+    "title": "Trưởng Phòng Kinh Doanh Xuất Khẩu",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-02T16:22:05.622318",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981456.png"
   }
 ]
