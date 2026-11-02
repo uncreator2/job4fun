@@ -1,45 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-02T19:54:56.556491",
-  "todo_count": 13,
-  "applied_count": 5,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Phòng Kinh Doanh/ Sales Manager – B2B Technical Solutions (MEP) - Annual Income of Up to 50,000+++",
-      "company": "Công Ty Cổ Phần Công Nghệ Combitek Việt Nam",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-manager-b2b-technical-solutions-mep-annual-income-of-up-to-50-000-1793360862550973673-2126364-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126364.png"
-    },
-    {
-      "title": "Investment Sales & Golden Visa Manager",
-      "company": "Tập Đoàn Apec (Apec Group)",
-      "url": "https://www.vietnamworks.com/investment-sales-golden-visa-manager-1793012984746780789-2123956-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123956.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Tiệc Cưới Sự Kiện",
-      "company": "Công ty cổ phần Quản lý thương mại dịch vụ Tổng hợp Hai Bà Trưng",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-tiec-cuoi-su-kien-1793097285583977913-2124365-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124365.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (Sale Manager) – IT Product",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sale-manager-it-product-1792649962713932156-2122340-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793649347.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh Dự Án",
-      "company": "",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-du-an-1793246786155174341-2125104-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793649361.png"
-    }
-  ],
+  "timestamp": "2026-11-02T22:37:58.424954",
+  "todo_count": 8,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -61,12 +25,12 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
