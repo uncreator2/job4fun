@@ -1,46 +1,237 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-10-30T18:56:49.615298",
-  "todo_count": 6,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-02T08:00:35.760503",
+  "todo_count": 44,
+  "applied_count": 30,
+  "applied_jobs": [
+    {
+      "title": "Strategic Investment Associate",
+      "company": "SendingLabs",
+      "url": "https://www.vietnamworks.com/strategic-investment-associate-1793011261330980200-2123196-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123196.png"
+    },
+    {
+      "title": "Remote - Business Development Manager",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/remote-business-development-manager-1793091785611750229-2124327-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124327.png"
+    },
+    {
+      "title": "Sr. Solution Consultant- HCM (English & Vietnamese Speaking)",
+      "company": "Workday",
+      "url": "https://www.vietnamworks.com/sr-solution-consultant-hcm-english-vietnamese-speaking-1793361596304507595-2126372-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126372.png"
+    },
+    {
+      "title": "Kỹ Sư Kinh Tế Xây Dựng (Dự Toán)",
+      "company": "Công Ty CP Tập Đoàn Đầu Tư Việt Phương",
+      "url": "https://www.vietnamworks.com/ky-su-kinh-te-xay-dung-du-toan-1793263448162486234-2125350-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125350.png"
+    },
+    {
+      "title": "Executive Assistant - MB Representative Office in South Korea Chuyên viên Văn phòng đại diện MB tại Hàn Quốc (2026TD456732)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-south-korea-chuyen-vien-van-phong-dai-dien-mb-tai-han-quoc-2026td456732-1793159797354679785-2124604-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124604.png"
+    },
+    {
+      "title": "Executive Assistant MB Representative Office in China - Chuyên viên Văn phòng đại diện MB tại Quảng Châu (Trung Quốc) (2026TD456736)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-china-chuyen-vien-van-phong-dai-dien-mb-tai-quang-chau-trung-quoc-2026td456736-1793161539305852679-2124638-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124638.png"
+    },
+    {
+      "title": "Chief Representaive Officer MB Representative Office in China - Trưởng Văn phòng đại diện MB tại Quảng Châu (Trung Quốc) (2026TD456735)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/chief-representaive-officer-mb-representative-office-in-china-truong-van-phong-dai-dien-mb-tai-quang-chau-trung-quoc-2026td456735-1793161508627663620-2124636-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124636.png"
+    },
+    {
+      "title": "Trưởng phòng Kinh doanh",
+      "company": "Công Ty Cổ Phần Ceravi",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1793360333650825446-2126209-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126209.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh",
+      "company": "Công Ty Cổ Phần Tập Đoàn Dekko",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1792752668547676911-2123251-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123251.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh (Bất Động Sản)",
+      "company": "CÔNG TY CỔ PHẦN BOLT HOLDINGS",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-bat-dong-san-1793261932508742895-2125070-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125070.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Dịch Vụ Cảng)",
+      "company": "Công ty Cổ phần Dịch vụ Cảng Quốc tế Long River",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-dich-vu-cang-2122238-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122238.png"
+    },
+    {
+      "title": "Account Manager / Business Development (Phát Triển Kinh Doanh)",
+      "company": "Công Ty TNHH AVer Information (Việt Nam)",
+      "url": "https://www.vietnamworks.com/account-manager-business-development-phat-trien-kinh-doanh-1793341924198214805-2125879-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125879.png"
+    },
+    {
+      "title": "TP Kinh Doanh B2B SP Sữa",
+      "company": "CÔNG TY TNHH HEALTH CARE J&K GLOBAL",
+      "url": "https://www.vietnamworks.com/tp-kinh-doanh-b2b-sp-sua-1793356566247763522-2126258-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126258.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Dự Án Văn Phòng Hạng A | 25 - 40 triệu + Hoa hồng/Thưởng | Hà Nội",
+      "company": "Công ty Cổ phần Công nghệ và Đầu tư INTECH",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-du-an-van-phong-hang-a-25-40-trieu-hoa-hong-thuong-ha-noi-1792465491477460248-2121243-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121243.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh (Key Account Manager)",
+      "company": "Công ty CP Hệ Thống An Ninh Khai Phát",
+      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-key-account-manager-1792739938764677410-2122813-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122813.png"
+    },
+    {
+      "title": "Chuyên viên bán hàng khu vực (Field Sales / Ngành Ô Tô, Nghỉ T7 CN)",
+      "company": "CÔNG TY CỔ PHẦN THÀNH CÔNG MOTOR VIỆT NAM",
+      "url": "https://www.vietnamworks.com/chuyen-vien-ban-hang-khu-vuc-field-sales-nganh-o-to-nghi-t7-cn-2125742-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125742.png"
+    },
+    {
+      "title": "Territory Sales Manager (Industrial Automation Industry)",
+      "company": "Công Ty TNHH Delta Electronics (Việt Nam)",
+      "url": "https://www.vietnamworks.com/territory-sales-manager-industrial-automation-industry-1793346174081570213-2125888-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125888.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (AMC-TP.KD-HN) (01 người)",
+      "company": "Ngân Hàng TMCP Công Thương Việt Nam - Công Ty TNHH MTV Quản Lý Nợ Và Khai Thác Tài Sản (VietinBank AMC)",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-amc-tp-kd-hn-01-nguoi-1793363673023162740-2126383-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126383.png"
+    },
+    {
+      "title": "Trưởng Phòng Khai Báo Hải Quan",
+      "company": "Finlogistics - Công Ty Cổ Phần Kinh Doanh Quốc Tế Fingroup",
+      "url": "https://www.vietnamworks.com/truong-phong-khai-bao-hai-quan-1792736527819640775-2122816-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122816.png"
+    },
+    {
+      "title": "Mới Sales & Marketing Manager (Real Estate)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-amp-marketing-manager-real-estate-1-2126604-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126604.png"
+    },
+    {
+      "title": "Mới Giám Đốc Khách Hàng Chiến Lược - Khối Khách Hàng Doanh Nghiệp",
+      "company": "Ngân Hàng TMCP Đại Chúng Việt Nam",
+      "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-chien-luoc-khoi-khach-hang-doanh-nghiep--2126630-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126630.png"
+    },
+    {
+      "title": "Mới Business Development Manager (Enterprise)",
+      "company": "Công Ty Cổ Phần Công Nghệ Sapo",
+      "url": "https://www.vietnamworks.com/business-development-manager-enterprise-1793600531774699155-2126680-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126680.png"
+    },
+    {
+      "title": "Mới Technical Sales Manager (Aftermarket/ Spare Parts)",
+      "company": "DKSH Vietnam Co., Ltd.",
+      "url": "https://www.vietnamworks.com/technical-sales-manager-aftermarket-spare-parts-1793602719461822923-2126762-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126762.png"
+    },
+    {
+      "title": "Trưởng Phòng Xây Dựng Hạ Tầng (Civil & Infrastructure Manager)",
+      "company": "Công ty Cổ phần Sản xuất và Kinh doanh VinMetal",
+      "url": "https://www.vietnamworks.com/truong-phong-xay-dung-ha-tang-civil-infrastructure-manager-1793346891736469541-2125990-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125990.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Cơ Khí – Điện (Mechanical & Electrical Manager)",
+      "company": "Công ty Cổ phần Sản xuất và Kinh doanh VinMetal",
+      "url": "https://www.vietnamworks.com/truong-phong-co-khi-djien-mechanical-and-electrical-manager-2125615-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125615.png"
+    },
+    {
+      "title": "Giám Đốc Chi Nhánh Trấn Biên",
+      "company": "",
+      "url": "https://www.vietnamworks.com/giam-djoc-chi-nhanh-tran-bien--2120804-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793606857.png"
+    },
+    {
+      "title": "Sales Manager - Cement",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-cement-1793116239249413851-2124458-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793606875.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-1791261492937276114-2116173-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793606892.png"
+    },
+    {
+      "title": "[Hà Nội] Giám Đốc Kinh Doanh Thị Trường Đông Nam Á",
+      "company": "",
+      "url": "https://www.vietnamworks.com/ha-noi-giam-doc-kinh-doanh-thi-truong-dong-nam-a-2124515-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793606910.png"
+    },
+    {
+      "title": "Business Development Manager (Chinese Speaking)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-manager-chinese-speaking-1793003029009729941-2123679-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793606927.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 6
+    "errors": 1
   },
   "skipped_details": [
     {
-      "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
-      "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
+      "title": "KOC Booking Operator (META, TikTok Shop)",
+      "reason": "Page.goto: net::ERR_FAILED at https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
-      "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
-      "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
-      "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
-      "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv\nCall log:\n  - navigating to \"https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
-      "title": "Product Marketing Manager",
-      "reason": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.vietnamworks.com/product-marketing-manager-2084750-jv/\nCall log:\n  - navigating to \"https://www.vietnamworks.com/product-marketing-manager-2084750-jv/\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.vietnamworks.com/sales-manager-healthcare-income-40-50m-2121957-jv",
+      "title": "Sales Manager - Healthcare (Income 40-50M)",
+      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }
