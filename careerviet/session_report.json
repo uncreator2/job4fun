@@ -1,41 +1,100 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-10-30T18:52:47.123610",
-  "todo_count": 13,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-02T07:41:33.656186",
+  "todo_count": 14,
+  "applied_count": 14,
+  "applied_jobs": [
+    {
+      "title": "134876 - Sales Manager - Ink",
+      "company": "RGF HR Agent Vietnam Co., LTD",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/134876-sales-manager-ink.35C8B8D1.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng kinh doanh dịch vụ",
+      "company": "Công ty Cổ phần Masscom Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-dich-vu.35C8BAA3.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Tổng Công ty Cổ phần Công trình Viettel",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8BC2B.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "TRƯỞNG PHÒNG KINH DOANH QUỐC TẾ",
+      "company": "Công ty cổ phần sản xuất và xuất khẩu Quế hồi Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-quoc-te.35C8BC34.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trade Marketing Manager (Retail GT & MT)",
+      "company": "Tập Đoàn Karofi Holding",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/trade-marketing-manager-retail-gt-mt.35C8BD86.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "CÔNG TY CỔ PHẦN QUỐC TẾ AEMG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8BD0B.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Mảng Truyền Thông Quảng Cáo",
+      "company": "Công Ty Cổ Phần Tập Đoàn Việt Ba",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-kinh-doanh-mang-truyen-thong-quang-cao.35C88004.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (TTTM & Văn Phòng)",
+      "company": "TẬP ĐOÀN ĐẦU TƯ KINH ĐÔ",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-tttm-van-phong.35C8BFC8.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Hà Nội - Phó Tổng Giám đốc Kinh doanh",
+      "company": "CÔNG TY CỔ PHẦN PHÁT TRIỂN VIỄN THÔNG VÀ TRUYỀN HÌNH VIỆT NAM",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-pho-tong-giam-doc-kinh-doanh.35C6540E.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh B2B (Sales Manager)",
+      "company": "Long Hải Securitas",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-b2b-sales-manager.35C8C2CA.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Tổng Giám đốc Kinh doanh",
+      "company": "Công ty Cổ phần Tập đoàn Meey Land",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-tong-giam-doc-kinh-doanh.35C8C545.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Bảo mật",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8C666.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "HN_PHÓ PHÒNG KINH DOANH (thu nhập cạnh tranh)",
+      "company": "THỜI TRANG LINING_CÔNG TY TNHH QUỐC TẾ HẢI LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/hn_pho-phong-kinh-doanh-thu-nhap-canh-tranh.35C8C692.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "CareerViet",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/senior-sales-manager.35C8C8CC.html",
+      "status": "APPLIED_OK"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 5
+    "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/134876-sales-manager-ink.35C8B8D1.html",
-      "title": "134876 - Sales Manager - Ink",
-      "reason": "FAILED"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-dich-vu.35C8BAA3.html",
-      "title": "Trưởng phòng kinh doanh dịch vụ",
-      "reason": "FAILED"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8BC2B.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "FAILED"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-quoc-te.35C8BC34.html",
-      "title": "TRƯỞNG PHÒNG KINH DOANH QUỐC TẾ",
-      "reason": "FAILED"
-    },
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/trade-marketing-manager-retail-gt-mt.35C8BD86.html",
-      "title": "Trade Marketing Manager (Retail GT & MT)",
-      "reason": "FAILED"
-    }
-  ]
+  "skipped_details": []
 }
