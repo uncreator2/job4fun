@@ -1,31 +1,31 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-10-30T18:59:09.824329",
-  "todo_count": 74,
+  "timestamp": "2026-11-02T08:11:10.295746",
+  "todo_count": 94,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
-    "cf_blocked": 0,
+    "cf_blocked": 2,
     "daily_limit": 0,
-    "errors": 3
+    "errors": 1
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager-mang-giao-duc-tai-ha-noi/2333052.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-brand-my-pham-ofelia-thu-nhap-30-55-trieu-tai-ha-noi/2342237.html",
+      "title": "Trưởng Phòng Kinh Doanh B2B (Brand Mỹ Phẩm OFÉLIA) - Thu Nhập 30-55 Triệu - Tại Hà Nội",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-cham-soc-khach-hang/2228494.html",
+      "title": "Sorry, you have been blocked",
+      "reason": "Bị Cloudflare WAF chặn"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-luong-cung-15-22-trieu-phu-cap-doanh-so/2256901.html",
+      "title": "Sorry, you have been blocked",
+      "reason": "Bị Cloudflare WAF chặn"
     }
   ]
 }
