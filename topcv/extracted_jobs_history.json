@@ -10930,5 +10930,29 @@
     "exp": "Không yêu cầu",
     "first_extracted_at": "2026-11-02 16:35:38",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2337766.html": {
+    "job_id": "2337766",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2337766.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793649514",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2337766.html",
+    "company": "CÔNG TY TNHH HTAUTO VIỆT NAM",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-02 19:58:47",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2338968.html": {
+    "job_id": "2338968",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2338968.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793649514",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2338968.html",
+    "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ MAXBUY VIỆT NAM",
+    "salary": "30 - 35 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-02 19:58:47",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
