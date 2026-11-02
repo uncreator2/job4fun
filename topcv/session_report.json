@@ -1,31 +1,31 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-02T08:11:10.295746",
-  "todo_count": 94,
+  "timestamp": "2026-11-02T16:36:13.333682",
+  "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
-    "cf_blocked": 2,
+    "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 1
+    "errors": 3
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-brand-my-pham-ofelia-thu-nhap-30-55-trieu-tai-ha-noi/2342237.html",
-      "title": "Trưởng Phòng Kinh Doanh B2B (Brand Mỹ Phẩm OFÉLIA) - Thu Nhập 30-55 Triệu - Tại Hà Nội",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-online-thoi-trang-nu/2347874.html",
+      "title": "Trưởng Phòng Kinh Doanh Online Thời Trang Nữ",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-va-cham-soc-khach-hang/2228494.html",
-      "title": "Sorry, you have been blocked",
-      "reason": "Bị Cloudflare WAF chặn"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director-toyota-thang-long-cau-giay-ha-noi/2347563.html",
+      "title": "Giám Đốc Kinh Doanh/ Sales Director - [Toyota Thăng Long - Cầu Giấy - Hà Nội]",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-luong-cung-15-22-trieu-phu-cap-doanh-so/2256901.html",
-      "title": "Sorry, you have been blocked",
-      "reason": "Bị Cloudflare WAF chặn"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-hang-kim-khi/2347654.html",
+      "title": "Trưởng Phòng Kinh Doanh – Ngành Hàng Kim Khí",
+      "reason": "Modal ứng tuyển không mở được"
     }
   ]
 }
