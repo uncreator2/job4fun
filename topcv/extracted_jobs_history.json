@@ -11110,5 +11110,53 @@
     "exp": "Không yêu cầu",
     "first_extracted_at": "2026-11-03 14:47:50",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/1515320.html": {
+    "job_id": "1515320",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/1515320.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793727121",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/1515320.html",
+    "company": "CÔNG TY TNHH KIN KIN LOGISTICS",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-03 17:32:19",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-trung-tam/2349125.html": {
+    "job_id": "2349125",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-trung-tam/2349125.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793727121",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-trung-tam/2349125.html",
+    "company": "CÔNG TY CỔ PHẦN GIÁO DỤC UAC",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-11-03 17:32:19",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-bia-hoi/2349026.html": {
+    "job_id": "2349026",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-bia-hoi/2349026.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793727121",
+    "clean_url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-bia-hoi/2349026.html",
+    "company": "Pro\nCÔNG TY CP BIA & NGK HẠ LONG",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-03 17:32:19",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-vat-lieu-xay-dung/1764241.html": {
+    "job_id": "1764241",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-vat-lieu-xay-dung/1764241.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793727121",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-vat-lieu-xay-dung/1764241.html",
+    "company": "CÔNG TY CỔ PHẦN GHC GLOBAL",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-03 17:32:19",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
