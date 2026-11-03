@@ -1,57 +1,29 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-03T14:39:20.909043",
-  "todo_count": 15,
-  "applied_count": 7,
+  "timestamp": "2026-11-03T17:27:45.852230",
+  "todo_count": 11,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Marketing Content Creator & Social Media Executive",
-      "company": "Công Ty TNHH Giải Pháp Thanh Toán Tasi (Tasi Payment Solution PTY Limited)",
-      "url": "https://www.vietnamworks.com/marketing-content-creator-social-media-executive-1793333159840137619-2125728-jv",
+      "title": "Mới Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty Cổ Phần Mastertran",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1793068536842723553-2124029-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125728.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124029.png"
     },
     {
-      "title": "Mới Business Development Manager – Field Sales",
-      "company": "SEKO LOGISTICS GLOBAL FORWARDING (VIETNAM)",
-      "url": "https://www.vietnamworks.com/business-development-manager-field-sales-1793069522170103911-2124041-jv",
+      "title": "Project Manager & Technical Sales Lead (Financial IT - Korean Speaking)",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/project-manager-amp-technical-sales-lead-financial-it-korean-speaking-2121111-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124041.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121111.png"
     },
     {
-      "title": "Assistant Sales Manager – Industrial Automation",
-      "company": "Autonics Vina",
-      "url": "https://www.vietnamworks.com/assistant-sales-manager-industrial-automation-1793240851459324284-2110693-jv",
+      "title": "Trưởng Phòng Kinh Doanh/ Sales Manager – B2B Technical Solutions (MEP) - Annual Income of Up to 50,000+++",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-manager-b2b-technical-solutions-mep-annual-income-of-up-to-50-000-1793360862550973673-2126364-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2110693.png"
-    },
-    {
-      "title": "Mới Business Development Manager - Blower And Vacuum",
-      "company": "Ingersoll Rand Vietnam",
-      "url": "https://www.vietnamworks.com/business-development-manager-blower-and-vacuum-1793694100022288787-2127292-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127292.png"
-    },
-    {
-      "title": "Mới Sales Manager (Quản Lý Đại Lý)",
-      "company": "Công Ty Cổ Phần Tập Đoàn BRG",
-      "url": "https://www.vietnamworks.com/sales-manager-quan-ly-dai-ly-1793702222226607362-2127399-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127399.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Dược Mỹ Phẩm Của Pháp Kênh Spa & Thẩm Mỹ Viện",
-      "company": "Vipharco",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-duoc-my-pham-cua-phap-kenh-spa-tham-my-vien-1793700239099865446-2127378-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127378.png"
-    },
-    {
-      "title": "Phó Giám Đốc Khối Kinh Doanh",
-      "company": "Công Ty Cổ Phần Tập Đoàn BRG",
-      "url": "https://www.vietnamworks.com/pho-giam-doc-khoi-kinh-doanh-1793185978941441561-2124983-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124983.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793726899.png"
     }
   ],
   "skipped_counts": {
@@ -75,12 +47,12 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
