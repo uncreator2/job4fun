@@ -1,17 +1,93 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-02T22:37:58.424954",
-  "todo_count": 8,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-03T08:07:08.269239",
+  "todo_count": 19,
+  "applied_count": 10,
+  "applied_jobs": [
+    {
+      "title": "Service Excellence Delivery Agent",
+      "company": "Qatar Airways",
+      "url": "https://www.vietnamworks.com/service-excellence-delivery-agent-1792917496116608583-2123395-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123395.png"
+    },
+    {
+      "title": "Mới Tuyển dụng Legal Manager - (Làm Việc Tại Nước Ngoài - Mozambique) - Mức Lương Từ 2.400 – 4.000 USD Net/tháng",
+      "company": "Viettel Mozambique (Movitel S.A)",
+      "url": "https://www.vietnamworks.com/tuyen-dung-legal-manager-lam-viec-tai-nuoc-ngoai-mozambique-muc-luong-tu-2-400-4-000-usd-net-thang-1793011291014577697-2123910-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123910.png"
+    },
+    {
+      "title": "Mới Executive Assistant MB Representative Office in Taiwan - Chuyên viên Văn phòng đại diện MB tại Đài Loan (2026TD456734)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-taiwan-chuyen-vien-van-phong-dai-dien-mb-tai-dai-loan-2026td456734-1793161573832513797-2124640-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124640.png"
+    },
+    {
+      "title": "Mới Chief Representative Officer MB Representative Office in Taiwan - Trưởng Văn phòng đại diện MB tại Đài Loan (2026TD456733)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/chief-representative-officer-mb-representative-office-in-taiwan-truong-van-phong-dai-dien-mb-tai-dai-loan-2026td456733-1793161435778230846-2124632-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124632.png"
+    },
+    {
+      "title": "[Hot] Trưởng Phòng Kiểm Soát Tài Chính Sản Xuất",
+      "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
+      "url": "https://www.vietnamworks.com/hot-truong-phong-kiem-soat-tai-chinh-san-xuat-2106447-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2106447.png"
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "Public Bank Securities Vietnam Company Limited (PBSV)",
+      "url": "https://www.vietnamworks.com/business-development-manager-1792748515615826845-2123060-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123060.png"
+    },
+    {
+      "title": "Trưởng Phòng Phát Triển Kinh Doanh Miền Bắc",
+      "company": "Công Ty Cổ Phần Kết Cấu Thép ATAD",
+      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-kinh-doanh-mien-bac-1793536331714416240-2126517-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126517.png"
+    },
+    {
+      "title": "Mới Trưởng phòng Giải pháp thanh toán - Khối Ngân hàng bán lẻ",
+      "company": "Ngân Hàng TMCP Sài Gòn – Hà Nội (SHB)",
+      "url": "https://www.vietnamworks.com/truong-phong-giai-phap-thanh-toan-khoi-ngan-hang-ban-le-1793690769164881656-2127215-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127215.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-1792484520334263815-2121417-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793693369.png"
+    },
+    {
+      "title": "Mới Giám Đốc Kinh Doanh – Ngành Truyền Thông/Giải Trí",
+      "company": "Vietnamworks' Client",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-nganh-truyen-thong-giai-tri-1793692212432560941-2127205-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127205.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 8
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/business-development-manager-chinese-speaking-1793003029009729941-2123679-jv",
+      "title": "Mới Business Development Manager (Chinese Speaking)",
+      "reason": "Đã ứng tuyển trước đó"
+    },
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
@@ -25,12 +101,12 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
@@ -40,7 +116,7 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
