@@ -1,11 +1,33 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-02T22:31:39.303491",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-03T07:59:54.160172",
+  "todo_count": 4,
+  "applied_count": 3,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Ngành Vật Liệu Xây Dựng)",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-nganh-vat-lieu-xay-dung-c13p210000160id200981680.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981680.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Nội Thất",
+      "company": "CÔNG TY TNHH VENESA",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-c6p210000160id200961625.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
+    },
+    {
+      "title": "Phó Giám Đốc Chi Nhánh",
+      "company": "Công Ty TNHH Dịch Vụ Thương Mại Xuất Nhập Khẩu Bình Minh",
+      "url": "https://vieclam24h.vn/quan-ly-tieu-chuan-va-chat-luong/pho-giam-doc-chi-nhanh-c28p210000160id200981450.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981450.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -16,6 +38,11 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-c6p210000160id200961625.html",
+      "title": "Trưởng Phòng Kinh Doanh Nội Thất",
+      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }

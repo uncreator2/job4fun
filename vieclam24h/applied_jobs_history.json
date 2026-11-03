@@ -3720,5 +3720,59 @@
     "title": "Trưởng Phòng Kinh Doanh Khách Sạn",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/truong-phong-kinh-doanh-c31p210000187id200982377.html",
+    "id": "200982377",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/van-tai-lai-xe-giao-nhan/truong-nhom-kinh-doanh-c16p210000189id200948035.html",
+    "id": "200948035",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-tong-giam-doc-kinh-doanh-xe-c13p210000187id200981631.html",
+    "id": "200981631",
+    "title": "Phó Tổng Giám Đốc Kinh Doanh Xe",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-nganh-vat-lieu-xay-dung-c13p210000160id200981680.html",
+    "id": "200981680",
+    "title": "Trưởng Phòng Kinh Doanh (Ngành Vật Liệu Xây Dựng)",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-03T08:00:27.702214",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981680.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-c6p210000160id200961625.html",
+    "id": "200961625",
+    "title": "Trưởng Phòng Kinh Doanh Nội Thất",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-11-03T08:00:37.876362",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/quan-ly-tieu-chuan-va-chat-luong/pho-giam-doc-chi-nhanh-c28p210000160id200981450.html",
+    "id": "200981450",
+    "title": "Phó Giám Đốc Chi Nhánh",
+    "company": "Công Ty TNHH Dịch Vụ Thương Mại Xuất Nhập Khẩu Bình Minh",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-03T08:00:57.703151",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200981450.png"
   }
 ]

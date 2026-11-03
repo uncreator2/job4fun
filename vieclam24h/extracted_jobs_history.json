@@ -2138,5 +2138,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-02T16:19:31.101629"
+  },
+  {
+    "id": "200981680",
+    "title": "Trưởng Phòng Kinh Doanh (Ngành Vật Liệu Xây Dựng)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-nganh-vat-lieu-xay-dung-c13p210000160id200981680.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-03T07:58:31.996337"
+  },
+  {
+    "id": "200961625",
+    "title": "Trưởng Phòng Kinh Doanh Nội Thất",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-phong-kinh-doanh-noi-that-c6p210000160id200961625.html",
+    "company": "CÔNG TY TNHH VENESA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-03T07:58:31.996349"
+  },
+  {
+    "id": "200981450",
+    "title": "Phó Giám Đốc Chi Nhánh",
+    "url": "https://vieclam24h.vn/quan-ly-tieu-chuan-va-chat-luong/pho-giam-doc-chi-nhanh-c28p210000160id200981450.html",
+    "company": "Công Ty TNHH Dịch Vụ Thương Mại Xuất Nhập Khẩu Bình Minh",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-03T07:59:23.883365"
   }
 ]
