@@ -1,31 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-03T17:27:45.852230",
-  "todo_count": 11,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty Cổ Phần Mastertran",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1793068536842723553-2124029-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124029.png"
-    },
-    {
-      "title": "Project Manager & Technical Sales Lead (Financial IT - Korean Speaking)",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/project-manager-amp-technical-sales-lead-financial-it-korean-speaking-2121111-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121111.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh/ Sales Manager – B2B Technical Solutions (MEP) - Annual Income of Up to 50,000+++",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-manager-b2b-technical-solutions-mep-annual-income-of-up-to-50-000-1793360862550973673-2126364-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793726899.png"
-    }
-  ],
+  "timestamp": "2026-11-03T20:26:15.924231",
+  "todo_count": 8,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -47,32 +25,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
