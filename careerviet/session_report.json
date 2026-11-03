@@ -1,13 +1,31 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-02T16:18:11.766475",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-03T07:55:36.759160",
+  "todo_count": 4,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "TRƯỞNG PHÒNG PHÁT TRIỂN THỊ TRƯỜNG - MIỀN BẮC",
-      "company": "Công ty TNHH SX-TM Thép Tây Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-phat-trien-thi-truong-mien-bac.35C8CA74.html",
+      "title": "Phó phòng Marketing",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-marketing.35C8CC37.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó phòng Marketing",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-marketing.35C8CC29.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "TRƯỞNG PHÒNG KINH DOANH",
+      "company": "CÔNG TY TNHH HARICO GLOBAL",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8CCF7.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Kinh doanh Bia hơi",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bia-hoi.35C8CC1F.html",
       "status": "APPLIED_OK"
     }
   ],
