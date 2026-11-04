@@ -3883,5 +3883,23 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-04T14:47:24.647509",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200978081.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/tro-ly-kinh-doanh-10-12-trieu-c13p210000160id200981933.html",
+    "id": "200981933",
+    "title": "Trợ Lý Kinh Doanh (10-12 Triệu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sale-marketing-team-leader-thu-nhap-15-trieu-c13p210000160id200983120.html",
+    "id": "200983120",
+    "title": "Sale Marketing Team Leader - Thu Nhập 15 Triệu",
+    "company": "Công Ty Cổ Phần Thương Mại Công Nghệ Và Giải Pháp Hạ Long",
+    "salary": "10 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-04T17:33:27.378027",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200983120.png"
   }
 ]
