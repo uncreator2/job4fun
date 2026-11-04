@@ -1,45 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-04T14:53:09.476010",
-  "todo_count": 14,
-  "applied_count": 5,
-  "applied_jobs": [
-    {
-      "title": "KOC Booking Operator",
-      "company": "PICKDI CORP",
-      "url": "https://www.vietnamworks.com/koc-booking-operator-1793788634945582442-2123620-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123620.png"
-    },
-    {
-      "title": "Senior MEP Engineer - Làm việc tại Đài Loan",
-      "company": "Công Ty Cổ Phần Xây Dựng Coteccons",
-      "url": "https://www.vietnamworks.com/senior-mep-engineer-lam-viec-tai-dai-loan-1792652956094005222-2122384-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2122384.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh [Upto 4000$]",
-      "company": "Tập Đoàn Apec (Apec Group)",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-upto-4000--2124023-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124023.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh - Viễn Thông & Cloud/Data Center.",
-      "company": "Công Ty Cổ Phần HTC Viễn Thông Quốc Tế",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-vien-thong-cloud-data-center-1793786890987825841-2127872-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127872.png"
-    },
-    {
-      "title": "Mới Business Performance & Planning Manager",
-      "company": "Tập Đoàn Sun Group",
-      "url": "https://www.vietnamworks.com/business-performance-planning-manager-1793788282703066542-2127891-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127891.png"
-    }
-  ],
+  "timestamp": "2026-11-04T17:38:45.666069",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -71,7 +35,7 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
