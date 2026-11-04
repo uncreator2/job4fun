@@ -1,50 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-04T07:33:51.133588",
-  "todo_count": 7,
-  "applied_count": 6,
+  "timestamp": "2026-11-04T14:46:51.519793",
+  "todo_count": 2,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Bộ Phận Xuất Nhập Khẩu",
-      "company": "Công Ty TNHH Công Nghệ Smart- Link Việt Nam",
-      "url": "https://vieclam24h.vn/xuat-nhap-khau/truong-bo-phan-xuat-nhap-khau-c15p210000160id200972434.html",
+      "title": "Quản Lý Khu Vực (F&b) - Hà Nội",
+      "company": "Công Ty Cổ Phần Quốc Tế An Viên",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-khu-vuc-f-b-ha-noi-c6p210000160id200978081.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200972434.png"
-    },
-    {
-      "title": "Giám Đốc Thương Mại Điện Tử",
-      "company": "Công Ty TNHH Công Nghệ Smart- Link Việt Nam",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-thuong-mai-dien-tu-c13p210000160id200982945.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200982945.png"
-    },
-    {
-      "title": "[Hà Nội] - Thanh Oai - Sale Oppo Quản Lý Thị Trường",
-      "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-thanh-oai-sale-oppo-quan-ly-thi-truong-c6p210000160id200983235.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200983235.png"
-    },
-    {
-      "title": "[Hà Nội] - Mỹ Đức - Sales Quản Lý Thị Trường Oppo",
-      "company": "TRUNG TÂM KINH DOANH THIẾT BỊ SỐ - CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN TỔNG CÔNG TY THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU VIETTEL",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ha-noi-my-duc-sales-quan-ly-thi-truong-oppo-c6p210000160id200983241.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200983241.png"
-    },
-    {
-      "title": "Trưởng Nhóm Tuyển Sinh Chi Nhánh - Ocean Edu Đông Anh",
-      "company": "Công Ty Cổ Phần Công Nghiệp Weldcom",
-      "url": "https://vieclam24h.vn/giao-duc-dao-tao/truong-nhom-tuyen-sinh-chi-nhanh-ocean-edu-dong-anh-c32p210000160id200983727.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200983727.png"
-    },
-    {
-      "title": "Trưởng Nhóm Telesale",
-      "company": "Công Ty Cổ Phần Công Nghiệp Weldcom",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-telesale-c13p210000160id200957159.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200957159.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200978081.png"
     }
   ],
   "skipped_counts": {
