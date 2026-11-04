@@ -11218,5 +11218,65 @@
     "exp": "Không yêu cầu",
     "first_extracted_at": "2026-11-04 07:52:07",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-va-phat-trien-he-thong-ctv/2349842.html": {
+    "job_id": "2349842",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-va-phat-trien-he-thong-ctv/2349842.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793804209",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-va-phat-trien-he-thong-ctv/2349842.html",
+    "company": "CÔNG TY TNHH TAPUHO VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-11-04 14:57:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2349725.html": {
+    "job_id": "2349725",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2349725.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793804209",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2349725.html",
+    "company": "CÔNG TY CP NVM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-04 14:57:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc-quan-ly-vung/2349754.html": {
+    "job_id": "2349754",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc-quan-ly-vung/2349754.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793804209",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc-quan-ly-vung/2349754.html",
+    "company": "CÔNG TY TNHH SẢN XUẤT, LẮP RÁP TUẤN NGHĨA",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-04 14:57:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mb/2349768.html": {
+    "job_id": "2349768",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mb/2349768.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793804209",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mb/2349768.html",
+    "company": "CÔNG TY TNHH SẢN XUẤT, LẮP RÁP TUẤN NGHĨA",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-04 14:57:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-quoc-te-nganh-thoi-trang/2347504.html": {
+    "job_id": "2347504",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-quoc-te-nganh-thoi-trang/2347504.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793804209",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-quoc-te-nganh-thoi-trang/2347504.html",
+    "company": "CÔNG TY TNHH THỜI TRANG CHÂU BÁCH",
+    "salary": "18 - 25 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-04 14:57:07",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
