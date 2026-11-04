@@ -1,13 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-04T07:30:25.302070",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-04T14:43:32.718641",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Trưởng phòng Kinh doanh (Thành thạo tiếng Anh)",
-      "company": "Công Ty Cổ Phần Thuận Hải Energy",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-thanh-thao-tieng-anh.35C8CF42.html",
+      "title": "Giám Đốc Kinh Doanh Toàn Quốc",
+      "company": "Công ty TNHH Thực Phẩm Sạch Thương Mại T&P",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-toan-quoc.35C8CFC0.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Phát triển Kinh doanh và Marketing",
+      "company": "Công ty TNHH Thực Phẩm Sạch Thương Mại T&P",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-phat-trien-kinh-doanh-va-marketing.35C8CFCD.html",
       "status": "APPLIED_OK"
     }
   ],
