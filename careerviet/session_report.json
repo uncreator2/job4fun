@@ -1,31 +1,13 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-03T07:55:36.759160",
-  "todo_count": 4,
-  "applied_count": 4,
+  "timestamp": "2026-11-04T07:30:25.302070",
+  "todo_count": 1,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Phó phòng Marketing",
-      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-marketing.35C8CC37.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Phó phòng Marketing",
-      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-marketing.35C8CC29.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "TRƯỞNG PHÒNG KINH DOANH",
-      "company": "CÔNG TY TNHH HARICO GLOBAL",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8CCF7.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Trưởng phòng Kinh doanh Bia hơi",
-      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bia-hoi.35C8CC1F.html",
+      "title": "Trưởng phòng Kinh doanh (Thành thạo tiếng Anh)",
+      "company": "Công Ty Cổ Phần Thuận Hải Energy",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-thanh-thao-tieng-anh.35C8CF42.html",
       "status": "APPLIED_OK"
     }
   ],
