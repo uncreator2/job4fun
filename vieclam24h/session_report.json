@@ -1,17 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-04T17:32:55.304566",
-  "todo_count": 2,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Sale Marketing Team Leader - Thu Nhập 15 Triệu",
-      "company": "Công Ty Cổ Phần Thương Mại Công Nghệ Và Giải Pháp Hạ Long",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sale-marketing-team-leader-thu-nhap-15-trieu-c13p210000160id200983120.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200983120.png"
-    }
-  ],
+  "timestamp": "2026-11-04T20:36:25.899516",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
