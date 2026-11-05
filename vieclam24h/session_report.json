@@ -1,9 +1,38 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-04T20:36:25.899516",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-05T08:00:14.866980",
+  "todo_count": 5,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh Biến Tần Thiết Bị Điện Công Nghiệp",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-bien-tan-thiet-bi-dien-cong-nghiep-c13p210000160id200985108.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985108.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh / Sale Leader Ngành Nội Thất Tại Hà Nội (Lương Cứng Từ 15 Triệu + % Hoa Hồng + Thưởng)",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-nhom-kinh-doanh-sale-leader-nganh-noi-that-tai-ha-noi-luong-cung-tu-15-trieu-hoa-hong-thuong-c6p210000160id200984635.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200984635.png"
+    },
+    {
+      "title": "Giám Sát Bán Hàng Kênh GT",
+      "company": "Công Ty TNHH Aeon Fantasy Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-c13p210000160id200984879.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200984879.png"
+    },
+    {
+      "title": "Trưởng Nhóm Kế Toán",
+      "company": "Công Ty Cổ Phần Thương Mại Công Nghệ Và Giải Pháp Hạ Long",
+      "url": "https://vieclam24h.vn/ke-toan/truong-nhom-ke-toan-c17p210000160id200984195.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200984195.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
