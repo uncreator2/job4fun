@@ -11398,5 +11398,53 @@
     "exp": "Không yêu cầu",
     "first_extracted_at": "2026-11-05 08:15:14",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/b2b-sales-manager-financial-services/2351036.html": {
+    "job_id": "2351036",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/b2b-sales-manager-financial-services/2351036.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793891788",
+    "clean_url": "https://www.topcv.vn/viec-lam/b2b-sales-manager-financial-services/2351036.html",
+    "company": "CÔNG TY TNHH DỊCH VỤ CÔNG NGHỆ LIFT",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-11-05 15:16:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-hanh-tieng-han/2350735.html": {
+    "job_id": "2350735",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-hanh-tieng-han/2350735.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793891788",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-hanh-tieng-han/2350735.html",
+    "company": "CÔNG TY TNHH BANSI TRADE VINA",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-05 15:16:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le-mang-noi-that-sales-manager-b2c-tu-3-nam-kinh-nghiem/2172210.html": {
+    "job_id": "2172210",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le-mang-noi-that-sales-manager-b2c-tu-3-nam-kinh-nghiem/2172210.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793891788",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le-mang-noi-that-sales-manager-b2c-tu-3-nam-kinh-nghiem/2172210.html",
+    "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN HTM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-05 15:16:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/sales-executive-nhanh-khach-hang-doanh-nghiep/2350502.html": {
+    "job_id": "2350502",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/sales-executive-nhanh-khach-hang-doanh-nghiep/2350502.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793891847",
+    "clean_url": "https://www.topcv.vn/viec-lam/sales-executive-nhanh-khach-hang-doanh-nghiep/2350502.html",
+    "company": "CÔNG TY TNHH NGUYÊN ĐĂNG VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "Dưới 1 năm",
+    "first_extracted_at": "2026-11-05 15:17:41",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
