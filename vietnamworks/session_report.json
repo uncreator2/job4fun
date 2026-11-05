@@ -1,92 +1,71 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-05T08:07:05.116113",
-  "todo_count": 21,
-  "applied_count": 12,
+  "timestamp": "2026-11-05T15:10:40.350901",
+  "todo_count": 18,
+  "applied_count": 9,
   "applied_jobs": [
     {
-      "title": "Mới Phó Tổng Giám Đốc Phụ Trách Trạm Biến Áp Và Đường Dây (Tại Lào)",
-      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
-      "url": "https://www.vietnamworks.com/pho-tong-giam-djoc-phu-trach-tram-bien-ap-va-djuong-day-tai-lao-2119448-jv",
+      "title": "Mới [Global Manufacturing] Future Leader - Quality Director",
+      "company": "VINFAST TRADING AND PRODUCTION JSC",
+      "url": "https://www.vietnamworks.com/global-manufacturing-future-leader-quality-director-2120057-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119448.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120057.png"
     },
     {
-      "title": "Quản Lý Kinh Doanh & Khai Thác Cơ Sở Vật Chất",
-      "company": "Trường Đại Học Đại Nam",
-      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-khai-thac-co-so-vat-chat-1793265203286364027-2125341-jv",
+      "title": "Mới Giám Đốc Chi Nhánh Lưu Động (Toàn Quốc)",
+      "company": "ABBank - Ngân Hàng TMCP An Bình",
+      "url": "https://www.vietnamworks.com/giam-doc-chi-nhanh-luu-dong-toan-quoc-1793866663375558782-2128235-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125341.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128235.png"
     },
     {
-      "title": "Sales Manager",
-      "company": "Masan High-Tech Materials",
-      "url": "https://www.vietnamworks.com/sales-manager-1793072710303317435-2124089-jv",
+      "title": "Mới Senior Sales Executive / Sales Manager (Hanoi) - Building Material - EU Company",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/senior-sales-executive-sales-manager-hanoi-building-material-eu-company-2128404-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124089.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128404.png"
     },
     {
-      "title": "Trưởng Phòng Phát Triển Kinh Doanh",
-      "company": "CÔNG TY CỔ PHẦN TỰ ĐỘNG HÓA VÀ ROBOTICS AUBOT",
-      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-kinh-doanh-1793783554887745907-2127505-jv",
+      "title": "Giám Đốc Phát Triển Đối Tác (Partnership Director)",
+      "company": "AWING Technologies And Media",
+      "url": "https://www.vietnamworks.com/giam-djoc-phat-trien-djoi-tac-partnership-director-2125265-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127505.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125265.png"
     },
     {
-      "title": "Sales Manager",
-      "company": "Công Ty Cổ Phần Dệt Bảo Minh",
-      "url": "https://www.vietnamworks.com/sales-manager-1793787680466826250-2127886-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127886.png"
-    },
-    {
-      "title": "Mới Business Development Manager",
-      "company": "VIETNAM INVESTMENTS GROUP",
-      "url": "https://www.vietnamworks.com/business-development-manager-1793847101742979386-2128004-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128004.png"
-    },
-    {
-      "title": "Mới Sales Channel Recruiting And Training Manager",
+      "title": "Mới Channel Sales And Distribution Manager",
       "company": "Vietpay Corporation",
-      "url": "https://www.vietnamworks.com/sales-channel-recruiting-and-training-manager-1793848838244791340-2128002-jv",
+      "url": "https://www.vietnamworks.com/channel-sales-and-distribution-manager-1793848874369783652-2128000-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128002.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128000.png"
     },
     {
-      "title": "Mới Phó Phòng Kinh Doanh",
-      "company": "Công Ty Cổ Phần Tập Đoàn Trường Hải (Thaco)",
-      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-1793848871922644703-2128032-jv",
+      "title": "Mới Quản Lý Cơ Sở Trung Tâm (Ưu Tiên Nam)",
+      "company": "Hộ kinh doanh Bảo Thơ Tiếng Việt",
+      "url": "https://www.vietnamworks.com/quan-ly-co-so-trung-tam-uu-tien-nam-1793875694691968186-2128406-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128032.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128406.png"
     },
     {
-      "title": "Mới Business Development Manager - Ha Noi Branch",
-      "company": "Dachser Vietnam Co., Ltd",
-      "url": "https://www.vietnamworks.com/business-development-manager-ha-noi-branch-1793862219244308363-2128200-jv",
+      "title": "Mới {Hà Nội_Thời Trang} Trưởng Phòng Kinh Doanh Kênh Mordern Trade",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/ha-noi-thoi-trang-truong-phong-kinh-doanh-kenh-mordern-trade-1793879789840494124-2128422-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128200.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128422.png"
     },
     {
-      "title": "Trưởng Phòng Phát Triển Đối Tác & Nhượng Quyền",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-doi-tac-nhuong-quyen-1793239899080516894-2125012-jv/",
+      "title": "Giám Đốc Đầu Tư - Lĩnh Vực Bất Động Sản",
+      "company": "Công Ty Cổ Phần Nhân Bình",
+      "url": "https://www.vietnamworks.com/giam-doc-dau-tu-linh-vuc-bat-dong-san-1793358956758681639-2125899-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793866186.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125899.png"
     },
     {
-      "title": "Chuyên Viên Kinh Doanh Phần Mềm (Lương Cơ Bản Upto 25M + Commission)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-phan-mem-luong-co-ban-upto-25m-commission-2123616-jv/",
+      "title": "Mới Sales (Account Manager) - Korean Customer",
+      "company": "CÔNG TY TNHH LOTTE CHEMICAL VIỆT NAM",
+      "url": "https://www.vietnamworks.com/sales-account-manager-korean-customer-1793270309943894961-2125482-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793866204.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Phụ Tùng Xe Tải",
-      "company": "CÔNG TY TNHH XE FOTON VIỆT NAM",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-phu-tung-xe-tai-1793845185009372067-2127968-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127968.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125482.png"
     }
   ],
   "skipped_counts": {
