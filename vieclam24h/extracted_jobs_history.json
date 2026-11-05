@@ -2298,5 +2298,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-05T07:59:53.755197"
+  },
+  {
+    "id": "200985628",
+    "title": "Giám Đốc Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000160id200985628.html",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-05T14:49:38.736715"
+  },
+  {
+    "id": "200985812",
+    "title": "Trưởng Phòng Kinh Doanh (Sales Manager)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-sales-manager-c13p210000160id200985812.html",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-05T14:49:38.736728"
+  },
+  {
+    "id": "200985656",
+    "title": "Store Leader - Toàn Quốc",
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/store-leader-toan-quoc-c6p210000187id200985656.html",
+    "company": "Công Ty TNHH Aeon Fantasy Việt Nam",
+    "salary": "16 - 18 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-05T14:49:46.458788"
   }
 ]

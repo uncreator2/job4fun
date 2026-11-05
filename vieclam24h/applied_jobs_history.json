@@ -3945,5 +3945,38 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-05T08:01:49.504882",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200984195.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000160id200985628.html",
+    "id": "200985628",
+    "title": "Giám Đốc Kinh Doanh",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-05T14:51:37.710803",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985628.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-sales-manager-c13p210000160id200985812.html",
+    "id": "200985812",
+    "title": "Trưởng Phòng Kinh Doanh (Sales Manager)",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-05T14:51:59.536917",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985812.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/store-leader-toan-quoc-c6p210000187id200985656.html",
+    "id": "200985656",
+    "title": "Store Leader - Toàn Quốc",
+    "company": "Công Ty TNHH Aeon Fantasy Việt Nam",
+    "salary": "16 - 18 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-05T14:52:21.404398",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985656.png"
   }
 ]
