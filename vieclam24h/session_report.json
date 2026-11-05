@@ -1,31 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-05T14:51:02.192748",
-  "todo_count": 4,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "Giám Đốc Kinh Doanh",
-      "company": "Công Ty TNHH Hồng Đạt",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-c13p210000160id200985628.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985628.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (Sales Manager)",
-      "company": "Công Ty TNHH Hồng Đạt",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-sales-manager-c13p210000160id200985812.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985812.png"
-    },
-    {
-      "title": "Store Leader - Toàn Quốc",
-      "company": "Công Ty TNHH Aeon Fantasy Việt Nam",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/store-leader-toan-quoc-c6p210000187id200985656.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985656.png"
-    }
-  ],
+  "timestamp": "2026-11-05T17:39:21.630572",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
