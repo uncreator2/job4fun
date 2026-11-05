@@ -1,19 +1,37 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-04T14:43:32.718641",
-  "todo_count": 2,
-  "applied_count": 2,
+  "timestamp": "2026-11-05T07:55:26.231043",
+  "todo_count": 5,
+  "applied_count": 5,
   "applied_jobs": [
     {
-      "title": "Giám Đốc Kinh Doanh Toàn Quốc",
-      "company": "Công ty TNHH Thực Phẩm Sạch Thương Mại T&P",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-toan-quoc.35C8CFC0.html",
+      "title": "Giám Đốc Kinh Doanh - CN Hà Nội",
+      "company": "Nhất Tín Logistics",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-cn-ha-noi.35C8D0D9.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng phòng Phát triển Kinh doanh và Marketing",
-      "company": "Công ty TNHH Thực Phẩm Sạch Thương Mại T&P",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-phat-trien-kinh-doanh-va-marketing.35C8CFCD.html",
+      "title": "Giám Đốc Kinh Doanh (Tiếng Trung - LCB 45tr)",
+      "company": "CIG SCI-TECH COMPANY LIMITED",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-tieng-trung-lcb-45tr.35C8D09A.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "[Hà Nội] - Quản lý Kinh doanh Vin New Horizon",
+      "company": "VinWonders",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-quan-ly-kinh-doanh-vin-new-horizon.35C8D162.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Sales Manager)",
+      "company": "Nhất Tín Logistics",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-sales-manager.35C8D0D0.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Sales Manager (Modern Trade Channel - FMCG)",
+      "company": "Công ty TNHH Xuất Nhập Khẩu Liên Phong",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-manager-modern-trade-channel-fmcg.35C8D088.html",
       "status": "APPLIED_OK"
     }
   ],
