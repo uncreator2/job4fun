@@ -4118,5 +4118,23 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-06T17:09:40.408583",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986824.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-truong-phong-kinh-doanh-thu-nhap-18-30-trieu-da-nang-c13p210000180id200985828.html",
+    "id": "200985828",
+    "title": "Nam Trưởng Phòng Kinh Doanh, Thu Nhập 18 - 30 Triệu (Đà Nẵng)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-c6p210000160id200986697.html",
+    "id": "200986697",
+    "title": "Cửa Hàng Trưởng",
+    "company": "Công Ty TNHH M.A.Y Art And Craft Việt Nam",
+    "salary": "14 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-06T20:09:01.686605",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986697.png"
   }
 ]
