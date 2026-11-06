@@ -1,24 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-06T17:14:41.508846",
-  "todo_count": 11,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Chuyên Viên Kinh Doanh Phụ Tùng (Thiết Bị Máy Công Nghiệp)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-phu-tung-thiet-bi-may-cong-nghiep-1792373332925470099-2120763-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793985281.png"
-    },
-    {
-      "title": "Senior Technical Service Engineer – Electronics",
-      "company": "",
-      "url": "https://www.vietnamworks.com/senior-technical-service-engineer-electronics-1793182793968991921-2124937-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793985299.png"
-    }
-  ],
+  "timestamp": "2026-11-06T20:14:52.862204",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
