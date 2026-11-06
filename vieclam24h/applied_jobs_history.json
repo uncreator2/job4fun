@@ -4082,5 +4082,41 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-06T14:29:08.647830",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200987026.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-hcm-ha-noi-c12p210000160id200975755.html",
+    "id": "200975755",
+    "title": "Trưởng Phòng Marketing - HCM, Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-c13p210000189id200973151.html",
+    "id": "200973151",
+    "title": "Giám Sát Bán Hàng Kênh GT",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-nang-nguoi-toan-quoc-lam-viec-remote-c13p210000187id200987255.html",
+    "id": "200987255",
+    "title": "Trưởng Phòng Kinh Doanh Xe Nâng Người (Toàn Quốc) – Làm Việc Remote",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-06T17:09:21.064480",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200987255.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/luat-phap-ly-tuan-thu/truong-nhom-telesales-nhac-phi-hanh-chinh-nghi-t7cn-mrshno-c25p210000160id200986824.html",
+    "id": "200986824",
+    "title": "Trưởng Nhóm Telesales Nhắc Phí (Hành Chính, Nghỉ T7Cn) - Mrshno",
+    "company": "Công ty TNHH Catbox Việt Nam",
+    "salary": "4.4 - 5 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-06T17:09:40.408583",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986824.png"
   }
 ]

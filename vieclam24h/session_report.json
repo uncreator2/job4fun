@@ -1,15 +1,22 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-06T14:28:33.649339",
-  "todo_count": 2,
-  "applied_count": 1,
+  "timestamp": "2026-11-06T17:08:49.515713",
+  "todo_count": 3,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Marketing Kênh E-Commerce",
-      "company": "Công Ty TNHH Sellnity",
-      "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-kenh-e-commerce-c12p210000160id200987026.html",
+      "title": "Trưởng Phòng Kinh Doanh Xe Nâng Người (Toàn Quốc) – Làm Việc Remote",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-xe-nang-nguoi-toan-quoc-lam-viec-remote-c13p210000187id200987255.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200987026.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200987255.png"
+    },
+    {
+      "title": "Trưởng Nhóm Telesales Nhắc Phí (Hành Chính, Nghỉ T7Cn) - Mrshno",
+      "company": "Công ty TNHH Catbox Việt Nam",
+      "url": "https://vieclam24h.vn/luat-phap-ly-tuan-thu/truong-nhom-telesales-nhac-phi-hanh-chinh-nghi-t7cn-mrshno-c25p210000160id200986824.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986824.png"
     }
   ],
   "skipped_counts": {
