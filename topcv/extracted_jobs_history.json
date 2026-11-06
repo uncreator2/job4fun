@@ -11602,5 +11602,53 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-11-06 08:22:24",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-mien-bac-thu-nhap-15-30-trieu-thang/2294447.html": {
+    "job_id": "2294447",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-mien-bac-thu-nhap-15-30-trieu-thang/2294447.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793976111",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-mien-bac-thu-nhap-15-30-trieu-thang/2294447.html",
+    "company": "CÔNG TY TNHH TOSHIKO VIỆT NAM",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-06 14:42:09",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2350011.html": {
+    "job_id": "2350011",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2350011.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793976111",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2350011.html",
+    "company": "CÔNG TY CP GLEXHOMES",
+    "salary": "30 - 45 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-06 14:42:09",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-du-lich-thu-nhap-den-40-trieu/2306627.html": {
+    "job_id": "2306627",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-du-lich-thu-nhap-den-40-trieu/2306627.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793976152",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-du-lich-thu-nhap-den-40-trieu/2306627.html",
+    "company": "CÔNG TY CỔ PHẦN AVORY TRAVEL",
+    "salary": "20 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-06 14:42:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-co-so-tinh-mang-giao-duc/2331980.html": {
+    "job_id": "2331980",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-co-so-tinh-mang-giao-duc/2331980.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1793976169",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-co-so-tinh-mang-giao-duc/2331980.html",
+    "company": "CÔNG TY CỔ PHẦN GIÁO DỤC EDUTALK HOLDINGS",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội & 3 nơi khác",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-06 14:43:03",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
