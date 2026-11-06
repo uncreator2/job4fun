@@ -4064,5 +4064,23 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-06T08:08:51.760804",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985459.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-5-nam-kinh-nghiem-xa-binh-minh-ha-noi-c13p210000160id200980159.html",
+    "id": "200980159",
+    "title": "Trưởng Phòng Kinh Doanh- 5 năm kinh nghiệm- Xã Bình Minh, Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-kenh-e-commerce-c12p210000160id200987026.html",
+    "id": "200987026",
+    "title": "Trưởng Phòng Marketing Kênh E-Commerce",
+    "company": "Công Ty TNHH Sellnity",
+    "salary": "20 - 35 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-06T14:29:08.647830",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200987026.png"
   }
 ]
