@@ -1,113 +1,32 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-06T14:34:53.909415",
-  "todo_count": 24,
-  "applied_count": 10,
+  "timestamp": "2026-11-06T17:14:41.508846",
+  "todo_count": 11,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Bartender",
-      "company": "REDDOT BREWHOUSE PTE LTD",
-      "url": "https://www.vietnamworks.com/bartender-1792855090116400009-2123377-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123377.png"
-    },
-    {
-      "title": "Mới Business Development & Operations Manager",
-      "company": "Công Ty TNHH Eracare Việt Nam",
-      "url": "https://www.vietnamworks.com/business-development-operations-manager-1793958449745956669-2128765-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128765.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Hỗ Trợ Kinh Doanh (Sales Admin Manager)",
-      "company": "CÔNG TY CỔ PHẦN TRUMP INTERNATIONAL VIỆT NAM",
-      "url": "https://www.vietnamworks.com/truong-phong-ho-tro-kinh-doanh-sales-admin-manager-1793354070499234469-2126187-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126187.png"
-    },
-    {
-      "title": "Mới Strategy Business Planning Manager",
-      "company": "GSM - Xanh SM",
-      "url": "https://www.vietnamworks.com/strategy-business-planning-manager-1793965811444066894-2128896-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128896.png"
-    },
-    {
-      "title": "Key Account Manager - Rapid Diagnostics - Ha Noi",
+      "title": "Chuyên Viên Kinh Doanh Phụ Tùng (Thiết Bị Máy Công Nghiệp)",
       "company": "",
-      "url": "https://www.vietnamworks.com/key-account-manager-rapid-diagnostics-ha-noi-1792551103121988617-2121659-jv/",
+      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-phu-tung-thiet-bi-may-cong-nghiep-1792373332925470099-2120763-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975835.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793985281.png"
     },
     {
-      "title": "Hà Nội + Hồ Chí Minh - Kỹ Sư Bán Hàng Mảng Intralogistic",
+      "title": "Senior Technical Service Engineer – Electronics",
       "company": "",
-      "url": "https://www.vietnamworks.com/ha-noi-ho-chi-minh-ky-su-ban-hang-mang-intralogistic-1792381789414846284-2120847-jv/",
+      "url": "https://www.vietnamworks.com/senior-technical-service-engineer-electronics-1793182793968991921-2124937-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975853.png"
-    },
-    {
-      "title": "Presales Engineer (System)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/presales-engineer-system-1793780389850035679-2127783-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975870.png"
-    },
-    {
-      "title": "Phó Phòng Kinh Doanh Dự Án",
-      "company": "",
-      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-du-an-1793785979017991325-2127793-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975885.png"
-    },
-    {
-      "title": "[HN] Nhân Viên Kinh Doanh B2B | Data Khách Hàng Có Sẵn",
-      "company": "",
-      "url": "https://www.vietnamworks.com/hn-nhan-vien-kinh-doanh-b2b-data-khach-hang-co-san-1792986659044483403-2123566-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975903.png"
-    },
-    {
-      "title": "Medical IT Engineer",
-      "company": "",
-      "url": "https://www.vietnamworks.com/medical-it-engineer--2128089-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793975921.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1793985299.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 5,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/ky-su-dieu-hoa-khong-khi-1793931812847782364-2127173-jv",
-      "title": "Kỹ Sư Điều Hoà Không Khí",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-giam-sat-than-vo-han-va-chat-luong-ket-cau-lam-viec-tai-trung-quoc-2128704-jv",
-      "title": "Mới Chuyên Viên Giám Sát Thân Vỏ, Hàn Và Chất Lượng Kết Cấu (làm việc tại Trung Quốc)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-giam-sat-son-chong-an-mon-vo-tau-lam-viec-tai-trung-quoc-2128708-jv",
-      "title": "Mới Chuyên Viên Giám Sát Sơn, Chống Ăn Mòn Vỏ Tàu (làm việc tại Trung Quốc)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-giam-sat-may-he-ong-va-trang-thiet-bi-lam-viec-tai-trung-quoc-2128713-jv",
-      "title": "Mới Chuyên Viên Giám Sát Máy, Hệ Ống Và Trang Thiết Bị (làm việc tại Trung Quốc)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/chuyen-vien-giam-sat-djien-tu-djong-hoa-va-he-thong-container-lanh-lam-viec-tai-trung-quoc-2128716-jv",
-      "title": "Mới Chuyên Viên Giám Sát Điện, Tự Động Hóa Và Hệ Thống Container Lạnh (làm việc tại Trung Quốc)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -126,17 +45,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
@@ -146,7 +65,7 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
