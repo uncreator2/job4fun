@@ -1,9 +1,38 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-05T20:52:00.407837",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-06T08:07:21.640574",
+  "todo_count": 5,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200985653.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985653.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh Miền Bắc",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-mien-bac-c13p210000160id200986004.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986004.png"
+    },
+    {
+      "title": "Phó Giám Đốc Trung Tâm Bảo Hành, Sửa Chữa Và Kinh Doanh Phụ Tùng Ô Tô",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/pho-giam-doc-trung-tam-bao-hanh-sua-chua-va-kinh-doanh-phu-tung-o-to-c13p210000160id200986280.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986280.png"
+    },
+    {
+      "title": "Giám Đốc Phát Triển Dự Án",
+      "company": "Công Ty Cổ Phần Kinh Doanh Địa Ốc Trường Phát",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-phat-trien-du-an-c13p210000187id200985459.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200985459.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
