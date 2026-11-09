@@ -4136,5 +4136,48 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-06T20:09:01.686605",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200986697.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-audi-ha-noi-c13p210000160id200988581.html",
+    "id": "200988581",
+    "title": "Trưởng Phòng Kinh Doanh - Audi Hà Nội",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-kenh-gt-khong-yeu-cau-kinh-nghiem-c13p210000187id200919701.html",
+    "id": "200919701",
+    "title": "Nhân Viên Kinh Doanh Kênh Gt_Không Yêu Cầu Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-cua-hang-cua-hang-truong-f-b-ha-noi-ho-chi-minh-c13p210000160id200987297.html",
+    "id": "200987297",
+    "title": "Quản Lý Cửa Hàng / Cửa Hàng Trưởng F&b - Hà Nội, Hồ Chí Minh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thuoc-bao-ve-thuc-vat-c13p210000160id200988342.html",
+    "id": "200988342",
+    "title": "Trưởng Phòng Kinh Doanh Thuốc Bảo Vệ Thực Vật",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-09T08:04:52.781920",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200988342.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-leader-sales-b2b-quang-cao-c13p210000187id200988703.html",
+    "id": "200988703",
+    "title": "Trưởng Nhóm Kinh Doanh / Leader Sales B2B Quảng Cáo",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-09T08:05:17.581033",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200988703.png"
   }
 ]
