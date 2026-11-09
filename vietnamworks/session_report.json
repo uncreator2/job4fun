@@ -1,72 +1,46 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-09T16:48:38.989763",
-  "todo_count": 17,
-  "applied_count": 7,
+  "timestamp": "2026-11-09T20:08:38.853987",
+  "todo_count": 13,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "Mới Finance Business Partner / Fp&A Manager",
-      "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/finance-business-partner-fp-amp-a-manager-2129244-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129244.png"
-    },
-    {
-      "title": "Mới Quản Lý Kinh Doanh Vùng (Bancassurance / Timeshare)",
-      "company": "Công Ty Cổ Phần Vinpearl",
-      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-vung-bancassurance-timeshare-2129013-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129013.png"
-    },
-    {
-      "title": "Mới Inbound Sales Manager (English Market)/ Trưởng Phòng Kinh Doanh Tour Du Lịch",
-      "company": "Công ty TNHH Du Lịch Sang Trọng Việt Nam",
-      "url": "https://www.vietnamworks.com/inbound-sales-manager-english-market-truong-phong-kinh-doanh-tour-du-lich-1794216063235672804-2129278-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129278.png"
-    },
-    {
-      "title": "Mới Assistant Specification Sales Manager",
-      "company": "Saint-Gobain Vietnam Co., Ltd",
-      "url": "https://www.vietnamworks.com/assistant-specification-sales-manager-1794223204952951323-2129509-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129509.png"
-    },
-    {
-      "title": "Business Development Manager - Blower And Vacuum",
+      "title": "IT Storage Solution Manager/ Engineer",
       "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-blower-and-vacuum-2127292-jv/",
+      "url": "https://www.vietnamworks.com/it-storage-solution-manager-engineer-1793939175809471671-2128527-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794243009.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254918.png"
     },
     {
-      "title": "Trưởng Nhóm Phát Triển Kinh Doanh Và Hợp Tác Quốc Tế",
+      "title": "Kỹ Sư Kinh Doanh Sản Phẩm (Product Sales Engineer) Lương cơ bản từ 15 triệu + thưởng theo doanh thu",
       "company": "",
-      "url": "https://www.vietnamworks.com/truong-nhom-phat-trien-kinh-doanh-va-hop-tac-quoc-te-1793207378785088956-2124991-jv/",
+      "url": "https://www.vietnamworks.com/ky-su-kinh-doanh-san-pham-product-sales-engineer-luong-co-ban-tu-15-trieu-thuong-theo-doanh-thu-2128299-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794243029.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254936.png"
     },
     {
-      "title": "Mới Giám đốc kinh doanh B2B mảng phụ tùng xe máy - Lương upto 50tr",
-      "company": "CÔNG TY TNHH DAICHI VIỆT NAM",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-b2b-mang-phu-tung-xe-may-luong-upto-50tr-1793940076200237417-2114203-jv",
+      "title": "Account Sales Engineer",
+      "company": "",
+      "url": "https://www.vietnamworks.com/account-sales-engineer-1793953959034657336-2128756-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114203.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254954.png"
+    },
+    {
+      "title": "Giám Đốc Phát Triển Kinh Doanh Vùng Khách Hàng Doanh Nghiệp - Khối Khách Hàng Doanh Nghiệp",
+      "company": "Ngân hàng TMCP Đông Nam Á (SeABank)",
+      "url": "https://www.vietnamworks.com/giam-doc-phat-trien-kinh-doanh-vung-khach-hang-doanh-nghiep-khoi-khach-hang-doanh-nghiep-1792378372546518283-2120786-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120786.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/ha-noi-truong-phong-kinh-doanh-thu-nhap-upto-60tr-2117119-jv",
-      "title": "Mới [Hà Nội] Trưởng Phòng Kinh Doanh Thu Nhập Upto 60Tr+++",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -85,27 +59,27 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
