@@ -1,36 +1,15 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-09T20:08:38.853987",
-  "todo_count": 13,
-  "applied_count": 4,
+  "timestamp": "2026-11-09T23:17:20.663335",
+  "todo_count": 10,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "IT Storage Solution Manager/ Engineer",
+      "title": "Chuyên viên Chiến lược kế hoạch kinh doanh thị trường nước ngoài PM",
       "company": "",
-      "url": "https://www.vietnamworks.com/it-storage-solution-manager-engineer-1793939175809471671-2128527-jv/",
+      "url": "https://www.vietnamworks.com/chuyen-vien-chien-luoc-ke-hoach-kinh-doanh-thi-truong-nuoc-ngoai-pm-1793696227227912893-2127326-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254918.png"
-    },
-    {
-      "title": "Kỹ Sư Kinh Doanh Sản Phẩm (Product Sales Engineer) Lương cơ bản từ 15 triệu + thưởng theo doanh thu",
-      "company": "",
-      "url": "https://www.vietnamworks.com/ky-su-kinh-doanh-san-pham-product-sales-engineer-luong-co-ban-tu-15-trieu-thuong-theo-doanh-thu-2128299-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254936.png"
-    },
-    {
-      "title": "Account Sales Engineer",
-      "company": "",
-      "url": "https://www.vietnamworks.com/account-sales-engineer-1793953959034657336-2128756-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794254954.png"
-    },
-    {
-      "title": "Giám Đốc Phát Triển Kinh Doanh Vùng Khách Hàng Doanh Nghiệp - Khối Khách Hàng Doanh Nghiệp",
-      "company": "Ngân hàng TMCP Đông Nam Á (SeABank)",
-      "url": "https://www.vietnamworks.com/giam-doc-phat-trien-kinh-doanh-vung-khach-hang-doanh-nghiep-khoi-khach-hang-doanh-nghiep-1792378372546518283-2120786-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120786.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794266240.png"
     }
   ],
   "skipped_counts": {
@@ -84,7 +63,7 @@
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
