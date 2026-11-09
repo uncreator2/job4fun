@@ -1,74 +1,72 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-09T08:11:50.111102",
+  "timestamp": "2026-11-09T16:48:38.989763",
   "todo_count": 17,
-  "applied_count": 8,
+  "applied_count": 7,
   "applied_jobs": [
     {
-      "title": "[Urgent] Project Sales Manager (Điện Công Nghiệp) - Hà Nội",
+      "title": "Mới Finance Business Partner / Fp&A Manager",
       "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/urgent-project-sales-manager-dien-cong-nghiep-ha-noi-2119209-jv",
+      "url": "https://www.vietnamworks.com/finance-business-partner-fp-amp-a-manager-2129244-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119209.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129244.png"
     },
     {
-      "title": "Mới Passenger Sales Manager - Air India - Competitive Salary – Immediate Start",
-      "company": "T&T GLOBAL TRAVEL SERVICES CO., LTD",
-      "url": "https://www.vietnamworks.com/passenger-sales-manager-air-india-competitive-salary-immediate-start-2117103-jv",
+      "title": "Mới Quản Lý Kinh Doanh Vùng (Bancassurance / Timeshare)",
+      "company": "Công Ty Cổ Phần Vinpearl",
+      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-vung-bancassurance-timeshare-2129013-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2117103.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129013.png"
     },
     {
-      "title": "HOME_BASED - Senior Sales B2B (Automotive, OEM, Linh Kiện Ô Tô)",
+      "title": "Mới Inbound Sales Manager (English Market)/ Trưởng Phòng Kinh Doanh Tour Du Lịch",
+      "company": "Công ty TNHH Du Lịch Sang Trọng Việt Nam",
+      "url": "https://www.vietnamworks.com/inbound-sales-manager-english-market-truong-phong-kinh-doanh-tour-du-lich-1794216063235672804-2129278-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129278.png"
+    },
+    {
+      "title": "Mới Assistant Specification Sales Manager",
+      "company": "Saint-Gobain Vietnam Co., Ltd",
+      "url": "https://www.vietnamworks.com/assistant-specification-sales-manager-1794223204952951323-2129509-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129509.png"
+    },
+    {
+      "title": "Business Development Manager - Blower And Vacuum",
       "company": "",
-      "url": "https://www.vietnamworks.com/home_based-senior-sales-b2b-automotive-oem-linh-kien-o-to-2127021-jv/",
+      "url": "https://www.vietnamworks.com/business-development-manager-blower-and-vacuum-2127292-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794211946.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794243009.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh",
+      "title": "Trưởng Nhóm Phát Triển Kinh Doanh Và Hợp Tác Quốc Tế",
       "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1793068536842723553-2124029-jv/",
+      "url": "https://www.vietnamworks.com/truong-nhom-phat-trien-kinh-doanh-va-hop-tac-quoc-te-1793207378785088956-2124991-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794211964.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794243029.png"
     },
     {
-      "title": "Chuyên viên Nghiên cứu và Phát triển Dịch vụ Kinh doanh mới",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-nghien-cuu-va-phat-trien-dich-vu-kinh-doanh-moi-1793696120760186776-2127323-jv/",
+      "title": "Mới Giám đốc kinh doanh B2B mảng phụ tùng xe máy - Lương upto 50tr",
+      "company": "CÔNG TY TNHH DAICHI VIỆT NAM",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-b2b-mang-phu-tung-xe-may-luong-upto-50tr-1793940076200237417-2114203-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794211983.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh - B2B - Tự động hóa - Lương upto 40tr",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-tu-djong-hoa-luong-upto-40tr-2127505-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794212002.png"
-    },
-    {
-      "title": "GIÁM ĐỐC KINH DOANH – CHI NHÁNH MIỀN BẮC (CNMB)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-vien-thong-cntt-1793774457885629321-2127586-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794212020.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Lĩnh Vực Điện Mặt Trời Thu Nhập Từ 35 - 50 Triệu",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-linh-vuc-dien-mat-troi-thu-nhap-tu-35-50-trieu-1793933646655362350-2128495-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794212038.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2114203.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/ha-noi-truong-phong-kinh-doanh-thu-nhap-upto-60tr-2117119-jv",
+      "title": "Mới [Hà Nội] Trưởng Phòng Kinh Doanh Thu Nhập Upto 60Tr+++",
+      "reason": "Đã ứng tuyển trước đó"
+    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -97,22 +95,22 @@
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
