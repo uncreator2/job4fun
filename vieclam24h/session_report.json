@@ -1,24 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-09T08:04:18.632418",
-  "todo_count": 3,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Phòng Kinh Doanh Thuốc Bảo Vệ Thực Vật",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-thuoc-bao-ve-thuc-vat-c13p210000160id200988342.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200988342.png"
-    },
-    {
-      "title": "Trưởng Nhóm Kinh Doanh / Leader Sales B2B Quảng Cáo",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-leader-sales-b2b-quang-cao-c13p210000187id200988703.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200988703.png"
-    }
-  ],
+  "timestamp": "2026-11-09T16:42:07.537922",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
