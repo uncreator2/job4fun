@@ -1,6 +1,6 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-09T16:56:34.368176",
+  "timestamp": "2026-11-09T20:17:33.133287",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2352972.html",
-      "title": "Giám Đốc Kinh Doanh",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
+      "title": "Trưởng Phòng Tuyển Sinh Và Truyền Thông",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thep-go-nguyen-lieu/1363569.html",
-      "title": "Trưởng Phòng Kinh Doanh Thép, Gỗ Nguyên Liệu",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-my-pham/2334235.html",
+      "title": "Trưởng Phòng Kinh Doanh- Mảng Mỹ Phẩm",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-chuoi-sieu-thi/1653764.html",
-      "title": "Giám Đốc Điều Hành (Chuỗi Siêu Thị)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2334198.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
