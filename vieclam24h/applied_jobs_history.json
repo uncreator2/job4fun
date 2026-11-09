@@ -4179,5 +4179,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-09T08:05:17.581033",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200988703.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-di-lam-ngay-c13p210000186id200965357.html",
+    "id": "200965357",
+    "title": "Trưởng Phòng Kinh Doanh (Đi Làm Ngay)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
