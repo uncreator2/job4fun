@@ -1,35 +1,30 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-06T20:20:31.156368",
+  "timestamp": "2026-11-09T08:19:01.217286",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 1,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 3
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-i-thu-nhap-upto-35-trieu-hoa-hong/2332843.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
-      "title": "Trưởng Phòng Tuyển Sinh Và Truyền Thông",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-my-pham/2334235.html",
-      "title": "Trưởng Phòng Kinh Doanh- Mảng Mỹ Phẩm",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2334198.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2353036.html",
       "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-b2b/2349510.html",
+      "title": "Trưởng Nhóm Kinh Doanh B2B",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-he-thong-phan-phoi/2323776.html",
+      "title": "Quản Lý Hệ Thống Phân Phối",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
