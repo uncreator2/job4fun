@@ -11710,5 +11710,53 @@
     "exp": "Không yêu cầu",
     "first_extracted_at": "2026-11-09 08:18:27",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-kinh-doanh-tai-nuoc-ngoai-kl100?type_keyword=1&sba=1&locations=l100_l10001_l10002&saturday_status=0"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2352972.html": {
+    "job_id": "2352972",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2352972.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794243270",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2352972.html",
+    "company": "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI NHỰA PHÚ THỊNH",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-09 16:54:45",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thep-go-nguyen-lieu/1363569.html": {
+    "job_id": "1363569",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thep-go-nguyen-lieu/1363569.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794243325",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thep-go-nguyen-lieu/1363569.html",
+    "company": "CÔNG TY TNHH DVTM & XNK SECOM",
+    "salary": "20 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-09 16:55:41",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-chuoi-sieu-thi/1653764.html": {
+    "job_id": "1653764",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-chuoi-sieu-thi/1653764.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794243325",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-chuoi-sieu-thi/1653764.html",
+    "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN ĐẦU TƯ KLB",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-09 16:55:41",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/brand/gpbank/tuyen-dung/truong-phong-quan-ly-kinh-doanh-khoi-khach-hang-ca-nhan-j2353706.html": {
+    "job_id": "2353706",
+    "title": "Trưởng Phòng Quản Lý Kinh Doanh - Khối Khách Hàng Cá Nhân",
+    "raw_url": "https://www.topcv.vn/brand/gpbank/tuyen-dung/truong-phong-quan-ly-kinh-doanh-khoi-khach-hang-ca-nhan-j2353706.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794243325",
+    "clean_url": "https://www.topcv.vn/brand/gpbank/tuyen-dung/truong-phong-quan-ly-kinh-doanh-khoi-khach-hang-ca-nhan-j2353706.html",
+    "company": "NGÂN HÀNG TM TNHH MTV KỶ NGUYÊN THỊNH VƯỢNG",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-09 16:55:41",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
