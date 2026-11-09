@@ -1,37 +1,31 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-05T07:55:26.231043",
-  "todo_count": 5,
-  "applied_count": 5,
+  "timestamp": "2026-11-09T07:59:15.825662",
+  "todo_count": 4,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "Giám Đốc Kinh Doanh - CN Hà Nội",
-      "company": "Nhất Tín Logistics",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-cn-ha-noi.35C8D0D9.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh (Tiếng Trung - LCB 45tr)",
-      "company": "CIG SCI-TECH COMPANY LIMITED",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-tieng-trung-lcb-45tr.35C8D09A.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "[Hà Nội] - Quản lý Kinh doanh Vin New Horizon",
+      "title": "Quản Lý Kinh Doanh Vùng (Bancassurance / Timeshare)",
       "company": "VinWonders",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-quan-ly-kinh-doanh-vin-new-horizon.35C8D162.html",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-kinh-doanh-vung-bancassurance-timeshare.35C8D42F.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh (Sales Manager)",
-      "company": "Nhất Tín Logistics",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-sales-manager.35C8D0D0.html",
+      "title": "Quản Lý Kinh Doanh Kênh MT (Ngành Điện Lạnh và Máy Lọc Nước)",
+      "company": "SANAKY MIỀN BẮC",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-kinh-doanh-kenh-mt-nganh-dien-lanh-va-may-loc-nuoc.35C8B3DA.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Sales Manager (Modern Trade Channel - FMCG)",
-      "company": "Công ty TNHH Xuất Nhập Khẩu Liên Phong",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-manager-modern-trade-channel-fmcg.35C8D088.html",
+      "title": "Trưởng phòng Kinh doanh bán lẻ",
+      "company": "Công ty TNHH PHD",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-ban-le.35C8D4C8.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Kinh doanh Hàng hóa phái sinh",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ FIREANT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-hang-hoa-phai-sinh.35C8D3FB.html",
       "status": "APPLIED_OK"
     }
   ],
