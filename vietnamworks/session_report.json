@@ -1,15 +1,106 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-09T23:17:20.663335",
-  "todo_count": 10,
-  "applied_count": 1,
+  "timestamp": "2026-11-10T08:37:39.368742",
+  "todo_count": 23,
+  "applied_count": 14,
   "applied_jobs": [
     {
-      "title": "Chuyên viên Chiến lược kế hoạch kinh doanh thị trường nước ngoài PM",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-chien-luoc-ke-hoach-kinh-doanh-thi-truong-nuoc-ngoai-pm-1793696227227912893-2127326-jv/",
+      "title": "[Oh My Herb] Tuyển Dụng Làm Việc Từ Xa - Tuyển Cộng Tác Viên Quản Lý Chương Trình Trải Nghiệm Sản Phẩm K-Beauty Và Nội Dung Mạng Xã Hội",
+      "company": "Luc Corporation",
+      "url": "https://www.vietnamworks.com/oh-my-herb-tuyen-dung-lam-viec-tu-xa-tuyen-cong-tac-vien-quan-ly-chuong-trinh-trai-nghiem-san-pham-k-beauty-va-noi-dung-mang-xa-hoi-1793853652841429194-2128129-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794266240.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128129.png"
+    },
+    {
+      "title": "Thực Tập/ Làm Việc Tại Mỹ Vị Trí Lễ Tân Khách Sạn | Lương $20/h + Tips | Làm Việc 12-18 Tháng Tại Khách Sạn Sheraton, Bang Florida, Mỹ",
+      "company": "Công Ty TNHH Gece Group",
+      "url": "https://www.vietnamworks.com/thuc-tap-lam-viec-tai-my-vi-tri-le-tan-khach-san-luong-20-h-tips-lam-viec-12-18-thang-tai-khach-san-sheraton-bang-florida-my-1793935635714516656-2128522-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128522.png"
+    },
+    {
+      "title": "Mới Future Leader - Senior Manager, Manufacturing Finance",
+      "company": "VINFAST TRADING AND PRODUCTION JSC",
+      "url": "https://www.vietnamworks.com/future-leader-senior-manager-manufacturing-finance-1794296440269659135-2129727-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129727.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Giao Nhận Vận Tải Quốc Tế (Freight Forwarding Sales Manager)",
+      "company": "SUPER-CHAIN LOGISTICS VIET NAM COMPANY LIMITED",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-giao-nhan-van-tai-quoc-te-freight-forwarding-sales-manager-2129496-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129496.png"
+    },
+    {
+      "title": "Strategic Partnership Director/ Enterprise Business Director",
+      "company": "AWING Technologies And Media",
+      "url": "https://www.vietnamworks.com/strategic-partnership-director-enterprise-business-director-2125265-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125265.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "CÔNG TY CỔ PHẦN LOGISTICS VIETAIR",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-2121792-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121792.png"
+    },
+    {
+      "title": "Sales Manager - Cement",
+      "company": "Saint-Gobain Vietnam Co., Ltd",
+      "url": "https://www.vietnamworks.com/sales-manager-cement-1793116239249413851-2124458-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124458.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh Công Nghiệp",
+      "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN BMK",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-cong-nghiep-1794280022746400051-2129549-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129549.png"
+    },
+    {
+      "title": "Mới Chuyên Gia Phân Tích Dữ Liệu Kinh Doanh, Phòng Kế Hoạch và Quản Lý Hiệu Quả Kinh Doanh, Khối Khách Hàng Cá Nhân ( Tham Dự Án It3)",
+      "company": "Ngân Hàng TMCP Đại Chúng Việt Nam",
+      "url": "https://www.vietnamworks.com/chuyen-gia-phan-tich-du-lieu-kinh-doanh-phong-ke-hoach-va-quan-ly-hieu-qua-kinh-doanh-khoi-khach-hang-ca-nhan-tham-du-an-it3-1794280747002693956-2127542-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127542.png"
+    },
+    {
+      "title": "Mới Internal Audit Manager (Hanoi)",
+      "company": "Tp INC - Hanoi Business Center",
+      "url": "https://www.vietnamworks.com/internal-audit-manager-hanoi-1794294529789202750-2129746-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129746.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-1793848871922644703-2128032-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794300028.png"
+    },
+    {
+      "title": "Corporate Account Manager (B2B)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/corporate-account-manager-b2b-2126626-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794300046.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh Dự Án",
+      "company": "Công Ty TNHH PNK",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-du-an-1793246786155174341-2125104-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125104.png"
+    },
+    {
+      "title": "Mới Senior HORECA Sales Executive",
+      "company": "CÔNG TY TNHH EPICURE VINA",
+      "url": "https://www.vietnamworks.com/senior-horeca-sales-executive-1794295802794136298-2129689-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129689.png"
     }
   ],
   "skipped_counts": {
@@ -38,32 +129,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
