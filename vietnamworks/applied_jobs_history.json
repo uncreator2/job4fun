@@ -8464,5 +8464,45 @@
     "applied_at": "2026-11-10T15:12:30.602060",
     "status": "SUBMITTED",
     "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794323537.png"
+  },
+  {
+    "id": "2127173",
+    "title": "Kỹ Sư Điều Hoà Không Khí",
+    "company": "Công Ty TNHH Kurihara Việt Nam",
+    "salary": "S$ 3,500-5,000 /tháng",
+    "url": "https://www.vietnamworks.com/ky-su-dieu-hoa-khong-khi-1794290948863512670-2127173-jv",
+    "applied_at": "2026-11-10T17:23:31.212985",
+    "status": "ALREADY_APPLIED",
+    "proof": ""
+  },
+  {
+    "id": "",
+    "title": "Chuyên Viên Kinh Doanh – Ngành Hàng Linh Kiện Điện Tử",
+    "company": "",
+    "salary": "",
+    "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-nganh-hang-linh-kien-dien-tu-2124096-jv/",
+    "applied_at": "2026-11-10T17:23:48.058294",
+    "status": "SUBMITTED",
+    "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331413.png"
+  },
+  {
+    "id": "",
+    "title": "Nhân Viên Kinh Doanh",
+    "company": "",
+    "salary": "",
+    "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-2124755-jv/",
+    "applied_at": "2026-11-10T17:24:01.750232",
+    "status": "SUBMITTED",
+    "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331430.png"
+  },
+  {
+    "id": "",
+    "title": "Phó Phòng Kinh doanh Quốc Tế (Kim loại/ Linh kiện Solar)",
+    "company": "",
+    "salary": "",
+    "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-quoc-te-kim-loai-linh-kien-solar-2125224-jv/",
+    "applied_at": "2026-11-10T17:24:20.569143",
+    "status": "SUBMITTED",
+    "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331443.png"
   }
 ]
