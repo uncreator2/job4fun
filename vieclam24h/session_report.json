@@ -1,26 +1,11 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-10T15:05:46.867180",
-  "todo_count": 3,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200969518.html",
-      "status": "ALREADY_APPLIED",
-      "proof": ""
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh – Lĩnh Vực Y Tế",
-      "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-linh-vuc-y-te-c13p210000160id200990295.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990295.png"
-    }
-  ],
+  "timestamp": "2026-11-10T17:18:06.193861",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -31,11 +16,6 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
-    },
-    {
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200969518.html",
-      "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }
