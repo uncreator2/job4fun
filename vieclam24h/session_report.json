@@ -1,40 +1,26 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-10T08:29:49.718368",
-  "todo_count": 5,
-  "applied_count": 4,
+  "timestamp": "2026-11-10T15:05:46.867180",
+  "todo_count": 3,
+  "applied_count": 2,
   "applied_jobs": [
-    {
-      "title": "Giám Đốc Kinh Doanh Vật Liệu Xây Dựng",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-vat-lieu-xay-dung-c13p210000160id200990211.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990211.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Tour Golf",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-tour-golf-c13p210000160id200989683.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989683.png"
-    },
     {
       "title": "Trưởng Phòng Kinh Doanh",
       "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200989528.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989528.png"
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200969518.html",
+      "status": "ALREADY_APPLIED",
+      "proof": ""
     },
     {
-      "title": "Giám Sát Kinh Doanh / Sales Supervisor (Mt)",
-      "company": "Công Ty Cổ Phần An Ninh Mạng Quốc Tế - Ics",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-mt-c13p210000160id200990173.html",
+      "title": "Trưởng Phòng Kinh Doanh – Lĩnh Vực Y Tế",
+      "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-linh-vuc-y-te-c13p210000160id200990295.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990173.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990295.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -45,6 +31,11 @@
       "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
       "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
       "reason": "ERROR"
+    },
+    {
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200969518.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
     }
   ]
 }

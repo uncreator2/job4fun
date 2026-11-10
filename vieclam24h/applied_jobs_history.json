@@ -4251,5 +4251,27 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-10T08:31:43.814642",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990173.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200969518.html",
+    "id": "200969518",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-11-10T15:06:10.347567",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-linh-vuc-y-te-c13p210000160id200990295.html",
+    "id": "200990295",
+    "title": "Trưởng Phòng Kinh Doanh – Lĩnh Vực Y Tế",
+    "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
+    "salary": "25 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-10T15:06:33.767658",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990295.png"
   }
 ]
