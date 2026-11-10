@@ -1,6 +1,6 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-10T17:28:33.537459",
+  "timestamp": "2026-11-10T20:51:13.990193",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2354872.html",
-      "title": "Trường Nhóm Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-etc-nhan-hang-blackmores/2354822.html",
-      "title": "Quản Lý Bán Hàng ETC - Nhãn Hàng Blackmores",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
       "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
       "title": "Trưởng Phòng Tuyển Sinh Và Truyền Thông",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-my-pham/2334235.html",
+      "title": "Trưởng Phòng Kinh Doanh- Mảng Mỹ Phẩm",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2334198.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
