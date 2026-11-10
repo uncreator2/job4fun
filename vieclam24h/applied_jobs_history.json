@@ -4273,5 +4273,19 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-10T15:06:33.767658",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990295.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-phat-trien-kinh-doanh-biet-tieng-nhat-c13p210000187id200965491.html",
+    "id": "200965491",
+    "title": "Chuyên Viên Phát Triển Kinh Doanh (Biết Tiếng Nhật)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-khu-vuc-ha-noi-c13p210000160id200988570.html",
+    "id": "200988570",
+    "title": "Quản Lý Khu Vực (Hà Nội)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
