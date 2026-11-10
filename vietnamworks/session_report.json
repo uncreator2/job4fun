@@ -1,44 +1,74 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-10T17:23:16.785652",
-  "todo_count": 13,
-  "applied_count": 3,
+  "timestamp": "2026-11-10T20:44:51.451777",
+  "todo_count": 17,
+  "applied_count": 8,
   "applied_jobs": [
     {
-      "title": "Chuyên Viên Kinh Doanh – Ngành Hàng Linh Kiện Điện Tử",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-nganh-hang-linh-kien-dien-tu-2124096-jv/",
+      "title": "KOC Booking Operator",
+      "company": "PICKDI CORP",
+      "url": "https://www.vietnamworks.com/koc-booking-operator-2123620-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331413.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123620.png"
     },
     {
-      "title": "Nhân Viên Kinh Doanh",
+      "title": "Nhân Viên Kinh Doanh (Sales Executive)",
       "company": "",
-      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-2124755-jv/",
+      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-sales-executive-1793767157054790197-2117648-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331430.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343508.png"
     },
     {
-      "title": "Phó Phòng Kinh doanh Quốc Tế (Kim loại/ Linh kiện Solar)",
+      "title": "B2B Sales Supervisor - High Bonus",
       "company": "",
-      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-quoc-te-kim-loai-linh-kien-solar-2125224-jv/",
+      "url": "https://www.vietnamworks.com/b2b-sales-supervisor-high-bonus-2122025-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794331443.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343525.png"
+    },
+    {
+      "title": "Technical Sales Engineer",
+      "company": "",
+      "url": "https://www.vietnamworks.com/technical-sales-engineer-1792487759884765212-2121428-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343542.png"
+    },
+    {
+      "title": "Sales Specialist",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-specialist-2127113-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343559.png"
+    },
+    {
+      "title": "Business Development Executive - Chuyên Viên Phát Triển Kinh Doanh (Thu Nhập Lên Tới 30 Triệu/ Tháng)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-executive-chuyen-vien-phat-trien-kinh-doanh-thu-nhap-len-toi-30-trieu-thang-1791787101807952477-2118318-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343575.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh - Viễn Thông & Cloud/Data Center.",
+      "company": "",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-vien-thong-cloud-data-center-1793786890987825841-2127872-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343592.png"
+    },
+    {
+      "title": "Đại Diện Bán Hàng Miền Bắc",
+      "company": "",
+      "url": "https://www.vietnamworks.com/dai-dien-ban-hang-1793069843867796554-2123907-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794343609.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/ky-su-dieu-hoa-khong-khi-1794290948863512670-2127173-jv",
-      "title": "Kỹ Sư Điều Hoà Không Khí",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -67,7 +97,7 @@
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
