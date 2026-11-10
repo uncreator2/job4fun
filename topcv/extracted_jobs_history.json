@@ -11938,5 +11938,29 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-11-10 15:15:34",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2354872.html": {
+    "job_id": "2354872",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2354872.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794331593",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2354872.html",
+    "company": "CÔNG TY CỔ PHẨN TRUNG VIỆT LINK",
+    "salary": "Từ 15 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-10 17:26:50",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-etc-nhan-hang-blackmores/2354822.html": {
+    "job_id": "2354822",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-etc-nhan-hang-blackmores/2354822.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794331593",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-etc-nhan-hang-blackmores/2354822.html",
+    "company": "CN CÔNG TY TNHH DỊCH VỤ VÀ THƯƠNG MẠI MESA",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-10 17:26:50",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
