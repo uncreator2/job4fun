@@ -1,9 +1,38 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-09T23:11:58.134899",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-10T08:29:49.718368",
+  "todo_count": 5,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Giám Đốc Kinh Doanh Vật Liệu Xây Dựng",
+      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-vat-lieu-xay-dung-c13p210000160id200990211.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990211.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Tour Golf",
+      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-tour-golf-c13p210000160id200989683.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989683.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200989528.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989528.png"
+    },
+    {
+      "title": "Giám Sát Kinh Doanh / Sales Supervisor (Mt)",
+      "company": "Công Ty Cổ Phần An Ninh Mạng Quốc Tế - Ics",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-mt-c13p210000160id200990173.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990173.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

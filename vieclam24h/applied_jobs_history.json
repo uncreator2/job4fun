@@ -4186,5 +4186,70 @@
     "title": "Trưởng Phòng Kinh Doanh (Đi Làm Ngay)",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-online-thuong-mai-dien-tu-c13p210000187id200989437.html",
+    "id": "200989437",
+    "title": "Trưởng Nhóm Kinh Doanh Online & Thương Mại Điện Tử",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000187id200990159.html",
+    "id": "200990159",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-b2b-thu-nhap-10-50-trieu-tuyen-nam-c13p210000187id200990082.html",
+    "id": "200990082",
+    "title": "Nhân Viên Kinh Doanh B2B Thu Nhập 10 - 50 Triệu - Tuyển Nam",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-vat-lieu-xay-dung-c13p210000160id200990211.html",
+    "id": "200990211",
+    "title": "Giám Đốc Kinh Doanh Vật Liệu Xây Dựng",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-10T08:30:22.890938",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990211.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-tour-golf-c13p210000160id200989683.html",
+    "id": "200989683",
+    "title": "Trưởng Phòng Kinh Doanh Tour Golf",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-10T08:30:45.079784",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989683.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200989528.html",
+    "id": "200989528",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-10T08:31:14.507163",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200989528.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-sales-supervisor-mt-c13p210000160id200990173.html",
+    "id": "200990173",
+    "title": "Giám Sát Kinh Doanh / Sales Supervisor (Mt)",
+    "company": "Công Ty Cổ Phần An Ninh Mạng Quốc Tế - Ics",
+    "salary": "22.5 - 34.5 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-10T08:31:43.814642",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990173.png"
   }
 ]
