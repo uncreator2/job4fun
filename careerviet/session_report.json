@@ -1,25 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-10T08:26:20.994539",
-  "todo_count": 3,
-  "applied_count": 3,
+  "timestamp": "2026-11-11T07:45:23.191617",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Giám Sát Kinh Doanh Khu Vực",
-      "company": "YAHON",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-kinh-doanh-khu-vuc.35C8D660.html",
+      "title": "Giám Đốc Kinh Doanh Ngành Hàng Gia Dụng (Kênh MT)",
+      "company": "SANAKY MIỀN BẮC",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-nganh-hang-gia-dung-kenh-mt.35C8D829.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "TRƯỞNG PHÒNG KINH DOANH",
-      "company": "HR Vietnam’s ESS Client",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh.35C8D645.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "TRƯỞNG PHÒNG KINH DOANH DỰ ÁN B2B - NGÀNH VẬT LIỆU",
-      "company": "Công ty Cổ phần Tập đoàn Gỗ Minh Long",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-du-an-b2b-nganh-vat-lieu.35C8D613.html",
+      "title": "Trưởng phòng kinh doanh & mua hàng",
+      "company": "Công Ty Cổ Phần T - Martstores",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-mua-hang.35C8D8D8.html",
       "status": "APPLIED_OK"
     }
   ],
