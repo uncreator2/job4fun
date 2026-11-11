@@ -12022,5 +12022,41 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-11-11 08:00:31",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/area-sales-manager-ha-noi/2352214.html": {
+    "job_id": "2352214",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/area-sales-manager-ha-noi/2352214.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794418739",
+    "clean_url": "https://www.topcv.vn/viec-lam/area-sales-manager-ha-noi/2352214.html",
+    "company": "CÔNG TY TNHH PICARE VIET NAM",
+    "salary": "25 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-11 17:39:16",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-den-led/2355570.html": {
+    "job_id": "2355570",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-den-led/2355570.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794418739",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-den-led/2355570.html",
+    "company": "CÔNG TY CP FUTURE LIGHT VIỆT NAM",
+    "salary": "20 - 30 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-11 17:39:16",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bao-bi-da-lop/2355590.html": {
+    "job_id": "2355590",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bao-bi-da-lop/2355590.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794418797",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bao-bi-da-lop/2355590.html",
+    "company": "Pro\nCÔNG TY CỔ PHẦN STAVIAN HÓA CHẤT",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-11 17:40:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
