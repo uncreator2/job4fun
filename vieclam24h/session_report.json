@@ -1,9 +1,24 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-10T20:39:42.804967",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-11T07:48:32.215898",
+  "todo_count": 3,
+  "applied_count": 2,
+  "applied_jobs": [
+    {
+      "title": "Sales Manager Logistics – Lương Đến 50 Triệu",
+      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+      "url": "https://vieclam24h.vn/quan-ly-du-an/sales-manager-logistics-luong-den-50-trieu-c27p210000160id200990995.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990995.png"
+    },
+    {
+      "title": "Sales Admin Làm Việc Tại Hà Nội - Chấp Nhận Sinh Viên Mới Ra Trường",
+      "company": "Công Ty TNHH Hồng Đạt",
+      "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/sales-admin-lam-viec-tai-ha-noi-chap-nhan-sinh-vien-moi-ra-truong-c1p210000160id200991066.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200991066.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

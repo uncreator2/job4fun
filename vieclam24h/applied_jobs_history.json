@@ -4287,5 +4287,41 @@
     "title": "Quản Lý Khu Vực (Hà Nội)",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-dong-nai-c13p210000186id200991306.html",
+    "id": "200991306",
+    "title": "Nhân Viên Kinh Doanh - Đồng Nai",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/y-te-cham-soc-suc-khoe/nhan-vien-kinh-doanh-thu-nhap-len-den-30-trieu-thang-c21p210000160id200984106.html",
+    "id": "200984106",
+    "title": "Nhân Viên Kinh Doanh - Thu Nhập Lên Đến 30 Triệu / Tháng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/quan-ly-du-an/sales-manager-logistics-luong-den-50-trieu-c27p210000160id200990995.html",
+    "id": "200990995",
+    "title": "Sales Manager Logistics – Lương Đến 50 Triệu",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-11T07:49:05.802449",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200990995.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/hanh-chinh-thu-ky/sales-admin-lam-viec-tai-ha-noi-chap-nhan-sinh-vien-moi-ra-truong-c1p210000160id200991066.html",
+    "id": "200991066",
+    "title": "Sales Admin Làm Việc Tại Hà Nội - Chấp Nhận Sinh Viên Mới Ra Trường",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "15 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-11T07:49:28.056837",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200991066.png"
   }
 ]
