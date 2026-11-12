@@ -4352,5 +4352,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-12T08:23:33.455467",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200992662.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-kenh-gt-rsm-asm-c13p210000187id200991545.html",
+    "id": "200991545",
+    "title": "Quản Lý Kinh Doanh Kênh GT (RSM / ASM)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]

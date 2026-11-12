@@ -1,17 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-12T08:22:59.823698",
-  "todo_count": 2,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Nhóm Kinh Doanh Thu Nhập Đến 30Tr Tại HN",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-thu-nhap-den-30tr-tai-hn-c13p210000160id200992662.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200992662.png"
-    }
-  ],
+  "timestamp": "2026-11-12T15:29:16.270324",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
