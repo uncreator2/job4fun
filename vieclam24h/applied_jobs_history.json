@@ -4334,5 +4334,23 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-11T17:28:34.464739",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200991677.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-bat-dong-san-c13p210000187id200952484.html",
+    "id": "200952484",
+    "title": "Giám Đốc Kinh Doanh Bất Động Sản",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-thu-nhap-den-30tr-tai-hn-c13p210000160id200992662.html",
+    "id": "200992662",
+    "title": "Trưởng Nhóm Kinh Doanh Thu Nhập Đến 30Tr Tại HN",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-12T08:23:33.455467",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200992662.png"
   }
 ]
