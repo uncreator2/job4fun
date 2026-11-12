@@ -1,68 +1,82 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-11T17:34:29.412991",
-  "todo_count": 18,
-  "applied_count": 8,
+  "timestamp": "2026-11-12T08:28:32.648797",
+  "todo_count": 21,
+  "applied_count": 10,
   "applied_jobs": [
     {
-      "title": "KOC Booking Operator",
-      "company": "PICKDI CORP",
-      "url": "https://www.vietnamworks.com/koc-booking-operator-2123569-jv",
+      "title": "Mới Trưởng Phòng Quản Lý Vận Hành ( Lĩnh Vực Điện Gió Tại Lào)",
+      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
+      "url": "https://www.vietnamworks.com/truong-phong-quan-ly-van-hanh-linh-vuc-dien-gio-tai-lao-1794465623800560835-2130640-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123569.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130640.png"
     },
     {
-      "title": "Mới Future Leader - Senior Manager, Manufacturing Finance",
-      "company": "VINFAST TRADING AND PRODUCTION JSC",
-      "url": "https://www.vietnamworks.com/future-leader-senior-manager-manufacturing-finance-2129727-jv",
+      "title": "Mới Phó Tổng Giám Đốc Phụ Trách Trạm Biến Áp Và Đường Dây (Tại Lào)",
+      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
+      "url": "https://www.vietnamworks.com/pho-tong-giam-doc-phu-trach-tram-bien-ap-va-duong-day-tai-lao-1794465757636434558-2130642-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129727.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130642.png"
     },
     {
-      "title": "Mới Trưởng Phòng Kinh Doanh B2B (Sales Manager)",
-      "company": "Long Hai Security JSC (Securitas Vietnam)",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-sales-manager-1794389171826806694-2130382-jv",
+      "title": "Trưởng Phòng Kinh Doanh B2B - Sales Manager",
+      "company": "Công Ty Cổ Phần Tập Đoàn Gỗ Minh Long",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-sales-manager-1794372257818655072-2130071-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130382.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130071.png"
     },
     {
-      "title": "Chuyên Viên Kinh Doanh",
+      "title": "Senior Sales Manager",
+      "company": "Công Ty TNHH Vận Tải Việt Thuận",
+      "url": "https://www.vietnamworks.com/senior-sales-manager-1794219343433099526-2129453-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129453.png"
+    },
+    {
+      "title": "Mới Phó Phòng Kinh Doanh - Hà Nội",
+      "company": "Ngân Hàng TNHH Indovina – Hội Sở",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-ha-noi-1794458490699222154-2130588-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130588.png"
+    },
+    {
+      "title": "Mới Nhân Viên Kinh Doanh",
+      "company": "Công Ty TNHH Tuấn Hoa",
+      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-1794470644379745178-2130682-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130682.png"
+    },
+    {
+      "title": "Chuyên viên Nhóm Presales – RFP/RFQ – Bidding",
       "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-1793609397947293747-2126779-jv/",
+      "url": "https://www.vietnamworks.com/chuyen-vien-nhom-presales-rfp-rfq-bidding-1793695093045372549-2127300-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794418521.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472242.png"
     },
     {
-      "title": "Giám đốc Phát triển Kinh doanh FMCG (Sales Director - FMCG)",
-      "company": "Công ty Cổ phần Tập đoàn Golden Gate",
-      "url": "https://www.vietnamworks.com/giam-doc-phat-trien-kinh-doanh-fmcg-sales-director-fmcg-1793678421393276008-2127129-jv",
+      "title": "Retail Sales Staff / Nhân Viên Kinh Doanh Bán Lẻ",
+      "company": "",
+      "url": "https://www.vietnamworks.com/retail-sales-staff-nhan-vien-kinh-doanh-ban-le-1793950076817528486-2128685-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127129.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472262.png"
     },
     {
-      "title": "Giám Đốc Kinh Doanh & Marketing",
-      "company": "Công Ty Cổ Phần Đầu Tư Long Biên",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-marketing-1791949153659413133-2119222-jv",
+      "title": "[Tuyển Gấp] Nhân Viên Kinh Doanh B2B/ Sales Engineer (Lương Cứng Upto 25 Triệu + Hoa Hồng Không Giới Hạn) - Chấp Nhận Sinh Viên Mới Ra Trường",
+      "company": "",
+      "url": "https://www.vietnamworks.com/tuyen-gap-nhan-vien-kinh-doanh-b2b-sales-engineer-luong-cung-upto-25-trieu-hoa-hong-khong-gioi-han-chap-nhan-sinh-vien-moi-ra-truong-2103161-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119222.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472276.png"
     },
     {
-      "title": "Mới Giám Đốc Điều Hành - Kinh Doanh Thang Máy",
-      "company": "Công Ty Cổ Phần 216",
-      "url": "https://www.vietnamworks.com/giam-doc-dieu-hanh-kinh-doanh-thang-may-1794392887058062958-2130405-jv",
+      "title": "Senior HORECA Sales Executive",
+      "company": "",
+      "url": "https://www.vietnamworks.com/senior-horeca-sales-executive-1794295802794136298-2129689-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130405.png"
-    },
-    {
-      "title": "Mới [CT0011] Giám Đốc Phát Triển Kinh Doanh Số - Khối Kinh Doanh Số",
-      "company": "Công Ty Cổ Phần Chứng Khoán MB",
-      "url": "https://www.vietnamworks.com/ct0011-giam-doc-phat-trien-kinh-doanh-so-khoi-kinh-doanh-so-1794385457736142340-2130278-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130278.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472293.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 2,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
@@ -70,8 +84,13 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-b2b-b2c-1791944500608427752-2119134-jv",
-      "title": "Giám Đốc Kinh Doanh (B2B/B2C)",
+      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-du-an-1794386219475665204-2116866-jv",
+      "title": "Nhân Viên Kinh Doanh - Dự Án",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-phat-trien-dai-ly-mien-bac-sales-dealer-development-manager-1794453134161433800-2119689-jv",
+      "title": "Trưởng Phòng Kinh Doanh & Phát Triển Đại Lý Miền Bắc (Sales & Dealer Development Manager)",
       "reason": "Đã ứng tuyển trước đó"
     },
     {
@@ -82,7 +101,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -112,12 +131,12 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
