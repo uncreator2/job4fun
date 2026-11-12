@@ -1,52 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-12T15:35:09.173411",
-  "todo_count": 15,
-  "applied_count": 6,
-  "applied_jobs": [
-    {
-      "title": "Mới Head Of Engineering",
-      "company": "FLS Vietnam Company Limited",
-      "url": "https://www.vietnamworks.com/head-of-engineering-1794471303648149592-2130742-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130742.png"
-    },
-    {
-      "title": "Quản Lý Phát Triển Kinh Doanh Tài Chính Chuỗi Cung Ứng",
-      "company": "CÔNG TY TNHH VIETNAM CARRYING",
-      "url": "https://www.vietnamworks.com/quan-ly-phat-trien-kinh-doanh-tai-chinh-chuoi-cung-ung-1794439361797572124-2130451-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130451.png"
-    },
-    {
-      "title": "Sales Engineer (Kỹ Sư Kinh Doanh) – Tự Động Hóa | Từ 18 Triệu (Không Yêu Cầu Kinh Nghiệm)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/sales-engineer-ky-su-kinh-doanh-tu-dong-hoa-tu-18-trieu-khong-yeu-cau-kinh-nghiem-2119510-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794497743.png"
-    },
-    {
-      "title": "Nhân viên phát triển thị trường (Điện mặt trời - Solar)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/nhan-vien-phat-trien-thi-truong-dien-mat-troi-solar-1793946747449149746-2128557-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794497764.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh",
-      "company": "Công Ty Cổ Phần Phát Triển Và Tăng Trưởng Xanh - Edge",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1792549003368512601-2121620-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121620.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Toàn Quốc",
-      "company": "Công Ty TNHH Thực Phẩm Sạch Thương Mại T&P",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-toan-quoc-1794476842636851200-2130803-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130803.png"
-    }
-  ],
+  "timestamp": "2026-11-12T17:51:43.044094",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -63,7 +20,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -73,7 +30,7 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
@@ -93,12 +50,12 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
