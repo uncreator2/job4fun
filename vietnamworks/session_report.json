@@ -1,98 +1,60 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-12T08:28:32.648797",
-  "todo_count": 21,
-  "applied_count": 10,
+  "timestamp": "2026-11-12T15:35:09.173411",
+  "todo_count": 15,
+  "applied_count": 6,
   "applied_jobs": [
     {
-      "title": "Mới Trưởng Phòng Quản Lý Vận Hành ( Lĩnh Vực Điện Gió Tại Lào)",
-      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
-      "url": "https://www.vietnamworks.com/truong-phong-quan-ly-van-hanh-linh-vuc-dien-gio-tai-lao-1794465623800560835-2130640-jv",
+      "title": "Mới Head Of Engineering",
+      "company": "FLS Vietnam Company Limited",
+      "url": "https://www.vietnamworks.com/head-of-engineering-1794471303648149592-2130742-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130640.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130742.png"
     },
     {
-      "title": "Mới Phó Tổng Giám Đốc Phụ Trách Trạm Biến Áp Và Đường Dây (Tại Lào)",
-      "company": "Công Ty CP Đầu Tư Và Phát Triên Năng Lượng Việt Lào",
-      "url": "https://www.vietnamworks.com/pho-tong-giam-doc-phu-trach-tram-bien-ap-va-duong-day-tai-lao-1794465757636434558-2130642-jv",
+      "title": "Quản Lý Phát Triển Kinh Doanh Tài Chính Chuỗi Cung Ứng",
+      "company": "CÔNG TY TNHH VIETNAM CARRYING",
+      "url": "https://www.vietnamworks.com/quan-ly-phat-trien-kinh-doanh-tai-chinh-chuoi-cung-ung-1794439361797572124-2130451-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130642.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130451.png"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh B2B - Sales Manager",
-      "company": "Công Ty Cổ Phần Tập Đoàn Gỗ Minh Long",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-b2b-sales-manager-1794372257818655072-2130071-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130071.png"
-    },
-    {
-      "title": "Senior Sales Manager",
-      "company": "Công Ty TNHH Vận Tải Việt Thuận",
-      "url": "https://www.vietnamworks.com/senior-sales-manager-1794219343433099526-2129453-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129453.png"
-    },
-    {
-      "title": "Mới Phó Phòng Kinh Doanh - Hà Nội",
-      "company": "Ngân Hàng TNHH Indovina – Hội Sở",
-      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-ha-noi-1794458490699222154-2130588-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130588.png"
-    },
-    {
-      "title": "Mới Nhân Viên Kinh Doanh",
-      "company": "Công Ty TNHH Tuấn Hoa",
-      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-1794470644379745178-2130682-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130682.png"
-    },
-    {
-      "title": "Chuyên viên Nhóm Presales – RFP/RFQ – Bidding",
+      "title": "Sales Engineer (Kỹ Sư Kinh Doanh) – Tự Động Hóa | Từ 18 Triệu (Không Yêu Cầu Kinh Nghiệm)",
       "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-nhom-presales-rfp-rfq-bidding-1793695093045372549-2127300-jv/",
+      "url": "https://www.vietnamworks.com/sales-engineer-ky-su-kinh-doanh-tu-dong-hoa-tu-18-trieu-khong-yeu-cau-kinh-nghiem-2119510-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472242.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794497743.png"
     },
     {
-      "title": "Retail Sales Staff / Nhân Viên Kinh Doanh Bán Lẻ",
+      "title": "Nhân viên phát triển thị trường (Điện mặt trời - Solar)",
       "company": "",
-      "url": "https://www.vietnamworks.com/retail-sales-staff-nhan-vien-kinh-doanh-ban-le-1793950076817528486-2128685-jv/",
+      "url": "https://www.vietnamworks.com/nhan-vien-phat-trien-thi-truong-dien-mat-troi-solar-1793946747449149746-2128557-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472262.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794497764.png"
     },
     {
-      "title": "[Tuyển Gấp] Nhân Viên Kinh Doanh B2B/ Sales Engineer (Lương Cứng Upto 25 Triệu + Hoa Hồng Không Giới Hạn) - Chấp Nhận Sinh Viên Mới Ra Trường",
-      "company": "",
-      "url": "https://www.vietnamworks.com/tuyen-gap-nhan-vien-kinh-doanh-b2b-sales-engineer-luong-cung-upto-25-trieu-hoa-hong-khong-gioi-han-chap-nhan-sinh-vien-moi-ra-truong-2103161-jv/",
+      "title": "Giám Đốc Kinh Doanh",
+      "company": "Công Ty Cổ Phần Phát Triển Và Tăng Trưởng Xanh - Edge",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1792549003368512601-2121620-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472276.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121620.png"
     },
     {
-      "title": "Senior HORECA Sales Executive",
-      "company": "",
-      "url": "https://www.vietnamworks.com/senior-horeca-sales-executive-1794295802794136298-2129689-jv/",
+      "title": "Mới Giám Đốc Kinh Doanh Toàn Quốc",
+      "company": "Công Ty TNHH Thực Phẩm Sạch Thương Mại T&P",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-toan-quoc-1794476842636851200-2130803-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794472293.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130803.png"
     }
   ],
   "skipped_counts": {
-    "already_applied": 2,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-du-an-1794386219475665204-2116866-jv",
-      "title": "Nhân Viên Kinh Doanh - Dự Án",
-      "reason": "Đã ứng tuyển trước đó"
-    },
-    {
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-phat-trien-dai-ly-mien-bac-sales-dealer-development-manager-1794453134161433800-2119689-jv",
-      "title": "Trưởng Phòng Kinh Doanh & Phát Triển Đại Lý Miền Bắc (Sales & Dealer Development Manager)",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -116,27 +78,27 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
