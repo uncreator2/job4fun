@@ -1,6 +1,6 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-12T15:41:55.092464",
+  "timestamp": "2026-11-12T17:57:08.887540",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/presales-consultant/2349556.html",
-      "title": "Presales Consultant",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-tuyen-sinh-va-truyen-thong/2333065.html",
+      "title": "Trưởng Phòng Tuyển Sinh Và Truyền Thông",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2356909.html",
-      "title": "Trưởng Nhóm Kinh Doanh",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-my-pham/2334235.html",
+      "title": "Trưởng Phòng Kinh Doanh- Mảng Mỹ Phẩm",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/area-sales-manager-asm-nganh-hang-me-be/2356632.html",
-      "title": "AREA SALES MANAGER (ASM) Ngành Hàng Mẹ Bé",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2334198.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
