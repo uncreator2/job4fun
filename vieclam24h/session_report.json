@@ -1,17 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-13T14:47:50.807551",
-  "todo_count": 2,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Giám Sát Bán Hàng Kênh GT Các Tỉnh Miền Bắc",
-      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ SJOURNEY",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-cac-tinh-mien-bac-c13p210000167id200994069.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200994069.png"
-    }
-  ],
+  "timestamp": "2026-11-13T17:24:44.501440",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

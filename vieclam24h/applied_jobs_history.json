@@ -4434,5 +4434,19 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-13T14:48:25.977833",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200994069.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-c13p210000173id200989434.html",
+    "id": "200989434",
+    "title": "Giám Sát Bán Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-nhan-viec-ngay-c13p210000187id200993954.html",
+    "id": "200993954",
+    "title": "Nhân Viên Kinh Doanh - Nhận Việc Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
