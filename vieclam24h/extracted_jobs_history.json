@@ -2568,5 +2568,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-12T08:21:37.116414"
+  },
+  {
+    "id": "200993577",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/truong-phong-kinh-doanh-c14p210000160id200993577.html",
+    "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
+    "salary": "15 - 16 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-13T07:59:46.238150"
+  },
+  {
+    "id": "200991570",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200991570.html",
+    "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
+    "salary": "25 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-13T07:59:58.717349"
   }
 ]
