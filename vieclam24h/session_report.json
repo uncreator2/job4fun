@@ -1,22 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-13T08:01:24.452071",
-  "todo_count": 3,
-  "applied_count": 2,
+  "timestamp": "2026-11-13T14:47:50.807551",
+  "todo_count": 2,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty Cổ Phần Liên Á Quốc Tế ( Audi Việt Nam)",
-      "url": "https://vieclam24h.vn/thu-mua-kho-van-chuoi-cung-ung/truong-phong-kinh-doanh-c14p210000160id200993577.html",
+      "title": "Giám Sát Bán Hàng Kênh GT Các Tỉnh Miền Bắc",
+      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ SJOURNEY",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-cac-tinh-mien-bac-c13p210000167id200994069.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200993577.png"
-    },
-    {
-      "title": "Trưởng Nhóm Kinh Doanh",
-      "company": "Chi nhánh Công ty Cổ phần Dược Hà Tĩnh tại Hà Nội",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200991570.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200991570.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200994069.png"
     }
   ],
   "skipped_counts": {

@@ -4409,5 +4409,30 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-13T08:02:25.994935",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200991570.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000187id200991570.html",
+    "id": "200991570",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-phat-trien-kinh-doanh-b2b-thu-nhap-len-den-50-trieu-c13p210000160id200993479.html",
+    "id": "200993479",
+    "title": "Chuyên Viên Phát Triển Kinh Doanh B2B - Thu Nhập Lên Đến 50 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-cac-tinh-mien-bac-c13p210000167id200994069.html",
+    "id": "200994069",
+    "title": "Giám Sát Bán Hàng Kênh GT Các Tỉnh Miền Bắc",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ SJOURNEY",
+    "salary": "12 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-13T14:48:25.977833",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200994069.png"
   }
 ]
