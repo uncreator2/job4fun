@@ -12418,5 +12418,17 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-11-13 15:00:35",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2357586.html": {
+    "job_id": "2357586",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2357586.html?ta_source=JobSearchList_LinkDetail&u_sr_id=lClIp8ipdnTUMBLWVdlZlTqf9ySNcOzlRVzJBtlH_1794591243",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2357586.html",
+    "company": "CÔNG TY CỔ PHẦN KIẾN TRÚC VÀ ĐẦU TƯ THƯƠNG MẠI TTT",
+    "salary": "30 - 65 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-13 17:34:17",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
