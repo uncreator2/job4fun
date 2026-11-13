@@ -1,43 +1,22 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-13T14:54:21.822125",
-  "todo_count": 14,
-  "applied_count": 5,
+  "timestamp": "2026-11-13T17:31:03.261912",
+  "todo_count": 11,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Junior Accountant – Finance Operations & AI Enablement",
-      "company": "Constellation Software",
-      "url": "https://www.vietnamworks.com/junior-accountant-finance-operations-ai-enablement-1794214870622633689-2129409-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129409.png"
-    },
-    {
-      "title": "International Sales / Business Development Manager",
-      "company": "Công Ty Cp Aluman",
-      "url": "https://www.vietnamworks.com/international-sales-business-development-manager-1791947431332027745-2119022-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2119022.png"
-    },
-    {
-      "title": "Quản Lý Sức Khỏe Nghề Nghiệp (Hà Tĩnh)",
-      "company": "Công Ty Cổ Phần Sản Xuất Và Kinh Doanh VinMetal",
-      "url": "https://www.vietnamworks.com/quan-ly-suc-khoe-nghe-nghiep-ha-tinh-1794309910404563237-2129963-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129963.png"
-    },
-    {
-      "title": "Business Development Executive (Building Management)",
+      "title": "Nhân Viên Kinh Doanh Phân Phối Sản Phẩm Công Nghệ",
       "company": "",
-      "url": "https://www.vietnamworks.com/business-development-executive-building-management-1793331264827519444-2125679-jv/",
+      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-phan-phoi-san-pham-cong-nghe-1793154947881882654-2124498-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794581714.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794591063.png"
     },
     {
-      "title": "Sales & Service Engineer (5 Working Days Week)",
+      "title": "[Hà Nội] B2B Sales Executive – Nhân Viên Kinh Doanh B2B",
       "company": "",
-      "url": "https://www.vietnamworks.com/sales-service-engineer-5-working-days-week-1793269752981147068-2125434-jv/",
+      "url": "https://www.vietnamworks.com/ha-noi-b2b-sales-executive-nhan-vien-kinh-doanh-b2b-1792727341961796292-2122831-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794581733.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794591081.png"
     }
   ],
   "skipped_counts": {
@@ -56,7 +35,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -66,12 +45,12 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
@@ -81,17 +60,17 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
