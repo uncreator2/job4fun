@@ -1,24 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-13T17:31:03.261912",
-  "todo_count": 11,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Nhân Viên Kinh Doanh Phân Phối Sản Phẩm Công Nghệ",
-      "company": "",
-      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-phan-phoi-san-pham-cong-nghe-1793154947881882654-2124498-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794591063.png"
-    },
-    {
-      "title": "[Hà Nội] B2B Sales Executive – Nhân Viên Kinh Doanh B2B",
-      "company": "",
-      "url": "https://www.vietnamworks.com/ha-noi-b2b-sales-executive-nhan-vien-kinh-doanh-b2b-1792727341961796292-2122831-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794591081.png"
-    }
-  ],
+  "timestamp": "2026-11-13T20:47:39.520760",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -50,12 +35,12 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
