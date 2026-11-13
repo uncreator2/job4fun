@@ -1,9 +1,17 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-13T17:24:44.501440",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-13T20:41:54.486389",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Cửa Hàng Trưởng Fmcg - Đi Làm Ngay - Thử Việc 100% Lương (Thu Nhập 12 - 16 Triệu)",
+      "company": "CÔNG TY CỔ PHẦN EUROSTARK",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-fmcg-di-lam-ngay-thu-viec-100-luong-thu-nhap-12-16-trieu-c6p210000187id200966474.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966474.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

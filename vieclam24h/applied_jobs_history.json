@@ -4448,5 +4448,16 @@
     "title": "Nhân Viên Kinh Doanh - Nhận Việc Ngay",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-fmcg-di-lam-ngay-thu-viec-100-luong-thu-nhap-12-16-trieu-c6p210000187id200966474.html",
+    "id": "200966474",
+    "title": "Cửa Hàng Trưởng Fmcg - Đi Làm Ngay - Thử Việc 100% Lương (Thu Nhập 12 - 16 Triệu)",
+    "company": "CÔNG TY CỔ PHẦN EUROSTARK",
+    "salary": "12 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-13T20:42:26.530580",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966474.png"
   }
 ]
