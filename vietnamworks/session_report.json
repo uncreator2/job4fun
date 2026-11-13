@@ -1,9 +1,108 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-12T21:16:47.091748",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-13T08:08:56.221422",
+  "todo_count": 23,
+  "applied_count": 14,
+  "applied_jobs": [
+    {
+      "title": "Intelligent Computer Vision R&D Engineer",
+      "company": "Convotek Ltd.",
+      "url": "https://www.vietnamworks.com/intelligent-computer-vision-r-d-engineer-1792945169920321748-2123449-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123449.png"
+    },
+    {
+      "title": "Destination Expert Japan",
+      "company": "VIO Travel",
+      "url": "https://www.vietnamworks.com/destination-expert-japan-1793006875924160463-2123718-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123718.png"
+    },
+    {
+      "title": "Mới Junior Java Developer",
+      "company": "Viettel Peru S.A",
+      "url": "https://www.vietnamworks.com/junior-java-developer-1794544977848888342-2130985-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130985.png"
+    },
+    {
+      "title": "Mới Senior Java Developer / Team Lead",
+      "company": "Viettel Peru S.A",
+      "url": "https://www.vietnamworks.com/senior-java-developer-team-lead-1794545035401121747-2130988-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130988.png"
+    },
+    {
+      "title": "Trưởng Phòng Phát Triển Kinh Doanh Và Marketing",
+      "company": "Công Ty TNHH Thực Phẩm Sạch Thương Mại T&P",
+      "url": "https://www.vietnamworks.com/truong-phong-phat-trien-kinh-doanh-va-marketing-1794473498415215731-2130730-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130730.png"
+    },
+    {
+      "title": "Senior Sales Executive / Sales Manager (Hanoi) - Lighting - EU Company",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/senior-sales-executive-sales-manager-hanoi-lighting-eu-company-1794310533580511554-2129964-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129964.png"
+    },
+    {
+      "title": "[Hot] Quản Lý Kiểm Soát Tài Chính Sản Xuất",
+      "company": "Công ty Cổ phần Sản xuất và Kinh doanh VinMetal",
+      "url": "https://www.vietnamworks.com/hot-quan-ly-kiem-soat-tai-chinh-san-xuat-1794474380506267497-2121479-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121479.png"
+    },
+    {
+      "title": "Business Development Manager Power Tools, Lifting and Material Handling",
+      "company": "Ingersoll Rand Vietnam",
+      "url": "https://www.vietnamworks.com/business-development-manager-power-tools-lifting-and-material-handling-1794387594432076482-2130337-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130337.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh & Phát Triển Đại Lý Miền Bắc (Sales & Dealer Development Manager)",
+      "company": "Hino Motors Vietnam, LTD.",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-phat-trien-dai-ly-mien-bac-sales-dealer-development-manager-1794541787925361719-2131017-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131017.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Điều Phối Dịch Vụ Kinh Doanh (Sales Operation Manager)",
+      "company": "Công Ty Cổ Phần Diligo Việt Nam",
+      "url": "https://www.vietnamworks.com/truong-phong-dieu-phoi-dich-vu-kinh-doanh-sales-operation-manager-1794550931001893059-2131064-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131064.png"
+    },
+    {
+      "title": "Field Sales Staff",
+      "company": "",
+      "url": "https://www.vietnamworks.com/field-sales-staff-2120196-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794557518.png"
+    },
+    {
+      "title": "Inbound Sales Manager (English Market)/ Trưởng Phòng Kinh Doanh Tour Du Lịch",
+      "company": "",
+      "url": "https://www.vietnamworks.com/inbound-sales-manager-english-market-truong-phong-kinh-doanh-tour-du-lich-1794216063235672804-2129278-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794557536.png"
+    },
+    {
+      "title": "Nhân Viên Phát Triển Kinh Doanh (Business Development Executive)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/nhan-vien-phat-trien-kinh-doanh-business-development-executive-1793960131940665887-2128818-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794557556.png"
+    },
+    {
+      "title": "Chuyên Viên Kinh Doanh Thu Nhập Hấp Dẫn",
+      "company": "",
+      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-thu-nhap-hap-dan-1794370782629179520-2130012-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794557579.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -20,7 +119,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
