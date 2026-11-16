@@ -12622,5 +12622,29 @@
     "exp": "Trên 5 năm",
     "first_extracted_at": "2026-11-16 16:32:57",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-thu-nhap-len-den-80tr/2338274.html": {
+    "job_id": "2338274",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-thu-nhap-len-den-80tr/2338274.html?ta_source=JobSuggestInSearchList_LinkDetail",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-thu-nhap-len-den-80tr/2338274.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ Ô TÔ HẢI ÂU",
+    "salary": "60 - 80 triệu",
+    "location": "Thái Nguyên (mới) & Nghệ An",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-16 20:03:08",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-thiet-bi-y-te/2359278.html": {
+    "job_id": "2359278",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-thiet-bi-y-te/2359278.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1794859368",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-thiet-bi-y-te/2359278.html",
+    "company": "CÔNG TY CỔ PHẦN THIÊN TRƯỜNG",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-16 20:03:08",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
