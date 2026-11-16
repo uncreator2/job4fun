@@ -1,29 +1,15 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-16T16:29:02.677517",
-  "todo_count": 12,
-  "applied_count": 3,
+  "timestamp": "2026-11-16T19:59:46.351571",
+  "todo_count": 10,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Chuyên Viên Phát Triển Kinh Doanh",
+      "title": "Chuyên Viên Kinh Doanh (Sales Executive Cloud) - Tổng Thu Nhập Lên Đến 50 Triệu VNĐ",
       "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-phat-trien-kinh-doanh-1793674435210890081-2127049-jv/",
+      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-sales-executive-cloud-tong-thu-nhap-len-den-50-trieu-vnd-1794555296655159375-2131141-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794846542.png"
-    },
-    {
-      "title": "Project Sales - Chuyên Viên Kinh Doanh Dự Án",
-      "company": "",
-      "url": "https://www.vietnamworks.com/project-sales-chuyen-vien-kinh-doanh-du-an-1792554872111173838-2121729-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794846560.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh",
-      "company": "Công Ty Cổ Phần Dược Trung Ương Mediplantex",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1794818839046179207-2131736-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131736.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794859186.png"
     }
   ],
   "skipped_counts": {
