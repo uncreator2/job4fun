@@ -1,25 +1,187 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-16T07:59:42.140092",
-  "todo_count": 3,
-  "applied_count": 3,
+  "timestamp": "2026-11-16T16:07:05.896825",
+  "todo_count": 37,
+  "applied_count": 30,
   "applied_jobs": [
     {
-      "title": "Sale Director - Hà Nội",
-      "company": "CareerViet",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/sale-director-ha-noi.35C8DE43.html",
+      "title": "Trưởng, Phó Phòng Kinh Doanh",
+      "company": "CÔNG TY CỔ PHẦN TƯ VẤN XÂY DỰNG VÀ THƯƠNG MẠI TQT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-pho-phong-kinh-doanh.35C8D2ED.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Giám đốc Kinh doanh B2B",
-      "company": "Công Ty TNHH NDC",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-b2b.35C8DE53.html",
+      "title": "Business Development Manager",
+      "company": "Công Ty Cổ Phần Năng Lượng Mặt Trời Nami",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/business-development-manager.35C89EA2.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng Phòng Kinh Doanh Tools Và Dao Cụ Máy CNC",
-      "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN CÔNG NGHỆ TLT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-tools-va-dao-cu-may-cnc.35C8DD9A.html",
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "Tập Đoàn An Phát Holdings",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-kinh-doanh.35C8DD54.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc Vận hành",
+      "company": "Elite Fitness",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-van-hanh.35C8DCA9.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Tổng Giám Đốc",
+      "company": "Công Ty Cổ Phần Giải Pháp Nguồn Nhân Lực An Phát Manpower",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-tong-giam-doc.35C8DD66.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Ban Sales OTA",
+      "company": "Công Ty Cổ Phần A25 Hotel",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-ban-sales-ota.35C86CE2.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Leader Sales OTA",
+      "company": "Công ty Cổ phần Nature Hospitality",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/leader-sales-ota.35C8CF5B.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "GIÁM ĐỐC KINH DOANH TOÀN QUỐC",
+      "company": "CÔNG TY TNHH PHỒN THỊNH - TAE GWANG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-toan-quoc.35C8DF31.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Điều hành kinh doanh",
+      "company": "Công ty TNHH Viettel - CHT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-dieu-hanh-kinh-doanh.35C8598A.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc phòng Tự Doanh",
+      "company": "Công ty Cổ phần Chứng khoán An Bình",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-phong-tu-doanh.35C8DF7D.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc điều hành",
+      "company": "Công ty Cổ phần Công nghệ và Dịch vụ y tế Mita",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-dieu-hanh.35C86FB8.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc điều hành",
+      "company": "Intracom Group",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-dieu-hanh.35C8CD5F.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh Khu Vực – Chuỗi Nhà Thuốc (ASM)",
+      "company": "Công ty cổ phần Anvy",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-kinh-doanh-khu-vuc-chuoi-nha-thuoc-asm.35C83A5D.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "TỔNG GIÁM ĐỐC ĐIỀU HÀNH",
+      "company": "Công ty cổ phần sản xuất và xuất khẩu Quế hồi Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/tong-giam-doc-dieu-hanh.35C8C2AA.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng nhóm SALE B2B Thu nhập 20 - 35tr",
+      "company": "Công ty Cổ Phần Chứng Nhận và Giám Định Quốc Tế ISOCERT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-sale-b2b-thu-nhap-20-35tr.35C89297.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh Khu Vực (ASM)",
+      "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIOVANNI VIỆT NAM",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-kinh-doanh-khu-vuc-asm.35C8D939.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "company": "Tập Đoàn An Phát Holdings",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-kinh-doanh.35C8B803.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Deputy Director Of Management And Operations (DDMO)",
+      "company": "PC VN Recruitment team",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/deputy-director-of-management-and-operations-ddmo.35C84F35.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "Tập Đoàn An Phát Holdings",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-kinh-doanh.35C8CD5D.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Tổng Giám Đốc",
+      "company": "Tập Đoàn An Phát Holdings",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-tong-giam-doc.35C8D0F1.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc QHKH Doanh nghiệp",
+      "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-qhkh-doanh-nghiep.35C82967.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trợ lý Tổng Giám Đốc (Mảng Kinh Doanh)",
+      "company": "Công ty TNHH Thiên Thủy Mộc",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/tro-ly-tong-giam-doc-mang-kinh-doanh.35C8B15B.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Quản lý vận hành khối kinh doanh",
+      "company": "CÔNG TY CỔ PHẦN CÔNG NGHIỆP WELDCOM",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-van-hanh-khoi-kinh-doanh.35C8C9C0.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc Công ty Phân phối và bán lẻ điện",
+      "company": "Công ty cổ phần Tập đoàn Trường Thành Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cong-ty-phan-phoi-va-ban-le-dien.35C8D03D.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "M&A MANAGER",
+      "company": "Công Ty TNHH ONE-VALUE Việt Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/m-a-manager.35C8BBFA.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng kênh Doanh nghiệp",
+      "company": "Công ty cổ phần văn phòng phẩm Hồng Hà",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-kenh-doanh-nghiep.35C88794.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng nhóm quản lí ngành hàng",
+      "company": "CÔNG TY TNHH DAESANG VIỆT NAM",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-quan-li-nganh-hang.35C89E9D.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó Phòng Kinh doanh - Chi nhánh Thiên Long",
+      "company": "Indovina Bank Ltd.",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-kinh-doanh-chi-nhanh-thien-long.35C84BEB.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Sale Online",
+      "company": "Công ty TNHH Thiên Thủy Mộc",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-sale-online.35C8CE68.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng C&B",
+      "company": "Công ty TNHH Thiên Thủy Mộc",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-c-b.35C8C945.html",
       "status": "APPLIED_OK"
     }
   ],
