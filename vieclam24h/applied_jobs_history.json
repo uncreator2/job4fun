@@ -4459,5 +4459,62 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-13T20:42:26.530580",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200966474.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-ban-hang-di-lam-ngay-thu-nhap-40-60-trieu-c13p210000187id200995284.html",
+    "id": "200995284",
+    "title": "Trưởng Nhóm Bán Hàng Đi Làm Ngay Thu Nhập 40 -60 Triệu",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-thu-nhap-tu-20-trieu-tro-len-khong-gioi-han-c6p210000186id200993860.html",
+    "id": "200993860",
+    "title": "Cửa Hàng Trưởng - Thu Nhập Từ 20 Triệu Trở Lên (Không Giới Hạn)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-khu-vuc-quan-12-go-vap-hoc-mon-cu-chi-di-lam-ngay-c6p210000187id200994247.html",
+    "id": "200994247",
+    "title": "Quản Lý Cửa Hàng - Khu Vực Quận 12 / Gò Vấp / Hóc Môn / Củ Chi (Đi Làm Ngay)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-1-nam-kinh-nghiem-luong-cung-10-trieu-thu-nhap-15-20-trieu-c13p210000187id200994396.html",
+    "id": "200994396",
+    "title": "Nhân Viên Kinh Doanh 1 Năm Kinh Nghiệm (Lương Cứng 10 Triệu, Thu Nhập 15 - 20 Triệu)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nu-nhan-vien-ban-hang-luong-tren-15-trieu-di-lam-ngay-c13p210000160id200994941.html",
+    "id": "200994941",
+    "title": "Nữ Nhân Viên Bán Hàng Lương Trên 15 Triệu Đi Làm Ngay",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-fivepet-mien-bac-va-mien-nam-c13p210000160id200994585.html",
+    "id": "200994585",
+    "title": "Trưởng Phòng Kinh Doanh Fivepet Miền Bắc Và Miền Nam",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-16T08:04:18.994383",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200994585.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-c13p210000160id200763520.html",
+    "id": "200763520",
+    "title": "Trưởng Nhóm Kinh Doanh",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ SJOURNEY",
+    "salary": "12 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "EXPIRED",
+    "applied_at": "2026-11-16T08:04:31.085698",
+    "proof": null
   }
 ]
