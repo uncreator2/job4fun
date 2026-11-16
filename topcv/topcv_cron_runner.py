@@ -106,7 +106,7 @@ async def inject_cookies(context):
     def _session_exp(clist):
         for c in (clist or []):
             if isinstance(c, dict) and c.get("name") == "topcv_session":
-                return float(c.get("expires") or 0)
+                return float(c.get("expires") or c.get("expirationDate") or 0)
         return 0.0
 
     raw_cookies = file_cookies if _session_exp(file_cookies) >= _session_exp(env_cookies) else env_cookies
