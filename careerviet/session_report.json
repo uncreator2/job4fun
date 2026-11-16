@@ -1,13 +1,25 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-13T14:44:22.328651",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-16T07:59:42.140092",
+  "todo_count": 3,
+  "applied_count": 3,
   "applied_jobs": [
     {
-      "title": "Quản Lý Khu Vực (Hệ Thống Siêu Thị)",
-      "company": "CÔNG TY CỔ PHẦN KING FOOD MARKET",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-khu-vuc-he-thong-sieu-thi.35C8DC37.html",
+      "title": "Sale Director - Hà Nội",
+      "company": "CareerViet",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/sale-director-ha-noi.35C8DE43.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám đốc Kinh doanh B2B",
+      "company": "Công Ty TNHH NDC",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-b2b.35C8DE53.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Tools Và Dao Cụ Máy CNC",
+      "company": "CÔNG TY CỔ PHẦN TẬP ĐOÀN CÔNG NGHỆ TLT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-tools-va-dao-cu-may-cnc.35C8DD9A.html",
       "status": "APPLIED_OK"
     }
   ],
