@@ -4545,5 +4545,30 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-16T16:23:33.907209",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200982885.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-telesales-c13p210000172id200990919.html",
+    "id": "200990919",
+    "title": "Nhân Viên Kinh Doanh / Telesales",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/south-east-senior-mt-sales-supervisor-c13p210000186id200992812.html",
+    "id": "200992812",
+    "title": "[South East] Senior / Mt Sales Supervisor",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/giam-doc-thuong-mai-dien-tu-c12p210000160id200996001.html",
+    "id": "200996001",
+    "title": "Giám Đốc Thương Mại Điện Tử",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "38 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-16T19:55:03.947173",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996001.png"
   }
 ]

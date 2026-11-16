@@ -1,22 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-16T16:22:09.775272",
-  "todo_count": 3,
-  "applied_count": 2,
+  "timestamp": "2026-11-16T19:54:30.771132",
+  "todo_count": 2,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh (Kênh Dân Dụng)",
+      "title": "Giám Đốc Thương Mại Điện Tử",
       "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-kenh-dan-dung-c13p210000187id200995826.html",
+      "url": "https://vieclam24h.vn/marketing/giam-doc-thuong-mai-dien-tu-c12p210000160id200996001.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200995826.png"
-    },
-    {
-      "title": "Giám Sát Kinh Doanh Kênh Mt - Nhãn Hàng P&g Nhập Khẩu",
-      "company": "Công Ty Cổ Phần Flightgolf",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-kenh-mt-nhan-hang-p-g-nhap-khau-c13p210000160id200982885.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200982885.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996001.png"
     }
   ],
   "skipped_counts": {
