@@ -2628,5 +2628,25 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-16T08:02:22.563720"
+  },
+  {
+    "id": "200995826",
+    "title": "Trưởng Phòng Kinh Doanh (Kênh Dân Dụng)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-kenh-dan-dung-c13p210000187id200995826.html",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-16T16:20:42.560501"
+  },
+  {
+    "id": "200982885",
+    "title": "Giám Sát Kinh Doanh Kênh Mt - Nhãn Hàng P&g Nhập Khẩu",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-kenh-mt-nhan-hang-p-g-nhap-khau-c13p210000160id200982885.html",
+    "company": "Công Ty Cổ Phần Flightgolf",
+    "salary": "35 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-16T16:20:48.849675"
   }
 ]
