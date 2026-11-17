@@ -1,46 +1,616 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-17T09:30:46.548041",
+  "timestamp": "2026-11-17T16:28:59.255732",
   "todo_count": 120,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 1,
-    "expired": 0,
+    "already_applied": 0,
+    "expired": 120,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 5
+    "errors": 0
   },
   "skipped_details": [
     {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-manager/2286593.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2348992.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2348692.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2217781.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2317287.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-toc-gia-xuat-khau-tieng-anh/2136954.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-phat-trien-thi-truong-nhat-ban/2347022.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/1515320.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-trung-tam/2349125.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-bia-hoi/2349026.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mien-vat-lieu-xay-dung/1764241.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2294447.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-bu-dich-vu-so/2349510.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/bussiness-development-manager-china-market/2348523.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-giai-phap-chieu-sang-luong-cung-15-20-trieu-thang-le-trong-tan-ha-noi/2335634.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-phat-trien-thi-truong-sale-thi-truong-nhat-ban/2347022.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-va-phat-trien-he-thong-ctv/2349842.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2349725.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc-quan-ly-vung/2349754.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mb/2349768.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-quoc-te-nganh-thoi-trang/2347504.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/chief-commercial-officer-giam-doc-thuong-mai-cco-giao-duc/2350590.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-duoc-my-pham/2337383.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2349818.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-cong-ty-phan-phoi-va-ban-le-dien/2350299.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2350238.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-ctv/2349842.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-khu-vuc-vat-lieu-xay-dung/1764241.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thanh-thao-tieng-anh/2346754.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh/2326806.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-phat-trien-thi-truong-sale-thi-truong-tieng-nhat-n2-nhat-ban/2347022.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/b2b-sales-manager-financial-services/2351036.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-hanh-tieng-han/2350735.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le-mang-noi-that-sales-manager-b2c-tu-3-nam-kinh-nghiem/2172210.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-executive-nhanh-khach-hang-doanh-nghiep/2350502.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2152731.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-va-phat-trien-khach-hang-cham-soc-xe-detailing-di-lam-ngay-luong-thoa-thuan-theo-nang-luc-ha-noi/2351347.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doah-phat-trien-san-pham/2351904.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-chuoi-spa/2350805.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-son-nuoc-bot-ba/1615707.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mang-sach/2351684.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/tro-ly-pho-tong-giam-doc-kinh-doanh-bhxhfull-luong/2351757.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/head-of-category-ict-mobile-computing/2351427.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-mang-thiet-bi-noi-that/2351311.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-china-market/1083918.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-du-lich-thu-nhap-hap-dan/2306627.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2351958.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-moi-gioi/2167075.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-mien-bac-thu-nhap-15-30-trieu-thang/2294447.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san/2350011.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sales-du-lich-thu-nhap-den-40-trieu/2306627.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-co-so-tinh-mang-giao-duc/2331980.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2353036.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-b2b/2349510.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-he-thong-phan-phoi/2323776.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-horeca/2259416.html",
+      "title": "Just a moment...",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-phat-trien-thi-truong-sale-thi-truong-nam-tieng-nhat-n2/2347022.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2352972.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thep-go-nguyen-lieu/1363569.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-dieu-hanh-chuoi-sieu-thi/1653764.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/gpbank/tuyen-dung/truong-phong-quan-ly-kinh-doanh-khoi-khach-hang-ca-nhan-j2353706.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thu-nhap-len-den-40-trieu/2353836.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kiem-phat-trien-mang-luoi-dai-ly/2354339.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-telesale-lam-viec-tai-thanh-xuan-linh-vuc-giao-duc-truc-tuyen-thu-nhap-30-40-trieu-thang/2240312.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-kenh-phan-phoi/2354700.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2354684.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2354632.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/oceaneduvn/tuyen-dung/giam-doc-chi-nhanh-khu-vuc-ha-noi-j2354499.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-vat-tu-nganh-nuoc/2353822.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-ban-hang-b2b-ket-cau-thep-lam-sau-tet/2323554.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-logistics/2350470.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-mt-linh-vuc-fmcg/2353173.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-he-thong-phan-phoi-luong-cung-12-trieu-thuong-kpi-tai-ha-noi/2323776.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2354007.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-sales-team-leader/2354327.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh/2256507.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2354872.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-ban-hang-etc-nhan-hang-blackmores/2354822.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-thuoc-bao-ve-thuc-vat-thu-nhap-len-den-40-trieu/2353836.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2355090.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/brand/oceaneduvn/tuyen-dung/giam-doc-du-an-phat-trien-san-pham-so-j2354999.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/phu-trach-kinh-doanh-khu-vuc/655155.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-cong-nghe-sinh-hoc/2354238.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/area-sales-manager-ha-noi/2352214.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-nganh-den-led/2355570.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bao-bi-da-lop/2355590.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-online-thoi-trang-nu-yeu-cau-2-nam-kinh-nghiem/2347874.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-hang-my-pham-han-quoc/2354988.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-kenh-top-hotel/2356704.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-ban-le/2355855.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/remote-onsite-sales-manager-tieng-anh-tot/2262456.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-bat-dong-san/2351190.html",
+      "title": "Just a moment...",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2355978.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/presales-consultant/2349556.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2356909.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/area-sales-manager-asm-nganh-hang-me-be/2356632.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-livestream/2356778.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2356603.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-online/2356440.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-phong-kinh-doanh-khoi-ban-le/2356426.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-logistics/2355983.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b/2356374.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2209657.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-mua-hang/2355692.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/nhan-vien-ban-hang-kinh-mat-nhat-ban/2342129.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director-nganh-giao-duc/2357674.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/b2b-sales-director-japanese-enterprise-market/2356406.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2212820.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-mang-nhom-thanh/2357314.html",
+      "title": "Just a moment...",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-linh-vuc-cong-thanh-toan/1605473.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-site/2357192.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-bat-dong-san/2356829.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-an-smarthome-aqara/2358025.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/sales-lead-truong-nhom-kinh-doanh/2358003.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-xuat-nhap-khau/2267670.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-sat-ban-hang-kenh-mt-nganh-giay/2043923.html",
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-ban-le/2357586.html",
+      "title": "Just a moment...",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
       "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2359940.html",
-      "title": "Trưởng Phòng Kinh Doanh Logistics",
-      "reason": "Modal ứng tuyển không mở được"
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
       "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-online/2360086.html",
-      "title": "Giám Đốc Kinh Doanh Online",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/brand/sapovn/tuyen-dung/business-development-manager-enterprise-j2210824.html",
-      "title": "Business Development Manager (Enterprise)",
-      "reason": "Đã ứng tuyển trước đó"
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
       "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-hang-gia-dung-kenh-mt/2358935.html",
-      "title": "Giám Đốc Kinh Doanh Ngành Hàng Gia Dụng (Kênh MT)",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2359917.html",
-      "title": "Quản Lý Kinh Doanh Khu Vực ASM",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc/2359872.html",
-      "title": "Quản Lý Kinh Doanh Khu Vực",
-      "reason": "Modal ứng tuyển không mở được"
+      "title": "Website đang được bảo trì để nâng cấp hệ thống",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     }
   ]
 }
