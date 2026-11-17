@@ -1,36 +1,15 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-17T16:23:48.812498",
-  "todo_count": 13,
-  "applied_count": 4,
+  "timestamp": "2026-11-17T18:50:38.346462",
+  "todo_count": 10,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "[Hanoi] Sales Manager - Food Ingredients",
-      "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/hanoi-sales-manager-food-ingredients-2123009-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123009.png"
-    },
-    {
-      "title": "Corporate Sales Manager",
-      "company": "Hanwha Life Vietnam",
-      "url": "https://www.vietnamworks.com/corporate-sales-manager-1794569311092746503-2131338-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131338.png"
-    },
-    {
-      "title": "Chuyên Viên Cao Cấp Phát Triển Dự Án ĐMTMN",
+      "title": "Project Sales Engineer (Life Segment)",
       "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-cao-cap-phat-trien-du-an-djmtmn-2130481-jv/",
+      "url": "https://www.vietnamworks.com/project-sales-engineer-life-segment-1794823884007911736-2131846-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794932663.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh (làm việc tại Phúc Yên, Phú Thọ)",
-      "company": "Công Ty Cổ Phần TTC",
-      "url": "https://www.vietnamworks.com/giam-djoc-kinh-doanh-lam-viec-tai-phuc-yen-phu-tho-2118854-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118854.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794941438.png"
     }
   ],
   "skipped_counts": {
@@ -49,7 +28,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -59,32 +38,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     }
   ]
 }
