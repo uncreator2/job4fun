@@ -1,9 +1,87 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-16T23:11:08.747680",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-17T09:23:46.118146",
+  "todo_count": 20,
+  "applied_count": 11,
+  "applied_jobs": [
+    {
+      "title": "AI and Automation Developer",
+      "company": "Settles Finance",
+      "url": "https://www.vietnamworks.com/ai-and-automation-developer-1794835377138854896-2131924-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131924.png"
+    },
+    {
+      "title": "[Global Manufacturing] Future Leader - Quality Director",
+      "company": "VINFAST TRADING AND PRODUCTION JSC",
+      "url": "https://www.vietnamworks.com/global-manufacturing-future-leader-quality-director-1794883429538998120-2131568-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131568.png"
+    },
+    {
+      "title": "Account Management Team Lead (Demand Planning)",
+      "company": "ONPOINT COMPANY LIMITED",
+      "url": "https://www.vietnamworks.com/account-management-team-lead-demand-planning-1794544708405080683-2131054-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131054.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Lương Cứng 36-40Tr + Thưởng)",
+      "company": "K&M Holdings",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-luong-cung-36-40tr-thuong-2131758-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131758.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Xuất Khẩu Thu Nhập 60 - 80 Triệu/Tháng",
+      "company": "Công Ty Cổ Phần Đầu Tư Nhật Huy",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-xuat-khau-thu-nhap-60-80-trieu-thang-2121594-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121594.png"
+    },
+    {
+      "title": "Sales/ BD Manager - Chinese Market",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-bd-manager-chinese-market-1-2131053-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131053.png"
+    },
+    {
+      "title": "Account Sales Engineer",
+      "company": "",
+      "url": "https://www.vietnamworks.com/account-sales-engineer-2128756-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907525.png"
+    },
+    {
+      "title": "Chuyên Viên Kinh Doanh Thu Nhập Hấp Dẫn tới 70 triệu/tháng",
+      "company": "",
+      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-thu-nhap-hap-dan-toi-70-trieu-thang-1794900261018312882-2130012-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907542.png"
+    },
+    {
+      "title": "Kỹ Sư Bán Hàng Kỹ Thuật/ Sales Engineer - Hà Nội (Lương Cơ Bản $700-1000++)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/ky-su-ban-hang-ky-thuat-sales-engineer-ha-noi-luong-co-ban-dollar700-1000-2130157-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907559.png"
+    },
+    {
+      "title": "Mới Giám Đốc Kinh Doanh Online",
+      "company": "CÔNG TY CỔ PHẦN PALM FOREST VIỆT NAM",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-online-1794899914220076213-2132175-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132175.png"
+    },
+    {
+      "title": "Mới Key Account Manager (Telco)",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/key-account-manager-telco-2132265-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132265.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
