@@ -4653,5 +4653,33 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-17T09:18:51.197403",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996499.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-thi-cong-c31p210000187id200971152.html",
+    "id": "200971152",
+    "title": "Giám Sát Thi Công",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/can-bo-ky-thuat-giam-sat-cong-trinh-c31p210000173id200996178.html",
+    "id": "200996178",
+    "title": "Cán Bộ Kỹ Thuật Giám Sát Công Trình",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-cong-trinh-xay-dung-c31p210000187id200996181.html",
+    "id": "200996181",
+    "title": "Giám Sát Công Trình Xây Dựng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/kien-truc-thiet-ke-noi-ngoai-that/giam-sat-thi-cong-noi-that-lam-viec-tai-tp-hcm-c4p210000187id200997157.html",
+    "id": "200997157",
+    "title": "Giám Sát Thi Công Nội Thất (Làm Việc Tại Tp.HCM)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
