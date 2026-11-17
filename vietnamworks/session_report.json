@@ -1,85 +1,36 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-17T09:23:46.118146",
-  "todo_count": 20,
-  "applied_count": 11,
+  "timestamp": "2026-11-17T16:23:48.812498",
+  "todo_count": 13,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "AI and Automation Developer",
-      "company": "Settles Finance",
-      "url": "https://www.vietnamworks.com/ai-and-automation-developer-1794835377138854896-2131924-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131924.png"
-    },
-    {
-      "title": "[Global Manufacturing] Future Leader - Quality Director",
-      "company": "VINFAST TRADING AND PRODUCTION JSC",
-      "url": "https://www.vietnamworks.com/global-manufacturing-future-leader-quality-director-1794883429538998120-2131568-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131568.png"
-    },
-    {
-      "title": "Account Management Team Lead (Demand Planning)",
-      "company": "ONPOINT COMPANY LIMITED",
-      "url": "https://www.vietnamworks.com/account-management-team-lead-demand-planning-1794544708405080683-2131054-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131054.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (Lương Cứng 36-40Tr + Thưởng)",
-      "company": "K&M Holdings",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-luong-cung-36-40tr-thuong-2131758-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131758.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Xuất Khẩu Thu Nhập 60 - 80 Triệu/Tháng",
-      "company": "Công Ty Cổ Phần Đầu Tư Nhật Huy",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-xuat-khau-thu-nhap-60-80-trieu-thang-2121594-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2121594.png"
-    },
-    {
-      "title": "Sales/ BD Manager - Chinese Market",
+      "title": "[Hanoi] Sales Manager - Food Ingredients",
       "company": "Navigos Search",
-      "url": "https://www.vietnamworks.com/sales-bd-manager-chinese-market-1-2131053-jv",
+      "url": "https://www.vietnamworks.com/hanoi-sales-manager-food-ingredients-2123009-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131053.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123009.png"
     },
     {
-      "title": "Account Sales Engineer",
+      "title": "Corporate Sales Manager",
+      "company": "Hanwha Life Vietnam",
+      "url": "https://www.vietnamworks.com/corporate-sales-manager-1794569311092746503-2131338-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131338.png"
+    },
+    {
+      "title": "Chuyên Viên Cao Cấp Phát Triển Dự Án ĐMTMN",
       "company": "",
-      "url": "https://www.vietnamworks.com/account-sales-engineer-2128756-jv/",
+      "url": "https://www.vietnamworks.com/chuyen-vien-cao-cap-phat-trien-du-an-djmtmn-2130481-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907525.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794932663.png"
     },
     {
-      "title": "Chuyên Viên Kinh Doanh Thu Nhập Hấp Dẫn tới 70 triệu/tháng",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-thu-nhap-hap-dan-toi-70-trieu-thang-1794900261018312882-2130012-jv/",
+      "title": "Giám Đốc Kinh Doanh (làm việc tại Phúc Yên, Phú Thọ)",
+      "company": "Công Ty Cổ Phần TTC",
+      "url": "https://www.vietnamworks.com/giam-djoc-kinh-doanh-lam-viec-tai-phuc-yen-phu-tho-2118854-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907542.png"
-    },
-    {
-      "title": "Kỹ Sư Bán Hàng Kỹ Thuật/ Sales Engineer - Hà Nội (Lương Cơ Bản $700-1000++)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/ky-su-ban-hang-ky-thuat-sales-engineer-ha-noi-luong-co-ban-dollar700-1000-2130157-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794907559.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Online",
-      "company": "CÔNG TY CỔ PHẦN PALM FOREST VIỆT NAM",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-online-1794899914220076213-2132175-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132175.png"
-    },
-    {
-      "title": "Mới Key Account Manager (Telco)",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/key-account-manager-telco-2132265-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132265.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2118854.png"
     }
   ],
   "skipped_counts": {
@@ -98,7 +49,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -108,32 +59,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
