@@ -1,13 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-16T23:03:06.852440",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-17T09:13:53.244296",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Giám Sát Kinh Doanh Khu Vực (Thời Trang Thể Thao)",
-      "company": "CÔNG TY TNHH ANTA SPORTS VIỆT NAM",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-kinh-doanh-khu-vuc-thoi-trang-the-thao.35C84616.html",
+      "title": "[Hà Nội] Trưởng Nhóm Khách Hàng Cá Nhân",
+      "company": "Ngân Hàng TMCP Tiên Phong (TPBank)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-truong-nhom-khach-hang-ca-nhan.35C8E115.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Nhóm Kinh Doanh VSI",
+      "company": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN VPS",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-kinh-doanh-vsi.35C8E027.html",
       "status": "APPLIED_OK"
     }
   ],
