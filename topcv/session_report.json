@@ -1,252 +1,46 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-16T23:14:43.678199",
+  "timestamp": "2026-11-17T09:30:46.548041",
   "todo_count": 120,
-  "applied_count": 30,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Phòng Kinh Doanh- Marketing",
-      "company": "CÔNG TY TNHH VSTAR TEXTILE",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing/2342712.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2342712.png"
-    },
-    {
-      "title": "Nhân Viên Bán Hàng",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/nhan-vien-ban-hang/2342633.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2342633.png"
-    },
-    {
-      "title": "Key Account Manager",
-      "company": "CÔNG TY CỔ PHẦN LIÊN DOANH QUỐC TẾ FUJIMOTO",
-      "url": "https://www.topcv.vn/viec-lam/key-account-manager/2342962.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2342962.png"
-    },
-    {
-      "title": "Sale Manager (Khách Sạn/ Resort)",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/sale-manager-khach-san-resort/2337457.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2337457.png"
-    },
-    {
-      "title": "Trưởng Nhóm Sales",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-sales/2341089.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2341089.png"
-    },
-    {
-      "title": "Trưởng Phòng Telesale (Làm Việc Tại Thanh Xuân, Lĩnh Vực Giáo Dục Trực Tuyến, Thu Nhập 30-40 Triệu/Tháng)",
-      "company": "CÔNG TY CỔ PHẦN LIÊN DOANH QUỐC TẾ FUJIMOTO",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-telesale-linh-vuc-giao-duc-truc-tuyen-thu-nhap-35-50-trieu-thang/2240312.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2240312.png"
-    },
-    {
-      "title": "Trợ Lý Giám Đốc Kinh Doanh (Chỉ Tuyển Nam)",
-      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ QS LAND",
-      "url": "https://www.topcv.vn/viec-lam/tro-ly-giam-doc-kinh-doanh-chi-tuyen-nam/2341707.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2341707.png"
-    },
-    {
-      "title": "Giám Đốc Nhãn Hãng",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-nhan-hang/2309103.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2309103.png"
-    },
-    {
-      "title": "Leader Sale",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/leader-sale/2339467.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2339467.png"
-    },
-    {
-      "title": "Giám Đốc Trung Tâm Gia Hạn",
-      "company": "Công ty cổ phần Công nghệ Sapo",
-      "url": "https://www.topcv.vn/brand/sapovn/tuyen-dung/giam-doc-trung-tam-gia-han-j2338913.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_9428.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh Lĩnh Vực Bất Động Sản",
-      "company": "CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN BCONS PS",
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-linh-vuc-bat-dong-san/2340149.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2340149.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Bất Động Sản (Lương 30-50 Triệu + Hoa Hồng)",
-      "company": "CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN BCONS PS",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bat-dong-san-luong-30-50-trieu-hoa-hong/2341084.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2341084.png"
-    },
-    {
-      "title": "Quản Lý Kinh Doanh Viện (Dịch Vụ Chăm Sóc Sức Khoẻ/ Y Tế) - Thu Nhập Upto 40 Triệu, Chính Sách Phúc Lợi Tốt",
-      "company": "CÔNG TY CỔ PHẦN Ô TÔ GEL-O&J",
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-vien-dich-vu-cham-soc-suc-khoe-y-te-thu-nhap-upto-40-trieu-chinh-sach-phuc-loi-tot/2249441.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2249441.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Pro\nNGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2342142.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2342142.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Du Lịch (Sales Tour Inbound/Outbound)",
-      "company": "CÔNG TY TNHH VSTAR TEXTILE",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-lich-sales-tour-inbound-outbound/2347649.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2347649.png"
-    },
-    {
-      "title": "Chuyên Viên Quản Lý Kinh Doanh",
-      "company": "CÔNG TY TNHH VSTAR TEXTILE",
-      "url": "https://www.topcv.vn/viec-lam/chuyen-vien-quan-ly-kinh-doanh/2340402.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2340402.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh _Dược/Thực Phẩm Chức Năng",
-      "company": "CÔNG TY TNHH DƯỢC PHẨM TOMITA VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-duoc-thuc-pham-chuc-nang/2346670.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2346670.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Đại Lý",
-      "company": "CÔNG TY TNHH PHƯỚC THIÊN",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-dai-ly/2171508.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2171508.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh Inbound Hàn Quốc",
-      "company": "CÔNG TY TNHH VSTAR TEXTILE",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-inbound-han-quoc/2344512.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2344512.png"
-    },
-    {
-      "title": "Trưởng Sàn Quản Lý Ngành Hàng Tại Siêu Thị",
-      "company": "CÔNG TY CỔ PHẦN Ô TÔ GEL-O&J",
-      "url": "https://www.topcv.vn/viec-lam/truong-san-quan-ly-nganh-hang-tai-sieu-thi/2345621.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2345621.png"
-    },
-    {
-      "title": "Quản Lý Kinh Doanh Khu Vực (ASM) Kênh OTC",
-      "company": "Công ty TNHH Lotte Việt Nam",
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm-kenh-otc/1896978.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_1896978.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh(Sơn Bột Tĩnh Điện/Sơn Tàu)",
-      "company": "CÔNG TY TNHH VSTAR TEXTILE",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanhson-bot-tinh-dien-son-tau/2174813.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2174813.png"
-    },
-    {
-      "title": "Nhân Viên Phát Triển Thị Trường/ Sale Thị Trường - Nam - Tiếng Nhật N2",
-      "company": "Công ty TNHH Công Nghệ Số Khởi Việt",
-      "url": "https://www.topcv.vn/viec-lam/nhan-vien-phat-trien-thi-truong/2347022.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2347022.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Pro\nNGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2337766.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2337766.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công ty TNHH Sobokuya Việt Nam",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2338968.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2338968.png"
-    },
-    {
-      "title": "Trưởng Phòng Tư Vấn Và Chăm Sóc Khách Hàng",
-      "company": "CÔNG TY CỔ PHẦN LIÊN DOANH QUỐC TẾ FUJIMOTO",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-tu-van-va-cham-soc-khach-hang/2347431.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2347431.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Pro\nCÔNG TY TNHH MICHAEL PAGE INTERNATIONAL (VIỆT NAM)",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2264783.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2264783.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (B2B/B2G - Giáo Dục)",
-      "company": "CÔNG TY CỔ PHẦN LIÊN DOANH QUỐC TẾ FUJIMOTO",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2b-b2g-giao-duc/2348011.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2348011.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh BĐS - Hàng Độc Quyền F1",
-      "company": "Pro\nNGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-bds-hang-doc-quyen-f1/2343062.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2343062.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh & Marketing Từ 2 Năm Kinh Nghiệm",
-      "company": "CÔNG TY TNHH SALAMAN VIỆT NAM",
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-marketing-tu-2-nam-kinh-nghiem/2348951.html",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2348951.png"
-    }
-  ],
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 2,
-    "expired": 3,
+    "already_applied": 1,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 5
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-thuong-mai/2341524.html",
-      "title": "Phó Giám Đốc Kinh Doanh Thương Mại",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2359940.html",
+      "title": "Trưởng Phòng Kinh Doanh Logistics",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2339382.html",
-      "title": "Tin hết hạn / Chuyển hướng trang chủ",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-online/2360086.html",
+      "title": "Giám Đốc Kinh Doanh Online",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1378727.html",
-      "title": "Trưởng Phòng Kinh Doanh",
+      "url": "https://www.topcv.vn/brand/sapovn/tuyen-dung/business-development-manager-enterprise-j2210824.html",
+      "title": "Business Development Manager (Enterprise)",
       "reason": "Đã ứng tuyển trước đó"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/sale-online-b2b-thi-truong-quoc-te-au-uc-my-nganh-dich-vu-chinh-sua-anh-video-co-the-lam-remote-luong-upto-45-trieu-thang-nghi-thu-7-va-chu-nhat/2324305.html",
-      "title": "Sale Online B2B Thị Trường Quốc Tế (ÂU, ÚC, MỸ) - Ngành Dịch Vụ Chỉnh Sửa Ảnh, Video - Có Thể Làm Remote - Lương Upto 45 Triệu/Tháng - Nghỉ Thứ 7 Và Chủ Nhật",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-nganh-hang-gia-dung-kenh-mt/2358935.html",
+      "title": "Giám Đốc Kinh Doanh Ngành Hàng Gia Dụng (Kênh MT)",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-khoi-khach-hang-trung-quoc-luong-cung-15-22-trieu-phu-cap-doanh-so/2256901.html",
-      "title": "Trưởng Phòng Kinh Doanh Khối Khách Hàng Trung Quốc - Lương Cứng 15 - 22 Triệu + Phụ Cấp + Doanh Số",
-      "reason": "Đã ứng tuyển trước đó"
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2359917.html",
+      "title": "Quản Lý Kinh Doanh Khu Vực ASM",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc/2359872.html",
+      "title": "Quản Lý Kinh Doanh Khu Vực",
+      "reason": "Modal ứng tuyển không mở được"
     }
   ]
 }
