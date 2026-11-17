@@ -4570,5 +4570,88 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-16T19:55:03.947173",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996001.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-khu-vuc-mien-bac-mien-trung-tay-nguyen-c13p210000182id200996188.html",
+    "id": "200996188",
+    "title": "Giám Đốc Kinh Doanh Khu Vực Miền Bắc / Miền Trung - Tây Nguyên",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-ban-hang-kenh-gt-fmcg-c13p210000160id200996492.html",
+    "id": "200996492",
+    "title": "Giám Sát Bán Hàng Kênh GT (Fmcg)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-khu-vuc-area-sales-manager-asm-c13p210000186id200986239.html",
+    "id": "200986239",
+    "title": "Quản Lý Kinh Doanh Khu Vực (Area Sales Manager - ASM)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-tai-van-phong-c13p210000187id200996408.html",
+    "id": "200996408",
+    "title": "Nhân Viên Kinh Doanh Tại Văn Phòng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-ban-hang-khu-vuc-asm-kenh-gt-mien-bac-san-pham-banh-keo-nhap-khau-c13p210000160id200996580.html",
+    "id": "200996580",
+    "title": "Giám Đốc Bán Hàng Khu Vực (ASM) - Kênh GT Miền Bắc. Sản Phẩm Bánh Kẹo Nhập Khẩu",
+    "company": "Công Ty TNHH Giống Gia Cầm Minh Dư",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-17T09:17:25.150184",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996580.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200996524.html",
+    "id": "200996524",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "Công Ty TNHH Giống Gia Cầm Minh Dư",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-17T09:17:45.785871",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996524.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-my-pham-han-quoc-c12p210000160id200996381.html",
+    "id": "200996381",
+    "title": "Trưởng Phòng Marketing - Mỹ Phẩm Hàn Quốc",
+    "company": "Công Ty Cổ Phần Flightgolf",
+    "salary": "35 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-17T09:18:07.404882",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996381.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/giam-sat-thi-cong-c31p210000187id200995619.html",
+    "id": "200995619",
+    "title": "Giám Sát Thi Công",
+    "company": "Công Ty TNHH Thương Mại Ats Việt Nam",
+    "salary": "7 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-17T09:18:30.416191",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200995619.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-tu-van-khoa-hoc-tre-em-c13p210000160id200996499.html",
+    "id": "200996499",
+    "title": "Trưởng Nhóm Kinh Doanh Tư Vấn Khóa Học Trẻ Em",
+    "company": "Công Ty TNHH Hồng Đạt",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-17T09:18:51.197403",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996499.png"
   }
 ]
