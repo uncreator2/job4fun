@@ -1,26 +1,37 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-17T18:53:27.122170",
-  "todo_count": 2,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-17T22:04:34.259989",
+  "todo_count": 3,
+  "applied_count": 3,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Nhóm Kinh Doanh Vận Tải Nội Địa Và Kho Bãi",
+      "company": "CÔNG TY TNHH BẢO HIỂM NHÂN THỌ SUN LIFE VIỆT NAM",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-van-tai-noi-dia-va-kho-bai/2360273.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2360273.png"
+    },
+    {
+      "title": "Quản Lý Kinh Doanh (B2G, B2B)",
+      "company": "CÔNG TY CỔ PHẦN Ô TÔ GEL-O&J",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-b2g-b2b/2359623.html",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2359623.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh Thời Trang B2B Global",
+      "company": "CÔNG TY CỔ PHẦN Ô TÔ GEL-O&J",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-thoi-trang-b2b-global/2241145.html",
+      "status": "SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/topcv/apply_proof_2241145.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 2,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc-asm/2359917.html",
-      "title": "Website đang được bảo trì để nâng cấp hệ thống",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-khu-vuc/2359872.html",
-      "title": "Website đang được bảo trì để nâng cấp hệ thống",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    }
-  ]
+  "skipped_details": []
 }
