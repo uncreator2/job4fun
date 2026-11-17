@@ -1,17 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-17T18:50:38.346462",
-  "todo_count": 10,
-  "applied_count": 1,
-  "applied_jobs": [
-    {
-      "title": "Project Sales Engineer (Life Segment)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/project-sales-engineer-life-segment-1794823884007911736-2131846-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794941438.png"
-    }
-  ],
+  "timestamp": "2026-11-17T22:00:37.784772",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
