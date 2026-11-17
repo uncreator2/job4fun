@@ -1,45 +1,9 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-17T09:16:51.987081",
-  "todo_count": 6,
-  "applied_count": 5,
-  "applied_jobs": [
-    {
-      "title": "Giám Đốc Bán Hàng Khu Vực (ASM) - Kênh GT Miền Bắc. Sản Phẩm Bánh Kẹo Nhập Khẩu",
-      "company": "Công Ty TNHH Giống Gia Cầm Minh Dư",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-ban-hang-khu-vuc-asm-kenh-gt-mien-bac-san-pham-banh-keo-nhap-khau-c13p210000160id200996580.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996580.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công Ty TNHH Giống Gia Cầm Minh Dư",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id200996524.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996524.png"
-    },
-    {
-      "title": "Trưởng Phòng Marketing - Mỹ Phẩm Hàn Quốc",
-      "company": "Công Ty Cổ Phần Flightgolf",
-      "url": "https://vieclam24h.vn/marketing/truong-phong-marketing-my-pham-han-quoc-c12p210000160id200996381.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996381.png"
-    },
-    {
-      "title": "Giám Sát Thi Công",
-      "company": "Công Ty TNHH Thương Mại Ats Việt Nam",
-      "url": "https://vieclam24h.vn/xay-dung/giam-sat-thi-cong-c31p210000187id200995619.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200995619.png"
-    },
-    {
-      "title": "Trưởng Nhóm Kinh Doanh Tư Vấn Khóa Học Trẻ Em",
-      "company": "Công Ty TNHH Hồng Đạt",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-tu-van-khoa-hoc-tre-em-c13p210000160id200996499.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996499.png"
-    }
-  ],
+  "timestamp": "2026-11-17T16:19:21.385638",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
