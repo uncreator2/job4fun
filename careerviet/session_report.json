@@ -1,25 +1,31 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-18T08:38:44.991190",
-  "todo_count": 3,
-  "applied_count": 3,
+  "timestamp": "2026-11-18T18:22:29.873567",
+  "todo_count": 4,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "Assistant Sales Manager – Hanoi",
-      "company": "TÜV SÜD Vietnam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/assistant-sales-manager-hanoi.35C8E255.html",
+      "title": "KV Hà Nội - Giám đốc Phòng QHKH Doanh nghiệp",
+      "company": "BVBank - Ngân hàng Bản Việt",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/kv-ha-noi-giam-doc-phong-qhkh-doanh-nghiep.35C8B772.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "[Hanoi] Business Development Manager",
-      "company": "QT Instruments (S) Vietnam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/hanoi-business-development-manager.35C8E2CF.html",
+      "title": "[Hà Nội] Trưởng Phòng Khách Hàng Cá Nhân",
+      "company": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-truong-phong-khach-hang-ca-nhan.35C8E2BD.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Trưởng phòng kinh doanh B2C",
-      "company": "Công ty Cổ phần Masscom Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-b2c.35C8E256.html",
+      "title": "Giám đốc Quản trị CVP Phân khúc Mass Affluent và Mass - RB - MSB - 1O322",
+      "company": "Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam (MSB)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-quan-tri-cvp-phan-khuc-mass-affluent-va-mass-rb-msb-1o322.35C856AA.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "CVC/CVCC Quản Lý Rủi Ro Thị Trường - Phòng Quản Lý Rủi Ro Thị Trường và Đầu Tư - Khối Quản trị rủi ro",
+      "company": "Ngân Hàng TMCP Tiên Phong (TPBank)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/cvc-cvcc-quan-ly-rui-ro-thi-truong-phong-quan-ly-rui-ro-thi-truong-va-dau-tu-khoi-quan-tri-rui-ro.35C8B754.html",
       "status": "APPLIED_OK"
     }
   ],
