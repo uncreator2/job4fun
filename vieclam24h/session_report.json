@@ -1,15 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-18T15:53:31.944246",
+  "timestamp": "2026-11-18T18:26:08.548398",
   "todo_count": 2,
   "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Nhóm Bán Hàng (Đội Cộng Tác Viên)",
-      "company": "Công Ty TNHH Thương Mại Dịch Vụ Dlk",
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-nhom-ban-hang-doi-cong-tac-vien-c6p210000160id200997808.html",
+      "title": "Cửa Hàng Trưởng Siêu Thị",
+      "company": "Công Ty Cổ Phần Đầu Tư Và Thương Mại Mỹ Hưng",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/cua-hang-truong-sieu-thi-c6p210000160id200993940.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200997808.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200993940.png"
     }
   ],
   "skipped_counts": {
