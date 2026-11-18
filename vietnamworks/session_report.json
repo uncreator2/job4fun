@@ -1,17 +1,63 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-17T22:00:37.784772",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-18T08:46:08.681464",
+  "todo_count": 16,
+  "applied_count": 5,
+  "applied_jobs": [
+    {
+      "title": "Quản Lý Influencer Marketing – Việt Nam",
+      "company": "Doitong",
+      "url": "https://www.vietnamworks.com/quan-ly-influencer-marketing-viet-nam-1794820948780590576-2131417-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131417.png"
+    },
+    {
+      "title": "Remote Public Procurement Quoting Specialist",
+      "company": "INVERSIONES JIMENEZ SPA",
+      "url": "https://www.vietnamworks.com/remote-public-procurement-quoting-specialist-1794929781884974737-2131934-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131934.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh – Xử Lý Nợ & Tài Sản Bảo Đảm",
+      "company": "Ngân Hàng TMCP Công Thương Việt Nam - Công Ty TNHH MTV Quản Lý Nợ Và Khai Thác Tài Sản (VietinBank AMC)",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-xu-ly-no-tai-san-bao-dam-1794294695101889941-2126383-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2126383.png"
+    },
+    {
+      "title": "Mới Sales Manager B2B - Lĩnh Vực Edtech - Khối trường Cao Đẳng & Đại Học",
+      "company": "Công ty Cổ phần Giáo dục và Đào tạo Quốc tế Tập đoàn Atlantic - Atlantic Edu Group",
+      "url": "https://www.vietnamworks.com/sales-manager-b2b-linh-vuc-edtech-khoi-truong-cao-djang-and-djai-hoc-2132056-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132056.png"
+    },
+    {
+      "title": "Chuyên Viên Kinh Doanh B2B (Thương Mại Bán Thành Phẩm)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-b2b-thuong-mai-ban-thanh-pham-2122902-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1794991649.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 2,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-2122013-jv",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Đã ứng tuyển trước đó"
+    },
+    {
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-nganh-quang-cao-phim-anh-giai-tri-2127205-jv",
+      "title": "Giám Đốc Kinh Doanh (Ngành Quảng Cáo/Phim Ảnh/Giải Trí)",
+      "reason": "Đã ứng tuyển trước đó"
+    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -20,7 +66,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -30,32 +76,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
