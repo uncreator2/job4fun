@@ -1,24 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-18T15:58:40.381158",
-  "todo_count": 11,
-  "applied_count": 2,
-  "applied_jobs": [
-    {
-      "title": "Mới Quản Lý Trung Tâm - Center Sales Manager",
-      "company": "Mathnasium Việt Nam",
-      "url": "https://www.vietnamworks.com/quan-ly-trung-tam-center-sales-manager-1794966342485821087-2132416-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132416.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh (Ngành Mỹ phẩm) - Thu nhập hấp dẫn",
-      "company": "CÔNG TY TNHH HARICO GLOBAL",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-nganh-my-pham-thu-nhap-hap-dan-1794996733729147359-2132814-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132814.png"
-    }
-  ],
+  "timestamp": "2026-11-18T18:36:32.303673",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -35,7 +20,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -45,17 +30,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
