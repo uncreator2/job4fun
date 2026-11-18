@@ -1,9 +1,17 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-18T08:42:28.532143",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-18T15:53:31.944246",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Nhóm Bán Hàng (Đội Cộng Tác Viên)",
+      "company": "Công Ty TNHH Thương Mại Dịch Vụ Dlk",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/truong-nhom-ban-hang-doi-cong-tac-vien-c6p210000160id200997808.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200997808.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
