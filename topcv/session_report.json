@@ -1,15 +1,46 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-18T21:49:06.926494",
-  "todo_count": 0,
+  "timestamp": "2026-11-19T09:12:45.635515",
+  "todo_count": 6,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 0,
+    "expired": 6,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
-  "skipped_details": []
+  "skipped_details": [
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2361040.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/salas-manager-kenh-bakery-quan-ly-kinh-doanh/2361916.html",
+      "title": "Salas Manager Kênh Bakery (Quản Lý Kinh Doanh)",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2228599.html",
+      "title": "Giám Đốc Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2361789.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/1977768.html",
+      "title": "Trưởng Nhóm Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2362045.html",
+      "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    }
+  ]
 }
