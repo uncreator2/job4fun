@@ -4761,5 +4761,45 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-19T08:59:15.779777",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200997501.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xay-dung/ky-su-giam-sat-thi-cong-xay-dung-luong-12-15-trieu-phu-cap-cong-trinh-c31p210000187id200997591.html",
+    "id": "200997591",
+    "title": "Kỹ Sư Giám Sát Thi Công Xây Dựng (Lương 12 - 15 Triệu + Phụ Cấp Công Trình)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/sales-manager-logistics-luong-den-50-trieu-c13p210000160id200990995.html",
+    "id": "200990995",
+    "title": "Sales Manager Logistics – Lương Đến 50 Triệu",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "ALREADY_APPLIED",
+    "applied_at": "2026-11-19T15:59:15.295279",
+    "proof": null
+  },
+  {
+    "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/truong-nhom-kinh-doanh-nguon-von-c18p210000160id200997021.html",
+    "id": "200997021",
+    "title": "Trưởng Nhóm Kinh Doanh Nguồn Vốn",
+    "company": "Công Ty TNHH Giải Pháp Đô Thị Nam Hải",
+    "salary": "15 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-19T15:59:37.930861",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200997021.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/giam-doc-phong-tu-doanh-c18p210000160id200996986.html",
+    "id": "200996986",
+    "title": "Giám Đốc Phòng Tự Doanh",
+    "company": "Công Ty TNHH Dbn Việt Nam",
+    "salary": "8 - 30 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-19T15:59:59.310128",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996986.png"
   }
 ]
