@@ -1,9 +1,17 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-19T18:43:49.287339",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-19T21:54:39.765767",
+  "todo_count": 10,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Sales Manager (English Or Chinese Speaking) – Mechanical, Metal Stamping",
+      "company": "Navigos Search's Client",
+      "url": "https://www.vietnamworks.com/sales-manager-english-or-chinese-speaking-mechanical-metal-stamping-1793186275706625595-2124985-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124985.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
