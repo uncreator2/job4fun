@@ -1,31 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-19T16:03:04.002388",
-  "todo_count": 12,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "Mới Business Development Manager - Property Management / Facility Management",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/business-development-manager-property-management-facility-management-2133059-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133059.png"
-    },
-    {
-      "title": "Mới Trưởng Phòng Kinh Doanh (Sales Manager)",
-      "company": "Tập Đoàn Vingroup - Công Ty Cổ Phần Vincom Retail",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-manager-1795082424146603400-2133138-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133138.png"
-    },
-    {
-      "title": "Giám đốc Kinh doanh Miền Bắc / Miền Nam",
-      "company": "Công Ty TNHH Đông Dương Sài Gòn",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-mien-bac-mien-nam-1795077864522149894-2080649-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2080649.png"
-    }
-  ],
+  "timestamp": "2026-11-19T18:43:49.287339",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -72,7 +50,7 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
