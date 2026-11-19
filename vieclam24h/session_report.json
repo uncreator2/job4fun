@@ -1,9 +1,38 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-18T21:39:35.209857",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-19T08:57:33.097481",
+  "todo_count": 5,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh Online Mảng Thời Trang",
+      "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-online-mang-thoi-trang-c13p210000160id200998512.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200998512.png"
+    },
+    {
+      "title": "Giám Sát Phát Triển Kinh Doanh Tại Miền Bắc - Smchno",
+      "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/giam-sat-phat-trien-kinh-doanh-tai-mien-bac-smchno-c6p210000160id200999236.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200999236.png"
+    },
+    {
+      "title": "[Miền Bắc] Giám Sát Kinh Doanh Trực Tiếp",
+      "company": "Công Ty Cổ Phần Phát Triển Công Nghiệp Và Đô Thị Việt Nam",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/mien-bac-giam-sat-kinh-doanh-truc-tiep-c13p210000160id200999178.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200999178.png"
+    },
+    {
+      "title": "Trưởng Nhóm (Quản Lý CSKH Sau Vay) - Mrshno",
+      "company": "Công Ty Cổ Phần Sản Xuất Thương Mại Eurofan",
+      "url": "https://vieclam24h.vn/luat-phap-ly-tuan-thu/truong-nhom-quan-ly-cskh-sau-vay-mrshno-c25p210000160id200997501.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200997501.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
