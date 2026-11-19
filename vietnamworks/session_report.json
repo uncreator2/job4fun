@@ -1,17 +1,93 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-18T21:43:26.696358",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-19T09:03:18.301236",
+  "todo_count": 20,
+  "applied_count": 10,
+  "applied_jobs": [
+    {
+      "title": "Mới Giám Đốc Thanh Tra - Thị Trường Nước Ngoài",
+      "company": "GSM - Xanh SM",
+      "url": "https://www.vietnamworks.com/giam-doc-thanh-tra-thi-truong-nuoc-ngoai-1795057420166362963-2132965-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132965.png"
+    },
+    {
+      "title": "Mới Marketing Manager (Huawei Enterprise Business)",
+      "company": "Công Ty TNHH Công Nghệ Huawei Việt Nam",
+      "url": "https://www.vietnamworks.com/marketing-manager-huawei-enterprise-business-1795054821214107717-2132868-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132868.png"
+    },
+    {
+      "title": "Kỹ Sư Cấp Cao Quản Lý Hạ Tầng CNTT (Senior Infrastructure Engineer)",
+      "company": "Công Ty CP Giải Pháp Kinh Doanh Nền Tảng - Basebs",
+      "url": "https://www.vietnamworks.com/ky-su-cap-cao-quan-ly-ha-tang-cntt-senior-infrastructure-engineer-2124635-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124635.png"
+    },
+    {
+      "title": "ETC Regional Sales Manager (Ha Noi + North)",
+      "company": "United International Pharma Co., Ltd.",
+      "url": "https://www.vietnamworks.com/etc-regional-sales-manager-ha-noi-north-1791365314298243400--2132832-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132832.png"
+    },
+    {
+      "title": "Sales Manager (Real Estate)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-manager-real-estate-13-2132659-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132659.png"
+    },
+    {
+      "title": "Sales Manager (Real Estate)",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/sales-manager-real-estate-14-2132663-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132663.png"
+    },
+    {
+      "title": "Quản lý Kinh doanh (Lĩnh vực Khách sạn) - Thu nhập 25 triệu - 35 triệu/tháng",
+      "company": "Công Ty TNHH Vận Tải Việt Thuận",
+      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-linh-vuc-khach-san-thu-nhap-25-trieu-35-trieu-thang-1795060330026684135-2129453-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2129453.png"
+    },
+    {
+      "title": "Business Development & Operations Manager",
+      "company": "CÔNG TY TNHH HEALTH LAND VIỆT NAM",
+      "url": "https://www.vietnamworks.com/business-development-operations-manager-1795074652050787928-2128765-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2128765.png"
+    },
+    {
+      "title": "Ecommerce Manager/ Trưởng phòng Thương Mại Điện Tử",
+      "company": "",
+      "url": "https://www.vietnamworks.com/ecommerce-manager-truong-phong-thuong-mai-dien-tu-1794999481792631637-2132195-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795079148.png"
+    },
+    {
+      "title": "GIÁM ĐỐC KINH DOANH",
+      "company": "Công Ty Cổ Phần Công Nghệ Tiên Phát - Tpcoms",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1795075692852034770-2127586-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127586.png"
+    }
+  ],
   "skipped_counts": {
-    "already_applied": 0,
+    "already_applied": 1,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/quan-ly-phat-trien-kinh-doanh-tai-chinh-chuoi-cung-ung-2130451-jv",
+      "title": "Mới Quản Lý Phát Triển Kinh Doanh Tài Chính Chuỗi Cung Ứng",
+      "reason": "Đã ứng tuyển trước đó"
+    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
