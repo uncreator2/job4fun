@@ -12970,5 +12970,29 @@
     "exp": "5 năm",
     "first_extracted_at": "2026-11-19 09:11:22",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-van-hanh-kinh-doanh/2362099.html": {
+    "job_id": "2362099",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-van-hanh-kinh-doanh/2362099.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795104355",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-van-hanh-kinh-doanh/2362099.html",
+    "company": "CÔNG TY TNHH SẢN XUẤT, DỊCH VỤ VÀ THƯƠNG MẠI AN TÂM",
+    "salary": "25 - 35 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-19 16:06:14",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-ve-nganh-hang-gia-cam/1939036.html": {
+    "job_id": "1939036",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-ve-nganh-hang-gia-cam/1939036.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795104423",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-ve-nganh-hang-gia-cam/1939036.html",
+    "company": "VIỆN TÀI CHÍNH VI MÔ VÀ PHÁT TRIỂN CỘNG ĐỒNG",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-19 16:07:23",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
