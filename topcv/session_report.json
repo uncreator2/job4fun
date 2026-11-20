@@ -1,26 +1,15 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-20T15:55:23.881090",
-  "todo_count": 2,
+  "timestamp": "2026-11-20T18:10:48.249003",
+  "todo_count": 0,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 2,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://www.topcv.vn/viec-lam/sales-manager/2362523.html",
-      "title": "Sales Manager",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-setup-co-so-moi/2333664.html",
-      "title": "Trưởng Phòng Kinh Doanh (Setup Cơ Sở Mới)",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    }
-  ]
+  "skipped_details": []
 }
