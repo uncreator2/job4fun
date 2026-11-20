@@ -1,43 +1,15 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-20T18:04:56.110812",
-  "todo_count": 14,
-  "applied_count": 5,
+  "timestamp": "2026-11-20T21:39:33.968964",
+  "todo_count": 10,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh Bất Động Sản (Chủ đầu tư)",
-      "company": "Vietnamworks' Client",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-bat-djong-san-chu-djau-tu-2131773-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131773.png"
-    },
-    {
-      "title": "Mới Korean Sale Manager - Grand Hyams Hotel Quy Nhơn Beach",
-      "company": "Công Ty Cổ Phần TMS Bất Động Sản",
-      "url": "https://www.vietnamworks.com/korean-sale-manager-grand-hyams-hotel-quy-nhon-beach-1795155759451001590-2133621-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133621.png"
-    },
-    {
-      "title": "Phó Phòng Kinh Doanh - Hà Nội",
+      "title": "Sales (Account Manager) - Korean Customer",
       "company": "",
-      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-ha-noi-1794458490699222154-2130588-jv/",
+      "url": "https://www.vietnamworks.com/sales-account-manager-korean-customer-2125482-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197929.png"
-    },
-    {
-      "title": "Business Development Manager",
-      "company": "",
-      "url": "https://www.vietnamworks.com/business-development-manager-1793847101742979386-2128004-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197947.png"
-    },
-    {
-      "title": "Sales Executive – Printing & Packaging (Northern Vietnam)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/sales-executive-printing-and-packaging-northern-vietnam-2120558-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197964.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795210773.png"
     }
   ],
   "skipped_counts": {
@@ -56,7 +28,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -66,32 +38,32 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
       "title": "Product Marketing Manager",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     }
   ]
 }
