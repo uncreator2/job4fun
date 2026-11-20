@@ -1,15 +1,71 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-19T21:54:39.765767",
-  "todo_count": 10,
-  "applied_count": 1,
+  "timestamp": "2026-11-20T08:39:45.609927",
+  "todo_count": 18,
+  "applied_count": 9,
   "applied_jobs": [
     {
-      "title": "Sales Manager (English Or Chinese Speaking) – Mechanical, Metal Stamping",
-      "company": "Navigos Search's Client",
-      "url": "https://www.vietnamworks.com/sales-manager-english-or-chinese-speaking-mechanical-metal-stamping-1793186275706625595-2124985-jv",
+      "title": "Head Of External Relations - International Markets",
+      "company": "GSM - Xanh SM",
+      "url": "https://www.vietnamworks.com/head-of-external-relations-international-markets-1795057071551753646-2132958-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2124985.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132958.png"
+    },
+    {
+      "title": "Giám Đốc Đầu Tư - Kinh doanh BĐS",
+      "company": "Công Ty Cổ Phần Nhân Bình",
+      "url": "https://www.vietnamworks.com/giam-doc-dau-tu-kinh-doanh-bds-1795157759587286677-2125899-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2125899.png"
+    },
+    {
+      "title": "Business Development Manager (B2B) - Salary Up to VND 40 Million",
+      "company": "CÔNG TY CỔ PHẦN TỰ ĐỘNG HÓA VÀ ROBOTICS AUBOT",
+      "url": "https://www.vietnamworks.com/business-development-manager-b2b-salary-up-to-vnd-40-million-1795147351072241471-2127505-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2127505.png"
+    },
+    {
+      "title": "Mới Senior Solar Sales Manager (Utility/C&I Solar & BESS Business)",
+      "company": "Công Ty TNHH Công Nghệ Huawei Việt Nam",
+      "url": "https://www.vietnamworks.com/senior-solar-sales-manager-utility-c-i-solar-bess-business-1795158384091811641-2133670-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133670.png"
+    },
+    {
+      "title": "Mới IT Business Operations Manager",
+      "company": "One Mount",
+      "url": "https://www.vietnamworks.com/it-business-operations-manager-1795161305254485479-2133573-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133573.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh (Nội Địa & Xuất Khẩu) Thu Nhập Từ 30 - 40 Triệu",
+      "company": "Công Ty Cổ Phần D&A Việt Nam",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-noi-dia-xuat-khau-thu-nhap-tu-30-40-trieu-1795162487422636974-2133570-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133570.png"
+    },
+    {
+      "title": "Senior Coporate Sales Executive - B2B Education",
+      "company": "",
+      "url": "https://www.vietnamworks.com/senior-coporate-sales-executive-b2b-education-1794450992259243405-2130486-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795164085.png"
+    },
+    {
+      "title": "Phó Phòng Kinh Doanh",
+      "company": "",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-1795077519709689180-2133170-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795164102.png"
+    },
+    {
+      "title": "Mới Giám Đốc Trung Tâm Xạ Trị",
+      "company": "Công ty Cổ phần Kinh doanh Hưng Việt",
+      "url": "https://www.vietnamworks.com/giam-doc-trung-tam-xa-tri-1795160482956021016-2133563-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133563.png"
     }
   ],
   "skipped_counts": {
