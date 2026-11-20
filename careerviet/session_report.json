@@ -1,13 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-19T15:55:38.330921",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-20T08:33:26.941070",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Phó Tổng Giám Đốc Phụ Trách Khối Kinh Doanh",
-      "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN Y TẾ VIỆT NHẬT",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-tong-giam-doc-phu-trach-khoi-kinh-doanh.35C8E4DE.html",
+      "title": "Trưởng phòng kinh doanh/Quản lý kinh doanh",
+      "company": "CÔNG TY TNHH Hubei",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-quan-ly-kinh-doanh.35C8DD6B.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám Đốc Cao Cấp Quan Hệ Khách Hàng (SRM) - Trung Tâm FDI - HN, HCM - ID2196",
+      "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cao-cap-quan-he-khach-hang-srm-trung-tam-fdi-hn-hcm-id2196.35C8C163.html",
       "status": "APPLIED_OK"
     }
   ],
