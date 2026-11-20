@@ -4801,5 +4801,41 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-19T15:59:59.310128",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200996986.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-nganh-phu-tung-xe-may-c13p210000187id201000140.html",
+    "id": "201000140",
+    "title": "Trưởng Phòng Kinh Doanh – Ngành Phụ Tùng Xe Máy",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-khach-hang-c13p210000187id200999877.html",
+    "id": "200999877",
+    "title": "Giám Đốc Khách Hàng",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/khach-san-nha-hang-du-lich/truong-phong-kinh-doanh-inbound-tieng-anh-tot-c5p210000160id200999440.html",
+    "id": "200999440",
+    "title": "Trưởng Phòng Kinh Doanh Inbound - Tiếng Anh Tốt",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-20T08:36:44.295753",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200999440.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/duoc-pham/quan-ly-kenh-otc-khu-vuc-mien-bac-luong-25-30-tr-nhan-viec-ngay-c42p210000160id201000101.html",
+    "id": "201000101",
+    "title": "Quản Lý Kênh OTC Khu Vực Miền Bắc - Lương 25-30 Tr, Nhận Việc Ngay",
+    "company": "Công Ty TNHH Thương Mại Ats Việt Nam",
+    "salary": "7 - 20 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-20T08:37:03.697339",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201000101.png"
   }
 ]
