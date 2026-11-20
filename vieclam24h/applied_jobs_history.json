@@ -4848,5 +4848,19 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-20T15:42:39.220747",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_200999971.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nam-truong-phong-kinh-doanh-kinh-nghiem-1-nam-thu-nhap-18-30-trieu-tp-hcm-c13p210000187id200999853.html",
+    "id": "200999853",
+    "title": "Nam Trưởng Phòng Kinh Doanh Kinh Nghiệm 1 Năm, Thu Nhập 18 - 30 Triệu (Tp.HCM)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/chuyen-vien-kinh-doanh-bat-dong-san-khong-yeu-cau-kinh-nghiem-thu-nhap-upto-30m-c13p210000160id200999895.html",
+    "id": "200999895",
+    "title": "Chuyên Viên Kinh Doanh Bất Động Sản (Không Yêu Cầu Kinh Nghiệm) | Thu Nhập Upto 30M",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
