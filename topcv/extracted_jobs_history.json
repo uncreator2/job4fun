@@ -13066,5 +13066,29 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-11-20 08:45:32",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager/2362523.html": {
+    "job_id": "2362523",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/sales-manager/2362523.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795189965",
+    "clean_url": "https://www.topcv.vn/viec-lam/sales-manager/2362523.html",
+    "company": "CÔNG TY TNHH THƯƠNG MẠI QUỐC TẾ GONEO (VN)",
+    "salary": "Từ 2,000 USD",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-20 15:53:04",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-setup-co-so-moi/2333664.html": {
+    "job_id": "2333664",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-setup-co-so-moi/2333664.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795189965",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-setup-co-so-moi/2333664.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ GIÁO DỤC QUỐC TẾ SEC",
+    "salary": "20 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-20 15:53:04",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }

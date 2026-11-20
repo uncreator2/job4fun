@@ -1,45 +1,25 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-20T08:46:25.009764",
-  "todo_count": 6,
+  "timestamp": "2026-11-20T15:55:23.881090",
+  "todo_count": 2,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 6,
+    "expired": 2,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 0
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-mang-du-hoc-dai-loan-lam-viec-tai-ha-noi-thu-nhap-khong-gioi-han/2362766.html",
-      "title": "Giám Đốc Kinh Doanh Mảng Du Học Đài Loan (Làm Việc Tại Hà Nội, Thu Nhập Không Giới Hạn)",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager/2362523.html",
+      "title": "Sales Manager",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-inbound-han-quoc/2362836.html",
-      "title": "Trưởng Phòng Kinh Doanh Inbound Hàn Quốc",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-benh-vien/2363064.html",
-      "title": "Trưởng Phòng Phát Triển Kinh Doanh Bệnh Viện",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/brand/sapovn/tuyen-dung/giam-doc-trung-tam-kinh-doanh-direct-j2362807.html",
-      "title": "Giám Đốc Trung Tâm Kinh Doanh Direct",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/call-center-team-leader/1420615.html",
-      "title": "Call Center Team Leader",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2c/2362756.html",
-      "title": "Trưởng Phòng Kinh Doanh B2C",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-setup-co-so-moi/2333664.html",
+      "title": "Trưởng Phòng Kinh Doanh (Setup Cơ Sở Mới)",
       "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
     }
   ]
