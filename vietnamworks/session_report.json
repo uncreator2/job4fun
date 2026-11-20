@@ -1,64 +1,43 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-20T15:46:44.877833",
-  "todo_count": 17,
-  "applied_count": 8,
+  "timestamp": "2026-11-20T18:04:56.110812",
+  "todo_count": 14,
+  "applied_count": 5,
   "applied_jobs": [
     {
-      "title": "Mới Motor Technical Sales Engineer",
-      "company": "LG Electronics Việt Nam Hải Phòng",
-      "url": "https://www.vietnamworks.com/motor-technical-sales-engineer-1795164411404416775-2133745-jv",
+      "title": "Trưởng Phòng Kinh Doanh Bất Động Sản (Chủ đầu tư)",
+      "company": "Vietnamworks' Client",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-bat-djong-san-chu-djau-tu-2131773-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133745.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131773.png"
     },
     {
-      "title": "Chuyên Viên Kinh Doanh (Lương 20 ++)",
-      "company": "Tập Đoàn Vingroup - Công Ty Cổ Phần Vincom Retail",
-      "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-luong-20-1795082449084946443-2133133-jv",
+      "title": "Mới Korean Sale Manager - Grand Hyams Hotel Quy Nhơn Beach",
+      "company": "Công Ty Cổ Phần TMS Bất Động Sản",
+      "url": "https://www.vietnamworks.com/korean-sale-manager-grand-hyams-hotel-quy-nhon-beach-1795155759451001590-2133621-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133133.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133621.png"
     },
     {
-      "title": "Mới Trưởng Phòng Khai Báo Hải Quan",
-      "company": "Finlogistics - Công Ty Cổ Phần Kinh Doanh Quốc Tế Fingroup",
-      "url": "https://www.vietnamworks.com/truong-phong-khai-bao-hai-quan-1795168414767476320-2133887-jv",
+      "title": "Phó Phòng Kinh Doanh - Hà Nội",
+      "company": "",
+      "url": "https://www.vietnamworks.com/pho-phong-kinh-doanh-ha-noi-1794458490699222154-2130588-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133887.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197929.png"
     },
     {
-      "title": "Mới Business Development Manager",
-      "company": "Goldwind",
-      "url": "https://www.vietnamworks.com/business-development-manager-1795171532652868618-2133812-jv",
+      "title": "Business Development Manager",
+      "company": "",
+      "url": "https://www.vietnamworks.com/business-development-manager-1793847101742979386-2128004-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133812.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197947.png"
     },
     {
-      "title": "Giám Đốc Kinh Doanh & Marketing",
-      "company": "Công Ty Cổ Phần Đầu Tư Long Biên",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-marketing-1794805117023369277-2131626-jv",
+      "title": "Sales Executive – Printing & Packaging (Northern Vietnam)",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-executive-printing-and-packaging-northern-vietnam-2120558-jv/",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2131626.png"
-    },
-    {
-      "title": "Mới Phó Giám Đốc Ban Phát Triển Kinh Doanh - Kênh Ngân Hàng",
-      "company": "Bảo hiểm VietinBank (VBI)",
-      "url": "https://www.vietnamworks.com/pho-giam-doc-ban-phat-trien-kinh-doanh-kenh-ngan-hang-1795164084515950694-2133713-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133713.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh Quốc Tế – Thị Trường Khu Vực Đông Nam Á",
-      "company": "Công ty TNHH thương mại XNK Phan Anh",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-quoc-te-thi-truong-khu-vuc-dong-nam-a-1795174432773027103-2133950-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133950.png"
-    },
-    {
-      "title": "Mới Giám Đốc Kinh Doanh",
-      "company": "Công Ty TNHH Thiên Phúc Viên",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-1795171114226093885-2133879-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133879.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795197964.png"
     }
   ],
   "skipped_counts": {
@@ -77,7 +56,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -87,27 +66,27 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
       "title": "Chuyên Viên Kinh Doanh (Tiếng Trung / Nhật)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
