@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-20T21:45:36.665492",
-  "todo_count": 0,
+  "timestamp": "2026-11-23T09:21:33.672302",
+  "todo_count": 12,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -9,7 +9,23 @@
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 3
   },
-  "skipped_details": []
+  "skipped_details": [
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
+      "title": "Quản Lý Kinh Doanh Dự Án (C&I)",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-online-thoi-trang/2363920.html",
+      "title": "Trưởng Nhóm Kinh Doanh Online ( Thời Trang )",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
+      "title": "Phó Giám Đốc Kinh Doanh Marketing",
+      "reason": "Modal ứng tuyển không mở được"
+    }
+  ]
 }
