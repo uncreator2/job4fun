@@ -1,31 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-23T18:38:47.097493",
-  "todo_count": 12,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "[HANOI/ BACNINH] LOGISTICS SALES MANAGER - FOCUS OCEAN FREIGHT",
-      "company": "Công Ty TNHH Samsung SDS Vietnam",
-      "url": "https://www.vietnamworks.com/hanoi-bacninh-logistics-sales-manager-focus-ocean-freight-1795144156722119512-2133400-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133400.png"
-    },
-    {
-      "title": "Giám Đốc Kinh Doanh Quốc Tế – Thị Trường Khu Vực Đông Nam Á",
-      "company": "",
-      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-quoc-te-thi-truong-khu-vuc-dong-nam-a-1795174432773027103-2133950-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795459144.png"
-    },
-    {
-      "title": "Mới Giám Đốc Phát Triển Năng Lực Bán Hàng (Sales Capability Director) FMCG",
-      "company": "CÔNG TY CỔ PHẦN PHÂN PHỐI VÀ LOGISTICS HÙNG CƯỜNG",
-      "url": "https://www.vietnamworks.com/giam-djoc-phat-trien-nang-luc-ban-hang-sales-capability-director-fmcg-2134295-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2134295.png"
-    }
-  ],
+  "timestamp": "2026-11-23T21:46:05.325641",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -42,7 +20,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -52,17 +30,17 @@
     {
       "url": "https://www.vietnamworks.com/truong-phong-quan-tri-rui-ro-tin-dung-ban-le-khoi-quan-tri-rui-ro-2104854-jv",
       "title": "Trưởng Phòng Quản Trị Rủi Ro Tín Dụng Bán Lẻ - Khối Quản Trị Rủi Ro",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
       "title": "Quản Lý Kinh Doanh (Sales Manager) - Mảng Khách sạn, Nghỉ dưỡng",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-kinh-doanh-tieng-trung-nhat-2096265-jv",
@@ -72,7 +50,7 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
