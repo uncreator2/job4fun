@@ -13234,5 +13234,29 @@
     "exp": "Dưới 1 năm",
     "first_extracted_at": "2026-11-23 09:20:47",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html": {
+    "job_id": "2357674",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795470577",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN GIÁO DỤC HSA",
+    "salary": "50 - 70 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-23 21:49:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html": {
+    "job_id": "2363879",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795470577",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html",
+    "company": "CÔNG TY TNHH HTAUTO VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-23 21:49:52",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }

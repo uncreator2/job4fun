@@ -1,75 +1,30 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-23T18:42:42.829050",
-  "todo_count": 12,
+  "timestamp": "2026-11-23T21:51:04.668921",
+  "todo_count": 6,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 8,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 4
+    "errors": 3
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
-      "title": "Quản Lý Kinh Doanh Dự Án (C&I)",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
+      "title": "Giám Đốc Kinh Doanh / Sales Director",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-online-thoi-trang/2363920.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
-      "title": "Phó Giám Đốc Kinh Doanh Marketing",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-ban-hang-ocp/2363713.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/korean-sale-manager-5-star-hotel/2363016.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/brand/sapovn/tuyen-dung/giam-doc-trung-tam-kinh-doanh-ha-noi-luong-cung-thoa-thuan-san-pham-phan-mem-quan-ly-ban-hang-hoa-don-dien-tu-j2362807.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-van-tai/2304602.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/can-bo-nguon-quan-ly-kinh-doanh-thu-nhap-tu-25-trieu-dong/2364200.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2324228.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-my-pham-laonmedi/2363067.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363773.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html",
       "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/tro-ly-quan-ly-dieu-phoi-cua-hang-banh-sinh-nhat/2352597.html",
-      "title": "Trợ Lý Quản Lý Điều Phối Cửa Hàng Bánh Sinh Nhật",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
+      "title": "Quản Lý Kinh Doanh Dự Án (C&I)",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
