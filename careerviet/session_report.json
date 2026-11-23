@@ -1,13 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-20T15:39:11.724164",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-23T09:05:02.188483",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "Sales Manager (Thành thạo tiếng Anh)",
-      "company": "Công Ty Cổ Phần Thuận Hải Energy",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-manager-thanh-thao-tieng-anh.35C8CF42.html",
+      "title": "TRƯỞNG PHÒNG PHÁT TRIỂN THỊ TRƯỜNG - MIỀN BẮC",
+      "company": "Công ty TNHH SX-TM Thép Tây Nam",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-phat-trien-thi-truong-mien-bac.35C8E7C5.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Quản Lý / Giám Sát Kinh Doanh Kênh Siêu Thị",
+      "company": "CÔNG TY TNHH MỘT THÀNH VIÊN XUẤT NHẬP KHẨU THƯƠNG MẠI DỊCH VỤ HÙNG THỦY",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-giam-sat-kinh-doanh-kenh-sieu-thi.35C8BB3F.html",
       "status": "APPLIED_OK"
     }
   ],
