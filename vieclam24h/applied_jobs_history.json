@@ -4862,5 +4862,30 @@
     "title": "Chuyên Viên Kinh Doanh Bất Động Sản (Không Yêu Cầu Kinh Nghiệm) | Thu Nhập Upto 30M",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bat-dong-san-c29p210000160id201002217.html",
+    "id": "201002217",
+    "title": "Trưởng Phòng Kinh Doanh Bất Động Sản",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-bat-dong-san-sun-c13p210000187id201002216.html",
+    "id": "201002216",
+    "title": "Giám Đốc Kinh Doanh Bất Động Sản Sun",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-sales-b2b-biet-tieng-trung-c13p210000160id201002133.html",
+    "id": "201002133",
+    "title": "Quản Lý Kinh Doanh Sales B2B (Biết Tiếng Trung)",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-23T18:33:07.726656",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002133.png"
   }
 ]

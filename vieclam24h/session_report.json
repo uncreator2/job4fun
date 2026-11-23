@@ -1,9 +1,17 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-23T09:08:10.401932",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-23T18:32:36.377254",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Quản Lý Kinh Doanh Sales B2B (Biết Tiếng Trung)",
+      "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-sales-b2b-biet-tieng-trung-c13p210000160id201002133.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002133.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

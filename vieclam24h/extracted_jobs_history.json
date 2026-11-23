@@ -2848,5 +2848,35 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-20T15:40:50.676362"
+  },
+  {
+    "id": "201002133",
+    "title": "Quản Lý Kinh Doanh Sales B2B (Biết Tiếng Trung)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-sales-b2b-biet-tieng-trung-c13p210000160id201002133.html",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-23T18:31:26.004883"
+  },
+  {
+    "id": "201002216",
+    "title": "Giám Đốc Kinh Doanh Bất Động Sản Sun",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-bat-dong-san-sun-c13p210000187id201002216.html",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-23T18:31:26.004903"
+  },
+  {
+    "id": "201002217",
+    "title": "Trưởng Phòng Kinh Doanh Bất Động Sản",
+    "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bat-dong-san-c29p210000160id201002217.html",
+    "company": "Công Ty TNHH Thương Mại Và Đầu Tư Srt Miền Bắc",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-23T18:31:31.940500"
   }
 ]
