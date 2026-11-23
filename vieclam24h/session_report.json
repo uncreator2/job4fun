@@ -1,15 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-23T18:32:36.377254",
+  "timestamp": "2026-11-23T21:41:32.228471",
   "todo_count": 2,
   "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Quản Lý Kinh Doanh Sales B2B (Biết Tiếng Trung)",
-      "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/quan-ly-kinh-doanh-sales-b2b-biet-tieng-trung-c13p210000160id201002133.html",
+      "title": "Trưởng Phòng Vận Hành Và Phát Triển Thương Mại Điện Tử",
+      "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-van-hanh-va-phat-trien-thuong-mai-dien-tu-c13p210000160id201001739.html",
       "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002133.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201001739.png"
     }
   ],
   "skipped_counts": {

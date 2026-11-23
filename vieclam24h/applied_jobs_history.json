@@ -4887,5 +4887,23 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-23T18:33:07.726656",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002133.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-sales-b2b-digital-trade-solutions-c13p210000187id201001492.html",
+    "id": "201001492",
+    "title": "Nhân Viên Kinh Doanh - Sales – B2B Digital Trade Solutions",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-van-hanh-va-phat-trien-thuong-mai-dien-tu-c13p210000160id201001739.html",
+    "id": "201001739",
+    "title": "Trưởng Phòng Vận Hành Và Phát Triển Thương Mại Điện Tử",
+    "company": "Công Ty Cổ Phần Thuốc Thú Y Trung Ương 5",
+    "salary": "30 - 50 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-23T21:42:05.408149",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201001739.png"
   }
 ]
