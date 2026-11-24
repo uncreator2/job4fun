@@ -1,15 +1,15 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-24T20:32:43.083369",
+  "timestamp": "2026-11-24T23:28:29.716553",
   "todo_count": 10,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 0,
+    "expired": 2,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 3
+    "errors": 5
   },
   "skipped_details": [
     {
@@ -24,7 +24,27 @@
     },
     {
       "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363773.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/tro-ly-quan-ly-dieu-phoi-cua-hang-banh-sinh-nhat/2352597.html",
+      "title": "www.topcv.vn",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
+      "title": "Giám Đốc Kinh Doanh / Sales Director",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html",
       "title": "Trưởng Phòng Kinh Doanh",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
+      "title": "Quản Lý Kinh Doanh Thương Mại Điện Tử (Làm Việc Tại Hà Nội)",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
