@@ -13258,5 +13258,29 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-11-23 21:49:52",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html": {
+    "job_id": "2364650",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795483429",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
+    "company": "CHI NHÁNH TẠI VĨNH PHÚC - CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ QUỐC TẾ CAO MINH",
+    "salary": "15 - 18 triệu",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-24 01:24:03",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-agency-marketing/2364187.html": {
+    "job_id": "2364187",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-agency-marketing/2364187.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795483429",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-agency-marketing/2364187.html",
+    "company": "CÔNG TY TNHH TRUYỀN THÔNG 5BIT",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-24 01:24:03",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
