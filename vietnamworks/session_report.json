@@ -1,9 +1,24 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-24T11:03:54.109423",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-24T18:03:57.408481",
+  "todo_count": 11,
+  "applied_count": 2,
+  "applied_jobs": [
+    {
+      "title": "Head of E-Commerce Marketplace | Làm việc tại Hà Nội & Hồ Chí Minh",
+      "company": "Công Ty Cổ Phần Elmich",
+      "url": "https://www.vietnamworks.com/head-of-e-commerce-marketplace-lam-viec-tai-ha-noi-ho-chi-minh-1794909331804734697-2130106-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2130106.png"
+    },
+    {
+      "title": "Senior Manager, Business Center",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/senior-manager-business-center-2134121-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2134121.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -20,7 +35,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -35,7 +50,7 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
