@@ -1,6 +1,6 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-24T01:24:57.340761",
+  "timestamp": "2026-11-24T11:09:26.154540",
   "todo_count": 8,
   "applied_count": 0,
   "applied_jobs": [],
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
-      "title": "Quản Lý Kinh Doanh Thương Mại Điện Tử (Làm Việc Tại Hà Nội)",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-agency-marketing/2364187.html",
-      "title": "Trưởng Phòng Kinh Doanh (Agency/Marketing)",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
       "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
       "title": "Quản Lý Kinh Doanh Dự Án (C&I)",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
+      "title": "Phó Giám Đốc Kinh Doanh Marketing",
+      "reason": "Modal ứng tuyển không mở được"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363773.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
