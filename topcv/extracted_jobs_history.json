@@ -13282,5 +13282,29 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-11-24 01:24:03",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1876898.html": {
+    "job_id": "1876898",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1876898.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795543649",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1876898.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN THƯƠNG MẠI THIÊN SƠN",
+    "salary": "75 - 95 triệu",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-24 18:07:43",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1815244.html": {
+    "job_id": "1815244",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1815244.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795543649",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1815244.html",
+    "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI PHƯỢNG HOÀNG",
+    "salary": "75 - 95 triệu",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-24 18:07:43",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
