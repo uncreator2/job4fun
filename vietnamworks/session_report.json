@@ -1,22 +1,17 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-25T17:33:57.549894",
-  "todo_count": 10,
+  "timestamp": "2026-11-25T19:40:52.730647",
+  "todo_count": 9,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/nhan-vien-kinh-doanh-1795574807851848307-2130682-jv",
-      "title": "Nhân Viên Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
@@ -55,7 +50,7 @@
     {
       "url": "https://www.vietnamworks.com/chuyen-vien-thuc-day-kinh-doanh--2101117-jv",
       "title": "Chuyên Viên Thúc Đẩy Kinh Doanh",
-      "reason": "NO_BUTTON"
+      "reason": "EXPIRED"
     },
     {
       "url": "https://www.vietnamworks.com/product-marketing-manager-2084750-jv/",
