@@ -4952,5 +4952,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-25T09:55:34.476365",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002615.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-vung-kinh-doanh-di-lam-luon-thu-nhap-20-40-trieu-toan-quoc-c13p210000175id200976954.html",
+    "id": "200976954",
+    "title": "Trưởng Vùng Kinh Doanh - Đi Làm Luôn - Thu Nhập 20 - 40 Triệu [ Toàn Quốc ]",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
