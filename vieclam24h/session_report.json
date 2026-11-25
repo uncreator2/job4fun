@@ -1,9 +1,31 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-24T23:19:43.111896",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-25T09:54:24.178081",
+  "todo_count": 4,
+  "applied_count": 3,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh - Bệnh Viện Bảo Sơn",
+      "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-benh-vien-bao-son-c13p210000160id201002757.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002757.png"
+    },
+    {
+      "title": "Giám Sát Kinh Doanh Kênh Mt - Hà Nội",
+      "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-kenh-mt-ha-noi-c13p210000160id201002580.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002580.png"
+    },
+    {
+      "title": "Account Manager Khối Ngân Hàng & Chính Phủ Upto 30 Triệu",
+      "company": "Công Ty TNHH Kỹ Thuật Khí Nén Việt Nhật",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/account-manager-khoi-ngan-hang-chinh-phu-upto-30-trieu-c13p210000160id201002615.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002615.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

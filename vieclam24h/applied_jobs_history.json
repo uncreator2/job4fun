@@ -4905,5 +4905,52 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-23T21:42:05.408149",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201001739.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-da-kenh-b2b-b2c-co-kinh-nghiem-c13p210000187id201002939.html",
+    "id": "201002939",
+    "title": "Giám Đốc Kinh Doanh Đa Kênh (B2B & B2C) - Có Kinh Nghiệm",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-c13p210000160id201001026.html",
+    "id": "201001026",
+    "title": "Nhân Viên Kinh Doanh",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-benh-vien-bao-son-c13p210000160id201002757.html",
+    "id": "201002757",
+    "title": "Trưởng Phòng Kinh Doanh - Bệnh Viện Bảo Sơn",
+    "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-25T09:54:55.622061",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002757.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-sat-kinh-doanh-kenh-mt-ha-noi-c13p210000160id201002580.html",
+    "id": "201002580",
+    "title": "Giám Sát Kinh Doanh Kênh Mt - Hà Nội",
+    "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-25T09:55:15.274304",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002580.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/account-manager-khoi-ngan-hang-chinh-phu-upto-30-trieu-c13p210000160id201002615.html",
+    "id": "201002615",
+    "title": "Account Manager Khối Ngân Hàng & Chính Phủ Upto 30 Triệu",
+    "company": "Công Ty TNHH Kỹ Thuật Khí Nén Việt Nhật",
+    "salary": "8 - 15 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-25T09:55:34.476365",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201002615.png"
   }
 ]
