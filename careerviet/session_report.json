@@ -1,13 +1,19 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-24T10:56:35.290067",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-25T17:26:53.624231",
+  "todo_count": 2,
+  "applied_count": 2,
   "applied_jobs": [
     {
-      "title": "HN_TRƯỞNG PHÒNG QUẢN LÝ KINH DOANH (Cạnh Tranh Thu Nhập)",
-      "company": "THỜI TRANG LINING_CÔNG TY TNHH QUỐC TẾ HẢI LONG",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/hn_truong-phong-quan-ly-kinh-doanh-canh-tranh-thu-nhap.35C8EC80.html",
+      "title": "Giám đốc vận hành (COO)",
+      "company": "Công ty Cổ phần Tập đoàn Meey Land",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-van-hanh-coo.35C8EEA9.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám Đốc Cao Cấp Quan Hệ Khách Hàng - Trung Tâm FDI - HN - ID2196",
+      "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cao-cap-quan-he-khach-hang-trung-tam-fdi-hn-id2196.35C8D44A.html",
       "status": "APPLIED_OK"
     }
   ],
