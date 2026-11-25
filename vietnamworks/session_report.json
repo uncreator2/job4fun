@@ -1,15 +1,64 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-24T23:23:21.793511",
-  "todo_count": 10,
-  "applied_count": 1,
+  "timestamp": "2026-11-25T09:59:55.520647",
+  "todo_count": 17,
+  "applied_count": 8,
   "applied_jobs": [
     {
-      "title": "Trưởng Phòng Kinh Doanh (Ngành Mỹ phẩm) - Thu nhập hấp dẫn",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-nganh-my-pham-thu-nhap-hap-dan-1794996733729147359-2132814-jv/",
+      "title": "Mới (Nữ) Quản Lý Clinic - Làm việc tại Philippines , Malaysia, UAE - lương up to 100 triệu VNĐ",
+      "company": "Anie Beauty Global",
+      "url": "https://www.vietnamworks.com/nu-quan-ly-clinic-lam-viec-tai-philippines-malaysia-uae-luong-up-to-100-trieu-vnd-1795575333064206566-2120322-jv",
       "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795562601.png"
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120322.png"
+    },
+    {
+      "title": "Mới Tuyển dụng Legal Manager - (Làm Việc Tại Nước Ngoài - Mozambique) - Mức Lương Từ 2.400 – 4.000 USD Net/tháng",
+      "company": "Viettel Mozambique (Movitel S.A)",
+      "url": "https://www.vietnamworks.com/tuyen-dung-legal-manager-lam-viec-tai-nuoc-ngoai-mozambique-muc-luong-tu-2-400-4-000-usd-net-thang-1795600628365208048-2134914-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2134914.png"
+    },
+    {
+      "title": "Area Sales Manager (ASM)- KÊNH GT",
+      "company": "CÔNG TY TNHH CÔNG NGHỆ SMART- LINK VIỆT NAM",
+      "url": "https://www.vietnamworks.com/area-sales-manager-asm-kenh-gt-1795165446076849084-2120049-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2120049.png"
+    },
+    {
+      "title": "Mới Quản Lý Kinh Doanh",
+      "company": "KHCN",
+      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-1795599594085917046-2134891-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2134891.png"
+    },
+    {
+      "title": "Giám Đốc Kinh Doanh Quốc Tế – Thị Trường Khu Vực Đông Nam Á",
+      "company": "",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-quoc-te-thi-truong-khu-vuc-dong-nam-a-1795577113599795553-2133950-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795600865.png"
+    },
+    {
+      "title": "Trade Marketing Manager Phụ Trách Kênh/Chuỗi Mẹ & Bé FMCG",
+      "company": "",
+      "url": "https://www.vietnamworks.com/trade-marketing-manager-phu-trach-kenhchuoi-me-and-be-fmcg-2134298-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795600887.png"
+    },
+    {
+      "title": "Sales Manager ($600 - $1500/month + Incentive) - Logistic",
+      "company": "",
+      "url": "https://www.vietnamworks.com/sales-manager-600-1500-month-incentive-logistic-1795417689797982803-2134242-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795600905.png"
+    },
+    {
+      "title": "Mới Giám Đốc Kinh Doanh (Phụ Trách Mảng Thiết Bị & Công Nghiệp)",
+      "company": "CÔNG TY TNHH SANY HEAVY INDUSTRY (VIỆT NAM)",
+      "url": "https://www.vietnamworks.com/giam-doc-kinh-doanh-phu-trach-mang-thiet-bi-cong-nghiep-1795588541521791428-2134699-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2134699.png"
     }
   ],
   "skipped_counts": {
@@ -28,7 +77,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
@@ -43,7 +92,7 @@
     {
       "url": "https://www.vietnamworks.com/destination-expert-taiwan-or-thailand-or-oceania-2097215-jv",
       "title": "Destination Expert (Taiwan Or Thailand Or Oceania)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-sales-manager-mang-khach-san-nghi-duong-2096276-jv",
