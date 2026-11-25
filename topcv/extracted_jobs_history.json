@@ -13378,5 +13378,65 @@
     "exp": "Trên 5 năm",
     "first_extracted_at": "2026-11-25 10:06:08",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-pham-noi-that-cao-cap/2365661.html": {
+    "job_id": "2365661",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-pham-noi-that-cao-cap/2365661.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795628251",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-san-pham-noi-that-cao-cap/2365661.html",
+    "company": "CÔNG TY TNHH FANNAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-25 17:37:48",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-xuat-khau/2035243.html": {
+    "job_id": "2035243",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-xuat-khau/2035243.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795628251",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-phat-trien-kinh-doanh-xuat-khau/2035243.html",
+    "company": "CÔNG TY TNHH NGUỒN 22",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-25 17:37:48",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-doi-ngoai/2365198.html": {
+    "job_id": "2365198",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-doi-ngoai/2365198.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795628251",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-doi-ngoai/2365198.html",
+    "company": "PHỨC HỢP NGHỈ DƯỠNG PHƯƠNG ĐÔNG ASAHI",
+    "salary": "25 - 40 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-25 17:37:48",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-hieu-qua-kinh-doanh/2365640.html": {
+    "job_id": "2365640",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-hieu-qua-kinh-doanh/2365640.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795628291",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-phat-trien-hieu-qua-kinh-doanh/2365640.html",
+    "company": "CÔNG TY CỔ PHẦN IIG VIỆT NAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-25 17:38:24",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tuyen-sinh-online/2189455.html": {
+    "job_id": "2189455",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tuyen-sinh-online/2189455.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795628308",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-tuyen-sinh-online/2189455.html",
+    "company": "CÔNG TY CỔ PHẦN GIÁO DỤC WINKI ENGLISH",
+    "salary": "30 - 60 triệu",
+    "location": "Hà Nội",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-25 17:38:42",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
