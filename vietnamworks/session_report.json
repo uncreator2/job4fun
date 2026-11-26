@@ -1,9 +1,17 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-26T19:23:42.491424",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-26T22:42:33.579824",
+  "todo_count": 10,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Mới Giám Đốc Cao Cấp Đánh Giá Và Quản Lý TSBĐ",
+      "company": "Navigos Search",
+      "url": "https://www.vietnamworks.com/giam-doc-cao-cap-danh-gia-va-quan-ly-tsbd-2135648-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135648.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
