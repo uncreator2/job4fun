@@ -1,19 +1,13 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-25T17:26:53.624231",
-  "todo_count": 2,
-  "applied_count": 2,
+  "timestamp": "2026-11-26T09:33:14.588753",
+  "todo_count": 1,
+  "applied_count": 1,
   "applied_jobs": [
     {
-      "title": "Giám đốc vận hành (COO)",
-      "company": "Công ty Cổ phần Tập đoàn Meey Land",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-van-hanh-coo.35C8EEA9.html",
-      "status": "APPLIED_OK"
-    },
-    {
-      "title": "Giám Đốc Cao Cấp Quan Hệ Khách Hàng - Trung Tâm FDI - HN - ID2196",
-      "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-cao-cap-quan-he-khach-hang-trung-tam-fdi-hn-id2196.35C8D44A.html",
+      "title": "Area Sales Manager (Fashion Retail)",
+      "company": "CÔNG TY TNHH JPS FASHIONS (VIỆT NAM)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/area-sales-manager-fashion-retail.35C8CE42.html",
       "status": "APPLIED_OK"
     }
   ],
