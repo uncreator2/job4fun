@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-25T22:55:45.172616",
-  "todo_count": 19,
+  "timestamp": "2026-11-26T09:50:06.921109",
+  "todo_count": 25,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
-      "title": "Quản Lý Kinh Doanh Dự Án (C&I)",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2365905.html",
+      "title": "Trưởng Nhóm Kinh Doanh Máy Biến Áp",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
-      "title": "Phó Giám Đốc Kinh Doanh Marketing",
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2194955.html",
+      "title": "Giám Đốc Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
-      "title": "Giám Đốc Kinh Doanh / Sales Director (Ngành Giáo Dục)",
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-dich-vu-nhan-luc-thu-nhap-canh-tranh/2366159.html",
+      "title": "Phó Giám Đốc Kinh Doanh Dịch Vụ Nhân Lực (Thu Nhập Cạnh Tranh)",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]

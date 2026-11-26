@@ -13438,5 +13438,77 @@
     "exp": "2 năm",
     "first_extracted_at": "2026-11-25 17:38:42",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2365905.html": {
+    "job_id": "2365905",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2365905.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686468",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2365905.html",
+    "company": "Pro\nCÔNG TY TNHH SÔNG HỒNG VIỆT ( SANAKY)",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-26 09:48:06",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2194955.html": {
+    "job_id": "2194955",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2194955.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686468",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2194955.html",
+    "company": "CÔNG TY TNHH FANNAM",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-26 09:48:06",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-dich-vu-nhan-luc-thu-nhap-canh-tranh/2366159.html": {
+    "job_id": "2366159",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-dich-vu-nhan-luc-thu-nhap-canh-tranh/2366159.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686468",
+    "clean_url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-dich-vu-nhan-luc-thu-nhap-canh-tranh/2366159.html",
+    "company": "CÔNG TY CỔ PHẦN HỢP TÁC ĐẦU TƯ GIÁO DỤC QUỐC TẾ TÍN PHÁT",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội, Bắc Ninh",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-26 09:48:06",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2365053.html": {
+    "job_id": "2365053",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2365053.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686468",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-li-kinh-doanh/2365053.html",
+    "company": "CÔNG TY TNHH SAMICK VINA",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-26 09:48:06",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2365046.html": {
+    "job_id": "2365046",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2365046.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686468",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-logistics/2365046.html",
+    "company": "CÔNG TY TNHH SEA GLOBAL VIỆT NAM",
+    "salary": "Từ 22 triệu",
+    "location": "Hà Nội",
+    "exp": "1 năm",
+    "first_extracted_at": "2026-11-26 09:48:06",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2g-b2b/2366025.html": {
+    "job_id": "2366025",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2g-b2b/2366025.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795686512",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-b2g-b2b/2366025.html",
+    "company": "HƯƠNG VIỆT GROUP",
+    "salary": "25 - 50 triệu",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-26 09:48:51",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
