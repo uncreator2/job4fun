@@ -1,38 +1,9 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-26T17:13:05.491922",
-  "todo_count": 13,
-  "applied_count": 4,
-  "applied_jobs": [
-    {
-      "title": "Mới Client Manager ( Strong Business Development - Sales B2B)",
-      "company": "Chicilon Media",
-      "url": "https://www.vietnamworks.com/client-manager-strong-business-development-sales-b2b-1795689973542455544-2135531-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135531.png"
-    },
-    {
-      "title": "Chuyên Gia Phát Triển Sản Phẩm",
-      "company": "",
-      "url": "https://www.vietnamworks.com/chuyen-gia-phat-trien-san-pham-1793782786424538732-2127734-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795713203.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1794394235502330855-2130399-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795713218.png"
-    },
-    {
-      "title": "[Hà Nội] Kiểm Toán Viên Cao Cấp Mô Hình - Khối Kiểm Toán Nội Bộ",
-      "company": "",
-      "url": "https://www.vietnamworks.com/ha-noi-kiem-toan-vien-cao-cap-mo-hinh-khoi-kiem-toan-noi-bo-1794282204975796327-2129595-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795713235.png"
-    }
-  ],
+  "timestamp": "2026-11-26T19:23:42.491424",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
@@ -49,7 +20,7 @@
     {
       "url": "https://www.vietnamworks.com/giam-djoc-khach-hang-trong-djiem-uu-tien-kinh-nghiem-thuc-chien-kenh-etc-2118186-jv/",
       "title": "Giám Đốc Khách Hàng Trọng Điểm (Ưu Tiên Kinh Nghiệm Thực Chiến Kênh ETC)",
-      "reason": "EXPIRED"
+      "reason": "NO_BUTTON"
     },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-meta-tiktok-shop-2123569-jv",
