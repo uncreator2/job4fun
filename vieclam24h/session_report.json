@@ -1,9 +1,17 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-26T17:09:10.405891",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-26T19:18:29.010117",
+  "todo_count": 2,
+  "applied_count": 1,
+  "applied_jobs": [
+    {
+      "title": "Phó Tổng Giám Đốc Phụ Trách Khối Kinh Doanh",
+      "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+      "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/pho-tong-giam-doc-phu-trach-khoi-kinh-doanh-c18p210000160id201004894.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201004894.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
