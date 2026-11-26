@@ -1,9 +1,38 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-25T22:48:29.423232",
-  "todo_count": 1,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-26T09:36:00.674807",
+  "todo_count": 5,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Trưởng Phòng Kinh Doanh",
+      "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id201000029.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201000029.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh BĐS - Làm Tại VP Cầu Giấy",
+      "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+      "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bds-lam-tai-vp-cau-giay-c29p210000160id201004163.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201004163.png"
+    },
+    {
+      "title": "Trưởng / Phó Phòng Kinh Doanh Khách Hàng Lớn (B2B)",
+      "company": "Công Ty Cổ Phần Xuất Nhập Khẩu Mitafood",
+      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-pho-phong-kinh-doanh-khach-hang-lon-b2b-c13p210000160id201004491.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201004491.png"
+    },
+    {
+      "title": "Trưởng Phòng Logistics Im - Export",
+      "company": "Công Ty Cổ Phần Xuất Nhập Khẩu Mitafood",
+      "url": "https://vieclam24h.vn/xuat-nhap-khau/truong-phong-logistics-im-export-c15p210000160id201003733.html",
+      "status": "APPLIED_SUCCESS",
+      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201003733.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,

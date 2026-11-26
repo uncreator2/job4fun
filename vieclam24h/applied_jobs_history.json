@@ -4966,5 +4966,63 @@
     "title": "Nam Nhân Viên Kinh Doanh Thị Trường Lương Cứng Upto 20 Triệu - Không Yêu Cầu Kinh Nghiệm",
     "applied_at": "portal_sync",
     "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/nhan-vien-kinh-doanh-luong-co-ban-upto-15-trieu-dao-tao-100-c13p210000187id201004537.html",
+    "id": "201004537",
+    "title": "Nhân Viên Kinh Doanh - Lương Cơ Bản Upto 15 Triệu - Đào Tạo 100%",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/quan-ly-cua-hang-noi-that-cao-cap-tai-tp-hai-phong-tu-20-den-30-trieu-thang-c6p210000172id201004504.html",
+    "id": "201004504",
+    "title": "Quản Lý Cửa Hàng Nội Thất Cao Cấp Tại Tp Hải Phòng (Từ 20 Đến 30 Triệu / Tháng)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id201000029.html",
+    "id": "201000029",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-26T09:36:33.663976",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201000029.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/bat-dong-san/truong-phong-kinh-doanh-bds-lam-tai-vp-cau-giay-c29p210000160id201004163.html",
+    "id": "201004163",
+    "title": "Trưởng Phòng Kinh Doanh BĐS - Làm Tại VP Cầu Giấy",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-26T09:36:54.619364",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201004163.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-pho-phong-kinh-doanh-khach-hang-lon-b2b-c13p210000160id201004491.html",
+    "id": "201004491",
+    "title": "Trưởng / Phó Phòng Kinh Doanh Khách Hàng Lớn (B2B)",
+    "company": "Công Ty Cổ Phần Xuất Nhập Khẩu Mitafood",
+    "salary": "3 - 10 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-26T09:37:18.733822",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201004491.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/xuat-nhap-khau/truong-phong-logistics-im-export-c15p210000160id201003733.html",
+    "id": "201003733",
+    "title": "Trưởng Phòng Logistics Im - Export",
+    "company": "Công Ty Cổ Phần Xuất Nhập Khẩu Mitafood",
+    "salary": "3 - 10 triệu",
+    "location": "Hà Nội",
+    "status": "APPLIED_SUCCESS",
+    "applied_at": "2026-11-26T09:37:41.055938",
+    "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201003733.png"
   }
 ]
