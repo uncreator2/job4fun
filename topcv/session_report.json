@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-26T09:50:06.921109",
-  "todo_count": 25,
+  "timestamp": "2026-11-26T17:19:51.260002",
+  "todo_count": 31,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -13,18 +13,18 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh-may-bien-ap/2365905.html",
-      "title": "Trưởng Nhóm Kinh Doanh Máy Biến Áp",
+      "url": "https://www.topcv.vn/viec-lam/retail-operations-manager/2366065.html",
+      "title": "Retail Operations Manager",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2194955.html",
-      "title": "Giám Đốc Kinh Doanh",
+      "url": "https://www.topcv.vn/viec-lam/sales-manager-b2b/2337310.html",
+      "title": "Sales Manager B2B",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-dich-vu-nhan-luc-thu-nhap-canh-tranh/2366159.html",
-      "title": "Phó Giám Đốc Kinh Doanh Dịch Vụ Nhân Lực (Thu Nhập Cạnh Tranh)",
+      "url": "https://www.topcv.vn/viec-lam/truong-nhom-ke-toan-ban-hang/2366237.html",
+      "title": "Trưởng Nhóm Kế Toán Bán Hàng",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]

@@ -13510,5 +13510,77 @@
     "exp": "3 năm",
     "first_extracted_at": "2026-11-26 09:48:51",
     "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/retail-operations-manager/2366065.html": {
+    "job_id": "2366065",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/retail-operations-manager/2366065.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713475",
+    "clean_url": "https://www.topcv.vn/viec-lam/retail-operations-manager/2366065.html",
+    "company": "CÔNG TY TNHH KIM LÂM ENJOY MART",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-26 17:18:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/sales-manager-b2b/2337310.html": {
+    "job_id": "2337310",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/sales-manager-b2b/2337310.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713475",
+    "clean_url": "https://www.topcv.vn/viec-lam/sales-manager-b2b/2337310.html",
+    "company": "CÔNG TY CỔ PHẦN THÍNH HỌC CÁT TƯỜNG",
+    "salary": "40 - 50 triệu",
+    "location": "Hà Nội",
+    "exp": "Trên 5 năm",
+    "first_extracted_at": "2026-11-26 17:18:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/truong-nhom-ke-toan-ban-hang/2366237.html": {
+    "job_id": "2366237",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/truong-nhom-ke-toan-ban-hang/2366237.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713475",
+    "clean_url": "https://www.topcv.vn/viec-lam/truong-nhom-ke-toan-ban-hang/2366237.html",
+    "company": "CÔNG TY CỔ PHẦN SẢN XUẤT THƯƠNG MẠI THIẾT BỊ BÌNH MINH",
+    "salary": "Thoả thuận",
+    "location": "Hà Nội",
+    "exp": "Không yêu cầu",
+    "first_extracted_at": "2026-11-26 17:18:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-xe-tai/2366318.html": {
+    "job_id": "2366318",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-xe-tai/2366318.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713475",
+    "clean_url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-xe-tai/2366318.html",
+    "company": "Pro\nCÔNG TY CỔ PHẦN Ô TÔ TMT",
+    "salary": "80 - 100 triệu",
+    "location": "Hà Nội",
+    "exp": "5 năm",
+    "first_extracted_at": "2026-11-26 17:18:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/business-development-manager-tai-upbase-ecommerce/2366753.html": {
+    "job_id": "2366753",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/business-development-manager-tai-upbase-ecommerce/2366753.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713475",
+    "clean_url": "https://www.topcv.vn/viec-lam/business-development-manager-tai-upbase-ecommerce/2366753.html",
+    "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ UPBASE",
+    "salary": "40 - 60 triệu",
+    "location": "Hà Nội, Hồ Chí Minh",
+    "exp": "3 năm",
+    "first_extracted_at": "2026-11-26 17:18:10",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-giam-doc-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
+  },
+  "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-toi-den-thi-truong-noi-dia/2366419.html": {
+    "job_id": "2366419",
+    "title": "",
+    "raw_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-toi-den-thi-truong-noi-dia/2366419.html?ta_source=JobSearchList_LinkDetail&u_sr_id=BvEavbAiO3A5Mj9geyLfFDHsSULAMVt6rFFQ7Yns_1795713511",
+    "clean_url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-toi-den-thi-truong-noi-dia/2366419.html",
+    "company": "Pro\nCÔNG TY TNHH THƯƠNG MẠI DƯỢC PHẨM ĐÔNG Á",
+    "salary": "18 - 25 triệu",
+    "location": "Hà Nội, Bắc Ninh",
+    "exp": "2 năm",
+    "first_extracted_at": "2026-11-26 17:18:43",
+    "source_search_url": "https://www.topcv.vn/tim-viec-lam-truong-phong-kinh-doanh-tai-ha-noi-kl1?type_keyword=1&sba=1&locations=l1"
   }
 }
