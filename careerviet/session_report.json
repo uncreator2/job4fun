@@ -1,19 +1,31 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-27T16:51:01.952367",
-  "todo_count": 3,
-  "applied_count": 2,
+  "timestamp": "2026-11-27T19:10:34.071582",
+  "todo_count": 4,
+  "applied_count": 4,
   "applied_jobs": [
     {
-      "title": "GIÁM ĐỐC TÀI CHÍNH",
-      "company": "Công ty cổ phần sản xuất và xuất khẩu Quế hồi Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-tai-chinh.35C8BAE7.html",
+      "title": "Trưởng Phòng Vận Tải",
+      "company": "Công ty TNHH Crystal Network Logistics (VietNam)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-van-tai.35C872B5.html",
       "status": "APPLIED_OK"
     },
     {
-      "title": "Head of Account",
-      "company": "Công Ty TNHH Truyền Thông Ureka Việt Nam",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/head-of-account.35C8F23B.html",
+      "title": "Account Manager ( Junior/Middle/Senior)",
+      "company": "Công ty TNHH Viettel - CHT",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/account-manager-junior-middle-senior.35C8C8CB.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng Nhóm Sales Tour Inbound",
+      "company": "Vietnam Tourist",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-nhom-sales-tour-inbound.35C8F1B0.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Area Sales Manager/ Key Account Manager",
+      "company": "Công Ty Avanti - Group",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/area-sales-manager-key-account-manager.35C8A046.html",
       "status": "APPLIED_OK"
     }
   ],
@@ -22,13 +34,7 @@
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 1
+    "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-van-tai.35C872B5.html",
-      "title": "Trưởng Phòng Vận Tải",
-      "reason": "FAILED"
-    }
-  ]
+  "skipped_details": []
 }
