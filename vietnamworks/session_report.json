@@ -1,17 +1,51 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-27T17:08:50.697387",
-  "todo_count": 9,
-  "applied_count": 0,
-  "applied_jobs": [],
+  "timestamp": "2026-11-27T19:18:56.590956",
+  "todo_count": 14,
+  "applied_count": 4,
+  "applied_jobs": [
+    {
+      "title": "Mới Executive Assistant - MB Representative Office in South Korea Chuyên viên Văn phòng đại diện MB tại Hàn Quốc (2026TD456732)",
+      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-south-korea-chuyen-vien-van-phong-dai-dien-mb-tai-han-quoc-2026td456732-1795749050994458910-2135735-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135735.png"
+    },
+    {
+      "title": "Trưởng Phòng Kinh Doanh (Nội Địa & Xuất Khẩu) Thu Nhập Từ 30 - 40 Triệu",
+      "company": "Công Ty Cổ Phần D&A Việt Nam",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-noi-dia-xuat-khau-thu-nhap-tu-30-40-trieu-1795767548124372511-2133570-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133570.png"
+    },
+    {
+      "title": "Mới Trưởng Phòng Kinh Doanh/ Sales Manager",
+      "company": "Công Ty CP Kỹ Thuật Dịch Vụ Thành Công",
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-sales-manager-2136183-jv",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2136183.png"
+    },
+    {
+      "title": "Giám Đốc Chi Nhánh Hà Nội - (Branch Director Hanoi) - Bất Động Sản",
+      "company": "",
+      "url": "https://www.vietnamworks.com/giam-doc-chi-nhanh-ha-noi-branch-director-hanoi-bat-dong-san--2130591-jv/",
+      "status": "SUBMITTED",
+      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795807195.png"
+    }
+  ],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 9
+    "errors": 10
   },
   "skipped_details": [
+    {
+      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-logistics-1794625852382991872-2131359-jv/",
+      "title": "Trưởng Phòng Kinh Doanh Logistics",
+      "reason": "APPLICATION_CLOSED"
+    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
