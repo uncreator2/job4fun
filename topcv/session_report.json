@@ -1,30 +1,35 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-27T19:25:42.216186",
+  "timestamp": "2026-11-27T22:34:11.754998",
   "todo_count": 40,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 0,
+    "expired": 1,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 3
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-thuong-mai-dien-tu-toan-quoc/2367684.html",
-      "title": "Giám Đốc Kinh Doanh Kênh Thương Mại Điện Tử Toàn Quốc",
+      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
+      "title": "Tin hết hạn / Chuyển hướng trang chủ",
+      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
+    },
+    {
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
+      "title": "Giám Đốc Kinh Doanh / Sales Director (Ngành Giáo Dục)",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-nganh-son-nuoc-bot-ba/2351437.html",
-      "title": "Giám Đốc Kinh Doanh Vùng (Ngành Sơn Nước, Bột Bả)",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
+      "title": "Quản Lý Kinh Doanh Thương Mại Điện Tử (Làm Việc Tại Hà Nội)",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-offline/2367577.html",
-      "title": "Trưởng Phòng Kinh Doanh Offline",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1876898.html",
+      "title": "Trưởng Phòng Kinh Doanh",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
