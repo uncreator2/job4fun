@@ -2968,5 +2968,45 @@
     "location": "Hà Nội",
     "source": "vieclam24h",
     "crawled_at": "2026-11-26T19:17:30.383606"
+  },
+  {
+    "id": "201005571",
+    "title": "Trưởng Phòng Kinh Doanh",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-c13p210000160id201005571.html",
+    "company": "Chi Nhánh Công Ty Cổ Phần Oristar",
+    "salary": "30 - 40 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-27T09:45:02.043464"
+  },
+  {
+    "id": "201005384",
+    "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Logistics",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-dich-vu-logistics-c13p210000160id201005384.html",
+    "company": "Công Ty Cổ Phần Truyền Thông Và Giáo Dục Cầu Vồng",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-27T09:45:07.732201"
+  },
+  {
+    "id": "201003533",
+    "title": "Trưởng Bộ Phận Phát Triển Kinh Doanh",
+    "url": "https://vieclam24h.vn/marketing/truong-bo-phan-phat-trien-kinh-doanh-c12p210000160id201003533.html",
+    "company": "Công Ty Cổ Phần Truyền Thông Và Giáo Dục Cầu Vồng",
+    "salary": "18 - 30 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-27T09:45:07.732212"
+  },
+  {
+    "id": "201005451",
+    "title": "Trưởng Nhóm Kinh Doanh Kênh OTC (Dược Mỹ Phẩm)",
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-kenh-otc-duoc-my-pham-c13p210000160id201005451.html",
+    "company": "Công Ty TNHH Kính Mắt Simba",
+    "salary": "10 - 20 triệu",
+    "location": "Hà Nội",
+    "source": "vieclam24h",
+    "crawled_at": "2026-11-27T09:45:13.634650"
   }
 ]
