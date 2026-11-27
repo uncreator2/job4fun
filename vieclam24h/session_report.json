@@ -1,6 +1,6 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-27T17:03:04.167587",
+  "timestamp": "2026-11-27T19:14:23.329479",
   "todo_count": 1,
   "applied_count": 0,
   "applied_jobs": [],
@@ -9,7 +9,13 @@
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 0
+    "errors": 1
   },
-  "skipped_details": []
+  "skipped_details": [
+    {
+      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
+      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
+      "reason": "ERROR"
+    }
+  ]
 }

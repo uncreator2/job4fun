@@ -5089,5 +5089,12 @@
     "status": "APPLIED_SUCCESS",
     "applied_at": "2026-11-27T09:47:35.912727",
     "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201005451.png"
+  },
+  {
+    "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/giam-doc-kinh-doanh-manh-b2b-hoac-mang-xe-dien-va-tram-sac-dien-c13p210000187id201005729.html",
+    "id": "201005729",
+    "title": "Giám Đốc Kinh Doanh (Mạnh B2B Hoặc Mảng Xe Điện Và Trạm Sạc Điện)",
+    "applied_at": "portal_sync",
+    "status": "APPLIED_PORTAL"
   }
 ]
