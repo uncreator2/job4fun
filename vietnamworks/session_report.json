@@ -1,128 +1,17 @@
 {
   "platform": "VietnamWorks",
-  "timestamp": "2026-11-27T09:52:38.026544",
-  "todo_count": 25,
-  "applied_count": 15,
-  "applied_jobs": [
-    {
-      "title": "Mới KOC Booking Operator",
-      "company": "Công Ty TNHH PICKDI Việt Nam",
-      "url": "https://www.vietnamworks.com/koc-booking-operator-1795746907670361858-2123620-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2123620.png"
-    },
-    {
-      "title": "Mới Executive Assistant MB Representative Office in Singapore - Chuyên viên Văn phòng đại diện MB tại Singapore (2026TD456730)",
-      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
-      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-singapore-chuyen-vien-van-phong-dai-dien-mb-tai-singapore-2026td456730-1795749077258854601-2135736-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135736.png"
-    },
-    {
-      "title": "Kỹ Sư Dịch Vụ Hiện Trường - Máy Gây Choáng Tôm Optimar",
-      "company": "Shrimp Welfare Project",
-      "url": "https://www.vietnamworks.com/ky-su-dich-vu-hien-truong-may-gay-choang-tom-optimar-1795083423301785850-2133214-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2133214.png"
-    },
-    {
-      "title": "Mới Executive Assistant MB Representative Office in China - Chuyên viên Văn phòng đại diện MB tại Quảng Châu (Trung Quốc) (2026TD456736)",
-      "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
-      "url": "https://www.vietnamworks.com/executive-assistant-mb-representative-office-in-china-chuyen-vien-van-phong-dai-dien-mb-tai-quang-chau-trung-quoc-2026td456736-1795748914783370553-2135728-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135728.png"
-    },
-    {
-      "title": "Mới Director Of HR & Recruitment - International Markets",
-      "company": "GSM - Xanh SM",
-      "url": "https://www.vietnamworks.com/director-of-hr-recruitment-international-markets-1795056641022169951-2132950-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2132950.png"
-    },
-    {
-      "title": "Mới [Global Manufacturing] Future Leader - Logistics Director",
-      "company": "Vinfast Trading And Production JSC",
-      "url": "https://www.vietnamworks.com/global-manufacturing-future-leader-logistics-director-2136039-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2136039.png"
-    },
-    {
-      "title": "Mới 설비 전장 회로 설계 엔지니어 (시스템설계2팀) - Kỹ sư Thiết kế Mạch điện Điều khiển Thiết bị (Phòng Thiết kế Hệ thống 2)",
-      "company": "CÔNG TY TRÁCH NHIỆM HỮU HẠN TOP ENGINEERING VINA",
-      "url": "https://www.vietnamworks.com/2-ky-su-thiet-ke-mach-dien-dieu-khien-thiet-bi-phong-thiet-ke-he-thong-2-1795771164254475269-2135935-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135935.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh",
-      "company": "Công ty Cổ phần Quốc tế Chăm sóc sức khỏe doanh nghiệp Yecxanh",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-1795667301723845854-2135197-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135197.png"
-    },
-    {
-      "title": "Mới Sales Manager (Audit & Certification) - North Vietnam",
-      "company": "CÔNG TY TNHH KIỂM ĐỊNH & CHỨNG NHẬN DEKRA VIỆT NAM",
-      "url": "https://www.vietnamworks.com/sales-manager-audit-and-certification-north-vietnam-2135817-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135817.png"
-    },
-    {
-      "title": "Mới GT Sales Manager",
-      "company": "Hisense Viet Nam Co., Ltd",
-      "url": "https://www.vietnamworks.com/gt-sales-manager-1795764815373868546-2135839-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2135839.png"
-    },
-    {
-      "title": "Mới Enterprise Business Manager",
-      "company": "AWING Technologies And Media",
-      "url": "https://www.vietnamworks.com/enterprise-business-manager-1795772347516038598-2136100-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2136100.png"
-    },
-    {
-      "title": "Mới Oversea Sales Manager| Trưởng Phòng Kinh Doanh Quốc Tế Lương Upto 1500$",
-      "company": "Công ty TNHH Cáp điện KBI Cosmolink Vina",
-      "url": "https://www.vietnamworks.com/oversea-sales-manager-truong-phong-kinh-doanh-quoc-te-luong-upto-1500-1795768812393273279-2136037-jv",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_2136037.png"
-    },
-    {
-      "title": "[Hanoi] Account Manager, Medical Technology",
-      "company": "",
-      "url": "https://www.vietnamworks.com/hanoi-account-manager-medical-technology-2123546-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795773430.png"
-    },
-    {
-      "title": "Trưởng Phòng Kinh Doanh (Nội Địa & Xuất Khẩu) Thu Nhập Từ 30 - 40 Triệu",
-      "company": "",
-      "url": "https://www.vietnamworks.com/truong-phong-kinh-doanh-noi-dia-xuat-khau-thu-nhap-tu-30-40-trieu-1795767548124372511-2133570-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795773451.png"
-    },
-    {
-      "title": "Giám Đốc Mua Sắm (Nguồn)",
-      "company": "",
-      "url": "https://www.vietnamworks.com/giam-doc-mua-sam-nguon-1795143372161955278-2133450-jv/",
-      "status": "SUBMITTED",
-      "proof": "/home/runner/work/job4fun/job4fun/vietnamworks/apply_proof_vnw_1795773474.png"
-    }
-  ],
+  "timestamp": "2026-11-27T17:08:50.697387",
+  "todo_count": 9,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
-    "already_applied": 1,
+    "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
     "errors": 9
   },
   "skipped_details": [
-    {
-      "url": "https://www.vietnamworks.com/quan-ly-kinh-doanh-1795660567682423944-2134891-jv",
-      "title": "Quản Lý Kinh Doanh",
-      "reason": "Đã ứng tuyển trước đó"
-    },
     {
       "url": "https://www.vietnamworks.com/koc-booking-operator-tiktok-affiliate-2123620-jv",
       "title": "KOC Booking Operator (TikTok Affiliate)",
