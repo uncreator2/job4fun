@@ -1,75 +1,30 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-26T22:47:21.790871",
-  "todo_count": 31,
+  "timestamp": "2026-11-27T10:04:45.816598",
+  "todo_count": 34,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
-    "expired": 4,
+    "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 8
+    "errors": 3
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-du-an-ci/2356116.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
-      "title": "Phó Giám Đốc Kinh Doanh Marketing",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-va-tuyen-sinh-thu-nhap-hap-dan-upto-40-trieu-2-nam-kinh-nghiem-ha-noi-bach-mai-tu-liem/2366643.html",
+      "title": "Quản Lý Kinh Doanh Và Tuyển Sinh - Thu Nhập Hấp Dẫn, Upto 40 Triệu - 2 Năm Kinh Nghiệm - Hà Nội (Bạch Mai, Từ Liêm)",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
-      "title": "Giám Đốc Kinh Doanh / Sales Director (Ngành Giáo Dục)",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-khoa-thong-minh/2367642.html",
+      "title": "Trưởng Phòng Kinh Doanh - Khóa Thông Minh",
       "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2363879.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
-      "title": "Quản Lý Kinh Doanh Thương Mại Điện Tử (Làm Việc Tại Hà Nội)",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-agency-marketing/2364187.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/1876898.html",
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh/2366279.html",
       "title": "Trưởng Phòng Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-sale-manager/1815244.html",
-      "title": "Trưởng Phòng Kinh Doanh (Sale Manager)",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/sales-manager-truong-phong-kinh-doanh/2365568.html",
-      "title": "www.topcv.vn",
-      "reason": "Tin tuyển dụng hết hạn hoặc đã đóng"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh/2365330.html",
-      "title": "Giám Đốc Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-nhom-kinh-doanh/2364344.html",
-      "title": "Trưởng Nhóm Kinh Doanh",
-      "reason": "Modal ứng tuyển không mở được"
-    },
-    {
-      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-du-lich/2364933.html",
-      "title": "Trưởng Phòng Kinh Doanh Du Lịch",
       "reason": "Modal ứng tuyển không mở được"
     }
   ]
