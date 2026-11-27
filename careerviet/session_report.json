@@ -1,13 +1,43 @@
 {
   "platform": "CareerViet",
-  "timestamp": "2026-11-26T17:06:38.466061",
-  "todo_count": 1,
-  "applied_count": 1,
+  "timestamp": "2026-11-27T09:41:19.569076",
+  "todo_count": 6,
+  "applied_count": 6,
   "applied_jobs": [
     {
-      "title": "Sales Manager (Máy Laser, In 3D)",
-      "company": "Công Ty OLAS",
-      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-manager-may-laser-in-3d.35C8E03E.html",
+      "title": "Sales Assistant Manager",
+      "company": "CÔNG TY TNHH HIRA MANUFACTURING",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/sales-assistant-manager.35C8F192.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Giám sát kinh doanh",
+      "company": "Bitex (Nhà phân phối độc quyền máy tính Casio tại Việt Nam)",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-kinh-doanh.35C8F17C.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "GIÁM ĐỐC KINH DOANH KÊNH TRUYỀN THỐNG (GT)",
+      "company": "Công ty Cổ phần Đầu tư Thương mại Bách Tường Phát",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-kenh-truyen-thong-gt.35C8F224.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Phó phòng Marketing",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-marketing.35C8F172.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Vận hành",
+      "company": "CÔNG TY TNHH GIP GROUP",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-van-hanh.35C8C8F0.html",
+      "status": "APPLIED_OK"
+    },
+    {
+      "title": "Trưởng phòng Kinh doanh Bia hơi",
+      "company": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-kinh-doanh-bia-hoi.35C8F173.html",
       "status": "APPLIED_OK"
     }
   ],
