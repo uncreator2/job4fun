@@ -1,7 +1,7 @@
 {
   "platform": "TopCV",
-  "timestamp": "2026-11-27T17:15:48.766551",
-  "todo_count": 34,
+  "timestamp": "2026-11-27T19:25:42.216186",
+  "todo_count": 40,
   "applied_count": 0,
   "applied_jobs": [],
   "skipped_counts": {
@@ -13,19 +13,19 @@
   },
   "skipped_details": [
     {
-      "url": "https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/pho-giam-doc-kinh-doanh-marketing/2174492.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-kenh-thuong-mai-dien-tu-toan-quoc/2367684.html",
+      "title": "Giám Đốc Kinh Doanh Kênh Thương Mại Điện Tử Toàn Quốc",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-sales-director/2357674.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/giam-doc-kinh-doanh-vung-nganh-son-nuoc-bot-ba/2351437.html",
+      "title": "Giám Đốc Kinh Doanh Vùng (Ngành Sơn Nước, Bột Bả)",
+      "reason": "Modal ứng tuyển không mở được"
     },
     {
-      "url": "https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html",
-      "title": "",
-      "reason": "Page load error: Page.goto: Timeout 35000ms exceeded.\nCall log:\n  - navigating to \"https://www.topcv.vn/viec-lam/quan-ly-kinh-doanh-thuong-mai-dien-tu-lam-viec-tai-ha-noi/2364650.html\", waiting until \"domcontentloaded\"\n"
+      "url": "https://www.topcv.vn/viec-lam/truong-phong-kinh-doanh-offline/2367577.html",
+      "title": "Trưởng Phòng Kinh Doanh Offline",
+      "reason": "Modal ứng tuyển không mở được"
     }
   ]
 }
