@@ -1,43 +1,15 @@
 {
   "platform": "Vieclam24h",
-  "timestamp": "2026-11-27T09:46:18.678677",
-  "todo_count": 4,
-  "applied_count": 3,
-  "applied_jobs": [
-    {
-      "title": "Trưởng Phòng Kinh Doanh Dịch Vụ Logistics",
-      "company": "Công Ty Cổ Phần Truyền Thông Và Giáo Dục Cầu Vồng",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-phong-kinh-doanh-dich-vu-logistics-c13p210000160id201005384.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201005384.png"
-    },
-    {
-      "title": "Trưởng Bộ Phận Phát Triển Kinh Doanh",
-      "company": "Công Ty Cổ Phần Truyền Thông Và Giáo Dục Cầu Vồng",
-      "url": "https://vieclam24h.vn/marketing/truong-bo-phan-phat-trien-kinh-doanh-c12p210000160id201003533.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201003533.png"
-    },
-    {
-      "title": "Trưởng Nhóm Kinh Doanh Kênh OTC (Dược Mỹ Phẩm)",
-      "company": "Công Ty TNHH Kính Mắt Simba",
-      "url": "https://vieclam24h.vn/ban-hang-kinh-doanh/truong-nhom-kinh-doanh-kenh-otc-duoc-my-pham-c13p210000160id201005451.html",
-      "status": "APPLIED_SUCCESS",
-      "proof": "/home/runner/work/job4fun/job4fun/vieclam24h/proofs/apply_proof_v24h_201005451.png"
-    }
-  ],
+  "timestamp": "2026-11-27T17:03:04.167587",
+  "todo_count": 1,
+  "applied_count": 0,
+  "applied_jobs": [],
   "skipped_counts": {
     "already_applied": 0,
     "expired": 0,
     "cf_blocked": 0,
     "daily_limit": 0,
-    "errors": 1
+    "errors": 0
   },
-  "skipped_details": [
-    {
-      "url": "https://vieclam24h.vn/ban-si-ban-le-quan-ly-cua-hang/ecommerce-executive-tiktok-shop-shopee-c6p210000160id200959706.html",
-      "title": "Ecommerce Executive (Tiktok Shop & Shopee)",
-      "reason": "ERROR"
-    }
-  ]
+  "skipped_details": []
 }
